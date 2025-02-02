@@ -6,3 +6,4 @@
 - 6️⃣ Test with (rasa shell)
 - 7️⃣ Add stories (data/stories.yml)
 - 8️⃣ Use actions (actions.py)
+- 9. Enabled API Mode (rasa run --enable-api --cors "*")
