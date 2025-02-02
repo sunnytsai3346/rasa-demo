@@ -1,0 +1,8 @@
+- 1️⃣ Install Rasa (pip install rasa)
+- 2️⃣ Initialize project (rasa init)
+- 3️⃣ Add training data (data/nlu.yml)
+- 4️⃣ Define responses (domain.yml)
+- 5️⃣ Train the model (rasa train)
+- 6️⃣ Test with (rasa shell)
+- 7️⃣ Add stories (data/stories.yml)
+- 8️⃣ Use actions (actions.py)
