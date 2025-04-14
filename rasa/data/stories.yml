@@ -28,3 +28,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: user searches for a keyword
+  steps:
+  - intent: search_keyword
+  - action: action_search_keyword  

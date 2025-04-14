@@ -7,8 +7,20 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
-  - bot_challenge
+  - bot_challenge  
+  - search_keyword
 
+entities:
+  - keyword
+
+slots:
+  keyword:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: keyword
+    
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -28,6 +40,14 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  utter_ask_keyword:
+    - text: "What are you looking for?"
+
+  utter_no_result:
+    - text: "Sorry, I couldn't find anything for that keyword."  
+actions:
+  - action_search_keyword
 
 session_config:
   session_expiration_time: 60

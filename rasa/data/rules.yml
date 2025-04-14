@@ -11,3 +11,9 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+
+- rule: respond to keyword search
+  steps:
+  - intent: search_keyword
+  - action: action_search_keyword

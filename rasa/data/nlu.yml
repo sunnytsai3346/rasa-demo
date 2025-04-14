@@ -89,3 +89,14 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- intent: search_keyword
+  examples: |
+    - Show me [Audio Setup](keyword)
+    - I want to find [Test Connection](keyword)
+    - Where is [Backup and Restore](keyword)?
+    - How to use [Dolby Atmos Configuration](keyword)?
+    - I need help with [Lens Position](keyword)
+    - Tell me about [License Agreements](keyword)
+    - Search for [Gamma File](keyword)
+    - Navigate to [System Upgrade](keyword)
+    - Find [Projector Serial](keyword)
