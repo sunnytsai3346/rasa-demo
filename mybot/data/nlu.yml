@@ -94,12 +94,26 @@ nlu:
     - Show me [Audio Setup](keyword)
     - I want to find [Test Connection](keyword)
     - Where is [Backup and Restore](keyword)?
+    - What is [Backup and Restore](keyword)?
     - How to use [Dolby Atmos Configuration](keyword)?
     - I need help with [Lens Position](keyword)
     - Tell me about [License Agreements](keyword)
     - Search for [Gamma File](keyword)
     - Navigate to [System Upgrade](keyword)
     - Find [Projector Serial](keyword)
+    - 显示[音频设置](关键字)
+    - 我想要找[测试连接]（关键字）
+    - 我想要查[测试连接]（关键字)
+    - [备份和还原]（关键字）在哪里？
+    - 什么是[备份和还原]（关键字）？
+    - 如何使用 [杜比全景声配置](关键字)？
+    - 我需要有关[镜头位置]（关键字）
+    - 搜索 [Gamma File](关键字)
+    - 搜尋 [Gamma File](關鍵字)
+    - 导航至[系统升级](关键字)
+    - 查找 [投影仪序列号](关键字)
+
+
 
 - intent: request_pdf_parsing
   examples: |
@@ -111,3 +125,4 @@ nlu:
     - What does the PDF say about installation?
     - Read the uploaded document
     - Look into the setup guide
+

@@ -1,0 +1,7307 @@
+[{
+    "name": "バージョン情報",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Copyright %1 Christie Digital Systems Inc.",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "モデル",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "モデルサブタイプ",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "プロジェクターのシリアル番号",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "インストール済みのレンズ",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "インストール済みランプ",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "メインシステムのバージョン",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "すべてのバージョンを見る",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "ライセンス契約",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "オーディオ設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "自動",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "共通の設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "オーディオ出力レート",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "グローバルオーディオ遅延 (ms)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Dolby Atmos 設定",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Dolby Atmos を有効にする",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "コントロール IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "入力 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "接続をテスト",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "チャンネルマッピング",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "チャンネル形式",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "メディアのオーディオチャンネル",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "マッピング先",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "新規デバイス",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "デバイス",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "IP アドレス",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "パスワード",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "ユーザー名",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "ポート",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "劇場のデバイス",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "キープアライブ メッセージ",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "キープアライブ間隔 (ms)",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "バックアップと復元",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "新規バックアップ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "バックアップをインポート",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "工場設定復元",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "チャンネル設定",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "新規チャンネルの作成",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "アクティブ",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "入力の種類",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "ソースファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "スクリーンファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "ILS ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D 光源ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 光源ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "TCGD ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D MCGD ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D MCGD 右眼ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D センサーから画面へのキャリブレーションファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D センサーから画面へのキャリブレーションファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "データ形式",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同期入力モード",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D/3D ファイル選択",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "EDR 動作モード",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 輝度",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "スクエアディビジョンモード",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "色空間",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "ガンマファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "CLUT ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "HDMI EDID",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "DisplayPort EDID ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "%1 補正ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "輝度ファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "ワープファイル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "スキャンの種類",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "色",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "照明",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "画像",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "すべて",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "新規ファイルの作成",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "選択したチャンネル",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Christie Pureformity Color™ 補正ファイル",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "テストパターンガイド",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "測定値",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "スコープ表示",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "輝度",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "色空間ファイルセットアップ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "色空間ファイル",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "色空間ファイルをインポート",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "デバッグの設定",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "画像をフリーズする",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "空白画像にする",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "HDR モードをバイパス",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "デバイス入力トリガー",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "ソース",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "トリガーイベント",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "実行するマクロ",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "グローバルトリガー",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "新規グローバルトリガー",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "ソース",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "再開する再生イベント",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "再生リストトリガー",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "新規再生リストトリガー",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "デバイスライブラリ",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "デバイス名",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "種類",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "ライブラリを見る",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "デバイスライブラリをインポート",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "EDID ファイル設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "EDID ファイル",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "ガンマファイル設定",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "ガンマファイル",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "ガンマファイルをインポート",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "H4D3 構成",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "周波数（Hz）",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "テストパターン",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "オフ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "モアレ水平",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "モアレ垂直",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "干渉",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "レンズポジション",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "フォーカス",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "ズーム",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "レンズをリセット",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "自動キャリブレーション",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "ECC",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "ILS ファイル設定",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "上下",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "左右",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "LampLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "自動調整",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "輝度",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "ランプ位置",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "ホワイトテストパターンを表示",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "既存",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "ランプマネージャー",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "最新有効化日時",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "種類",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "使用した時間",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "点弧数",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "変更理由",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "有効化",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "新しいランプ",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "ランプ電源 / LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "ランプ電力",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "最小",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "アンペア",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "ボルト",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "ワット",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "ランプ時間",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "ランプオーバードライブ",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "現在のランプ電源",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "輝度計",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "目標",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "レーザー診断",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "モデル",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "バージョン",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "電源正常性",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "温度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "シリアル",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS1",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS2",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "光源",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "ユーザー設定の輝度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "システム調整済みの輝度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "ホワイトテストパターンを表示",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "周囲温度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "湿度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同期",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "レーザー出力 / LiteLOC™ 設定",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "チラーのセットポイント",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "予期される最高室温",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "温度制御",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "ユーザー設定の輝度",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "システム調整済みの輝度",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "ホワイトテストパターンを表示",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "周囲温度",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同期",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "光源電源設定",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "温度制御",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "インテロゲーターの実行",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "インテロゲーション",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "ログを検索",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "システムログ／インテロゲーター",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "日付",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "重大度",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "種類",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "メッセージ",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "拡張",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "マクロエディタ",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "新規マクロを作成",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "テスト",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "選択されたマクロ",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "以下へ移動",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "新しいアクション項目を追加",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "マクロアクション項目を追加するには、[+] アイコンをクリックします",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "手動レーザー制御",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "注意: すべての調整は一時的なものであり、保存されません。",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "ホワイトテストパターンを表示",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "最小",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "既存",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "チラーのセットポイント",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "予期される最高室温",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "赤",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "緑",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "青",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "フォスファー",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "手動光源制御",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "注意: すべての調整は一時的なものであり、保存されません。",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "ホワイトテストパターンを表示",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "最小",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "既存",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "赤",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "緑",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "青",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "結合設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "開始",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "結合チェックリスト",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "作動化",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "このウィザードは、セキュアコンテンツの再生を可能にする IMB 結合手順を順を追って実行します。",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "この操作では、本ユニットが改ざんされておらず、セキュリティシステムに従って記録されていることを認定することが求められます。",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "SM 問題なし",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "サービスドア問題なし",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "結合リング問題なし",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "結合は既にアクティブです",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "ネットワーク設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "ポート",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "自動",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "手動",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "IP アドレス： ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "サブネットマスク： ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "ゲートウェイ： ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "プライマリ DNS： ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "セカンダリ DNS： ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "MAC アドレス： ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "イーサネット設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP 設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "2D ピーク輝度",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "3D ピーク輝度",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "アクティブチャンネル：",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "アクティブガンマファイル：",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "108-cd/m² 2D 輝度パターン",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "2D ピーク輝度 (cd/m²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "デュアルプロジェクター標準範囲：108.0～130.0 cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "シングルプロジェクター標準範囲：48～65 cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "48-cd/m² 3D 輝度パターン",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "3D ピーク輝度 (cd/m²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "標準範囲：48.0～65.0 cd/m² ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "ピクセルグラバー",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BPIXL",
+    "userLevel": "60"
+},
+{
+    "name": "環境設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "摂氏",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "華氏",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "スケジューラー",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "スケジューラーの週の開始曜日",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "12 時間",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "24 時間",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "アラームトリガー",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "アラームを表示",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "ファンの不具合",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "危険な温度",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "追加の UI ログ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "シリアル番号がありません",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "自動",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "自動化の有効化",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "シリアル認証が必要",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "全般",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "プロジェクター",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "プロジェクターホスト名",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "投影する画像の向き",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "標準",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "上下反転",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "左右反転",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "上下左右反転",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "システム",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "時刻形式",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "温度単位",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "摂氏",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "華氏",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "スケジューラー",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "スケジューラーの週の開始曜日",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "セッションタイムアウト",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "HDR",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "DCI エミュレーションモード",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "コントラスト",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D 輝度 (ニト)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "ビデオエミュレーションモード",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - 最大 (ニト)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - 最小 (ニト)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - 最大 (ニト)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - 最小 (ニト)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "IMB タイプ（再起動が必要）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "IMB 始動 (スタンバイ)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "レンズ／ILS",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "レンズ情報",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "レンズの種類",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "シリアル",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "インテリジェントレンズシステム (ILS)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "ILS インストール済み",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "ILS を起動時にリセット",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "シャッター",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "シャッターが機能していないときに、光源の有効化を許可",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "サービスモード",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "赤",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "緑",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "青",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "最大ドライブレベル",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "テストパターン",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "チャンネル変更後もテストパターンをオンのままにする",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "RealD 3D EQ ファイル設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "3D 構成",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "3D ムーバー遅延 (ms)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "3D ムーバー遅延",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "プロジェクターの再起動",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "再起動",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "警告：これにより、再生が突然停止し、他のユーザーに問題が発生する可能性があります。",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "遠隔取り込み設定",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "デバイス",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "IP アドレス",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "パスワード",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "ユーザー名",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "ポート",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "接続をテスト",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "レンタルモード",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "コミッション",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "ベンダー情報",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "コミッション発行日",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "住所",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "電話番号",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "電子メール",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "コミッションファイルをインポート",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "デコミッションファイルをインポート",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "スケジューラー",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "今日",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "スケジューラーはオンです",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "スケジューラーはオフです",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "タップして新しいイベントをスケジュールします",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "センサーから画面へのキャリブレーション",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "再較正する",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "キャリブレーションの検証",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "較正",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "IMB SM 時刻調整",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME/imbadjust",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP 設定",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP バージョン 2",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP バージョン 3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "トラップレシーバー 1 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "トラップレシーバー 2 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "トラップレシーバー 3 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "MIB をダウンロード",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "ブロックされた SNMP トラップ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "すべて選択／選択しない",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "ファン",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "インターロック",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "全般的 Photon 正常性",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "セキュリティ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "ストレージ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "一般システムアラート",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "システム通信",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "温度",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "自動",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "光源",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "冷却装置",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "ソースファイル設定",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "ソースメディア解像度",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "位置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "幅 (X)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "高さ (Y)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "左右",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "上下",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "アスペクト比 1.85",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "アスペクト比 2.39",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "カスタムアスペクト比",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "ストレージデバイス設定",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "デバイス",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "IP アドレス",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "共有フォルダ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "パスワード",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "ユーザー名",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "接続をテスト",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "システムアップグレード",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "ファイルをアップグレード",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "サポートされています",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "メインシステムのバージョン：%1",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "TCGD ファイル設定",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "テストクリップ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "目標色域値",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "テストクリップを自動的に表示",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "ホワイトクリップを使用",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "白許容誤差",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "最初の未補正色を選択してください",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "赤",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "緑",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "青",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "シアン",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "マゼンタ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "イエロー",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "白",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "ホワイトクリップ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "ゲイン",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "スクリーンエリア",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "3D ファイル設定",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "全般設定",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "フレームレート設定",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "ダークタイム",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "出力遅延",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "位相遅延",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "3D 遅延",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "倍率",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同期極性を反転",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "fps (片目あたり)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "時刻設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "NTP サーバーアドレス",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "新規 NTP サーバー",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "タイムゾーン設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "IMB に同期",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "NTP サーバーに同期",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "手動設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "日付と時刻",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "分",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "時間",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "午前",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "午後",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "IMB 日付",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "IMB 時間",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "現在の UTC 日付:",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "現在の UTC 時間:",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "プロジェクターの時間設定",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "ユーザーアカウント",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "権限",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "ワープファイル設定",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "ワープファイル",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "ファイルを有効化",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "有効化",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "キー",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "表示",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "キー ID",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "
+      ",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "期限終了日",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "KDM をインポート",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "コンテンツマネージャー",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "ローカルコンテンツ",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "取り込み可能コンテンツ",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "表示",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "種類",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "寸法",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "時間",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "進捗",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "表示",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "種類",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "状態",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "名前",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "表示",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "種類",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "時間",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "再生リストエディタ",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "以下へ移動",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "合計時間：%L1",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "自動",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "ローカルコンテンツ",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "表示：",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "赤：",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "緑：",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "青：",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "白：",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "黒：",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "MCGD ファイル設定",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "未補正色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "測定色域値",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同期",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "スクリーンファイル設定",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "アナモフィック - レンズ係数",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "レターボックス",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "画面調整",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "マスク",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "キーストーン",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "未補正の最大ドライブレベル (RGB スライダーから)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "赤",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "緑",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "青",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "ドライブパーセンテージ (計算値)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "カラーセンサー値 (自動生成値)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "測定値",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "再較正する",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "キャリブレーションの検証",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "自動",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "自動化有効",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "システム正常性",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "デバイス正常性",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "マクロの正常性",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "自動化デバイスがオンライン",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "最後のマクロ完了",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "マクロ検証の問題",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "クリップ前の最後マクロの完了",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 動作モード",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 手動モード",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 接続済み",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボードの種類",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボードリビジョン番号",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボード状態",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR キャリブレーション状態",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR キャリブレーション進捗",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボードシリアル番号",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボードユニーク ID",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 読み込み済み FW パーティション",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR システム時刻",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FPGA タイムスタンプ",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ビデオフォーマット",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ビデオ高さ",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ビデオ幅",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ビデオフレームレート",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR オーディオ - ビデオ同期遅延",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ビデオモード",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR モード",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 最高字幕明度",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR アップデートのインストール時刻",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "パイプラインモード",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "２D ピーク輝度",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "3D ピーク輝度",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 3D モード",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR キャリブレーションメッセージ",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "ファン",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ陽極ブロワー",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ陰極ブロワー",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ライトエンジン下部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ライトエンジン上部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主吸気口 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主吸気口 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主吸気口 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主吸気口 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ吸気 101",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ排気 103",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LAD",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ラジエータ",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージファンパック左上部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージファンパック左下部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージファンパック右上部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージファンパック右下部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 排気",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ポンプ 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ポンプ 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "窒化ガリウム排気口",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ハブファン 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ハブファン 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ハブファン 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ハブファン 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "青のフォーマッター 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "緑のフォーマッター 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "赤のフォーマッター 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 37",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 38",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 39",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 40",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 41",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 42",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 43",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "クリーン LE 吸気 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "クリーン LE 吸気 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "吸気 25 を清掃する",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "吸気 26 を清掃する",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "吸気 27 を清掃する",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "吸気 28 を清掃する",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "吸気 29 を清掃する",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "吸気 30 を清掃する",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 吸気 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 吸気 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 吸気 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 吸気 28",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 吸気 29",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 吸気 30",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "修正済み",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "標準",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "パフォーマンス",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "静か",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "不明",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "クリーン LE 吸気 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "クリーン LE 吸気 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "クリーン LE 吸気 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "クリーン LE 吸気 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE ブロワー 102",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ排気 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ排気 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン速度プロファイルモード",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ファン速度プロファイル",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LaPh ホイール",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "GaN A 吸気口 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "GaN A 排気口 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "GaN B 吸気口 46",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "GaN B 排気口 47",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 上部 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 下部 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "青 LOS ブロワー 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LOS ヒートパイプ 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LOS ヒートパイプ 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 下部 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 上ブロワー 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "プリズムブロワー 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "照明",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "インターロック",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "バラストの種類",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "オフ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "オフ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ状態文字列",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ状態",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプワット数",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ使用電力率",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ電流",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ電圧",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプオン",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプオン",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプファン不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ温度不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ温度不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプインターロック 1 不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "レーザーインターロック不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源不良インターロック作動",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "インターロック 2",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "インターロック 3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "インターロック 4",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源不良インターロック作動理由",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "リモートラック火災警報",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ローカル火災警報",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "火災アラームによる予期しない電源オフ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーインターロックをトリップ済み",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "なし",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "なし",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "インストール済みランプ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプシリアル番号",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "現在のランプの使用時間",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ点弧",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "不良点弧",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "再点弧不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "再点弧不良",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "不測のランプ消灯",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "バラストケーブル長",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ライトセンサー",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "輝度センサー",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "現在のランプの最低出力",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "現在のランプの最高出力",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ X",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Y",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Z",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "バラストオンライン",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ有効期間半減",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ランプ終了ステータス",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "現在のランプの最低出力",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "現在のランプの最高出力",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 目標到達可能",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ アクティブ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 進捗",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 対応",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ ソフトウェア設定",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 有効",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 目標",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "予期しない光源のオフ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "DMD 過熱のため光源シャットオフ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーが接続済み",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーのアクティブプロファイル",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーの全体の正常性",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーのカラーバランス",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーのメーカー",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーのモデル",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーのシリアル番号",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーの製造日",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のインターロックをトリップ済み",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三者のレーザーのバージョン",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーキャリブレーション",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーキャリブレーション V3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "オフライン",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "湿度が高すぎます。冷却液および/または TEC のセットポイントを調整して結露を防ぎます。",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源通信",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源電源状態",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源全体の正常性",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源インターロック状態",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源色バランス",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源チラー状態",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源作動可能状態",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源制御モード",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源較正ポイント",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源色センサーの有無",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源モデル名",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM インターロック正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM バスデバイス正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 環境正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM ファン正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 冷却装置正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 赤正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 緑正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 青正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM ファイルシステム正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 出力正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 接続済み",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "合計レーザーモジュール数",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 総出力",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 非動作状態",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM アクティブ CFG ファイル",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーリードバック - 赤",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーリードバック - 緑",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーリードバック - 青",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーリードバック - ゲイン",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "ロック済みセンサー値 - 赤",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "ロック済みセンサー値 - 緑",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "ロック済みセンサー値 - 青",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "ロック済みセンサー値 - ゲイン",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 駆動強度 - 赤",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 駆動強度 - 緑",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 駆動強度 - 青",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーデータと強制ゲインを送信",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM ホワイトバランスロック済み",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー光出力安定",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 出力低下警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 電源状態警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 種別警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 赤正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 接続警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーリードバック - REF",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Space Taker",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM SNMP テーブル準備完了",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM アラーム",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 正常性状態変化",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 電源状態変化",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 電源状態エラーリスト",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM サービスレベル低下",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM デバイス情報",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM レジスタ更新済み",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM レジスタ更新済み",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "WBC フラッグ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 正常性状態レジスタ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 正常性状態レジスタ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM アクティブ WBC ファイル",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 目標駆動強度 - 赤",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 目標駆動強度 - 緑",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 目標駆動強度 - 青",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 接続",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "この LM の種類はサポートされていません",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM ブートバージョン不一致",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM メインバージョン不一致",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM は起動モードです",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "環境相対湿度",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "チラーの状態",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "チラーのアラーム状態",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "チラーの流量",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "チラー圧力 (PSI)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "システムの露点状態",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "チラー名",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "コンポーネント温度化上昇のため光源がシャットオフ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却液流量エラーにより光源がオフ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "ディフューザーが回転していないため光源がシャットオフ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "チラーメーカー",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "光源 LiteLOC 状態",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "サービスモードが有効",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LOS1 ドライブ制限",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LOS2 ドライブ制限",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "レンズ",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS オンライン",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS アクティブファイル",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS X モーター",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Y モーター",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Z モーター",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS F モーター",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS X アプローチ",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Y アプローチ",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Z アプローチ",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS F アプローチ",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS キャリブレーション中",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS リセット中",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 温度",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS X センサー",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Y センサー",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Z センサー",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS F センサー",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "自動 ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "レンズの種類",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "レンズシリアル番号",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "汎用ズーム",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "汎用ズームなし",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "汎用固定",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS がキープアウトモーターを無効にした",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS キャリブレーション",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS リセット",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "垂直＆水平＆フォーカス",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "水平＆垂直＆フォーカス",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "水平 & 垂直 & フォーカス & ズーム",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "垂直 & 水平",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "失敗",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ネットワーク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos 入力 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos コントロール IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos 有効",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos オンライン",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理ネットマスク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 IP 競合",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS ネットマスク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS IP 競合",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS サブネット",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "メディア IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "メディアネットマスク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "メディア DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "メディア MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "メディア IP 競合",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "メディアサブネット",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "レーザーネットマスク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー IP 競合",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "レーザーサブネット",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP サーバー",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "HKBE から読み取った MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理ゲートウェイ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク NAS ステータス",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク NAS リンク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク NAS IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク NAS ネットマスク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク NAS DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク NAS ゲートウェイ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク NAS MAC アドレス",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワークメディアステータス",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワークメディアリンク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワークメディア IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワークメディアネットマスク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワークメディア DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワークメディアゲートウェイ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワークメディア MAC アドレス",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク補助オーディオステータス",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク補助オーディオリンク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク補助オーディオ IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク補助オーディオネットマスク",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク補助オーディオ DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク補助オーディオゲートウェイ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ネットワーク補助オーディオ MAC アドレス",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "レーザーサブシステム接続",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "レーザーメインコード CRC",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー電源状態",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 色センサーキャリブレーション",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ センサーから画面へのキャリブレーション",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "センサーキャリブレーションへの LiteLOC™LOS",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "全般的 LOS 正常性",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "カラーセンサー (X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "カラーセンサー (Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "カラーセンサー (Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "カラーセンサーゲイン (X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "カラーセンサーゲイン (Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "カラーセンサーゲイン (Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー CPU 温度",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色センサーボード (CSB) の種類",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB 温度",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB バージョン",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "UCD バージョン",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB シリアル",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB DAC キャリブレーション",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Photon メインバージョン",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Photon ブートバージョン",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "コンポーネント温度化上昇のため光源がシャットオフ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "ディフューザーが回転していないため光源がシャットオフ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却液流量エラーにより光源がオフ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "拡張レーザードライブ (ELD)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "センサーから画面へのキャリブレーションの実行による性能向上",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "到達不可能",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "再生",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生セカンダリーモード",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "スレーブセカンダリー準備チェック",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生コンポジション名",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生コンポジション ID",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生タイムコード",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生時間",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生状態",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオバッファーフル率",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "オーディオバッファーフル率",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "ループ再生モード",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "オーディオ遅延 ms",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "オーディオサンプルレート",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "オーディオ出力レート",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生リストエントリ名",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生リストエントリオフセット",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "休止アクティブ",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "3D コンテンツの再生",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "3D 再生リストの再生",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "3D 再生リストエントリ ID",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "読み込んだコンテンツの再生",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "読み込んだステージの再生",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生読み込み状態",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生中電圧低下の自動リカバリ",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Dolby Atmos オンライン",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生バッファアンダーラン",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生コンテンツエラー",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "字幕有効",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "字幕タイムコード",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生中電力損失の自動リカバリ",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生リスト読み込みエラー - コンテンツ欠落",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "再生リスト読み込みエラー - リモートコンテンツがありません",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモード",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの改ざんの検出",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードのクロックロールバック検出",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの出力制限",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの照明時間",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの代替入力時間",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの状態",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの廃止ステータス",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "この操作は現在のレンタルライセンスにより許可されていません。",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの照明",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "レンタルモードの代替入力",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "スケジューラー",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "スケジューラー有効",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "スケジューラー内の次回ショー ID",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "スケジューラー内の次回ショー名",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "スケジューラー内の次回ショー時刻",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "セキュリティ",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM セキュア接続",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 接続ステータス",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 筐体改ざん",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 結合リング改ざん",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 結合済み",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM サービスドア開",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 低ディスク領域",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM セキュリティ侵害",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 鮮度シール",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM バッテリー低下",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 暗号化アルゴリズム OK",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 画像整合性 OK",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM バッテリーレベル",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM シリアル番号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM Intopix シリアル番号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM Civolution シリアル番号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM Atmos ステータス",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "セキュリティがインストールされていません",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "セキュリティがインストールされていません",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "作動可能",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "作動可能",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "侵害あり",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "侵害あり",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "工場",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "工場",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM S/N",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM EPM シリアル番号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 結合論理改ざん",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM セキュアログ",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM CryptoState",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM ゼロ化",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM ログスペース警告",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM ログレポートエラー",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 開発モード",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 物理的結合改ざん",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "セキュアシリコン接続",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "セキュアシリコンモード",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "セキュアシリコン状態",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "セキュアシリコンエラー",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "セキュア結合エミュレーター",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "結合リング",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 証明書",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS ハードウェアバージョン",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS モデル名",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS ステート",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS エラー",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "バッテリー 1 電圧",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "バッテリー 2 電圧",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "バッテリー 1 電圧良好",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "バッテリー 2 電圧良好",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "バッテリー 1 電圧 (mV)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "バッテリー 2 電圧 (mV)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "ボードシリアル番号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "ボードリビジョン",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 本番モード",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "シリアル",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "HKB シリアル番号",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "主制御ボード",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "フォーマッター (赤)",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "フォーマッター (緑)",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "フォーマッター (青)",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "可変オプションモジュール",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "フォーマッターインターフェース変換ボード",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "システム",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "シリアル番号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "モデル番号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "製造日",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "電気回路シリアル番号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP 有効",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP 有効",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "DST 有効",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "タイムゾーン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "SM UTC 時",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "UTC 時",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "地方時",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "地方時オフセット",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "メモリ合計",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "空きメモリ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "平均 CPU 使用率",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ルート全ディスク領域",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ルート空きディスク領域",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "プライマリドライブオンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "プライマリドライブ全ディスク領域",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "プライマリドライブ空きディスク領域",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "プライマリドライブ使用済みディスク領域",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "コンテンツ変更を検出",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ストレージ構成アクティブ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "コンテンツドライブ数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "取り込みドライブ数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "構成済みの NAS デバイス数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "構成済みの DAS デバイス数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "最後のアップグレード結果",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "EVB オンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSense オンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSB オンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "起動コンポーネント準備完了",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "プロジェクター正常",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "RealD 3D ファイル",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Dolby 色補正ファイル",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "アクティブ UC ファイル",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Dolby 有効",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Real3D EQ 有効",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "システム時間",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "点灯する時間",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "点灯する秒数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "点灯する故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "電源状態",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "遮光板開",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "遮光板閉",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "遮光板センサーエラー",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "インターロックオンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB の種類を選択",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "マルチプロジェクターセカンダリーオフライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "マルチプロジェクターセカンダリーオフラインリスト",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "RealD 3D EQ 有効",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "HKB オンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS　電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 過電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS　過電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 温度過上昇",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS ファン不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 高温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS ユニット不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 超低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 過電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 過電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 温度過上昇",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 ファン不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 高温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 ユニット不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 超低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 通信不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 過電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 過電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 温度過上昇",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 ファン不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 高温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 ユニット不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 超低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 通信不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 過電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 過電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 温度過上昇",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 ファン不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 高温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 ユニット不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 超低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 通信不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 過電流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 過電圧",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 温度過上昇",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 ファン不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 高温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 ユニット不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 超低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 通信不具合",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE ステート",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "VOM ステート",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Videopath 通信オンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "モデルサブタイプ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "SID 正常性状態",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ オンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "電子機器初期化不良",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 状態",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB メディアプレイヤーオンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 1 レーザーオン時間",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 1 スタンバイ時間",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 2 レーザーオン時間",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 2 スタンバイ時間",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "不完全または破損したコンテンツが検出されました",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "オンライン",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "システム稼働時間",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "レーザー電源状態",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "清掃",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB オンボードストレージタイプ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID 全体ステータス",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID ディスク 1 ステータス",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID ディスク 2 ステータス",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID ディスク 3 ステータス",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "スケジュールされた IMB SM セルフテスト",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB データパーティションの空きディスク容量",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB データパーティションの合計ディスク容量",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ALT オーディオあり",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ALT オーディオチャンネル数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ALT オーディオサンプルレート Hz",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "FM ロケーション ID",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "現在の検証プロセス進捗",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "現在の検証プロセス状態",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "コンテンツ検証コンテンツ ID",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "サブモデル番号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE 赤 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE 青 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE 緑 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE プリズム",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "赤 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "緑 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "青 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プリズム",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "吸気口",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "インテグレーター",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "排気口",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "カードケージ",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "内部",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プリ LE 赤 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プリ LE 青 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プリ LE 緑 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プリ LE プリズム",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ディフューザー",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ファイバー",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "バラスト",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 4",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 5",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 6",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 7",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM コア 8",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "入力 FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ILS",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボード FPGA1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボード FPGA2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボード FPGA3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボード ディスクリート 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボード ディスクリート 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR ボード ディスクリート 3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "SM ボード",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD 冷却液流量良好",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "室内周囲温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "環境",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "赤のフォーマッター",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "緑のフォーマッター",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "青のフォーマッター",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "イメージプロセッサ -スケーラー",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD ウォーターブロック",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "水冷マニフォルド",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "チラーのセットポイント温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "チラーの水温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "チラーの環境温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "周囲の露点",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "LOS1 露点",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "LOS2 露点",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 最大周囲温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "VOM FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FICB FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プレモダンフォーマッター (赤)",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プレモダンフォーマッター (緑)",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プレモダンフォーマッター (青)",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "プレモダン DMD ウォーターブロック",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ヒートシンク (赤)",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ヒートシンク (緑)",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ヒートシンク (青)",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB U55",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB Q8",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB Q9",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "エラーなし",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "準備完了",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "バージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "メインシステム",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "修正プログラムがインストールされました",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "SM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "UI",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "OS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "セキュアシリコンブート",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "セキュアシリコンメイン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "エンジン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LBM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB (リビジョン)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS メイン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS ブート",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB メイン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB ブート",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HKB FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HKB ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "入力 FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA バージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB FPGA バージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "バージョン不一致",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ソフトウェアバージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "メイン PCB ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HUB PCB ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "SCC PCB ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FIMB PCB ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "インターロックバージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "インターロック",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CSense",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CSense バージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FW バージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FW",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR Zynq FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 主 FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 2 次 FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR パーセク有効",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "コアソフトウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "VOM ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "システムバージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "コミット ID",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ メイン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ ブート",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "BIOS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FICB ハードウェア",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ソフトウェアバージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤 (リビジョン)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑 (リビジョン)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青 (リビジョン)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "プレモッド CFB 赤 (リビジョン)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "プレモッド CFB 緑 (リビジョン)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "プレモッド CFB 青 (リビジョン)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "光源ソフトウェアバージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "アップグレード中...",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB-S4 ソフトウェアバージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB-S4 ボードリビジョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB-S4 FPGA バージョン",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤レーンおよびチャンネルのエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑レーンおよびチャンネルのエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青レーンおよびチャンネルのエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤レーンおよびチャンネルのエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑レーンおよびチャンネルのエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青レーンおよびチャンネルのエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB DMD の種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ネイティブアレイ幅",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ネイティブアレイ高さ",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 赤サテライトの種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 赤サテライトオンライン",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 赤サテライトリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 緑サテライトの種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 緑サテライトオンライン",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 緑サテライトリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 青サテライトの種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 青サテライトオンライン",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 青サテライトリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB サテライト不一致エラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "カスタム SFB ビットシーケンス",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "カスタム SFB DMD ファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "カスタム SFB 画像ファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB の状態",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青の状態",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤の状態",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑の状態",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青の TI ブロック状態",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤の TI ブロック状態",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑の TI ブロック状態",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤リンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑リンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青リンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青ソフトリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤ソフトリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑ソフトリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青ハードリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤ハードリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑ハードリンクエラー",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 青サテライトの種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 赤サテライトの種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 緑サテライトの種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "チャンネルアクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ガンマアクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "逆ガンマアクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "MCGD アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "MCGD 左アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "MCGD 右アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "TCGD アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "3D アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ソースアクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "スクリーンアクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "EDID アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ランプアクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CLUT アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "色空間アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "3D 同期入力モード",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CSC アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "PQ 逆ガンマモード",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ入力の検出ピクセル幅",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ入力の検出ライン高",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ入力の検出フレームレート",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ入力ソース",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオサブ画像 X",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオサブ画像 Y",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオサブ画像幅",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオサブ画像高さ",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ出力 X 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ出力 Y 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ出力 X 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ出力 Y 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ出力幅",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ出力高さ",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ入力",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオデータ形式",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオスキャンの種類",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ入力垂直周波数",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ 3D モード",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "入力 FPGA 画像",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA 画像",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "輝度アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "均一性アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "光源アクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "3D 輝度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Christie Pureformity Color™ 補正ファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "レーザーキャリブレーションアクティブファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "FMAIN から HUB Aurora 接続 (偽の場合はパワーサイクル)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB から FMAIN Aurora 接続 (偽の場合はパワーサイクル)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDR Aurora 接続 (偽の場合はパワーサイクル)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB から HUB Aurora 接続 (偽の場合はパワーサイクル)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HUB から FMAIN Aurora 接続 (偽の場合はパワーサイクル)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ワープファイル",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI ポート A 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI ポート B 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "VOM 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ディスプレイポート 1 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ディスプレイポート 2 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 1 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 2 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 3 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 4 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "2D モード",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "ビデオ出力周波数",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI ポート 1 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI ポート 2 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB ビデオ信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+}
+]

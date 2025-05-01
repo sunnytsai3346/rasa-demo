@@ -1,0 +1,7306 @@
+[{
+    "name": "关于",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "版权所有 %1 Christie Digital Systems USA Inc.",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "型号",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "型号次级类型",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "投影机序列号",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "已安装的镜头",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "已安装的灯泡",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "主系统版本",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "查看所有版本",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "许可协议",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "音频设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "自动",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "全局设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "音频输出率",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "全球音频延迟（毫秒）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "杜比背景音效配置",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "启用杜比背景音效",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "控制 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "输入 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "测试连接",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "通道映射",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "通道格式",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "媒体音频通道",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "映射到",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "新设备",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "设备",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "IP 地址",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "密码",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "用户名",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "端口",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "我的影院设备",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "保持连接消息",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "保持连接间隔(ms)",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "备份与恢复",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "新备份",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "导入备份",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "恢复出厂设置",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "通道设置",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "创建新通道",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "活动",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "输入类型",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "源文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "屏幕文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "ILS 文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D 光源文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 光源文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "TCGD 文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D MCGD 文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D MCGD 右眼文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D 传感器至屏幕校准文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 传感器至屏幕校准文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "数据格式",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同步输入模式",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "2D/3D 文件选择",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "EDR 运行模式",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "3D 亮度",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "方块划分模式",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "色彩空间",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "伽马文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "颜色查找表文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "HDMI EDID",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "DisplayPort EDID 文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "%1 校准文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "亮度文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "扭曲文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "扫描类型",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "颜色",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "灯光",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "影像",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "所有",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "创建新文件",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "已选择通道",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Christie Pureformity Color™ 校准文件",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "测试图像指导",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "测量值",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "范围演示",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "照度",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "色彩空间文件设置",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "色彩空间文件",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "导入色彩空间文件",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "调试设置",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "冻结影像",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "空白影像",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "绕过 HDR 模式",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "设备输入触发器",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "源",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "触发器事件",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "执行宏",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "全局触发器",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "新全局触发器",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "源",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "继续播放事件",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "播放列表触发器",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "新播放列表触发器",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "设备库",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "设备名称",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "类型",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "查看设备库",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "导入设备库",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "EDID 文件设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "EDID 文件",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "伽马文件设置",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "伽马文件",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "导入伽马文件",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "H4D3 配置",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "频率 (Hz)",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "测试图像",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "关闭",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "摩尔干扰度水平",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "摩尔干扰度垂直",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "干扰",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "镜头位置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "聚焦",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "变焦",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "重置镜头",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "自动校准",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "ECC",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "ILS 文件设置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "垂直",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "水平",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "LampLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "自动对齐",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "亮度",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "灯泡位置",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "显示白色测试图像",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "当前",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "灯泡管理器",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "上次激活",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "类型",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "耗时",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "点亮",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "原因已更改",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "激活",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "新灯泡",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "灯泡功率/LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "灯泡功率",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "最小",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "安培",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "伏特",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "瓦特",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "灯泡使用时间",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "灯泡过载",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "当前灯泡功率",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "强度计",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "目标",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "激光诊断",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "型号",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "版本",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "功率运行状况",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "温度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "串行端口",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS1",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS2",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "光源",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "用户设置亮度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "系统调整亮度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "显示白色测试图像",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "环境温度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "湿度",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同步",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "激光功率/LiteLOC™ 设置",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "冷却装置设定值",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "所需最高室温",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "温度控制",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "用户设置亮度",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "系统调整亮度",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "显示白色测试图像",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "环境温度",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同步",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "光源功率设置",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "温度控制",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "运行询问器",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "询问",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "搜索日志",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "系统日志/询问器",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "日期",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "严重性",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "类型",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "消息",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "已增强",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "宏编辑器",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "创建新宏",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "测试",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "选定的宏",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "移动至",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "添加新操作项",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "单击 + 图标以添加宏操作项",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "手动激光控件",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "当心：所有调整都是暂时的，不会被保存。",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "显示白色测试图像",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "最小",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "当前",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "冷却装置设定值",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "所需最高室温",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "红色",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "绿色",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "蓝色",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "荧光体",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "手动光源控制",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "当心：所有调整都是暂时的，不会被保存。",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "显示白色测试图像",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "最小",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "最大",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "当前",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "红色",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "绿色",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "蓝色",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "安全连接设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "开始",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "安全连接清单",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "徽章",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "此向导会指导您通过 IMB 安全连接程序，从而确保内容安全播放。",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "此操作要求您确认此装置不会受到干扰，且将相应地记录在安全系统中。",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "SM 安全",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "维修门安全",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "安全连接环节安全",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "安全连接已激活",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "网络设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "端口",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "自动",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "手动",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "IP 地址: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "子网掩码: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "网关: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "主 DNS: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "备用 DNS: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "MAC 地址: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "以太网设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP 设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "2D 峰值亮度",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "3D 峰值亮度",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "活动通道:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "现用伽马文件:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "108-cd/m² 2D 亮度图像",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "2D 峰值亮度 (cd/m²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "两台投影机的典型范围为: 108.0 至 130.0 cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "一台投影机的典型范围为: 48 至 65 cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "48-cd/㎡ 3D 亮度图像",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "3D 峰值亮度 (cd/m²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "典型范围: 48.0 至 65.0 cd/m² ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "像素撷取器",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BPIXL",
+    "userLevel": "60"
+},
+{
+    "name": "首选项",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "摄氏度",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "华氏度",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "排期表",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "排期表起始日",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "12 小时",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "24 小时",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "警报触发器",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "显示警报",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "风扇故障",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "临界温度",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "其他 UI 日志",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "序列号缺失",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "自动",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "启用自动",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "需要序列验证",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "常规",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "投影机",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "投影机主机名",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "投影影像方向",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "正前方",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "倒转前方",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "正后方",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "倒转后方",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "系统",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "时间格式",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "温度单位",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "摄氏度",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "华氏度",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "排期表",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "排期表起始日",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "会话超时",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "HDR",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "DCI 仿真模式",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "对比度",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D 亮度（尼特）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "视频仿真模式",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - 最大（尼特）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - 最小（尼特）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - 最大（尼特）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - 最小（尼特）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "IMB 类型（需要重新启动）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "IMB 在待机状态下充电",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "镜头/ILS",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "镜头信息",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "镜头类型",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "串行端口",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "智能镜头系统 (ILS)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "ILS 已安装",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "启动时重置 ILS",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "快门",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "快门无法正常运行时允许激活光源",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "服务模式",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "红色",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "绿色",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "蓝色",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "最大驱动电平",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "测试图像",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "改变通道后保持测试图像为开启状态",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "RealD 3D EQ File Setup（RealD 3D EQ 文件设置）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "3D 配置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "3D 移动工具延迟（毫秒）",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "3D 移动工具延迟",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "重新启动投影机",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "重新启动",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "警告: 该操作会立即停止一切回放，并可能影响到其他用户。",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "远程获取设置",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "设备",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "IP 地址",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "密码",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "用户名",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "端口",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "测试连接",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "租赁模式",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "调试",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "供应商信息",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "调试发布日期",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "地址",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "电话号码",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "电子邮箱",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "导入调试文件",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "导入停用文件",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "排期表",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "今天",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "计划器开启",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "计划器关闭",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "点击创建一个新的计划事件",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "传感器至屏幕校准",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "重新校准",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "验证校准",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "校准",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "IMB SM 时间调整",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME/imbadjust",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP 设置",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP 版本 2",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP 版本 3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "陷阱接收器 1 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "陷阱接收器 2 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "陷阱接收器 3 IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "下载 MIB",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "已阻止的 SNMP 陷阱",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "选择全部/无",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "风扇",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "联锁",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Photon 整体运行状况",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "安全",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "存储",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "常规系统警报",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "系统通信",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "温度",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "自动",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "光源",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "冷却器",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "源文件设置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "媒体源分辨率",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "位置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "宽度 (X)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "高度 (Y)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "水平",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "垂直",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "宽高比为 1.85",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "宽高比为 2.39",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "自定义宽高比",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "存储设备设置",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "设备",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "IP 地址",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "共享文件夹",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "密码",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "用户名",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "测试连接",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "系统升级",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "升级文件",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "支持",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "主系统版本：%1",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "TCGD 文件设置",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "测试夹",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "目标色值",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "自动化显示测试夹",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "使用白色夹",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "白色容限",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "选择未校准的色彩，并开始运行",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "红色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "绿色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "蓝色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "青色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "洋红色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "黄色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "白色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "白剪辑",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "增益",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "屏幕区域",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "3D 文件设置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "常规设置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "帧率设置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "换帧时间",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "输出延迟",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "相延迟",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "3D 延迟",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "倍增器",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "反转 3D 同步极性",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "FPS（每只眼睛）",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "时间设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "NTP 服务器地址",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "新 NTP 服务器",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "时区设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "与 IMB 进行同步",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "与 NTP 服务器进行同步",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "手动设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "日期和时间",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "分钟",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "小时数",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "AM",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "PM",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "IMB 日期",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "IMB 时间",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "当前 UTC 日期：",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "当前 UTC 时间：",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "投影机时间设置",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "用户帐户",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "权限",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "扭曲文件设置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "扭曲文件",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "激活文件",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "激活",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "密钥",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "显示",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "密钥 ID",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "有效期自",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "过期",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "导入 KDM",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "内容管理",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "本地内容",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "可获取的内容",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "显示",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "类型",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "尺寸",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "时长",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "进度",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "显示",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "类型",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "状态",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "名称",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "显示",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "类型",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "时长",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "播放列表编辑器",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "移动至",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "总时间:%L1",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "自动",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "本地内容",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "显示:",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "红色:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "绿色:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "蓝色:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "白色:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "黑色:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "MCGD 文件设置",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "非校正颜色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "测量色值",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "3D 同步",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "屏幕文件设置",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "变形的镜头系数",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "信箱",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "屏幕调整",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "掩码",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "梯形失真",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "最大未校准驱动电平（来自 RGB 滑块）",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "红色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "绿色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "蓝色",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "驱动百分比（经计算）",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "色彩传感器数值（经自动生成）",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "测量值",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "重新校准",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "验证校准",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "自动",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "自动模式已启用",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "系统运行状况",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "设备运行状况",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "宏运行状况",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "自动化设备在线",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "最后一个宏完成",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "宏验证问题",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "剪辑宏完成前的最后一个",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 运行模式",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 手动模式",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 已连接",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板类型",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板版本",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板状态",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 校准状态",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 校准进度",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板串口",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板唯一 ID",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "已加载的 EDR FW 分区",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 系统时间",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FPGA 时间戳",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 视频格式",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 视频高度",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 视频宽度",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 视频帧率",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 音频视频同步滞后",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 视频模式",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 模式",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 字幕最大强度",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 更新安装时间",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "管道模式",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "峰值亮度 2D",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "峰值亮度 3D",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 3D 模式",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 校准消息",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "风扇",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡阳极风机",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡阴极风机",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "光引擎底部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "光引擎顶部",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主入口 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主入口 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主入口 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "主入口 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼进气口 101",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼排气口 103",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LAD",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "散热器",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼风扇包装顶部左侧",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼风扇包装底部左侧",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼风扇包装顶部右侧",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼风扇包装底部右侧",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 排放口",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "泵 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "泵 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "氮化镓排放口",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "集线器风扇 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "集线器风扇 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "集线器风扇 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "集线器风扇 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "蓝色格式器 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "绿色格式器 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "红色格式器 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 37",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 38",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 39",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 40",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 41",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 42",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 43",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁 LE 进气口 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁 LE 进气口 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁进气口 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁进气口 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁进气口 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁进气口 28",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁进气口 29",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁进气口 30",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 进气口 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 进气口 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 进气口 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 进气口 28",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 进气口 29",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 进气口 30",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "定焦",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "标准",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "性能",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "安静",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "未知",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁 LE 进气口 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁 LE 进气口 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁 LE 进气口 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "清洁 LE 进气口 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE 鼓风机 102",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼排气口 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼排气口 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇转速曲线模式",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "风扇转速曲线",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LaPh 轮",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "氮化镓 A 进气口 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "氮化镓 A 排气口 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "氮化镓 B 进气口 46",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "氮化镓 B 排气口 47",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 上 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 下 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "蓝色 LOS 鼓风机 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 热管 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 热管 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 底部 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 顶部风机 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "棱镜风机 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯光",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "联锁",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "镇流器类型",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "关闭",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "关闭",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡状态字符串",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡状态",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡瓦数",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡功率百分比",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡电流",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡电压",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡点亮",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡点亮",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡故障",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡故障风扇",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡故障温度",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡故障温度",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡故障联锁 1",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "激光联锁故障",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源故障联锁被羁绊",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "联锁 2",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "联锁 3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "联锁 4",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源故障联锁羁绊的原因",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "远程机架火灾警报",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "本地火灾警报",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "火灾警报导致电源意外关闭",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光联锁被羁绊",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "无",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "无",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "已安装的灯泡",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡序列号",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "当前灯泡已使用的小时数",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡点亮",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "点亮失败",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "再次点亮失败",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "再次点亮失败",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡意外熄灭",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "镇流器电缆长度",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光传感器",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光强度传感器",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "当前灯泡最小值",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "当前灯泡最大值",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ X",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Y",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Z",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "镇流器处于在线模式",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡使用寿命已超过一半",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "灯泡到期状态",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "当前灯泡最小百分比",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "当前灯泡最大百分比",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 目标可以访问",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 已激活",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 进度",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 受支持",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 软件配置",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 已启用",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 目标",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源意外关闭",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "DMD 过热，光源已关闭",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光已连接",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光现用配置文件",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光整体运行状况",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光颜色平衡",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光制造商",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光型号",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光序列号",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光制造日期",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方联锁被羁绊",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "第三方激光版本",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器校准",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器校准 V3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "离线",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "湿度过高。冷却液和/或 TEC 设定值已调整以防止冷凝。",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源通信",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源电源",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源整体运行状况",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源互锁状态",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源色彩平衡",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源冷却装置状态",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源就绪状态",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源控制模式",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源校准点",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源颜色传感器存在",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "光源模型名称",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "激光",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 联锁运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM BusDevice 运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 环境运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 风扇运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 冷却装置运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM（红）运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM（绿）运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM（蓝）运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 文件系统运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 电源运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 已连接",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "激光模块总数",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 总功率",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 不运行",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 现用 CFG 文件",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器回读 - 红",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器回读 - 绿",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器回读 - 蓝",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器回读 - 获取",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "已锁定色彩传感器数值 - 红",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "已锁定色彩传感器数值 - 绿",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "已锁定色彩传感器数值 - 蓝",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "已锁定色彩传感器数值 - 获取",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 驱动器强度 - 红",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 驱动器强度 - 绿",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 驱动器强度 - 蓝",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "强制获取型色彩传送传感器",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 白平衡已锁定",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "激光输出稳定",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 降级警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 电源状态警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 类型警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM（红）外壳状态",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 连接警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器回读 - REF",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Space Taker",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM SNMP 表格就绪",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 警告",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 警报",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 运行状态已更改",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 电源状态已更改",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 电源状态错误列表",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 已降级",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 设备信息",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 寄存器已更新。",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 寄存器已更新",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "WBC 标志",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 运行状况寄存器",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 运行状况寄存器",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM 现用 WBC 文件",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "目标 LBM 驱动器强度（红）",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "目标 LBM 驱动器强度（绿）",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "目标 LBM 驱动器强度（蓝）",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 连接",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 类型不支持",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 启动版本不匹配",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM 主版本不匹配",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "启动模式下的 LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "环境相对湿度",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却装置状态",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却装置警报状态",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却装置流速 (LPM)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却器压力 (PSI)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "系统露点状态",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却器名称",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "组件过热，光源已关闭。",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却液流错误，光源已关闭",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "扩散器不旋转，光源已关闭。",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却装置制造商",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "光源 LiteLOC 状态",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "服务模式已启用",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LOS1 驱动器限制",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LOS2 驱动器限制",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "镜头",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 在线",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 现用文件",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS X 电机",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Y 电机",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Z 电机",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS F 电机",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS X 方法",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Y 方法",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Z 方法",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS F 方法",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 校准",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 重置",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 温度",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS X 传感器",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Y 传感器",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Z 传感器",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS F 传感器",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "自动 ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "镜头类型",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "镜头序列号",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "通用变焦",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "通用定焦",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "通用定焦",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 已禁用推斥电机",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 校准",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 重置",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "垂直 & 水平 & 对焦",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "水平 & 垂直 & 对焦",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "水平 & 垂直 & 对焦 & 变焦",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "垂直 & 水平",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "失败",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "网络",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "背景音效输入 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "背景音效控制 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "背景音效已启用",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "背景音效在线",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理网络掩码",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理 IP 冲突",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS 网络掩码",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS IP 冲突",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "NAS 子网",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "媒体 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "媒体网络掩码",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "媒体 DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "媒体 MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "媒体 IP 冲突",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "媒体子网",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "激光 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "激光网络掩码",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "激光 DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "激光 MAC",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "激光 IP 冲突",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "激光子网",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP 服务器",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "HKBE 中的 MAC 度数",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "管理网关",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络 NAS 状态",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络 NAS 链接",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络 NAS IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络 NAS 网络掩码",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络 NAS DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络 NAS 网关",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络 NAS MAC 地址",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络媒体状态",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络媒体链接",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络媒体 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络媒体网络掩码",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络媒体 DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络媒体网关",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络媒体 MAC 地址",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络辅助音频状态",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络辅助音频链接",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络辅助音频 IP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络辅助音频网络掩码",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络辅助音频 DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络辅助音频网关",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 网络辅助音频 MAC 地址",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "激光子系统已连接",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "激光主代码 CRC",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "激光电源状态",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 色彩传感器校准",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 传感器至屏幕校准",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ LOS 至传感器校准",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 整体运行状况",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器 (X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器 (Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器 (Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器获取 (X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器获取 (Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器获取 (Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "激光 CPU 温度",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "色彩传感器板 (CSB) 类型",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB 温度",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB 版本",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "UCD 版本",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB 序列",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CSB DAC 校准",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Photon 主版本",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Photon 启动版本",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "组件过热，光源已关闭。",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "扩散器不旋转，光源已关闭。",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "冷却液流错误，光源已关闭",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "扩展激光驱动器 (ELD)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "通过执行传感器至屏幕校准来实现更高的性能",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "不可触及",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "播放",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "回放次要模式",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "回放次要就绪检查",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放作品名称",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放作品 ID",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放时间代码",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放时长",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放状态",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "视频全百分比缓冲",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "音频全百分比缓冲",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "循环播放模式",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "音频延迟（毫秒）",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "音频采样率",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "音频输出率",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放列表条目名",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放列表条目偏差",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "暂停已开启",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放 3D 内容",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放 3D 播放列表",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放 3D 播放列表条目 ID",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放已加载内容",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放已加载阶段",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放已加载状态",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放关灯自动恢复",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "杜比背景音效在线",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放缓冲欠载运行",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "播放内容错误",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "字幕已启用",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "字幕时间代码",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "回放功率损耗自动恢复",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "回放加载错误，内容丢失",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "回放加载错误；远程内容丢失",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式篡改检测",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式时钟回滚检测",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式功率限制",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式照明持续时间",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式替代输入持续时间",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式状态",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式停用状态",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "当前租赁许可不允许进行该操作。",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式照明",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "租赁模式替代输入",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "排期表",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "排期表已启用",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "排期表下一个显示 ID",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "排期表下一个显示名称",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "排期表下一个显示时间",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "安全",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 安全连接",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 状态连接",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 机箱篡改",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 安全连接环篡改",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 已连接",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 维修门已打开",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 磁盘容量低",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 安全漏洞",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 新印章",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 电池电量低",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 加密算法正常",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 影像完整性正常",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 电池电量",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 序列号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM Intopix 序列号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM Civolution 序列号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 背景音效状态",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "未安装安全装置",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "未安装安全装置",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "准备就绪",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "准备就绪",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "已篡改",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "已篡改",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "出厂",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "出厂",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 序列号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM EPM 序列号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 安全连接逻辑篡改",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 安全日志",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 加密状态",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 归零",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 日志空间警告",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 日志报告错误",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 开发模式",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 安全连接物理篡改",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "安全硅连接",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "安全硅模式",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "安全硅状态",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "安全硅错误",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "安全连接模拟器",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "安全连接环",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 证书",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS 硬件版本",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS 型号名称",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS 状态",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FIPS 错误",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "电池 1 电压",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "电池 2 电压",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "电池 1 电压良好",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "电池 2 电压良好",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "电池 1 电压 (mV)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "电池 2 电压 (mV)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "板序列号",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "板版本",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM 生产模式",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "串行端口",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "HKB 序列号",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "主控制板",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "红色格式器",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "绿色格式器",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "蓝色格式器",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "可变选项模块",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "格式器接口转换板",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "系统",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "序列号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "型号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "构建日期",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "电子序列号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP 已启用",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP 已启用",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "DST 已启用",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "时区",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "SM UTC 时间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "UTC 时间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "本地时间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "本地时间偏差",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "总内存",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "空闲内存",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "平均 CPU 利用率",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "固定全部磁盘空间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "固定空闲磁盘空间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "主要在线驱动器",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "主要驱动器全磁盘空间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "主要驱动器空闲磁盘空间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "主要驱动器已占用磁盘空间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "检测到内容变更",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "存储配置已生效",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "内容驱动器数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "获取驱动器数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "已配置的 NAS 设备数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "已配置的 DAS 设备数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "最新升级结果",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "EVB 在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSense 在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSB 在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "启动部件已就绪",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "投影机正常",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "RealD 3D 文件",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "杜比色彩校准文件",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "现用 UC 文件",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "杜比已启用",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Real3D EQ 已启用",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "系统小时数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "开灯时数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "开灯秒数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "开灯失败",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "电源状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "遮光板打开",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "遮光板关闭",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "遮光板传感器错误",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "联锁在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "选定 IMB 类型",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "多次要投影机离线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "多次要投影机离线列表",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "RealD 3D EQ 已启用",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "HKB 在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 过电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 过电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 过热",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 风扇故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 高温",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 单元故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS 极低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 过电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 过电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 过热",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 风扇故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 高温",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 单元故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 极低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 通信故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 过电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 过电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 过热",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 风扇故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 高温",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 单元故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 极低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 通信故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 过电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 过电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 过热",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 风扇故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 高温",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 单元故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 极低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 通信故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 过电流",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 过电压",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 过热",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 风扇故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 高温",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 单元故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 极低 AC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 通信故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2 温度",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE 状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "VOM 状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "在线 Videopath 通信",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "型号次级类型",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "SID 运行状况",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "电子元件初始化故障",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 媒体播放器在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 1 激光开启小时数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 1 待机小时数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 2 激光开启小时数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LOS 2 待机小时数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "检测到内容不完整或已损坏",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "在线",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "系统运行时间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "激光电源状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "清理",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 机载存储类型",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID 整体状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID 磁盘 1 状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID 磁盘 2 状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB RAID 磁盘 3 状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "定时 IMB SM 自测",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 数据分区可用磁盘空间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 数据分区总磁盘空间",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ALT 音频存在",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ALT 音频通道数",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ALT 音频采样率 (Hz)",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "FM 位置 ID",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "内容验证百分比",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "内容验证状态",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "内容验证内容编号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "子模型编号",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE 红 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE 蓝 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE 绿 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "主 LE 棱镜",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "红 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "绿 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "蓝 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "棱镜",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "进气口",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "积分器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "排气口",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "卡笼",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "内部",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "前 LE 红 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "前 LE 蓝 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "前 LE 绿 DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "前 LE 棱镜",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "扩散器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "光纤",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "镇流器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 4",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 5",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 6",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 7",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM 核心 8",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "输入 FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ILS",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板 FPGA1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板 FPGA2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板 FPGA3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板独立部件 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板独立部件 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 板独立部件 3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "SM 板",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD 冷却剂流良好",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "室内环境温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "环境",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "红色格式器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "绿色格式器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "蓝色格式器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "影像处理器定标器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD 水封",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "液体冷却歧管",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "冷却装置设定值温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "冷却装置水温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "冷却装置环境温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "环境露点",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "LOS1 露点",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "LOS2 露点",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ 最高环境温度",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "VOM FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FICB FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "预调制红色格式器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "预调制绿色格式器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "预调制蓝色格式器",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "预调制 DMD 水封",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "红色散热片",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "绿色散热片",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "蓝色散热片",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB U55",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB Q8",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB Q9",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "没有故障",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "已就绪",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "主系统",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "热补丁已安装",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "SM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "UI",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "OS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "安全硅启动",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "安全硅主系统",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "引擎",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LBM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB（修订模块）",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "主 ILS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 启动",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "主 EVB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB 启动",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HKB FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HKB 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "输入 FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA 版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB FPGA 版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "版本不匹配",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "软件版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "主 PCB 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HUB PCB 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "SCC PCB 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FIMB PCB 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "联锁版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "联锁",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CSense",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CSense 版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FW 版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FW",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR Zynq FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 主 FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR 备用 FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "启用 EDR 秒差距",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "核心软件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "VOM 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "系统版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "提交 ID",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "主 LampLOC™",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 启动",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "BIOS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FICB 硬件",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 软件版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色（修订模块）",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色（修订模块）",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色（修订模块）",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "预调制 CFB 红色（修订模块）",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "预调制 CFB 绿色（修订模块）",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "预调制 CFB 蓝色（修订模块）",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "光源软件版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "升级中...",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB-S4 软件版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB-S4 板版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB-S4 FPGA 版本",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "视频",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色镜头和通道错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色镜头和通道错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色镜头和通道错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色镜头和通道错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色镜头和通道错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色镜头和通道错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB DMD 类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "固有阵列宽度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "固有阵列高度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 红色卫星类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 红色卫星在线",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 红色卫星链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 绿色卫星类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 绿色卫星在线",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 绿色卫星链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 蓝色卫星类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 蓝色卫星在线",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 蓝色卫星链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SFB 卫星匹配错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "自定义 SFB 位序列",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "自定义 SFB DMD 文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "自定义 SFB 影像文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 状态",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色状态",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色状态",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色状态",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色 TI 块状态",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色 TI 块状态",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色 TI 块状态",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色软链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色软链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色软链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色软链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色软链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色软链接错误",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 蓝色卫星类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 红色卫星类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB 绿色卫星类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "通道现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "伽马现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "降伽马现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "MCGD 现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "MCGD（左）现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "MCGD（右）现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "TCGD 现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "3D 现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "现用源文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "现用屏幕文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "EDID 现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "现用灯泡文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CLUT 现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "现用色彩空间文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "3D 同步输入模式",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CSC 现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "PQ 降伽马模式",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "检测到的输入视频像素宽度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "检测到的输入视频线路",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "检测到的输入视频帧率",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "输入视频源",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频子影像 X",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频子影像 Y",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频子影像宽度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频子影像高度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输出 X 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输出 Y 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输出 X 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输出 Y 位置",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输出宽度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输出高度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输入",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频数据格式",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频扫描类型",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输入垂直频率",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "3D 视频模式",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA 输入影像",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA 影像",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "现用亮度文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "现用均一化文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "现用光源文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "3D 亮度",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Christie Pureformity Color™ 校准文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "激光校准现用文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "FMAIN 与 HUB Aurora 已连接（如出错，请重启）",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 与 FMAIN Aurora 已连接（如出错，请重启）",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDR Aurora 已连接（如出错，请重启）",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 与 HUB Aurora 已连接（如出错，请重启）",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HUB 与 FMAIN Aurora 已连接（如出错，请重启）",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "扭曲文件",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI 端口 A 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI 端口 B 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "VOM 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "显示端口 1 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "显示端口 2 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 1 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 2 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 3 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "SDI 4 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "2D 模式",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "视频输出频率",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI 端口 1 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDMI 端口 2 信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB 视频信号",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+}
+]

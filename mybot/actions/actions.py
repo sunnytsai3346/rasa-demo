@@ -41,7 +41,6 @@ INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
 # actions/action_parse_pdf.py
 
 from fuzzywuzzy import fuzz
-# print(fuzz.partial_ratio("3d", "3D Sync"))
 from rapidfuzz.fuzz import partial_ratio
 
 import fitz  # PyMuPDF
@@ -69,15 +68,16 @@ class ActionParsingUserGuide(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
         # Example: assuming the PDF is already uploaded and accessible
-        doc  = "files/sample.pdf"  # Todo : or a path from tracker slot
+        doc  = "usermanual/020-103845-03-christie-lit-man-usr-cinelifeplus2.pdf"  # Todo : or a path from tracker slot
         
         try:
             full_text = self.extract_text_from_pdf(doc)
+            user_input = tracker.latest_message.get("text", "").lower()
             
             #full_text = " ".join(page.get_text() for page in doc)
             # Use spaCy for NLP parsing
             parsed = en_spacy(full_text)
-            sentences = [sent.text for sent in parsed.sents if "install" in sent.text.lower()]
+            sentences = [sent.text for sent in parsed.sents if user_input  in sent.text.lower()]            
             response = "\n".join(sentences[:5]) if sentences else "No relevant info found in the PDF."
             dispatcher.utter_message(text=response)
             # Sample: Basic parsing — you can add NLP/keyword extraction here
@@ -99,14 +99,22 @@ class ActionSearchKeyword(Action):
         lang_map = {
             "en": "EN.json",
             "de": "DE.json",
-            "ja": "JP.json",
-            "ko": "KO.json"
+            "ja": "JA.json",
+            "ko": "KO.json",
+            "es": "ES.json",
+            "fr": "FR.json",
+            "it": "IT.json",
+            "pl": "PL.json",
+            "pt": "PT.json",
+            "ru": "RU.json",
+            "zh": "ZH.json"
         }
 
         # default to English if language unsupported
         file_name = lang_map.get(lang_code, "EN.json")        
         #keywords subfolder
         file_path = os.path.join(os.path.dirname(__file__), "keywords", file_name)
+        print(file_path)
 
         try:
             with open(file_path, "r", encoding="utf-8") as f:
@@ -120,6 +128,7 @@ class ActionSearchKeyword(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
         user_input = tracker.latest_message.get("text", "").lower()
+        print(user_input)
         lang_code = detect(user_input)
         keywords_data = self.load_keywords(lang_code)
         base_url = "http://192.168.230.169/"
@@ -128,7 +137,7 @@ class ActionSearchKeyword(Action):
         matches = []
 
         for item in keywords_data:     
-            print(item)
+            #print(item)
             name = item["name"]
             url = item["url"]
             level = item.get("userLevel", 0)

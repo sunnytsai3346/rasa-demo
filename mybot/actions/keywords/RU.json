@@ -1,0 +1,7306 @@
+[{
+    "name": "О продукте",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Christie Digital Systems Inc., %1. Все права сохранены за правообладателем.",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Модель",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Подтип модели",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер проекта",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Установленный объектив",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Установленная лампа",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Версия основной системы",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Просмотреть все версии",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Лицензионные соглашения",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Настройка аудио",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Автоматический режим",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Глобальные настройки",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Скорость выходящего потока, аудио",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Общая задержка аудио (мс)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Конфигурация Dolby Atmos",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Активировать Dolby Atmos",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Контрольный IP-адрес",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Ввести IP-адрес",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Проверить подключение",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Сопоставление каналов",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Формат канала",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Носитель, аудиоканал",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Сопоставить с",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Новое устройство",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Устройство",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "IP-адрес",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Пароль",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Имя пользователя",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Порт",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Мои аудиторные устройства",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Сообщение о поддержке в активном состоянии (мс)",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Интервал поддержки в активном состоянии (мс)",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Резервировать и восстановить",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Новый резерв",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Импортировать резерв",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Восстановление заводских настроек",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка каналов",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Создать новый канал",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "активно",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Тип ввода",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл источника",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл экрана",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл ILS",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл источника света 2D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл источника света 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл TCGD",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл 2D MCGD",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл 3D MCGD для правого глаза",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл калибровки «сенсор-экран» 2D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл калибровки «сенсор-экран» 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Формат данных",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Режим синхронизации входного сигнала 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Выбор файла 2D/3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Рабочий режим расширенного динамического диапазона",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Светимость 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Режим квадратных секторов",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Цветовое пространство",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Гамма-файл",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл подстановочной таблицы цветов",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "HDMI EDID",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл DisplayPort EDID",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файлы коррекции %1",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл светимости",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл корректировки геометрии",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Развертка",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Цвет",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Освещение",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Изображение",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Все",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Создать новый файл",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Выбранный канал",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Файл коррекции Christie Pureformity Color™",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Разъяснения к тестовой таблице",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Измеренные значения",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Обзор презентации",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Светимость",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка файлов цветового пространства",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "Файл цветового пространства",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "Импорт файла цветового пространства",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "Отладка настроек",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Зафиксировать изображение",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Пустое изображение",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Обойти режим HDR",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Активаторы входа устройств",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Источник",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Активирующее событие",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Выполнить макрос",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Универсальные активаторы",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Новый универсальный активатор",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Источник",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Возобновить событие воспроизведения",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Активаторы списка воспроизведения",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Новый активатор списка воспроизведения",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Библиотеки устройств",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Имя устройства",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Тип",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Просмотреть библиотеку",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Импортировать библиотеку устройств",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла EDID",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "Файл EDID",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка файла Gamma",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "Гамма-файл",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "Импорт файла Gamma",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "Конфигурация H4D3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Частота (Гц)",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Тестовые таблицы",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Выкл.",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Муар, по горизонтали",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Муар, по вертикали",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Интерференция",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Положение объектива",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Фокус",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Масштаб",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Сбросить параметры объектива",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Автокалибровка",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "ECC",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла ILS",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "По вертикали",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "По горизонтали",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "LampLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Автокорректировка",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Яркость",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Положение лампы",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Вывод белой тестовой таблицы",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Текущий",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Макс",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Диспетчер лампы",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Последняя активация",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Тип",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Наработка в часах",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Попыток запуска",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Причина замены",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Активировать",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Новая лампа",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Мощность лампы/LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Мощность лампы",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Мин",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Макс",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "А",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "В",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Вт",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Время работы лампы (часы)",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Перегрузка лампы",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Текущая мощность лампы",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Измеритель интенсивности",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Целевое значение",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Диагностика лазера",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Модель",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Версия",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Состояние питания",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Температура",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Последовательный",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS1",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS2",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Источник света",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Яркость, установленная пользователем",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Яркость, отрегулированная системой",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Вывод белой тестовой таблицы",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Окружающая температура",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Влажность",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "3D-синхронизация",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка мощности лазера/LiteLOC™",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Уставка охладителя",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Максимальная ожидаемая комнатная температура",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Контроль температуры",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Яркость, установленная пользователем",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Яркость, отрегулированная системой",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Вывод белой тестовой таблицы",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Окружающая температура",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "3D-синхронизация",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Источник питания источника света",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Контроль температуры",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Запустить систему опроса",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Выполнить опрос",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Журналы поиска",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Системные журналы/система опроса",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Дата",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Уровень сложности",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Тип",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Сообщение",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Усиленный режим",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Редактор макросов",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Создать новый макрос",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Тест",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Выбранный макрос",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Перенести в",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Добавить новый пункт действия",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Чтобы добавить пункт действия макроса, нажмите значок +",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Управление лазером вручную",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "ВНИМАНИЕ: Все настройки являются временными и не сохраняются.",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Вывод белой тестовой таблицы",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Мин",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Макс",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Текущий",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Уставка охладителя",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Максимальная ожидаемая комнатная температура",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Красный",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Зеленый",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Синий",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Фосфорная система",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Ручное управление источником света",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "ВНИМАНИЕ: Все настройки являются временными и не сохраняются.",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Вывод белой тестовой таблицы",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Мин",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Макс",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Текущий",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Красный",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Зеленый",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Синий",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка стыковки",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Пуск",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Контрольный список стыковки",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Подготовка",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Следуйте инструкциям мастера, проходя по этапам процедуры стыковки с IMB, чтобы обеспечить возможность воспроизведения защищенного содержимого.",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Операция предполагает подтверждение вами отсутствия попыток вмешательства в конструкцию данного устройства. а также его регистрации в соответствии с требованиями системы безопасности.",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Диспетчер безопасности, в норме",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Эксплуатационная дверца, заперта",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Кольцо стыковки, заперто",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Стыковка уже активна",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Сетевые настройки",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Порт",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Настройки",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Автоматический режим",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Ручной режим",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "IP-адрес: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Маска подсети: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Шлюз: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Первичный DNS: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Вторичный DNS: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Адрес MAC: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Параметры Ethernet",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Настройки SNMP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Пиковая светимость 2D",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Пиковая светимость 3D",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Активный канал:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Активный файл гамма",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Таблица светимости 2D 108-кд/м²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Пиковая светимость 2D (кд/м²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Типовой диапазон для двух проекторов: 108,0 - 130,0 кд/м²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Типовой диапазон для одного проектора: 48 - 65 кд/м²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Таблица светимости 3D 48-кд/м2",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Пиковая светимость 3D (кд/м²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Типовой размер: 48,0 - 65,0 кд/м² ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Блок захвата пикселей",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BPIXL",
+    "userLevel": "60"
+},
+{
+    "name": "Предпочтения",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "По Цельсию",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "По Фаренгейту",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Планировщик",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Начать неделю планировщика с",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "12 часов",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "24 часа",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Активаторы предупреждающих сигналов",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Отобразить аварийные сигналы",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Отказ вентилятора",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Критические температурные уровни",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Дополнительные журналы интерфейса пользователя",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Отсутствуют серийные номера",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Автоматическое событие",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "Активировать автоматический режим",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "Необходима проверка серийного номера",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "Общие параметры",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Проектор",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Имя хоста проектора",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Ориентация проектируемого изображения",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Обычный режим, спереди",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Инвертированный режим, спереди",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Обычный режим, сзади",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Инвертированный режим, сзади",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Система",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Формат времени",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Единицы измерения температуры",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "По Цельсию",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "По Фаренгейту",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Планировщик",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Начать неделю планировщика с",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Время ожидания сеанса",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "HDR",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Режим эмуляции DCI",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Контраст",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Светимость 3D (кд/м²)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Режим эмуляции видео",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - МАКС (кд/м²)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - МИН (кд/м²)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - МАКС (кд/м²)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - МИН (кд/м²)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "Тип IMB (необходима перезагрузка)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "IMB вкл. в режиме ожидания",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "Объектив/ILS",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Данные объектива",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Тип объектива",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Последовательный",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Система ILS",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "ILS установлено",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Сброс ILS при запуске",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Затвор",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Разрешить активацию источника света при нефункционирующем затворе",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Режим обслуживания",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "КРАСНЫЙ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "ЗЕЛЕНЫЙ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "СИНИЙ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "Максимальный уровень возбуждения",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "Тестовые таблицы",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "После смены канала обеспечьте пребывание настроечных таблиц в активированном состоянии",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла RealD 3D EQ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Конфигурация 3D",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Задержка блока перемещения 3D (мс)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Задержка блока перемещения 3D",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Перезапустить проектор",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "Перезапуск",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "Предупреждение: Действие приведет к резкому прекращению воспроизведения и возможному возникновению проблем у других пользователей.",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "Настройка удаленного поглощения",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Устройство",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "IP-адрес",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Пароль",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Имя пользователя",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Порт",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Проверить подключение",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Режим аренды",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Утверждение",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Информация продавца",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Дата утверждения",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Адрес",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Номер телефона",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Электронная почта",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Импортировать файл утверждения",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Импортировать файл отмены",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Планировщик",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Сегодня",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Планировщик включен",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Планировщик выключен",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Коснитесь, чтобы запланировать новое событие",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Калибровка «сенсор-экран»",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Выполнить повторную калибровку",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Контроль калибровки",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Калибровка",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Корректировка времени, IMB SM",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME/imbadjust",
+    "userLevel": "40"
+},
+{
+    "name": "Настройки SNMP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP, версия 2",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP, версия 3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "IP-адрес ловушки 1",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "IP-адрес ловушки 2",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "IP-адрес ловушки 3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Выгрузить MIB",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Заблокированные ловушки SNMP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Выбрать все/ничего",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Вентиляторы",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Блокировки",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Общее функциональное состояние Photon",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Безопасность",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Хранение",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Общий системный аварийный сигнал",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Системный обмен данными",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Температура",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Автоматическое событие",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Источник света",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Охладитель",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла источника",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Разрешение носителя источника",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Положение",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Ширина (X)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Высота (Y)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "По горизонтали",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "По вертикали",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Соотношение сторон экрана 1.85",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Соотношение сторон экрана 2.39",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Пользовательское соотношение сторон экрана",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка устройства хранения",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Устройство",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "IP-адрес",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Общий доступ к папке",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Пароль",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Имя пользователя",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Проверить подключение",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Обновление системы",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Обновить файл",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Поддерживается",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Версия основной системы: %1",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла TCGD",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Проверка фрагментов",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Целевые параметры цвета",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Автоматическое отображение проверяемых фрагментов",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Использовать белый фрагмент",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Погрешность белого",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Начните с выбора неоткорректированного цвета",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Красный",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Зеленый",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Синий",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Бирюзовый",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Пурпурный",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Желтый",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Белый",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Ограничитель уровня белого",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Усиление",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Зона экрана",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла 3D",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Общие параметры",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Настройки частоты кадров",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Время затемнения",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Задержка вывода",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Задержка фазы",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Задержка 3D",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Коэффициент",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Инвертировать полярность сигнала синхронизации 3D",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "кадров в секунду (на каждый глаз)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка времени",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Адрес сервера NTP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Новый сервер NTP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Настройка часового пояса",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Синхронизировать с IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Синхронизация в сервером NTP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Ручная настройка",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Дата и время",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Минуты",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Часы",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "до полудня",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "после полудня",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Дата IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Время IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Текущая дата UTC:",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Текущее время UTC:",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Настройки времени проектора",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Пользователи",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "Полномочия",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "Установка файла корректировки геометрии",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Файл корректировки геометрии",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Активировать файл",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Активировать",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Ключи",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Отобразить",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Идентификатор ключа",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Действительно с",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Срок действия истекает",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Import KDM",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Диспетчер содержимого",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "Локальное содержимое",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "Поглощаемое содержимое",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Отобразить",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Тип",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Размер",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Продолжительность",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Динамика",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Отобразить",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Тип",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Состояние",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Название",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Отобразить",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Тип",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Продолжительность",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Редактор списка воспроизведения",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Перенести в",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Общее время: %L1",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Автоматическое событие",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Локальное содержимое",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Отобразить:",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Красный:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Зеленый:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Синий:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Белый:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Черный:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла MCGD",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Неоткорректированные цвета",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Значения подбора цвета по образцу",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "3D-синхронизация",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Установка файла экрана",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Коэффициент анаморфной насадки",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "С полосами сверху и снизу",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Регулировка экрана",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Маска",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Трапецеидальное искажение",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Максимальные уровни мощности лазера без коррекции (по ползункам RGB)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Красный",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Зеленый",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Синий",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Показатель мощности в процентах (рассчитанный)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Значения датчика цвета (сгенерированы автоматически)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Измеренные значения",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Выполнить повторную калибровку",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Контроль калибровки",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Автоматическое событие",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Авторежим активирован",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Функциональное состояние системы",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Функциональное состояние устройств",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Функциональное состояние макроса",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Автоматические устройства онлайн",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Последний макрос выполнен",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Проблемы проверки макроса",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Последний перед клипом макрос выполнен",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, рабочий режим",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, ручной режим",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, подключено",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, тип платы",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, версия платы",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, состояние платы",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, состояние калибровки",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, ход выполнения калибровки",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, серийный номер платы",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, уникальный идентификатор планы",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, загруженный раздел FW",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, время системы",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, метка времени FPGA",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, видеоформат",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, высота видео",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, ширина видео",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, частота видеокадров",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, задержка синхронизации аудио-видео",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, режим видео",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Режим EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Максимальная интенсивность субтитров, EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Время установки обновления EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Режим магистрали",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Пиковая светимость 2D",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Пиковая светимость 3D",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Режим 3D EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Сообщение о калибровке EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Вентиляторы",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор анода лампы",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор катода лампы",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Оптический модуль, нижняя часть",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Оптический модуль, верхняя часть",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Главный вход 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Главный вход 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Главный вход 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Главный вход 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Кассета плат 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Кассета плат 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Кассета плат 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Кассета плат 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Впуск кассеты плат 101",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Выпуск кассеты плат 103",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LAD",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Радиатор",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Секция вентиляторов, кассета плат, сверху слева",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Секция вентиляторов, кассета плат, снизу слева",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Секция вентиляторов, кассета плат, сверху справа",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Секция вентиляторов, кассета плат, снизу справа",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Выпуск LVPS",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Насос 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Насос 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Выпуск GaN",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор концентратора 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор концентратора 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор концентратора 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вентилятор концентратора 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования 3 - синий цвет",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования 4 - зеленый цвет",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования 5 - красный цвет",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 37",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 38",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 39",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 40",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 41",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 42",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 43",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа LE 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа LE 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа 28",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа 29",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа 30",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход LE 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход LE 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход LE 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход LE 28",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход LE 29",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход LE 30",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Фиксированная версия",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Стандарт",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Эффект",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Тихий режим",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Неизвестно",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа LE 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа LE 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа LE 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Чистка входа LE 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Воздуходувка CAVE 102",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Выпуск кассеты плат 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Выпуск кассеты плат 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Режим профиля оборотов вентилятора",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Профиль оборотов вентилятора",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Колесо LaPh",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход GaN A 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Выход GaN A 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Вход GaN В 46",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Выход GaN В 47",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Верхний LE 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Нижний LE 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Синий вентилятор LOS 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Теплопровод LOS 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Теплопровод LOS 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Нижний LE 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Верхний воздуходувка LE 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Призменная воздуходувка 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Лампа",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Освещение",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировки",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Тип балласта",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "ВЫКЛ.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Выкл.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Строка состояния лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Мощность лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Мощность лампы, проценты",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ток лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение на лампе",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Лампа вкл.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Лампа вкл.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка лампы, вентилятор",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка лампы, температура",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка лампы, температура",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка лампы, блокировка 1",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировка лазера, ошибка",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света, срабатывание блокировки",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировка 2",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировка 3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировка 4",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света, причина срабатывания блокировки",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Удаленная стойка, пожарный сигнал",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Локальная пожарная сигнализация",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Неожиданное отключение питания из-за активации пожарной сигнализации",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Срабатывание блока лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "нет",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Нет",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Установленная лампа",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Часы работы, используемая лампа",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Попытка запуска лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Неудачные попытки запуска лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Неудачные попытки повторных запусков",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Неудачные попытки повторных запусков",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Случаи неожиданного отключения лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Длина кабеля балласта",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик интенсивности светового излучения",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Используемая лампа, мин.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Используемая лампа, макс.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ X",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Y",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Z",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Балласт онлайн",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Половина срока службы лампы истекла",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние истечения срока службы лампы",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Используемая лампа, мин. %",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Используемая лампа, макс. %",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ - целевой уровень достижим",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ активно",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™, выполнение",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™, поддержка",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™, конфигурация программного обеспечения",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™, разрешено",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™, целевой уровень",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Неожиданное отключение источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света отключен причине перегрева DMD",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Подключен лазер стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Активный профиль лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Общее функциональное состояние лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Цветовой баланс лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Производитель лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Модель лазер стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Дата сборки лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Срабатывание блока лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Версия лазера стороннего производителя",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Калибровка датчика цвета",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Калибровка датчика цвета V3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Автономный режим",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Слишком высокая влажность. Уставки охлаждающей жидкости и/или TEC отрегулированы для предотвращения образования конденсата.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Связь с источником света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние питания источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Общее исправное состояние источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние блокировки источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Цветовой баланс источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние установки охлаждения источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Рабочее состояние источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Режим управления источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Точки калибровки источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Имеющийся цветовой сенсор источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Название модели источника света",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Лазер",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировка LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Шина LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Среда LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Вентиляторы LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Охладитель LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Красный блок LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Зеленый блок LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Синий блок LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Файловая система LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Мощность LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM подключено",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Общее количество лазерных модулей",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Общая мощность LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, потеря функциональности",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл CFG LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета, обратное считывание - красный",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета, обратное считывание - зеленый",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета, обратное считывание - синий",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета, обратное считывание - усиление",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Блок датчика цвета, значение - красный",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Блок датчика цвета, значение - зеленый",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Блок датчика цвета, значение - синий",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Блок датчика цвета, значение - усиление",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Привод LBM, интенсивность - красный",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Привод LBM, интенсивность - зеленый",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Привод LBM, интенсивность - синий",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Отправка, датчик цвета с форсированным усилением",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, баланс белого, блок",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Светоотдача лазера, стабильная",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, предупреждение с пониженным статусом",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM, предупреждение по состоянию питания",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM, предупреждение по типу",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Красный блок LBM, функциональное состояние",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM, предупреждение по подключению",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета, обратное считывание - REF",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Space Taker",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM, таблица SNMP, готова",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Предупреждения LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Аварийные сигналы LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Изменение функционального состояния LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Изменение состояния питания LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Список ошибок состояния питания LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM с пониженным статусом",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, данные устройства",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, реестр обновлен",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, реестр обновлен",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Метки WBC",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, функциональное состояние, реестр",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM, функциональное состояние, реестр",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл WBC LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Целевая интенсивность привода LBM, красный",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Целевая интенсивность привода LBM, зеленый",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Целевая интенсивность привода LBM, синий",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Подключение LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Тип LM не поддерживается",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Несоответствие загрузочной версии LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Несоответствие основной версии LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM в режиме загрузки",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Относительная влажность окружающей среды",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние охладителя",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Нештатный статус охладителя",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Расход охладителя (л/мин)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Давление охладителя (фунтов на кв. дюйм)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Точка росы системы",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Название охладителя",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света отключен по причине перегрева компонента",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света отключен по причине ошибки потока охлаждающей жидкости",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света отключен по причине отсутствия вращения диффузора",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Производитель установки охлаждения",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние источника света LiteLOC",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Режим обслуживания активирован",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Границы возбуждения LOS1",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Границы возбуждения LOS2",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Объектив",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS в сетевом режиме",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Двигатель ILS, X",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Двигатель ILS, Y",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Двигатель ILS, Z",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Двигатель ILS, F",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Подход ILS, X",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Подход ILS, Y",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "подход ILS, Z",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Подход ILS, F",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Калибровка ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Сброс ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Температура ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик X ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик Y ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик Z ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик F ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Авто ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Тип объектива",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер объектива",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Общий масштаб",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Без масштаба",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Общий тип, с постоянным фокусным расстоянием",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Деактивированные ILS двигатели контроля зоны безопасности",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Калибровка ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Reset (Сброс MALM)",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Вертикаль и Горизонталь и Фокус",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Горизонталь и Вертикаль и Фокус",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Горизонталь & Вертикаль & Фокус & Масштаб",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Вертикаль & Горизонталь",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Сеть",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Входной IP-адрес, Atmos",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Контрольный IP-адрес, Atmos",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos активировано",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos онлайн",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP-адрес, управление",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Маска сети, управление",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP, управление",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC, управление",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Конфликт IP-адреса, управление",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP-адрес, NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Маска сети, NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP, NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC, NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Конфликт IP-адреса, NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Подсеть NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP-адрес, носитель",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Маска сети, носитель",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP, носитель",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC, носитель",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Конфликт IP-адреса, носитель",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Подсеть, носитель",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP-адрес, лазер",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Маска сети, лазер",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP, лазер",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC, лазер",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Конфликт IP-адреса, лазер",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Подсеть, лазер",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Сервер DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC, чтение с HKBE",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Административный шлюз",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние NAS сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Канал NAS сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP-адрес NAS сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Маска сети NAS сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP NAS сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Шлюз NAS сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "МАС-адрес NAS сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние среды сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Канал среды сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP-адрес среды сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Маска сети среды сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP среды сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Шлюз среды сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "МАС-адрес среды сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние вспомогательного аудио сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Канал вспомогательного аудио сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP-адрес вспомогательного аудио сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Маска сети вспомогательного аудио сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP вспомогательного аудио сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Шлюз вспомогательного аудио сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "МАС-адрес вспомогательного аудио сети ИМБ",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Подключена лазерная подсистема",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Основной код лазерной системы - CRC",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние питания лазера",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™, калибровка датчика цвета",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™, калибровка «сенсор-экран»",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™, калибровка «LOS-сенсор»",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Общее функциональное состояние LOS",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета(X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета(Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Датчик цвета(Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Усиление датчика цвета(X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Усиление датчика цвета(Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Усиление датчика цвета(Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Температура ЦП лазерной системы",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Тип платы датчика цвета (CSB)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Температура CSB",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Версия CSB",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Версия UCD",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер CSB",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Калибровка CSB DAC",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Основная версия Photon",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Загрузочная версия Photon",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света отключен по причине перегрева компонента",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света отключен по причине отсутствия вращения диффузора",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Источник света отключен по причине ошибки потока охлаждающей жидкости",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "РПЛ",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Повысьте уровень производительности, выполнив калибровку «Сенсор-экран»",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Недостижимо",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Режим воспроизведения для второстепенного узла",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, проверка готовности второстепенного узла",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, название композиции",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, идентификатор композиции",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, временной код",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Продолжительность воспроизведения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние воспроизведения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Буфер видео, процент заполнения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Буфер аудио, процент заполнения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, циклический режим",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Задержка аудио, мс",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Частота выборки аудио",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Скорость выходящего потока, аудио",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Название позиции списка воспроизведения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Коррекция позиции списка воспроизведения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Режим приостановки активен",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение 3D содержимого",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение 3D по списку воспроизведения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение 3D по списку воспроизведения, идентификатор позиции",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение загруженного содержимого",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение загрузки, этап",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение загрузки, состояние",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, автовосстановление потерь мощности",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Dolby Atmos, сетевой режим",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, недогрузка буфера",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Воспроизведение, ошибка содержимого",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Субтитры активированы",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Субтитры, временной код",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Автовосстановление воспроизведения после потери электроснабжения",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка загрузки содержимого для воспроизведения - содержимое отсутствует",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка загрузки содержимого для воспроизведения - удаленное содержимое отсутствует",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Режим аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Попытка взлома режима аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Зарегистрирована попытка отката показаний счетчика времени проката",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Ограничение мощности в режиме аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Продолжительность свечения в режиме аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Продолжительность для альтернативных входов в режиме аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние в режиме аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Статус выведения из эксплуатации в режиме аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Операция не разрешена текущей лицензией аренды.",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Освещение в режиме аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Альтернативные входы в режиме аренды",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Планировщик",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Планировщик активирован",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Идентификатор следующего отображения планировщика",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Имя следующего отображения планировщика",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Время следующего отображения планировщика",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Безопасность",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Безопасное подключение диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние подключения диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Попытка вскрытия защитного корпуса диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Попытка вскрытия кольца стыковки диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Диспетчер безопасности состыкован",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Эксплуатационная дверца диспетчера безопасности открыта",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Свободное место на диске для диспетчера безопасности заканчивается",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Брешь безопасности диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Гарантия максимальной функциональности диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Батарея диспетчера безопасности разряжена",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Алгоритмы шифрования диспетчера безопасности в норме",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Целостность изображения на уровне диспетчера безопасности в норме",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Уровень заряда батареи диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер блока Intopix диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер блока Civolution диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Статус диспетчера безопасности Atmos",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "ДИСПЕТЧЕР БЕЗОПАСНОСТИ НЕ УСТАНОВЛЕН",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Диспетчер безопасности не установлен",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "КОНТРОЛЬ",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Контроль",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "ВСКРЫТИЕ",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Вскрытие",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "ЗАВОДСКОЙ РЕЖИМ",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Заводской режим",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер блока EPM диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Вмешательство в стыковку диспетчера безопасности на логическом уровне",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Журнал безопасности диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Блок CryptoState диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Обнуление на уровне диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Предупреждение в отношении свободного места в журнале диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка отчета по журналу диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Режим отклонения диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Вмешательство в стыковку диспетчера безопасности на физическом уровне",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Подключение Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Режим Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Эмулятор безопасной стыковки",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Кольцо стыковки",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Сертификат диспетчера безопасности",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Версия аппаратного обеспечения FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Названия модели FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение батареи 1",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение батареи 2",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение батареи 1 норма",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение батареи 2 норма",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение батареи 1 (мВ)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение батареи 2 (мВ)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер платы",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Версия платы",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Производственный режим SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Последовательный",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер HKB",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Главная управляющая плата",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования - красный",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования - зеленый",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования - синий",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Модуль параметров переменных",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Плата преобразования интерфейса устройства форматирования",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Система",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Серийный номер",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Номер модели",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Дата сборки",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Электронный серийный номер",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP активировано",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP активировано",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "DST активировано",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Часовой пояс",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Время UTC, диспетчер безопасности",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Время UTC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Местное время",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Коррекция местного времени",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Общий объем памяти",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Доступная память",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Средняя загрузка ЦП",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Общее дисковое пространство в корневом каталоге",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Доступное дисковое пространство в корневом каталоге",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Основной привод, интерактивный режим",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Основной привод, общее дисковое пространство",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Основной привод, доступное дисковое пространство",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Основной привод, используемое дисковое пространство",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Обнаружено изменение содержимого",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Конфигурация хранения активна",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Количество приводов для содержимого",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Количество приводов для поглощения",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Количество настроенных устройств NAS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Количество настроенных устройств DAS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Результаты последнего обновления",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "EVB, сетевой режим",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSense, сетевой режим",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSB, сетевой режим",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Компоненты запуска готовы",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Проектор в функциональном состоянии",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Файл 3D RealD",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Файл корректировки Dolby Color",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл UC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Dolby активировано",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Real3D EQ активировано",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Часы работы системы",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Свет вкл., часы",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Свет вкл., сек",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Свет вкл., ошибка",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние питания",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Затвор открыт",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Затвор закрыт",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка датчика затвора",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировка, сетевой режим",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Выбранный тип IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Второстепенный блок в системе с несколькими проекторами, вне сети",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Список второстепенных блоков в системе с несколькими проекторами, вне сети",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "RealD 3D EQ активирован",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "HKB, сетевой режим",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Напряжение LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Ток LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Сверхток LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Перенапряжение LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Избыточная температура LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Сбой вентилятора LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Высокая температура LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Низкий переменный ток LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Сбой устройства LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Очень низкий переменный ток LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, напряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, сверхток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, перенапряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, избыточная температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, сбой вентилятора",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, высокая температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, сбой устройства",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, очень низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A1, сбой соединения",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Температура LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, напряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, сверхток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, перенапряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, избыточная температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, сбой вентилятора",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, высокая температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, сбой устройства",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, очень низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS A2, сбой соединения",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Температура LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, напряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, сверхток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, перенапряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, избыточная температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, сбой вентилятора",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, высокая температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, сбой устройства",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, очень низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B1, сбой соединения",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Температура LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, напряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, сверхток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, перенапряжение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, избыточная температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, сбой вентилятора",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, высокая температура",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, сбой устройства",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, очень низкий переменный ток",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LVPS B2, сбой соединения",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Температура LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CAVE",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние VOM",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Videopath, онлайн соединение",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Подтип модели",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Функциональное состояние SID",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ онлайн",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибка инициализации электроники",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Онлайн медиапроигрыватель IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Часы вкл. лазера LOS 1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Часы ожидания лазера LOS 1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Часы вкл. лазера LOS 2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Часы ожидания лазера LOS 2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Обнаружен неполный или поврежденный контент",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Онлайн",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Время пребывания системы в работоспособном состоянии",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние питания лазера",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Очистить",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Тип встроенного хранилища ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Общее состояние RAID ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние диска 1 RAID ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние диска 2 RAID ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние диска 3 RAID ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Запланированная самопроверка диспетчера безопасности ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Свободное дисковое пространство раздела для данных ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Общее дисковое пространство раздела для данных ИМБ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Присутствующий аудиоканал ALT",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Количество аудиоканалов ALT",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Частота выборки аудио ALT, Гц",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Номер размещения FM",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Проверка содержимого, процент выполнения",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Проверка содержимого, состояние",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Проверка содержимого, идентификатор содержимого",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Номер подмодели",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Температура",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Основной оптический модуль, красная панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Основной оптический модуль, синяя панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Основной оптический модуль, зеленая панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Основной оптический модуль, призма",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Красная панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Зеленая панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Синяя панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Призма",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Воздухозаборник",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Интегратор",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Выпуск воздуха",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Кассета плат",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Внутри",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Пред. оптический модуль, красная панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Пред. оптический модуль, синяя панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Пред. оптический модуль, зеленая панель DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Пред. оптический модуль, призма",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Рассеиватель",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Волокно",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Балласт",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 4",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 5",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 6",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 7",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM, стержень 8",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Вход FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ILS",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Температура ILS",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Плата EDR, FPGA1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Плата EDR, FPGA2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Плата EDR, FPGA3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Плата EDR, дискретный узел 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Плата EDR, дискретный узел 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Плата EDR, дискретный узел 3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Плата диспетчера безопасности",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD, поток охлаждающей жидкости в норме",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Окружающая температура в помещении",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Окружающие условия",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования - красный цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования - зеленый цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования - синий цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Блок масштабирования устройства обработки изображений",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Водный блок DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Коллектор системы жидкостного охлаждения",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Температура уставки охладителя",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Температура воды охладителя",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Температура окружающей среды охладителя",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Точка росы окружающей среды",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Точка росы LOS1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Точка росы LOS2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Максимальная окружающая температура LiteLOC™",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "VOM FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FICB FPGA",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования в режиме предмодуляции - красный цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования в режиме предмодуляции - зеленый цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Устройство форматирования в режиме предмодуляции - синий цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Предмод. режим DMD водного блока",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Радиатор, красный цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Радиатор, зеленый цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Радиатор, синий цвет",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB U55",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB Q8",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB Q9",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ОТСУТСТВИЕ НЕИСПРАВНОСТЕЙ",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "Готово",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "Версии",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Основная система",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Установлены средства оперативной коррекции",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ДП",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ПИ",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ОС",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Secure Silicon, загрузка",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Secure Silicon, основные параметры",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Двигатель",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LBM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB (изм. реж.)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS, основные параметры",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS, загрузка",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS, аппаратное обеспечение",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB, основные параметры",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB, загрузка",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB, аппаратное обеспечение",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HKB FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "HKB, аппаратное обеспечение",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Вход FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия CFB FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Несоответствие версий",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия ПО",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Основная плата, аппаратное обеспечение",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Плата HUB, аппаратное обеспечение",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Оборудование SCC PCB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Плата FIMB, аппаратное обеспечение",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия Interlock",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Блокировка",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CSense",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия CSense",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия EDR FW",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FW",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Расширенный динамический диапазон",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR Zynq FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, основной массив FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR, вторичный массив FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Активация EDR Parsec",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Базовое ПО",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Оборудование VOM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Оборудование CAVE",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия системы",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Идентификатор задачи",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™, основные параметры",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™, загрузка",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™, аппаратное обеспечение",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "BIOS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Оборудование FICB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия программного обеспечения IMB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB красный (режим ред.)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB зеленый (режим ред.)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB синий (режим ред.)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Предмод. CFB красный (режим ред.)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Предмод. CFB зеленый (режим ред.)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Предмод. CFB синий (режим ред.)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия программного обеспечения источника света",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Обновление...",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия программного обеспечения IMB-S4",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия платы IMB-S4",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Версия FPGA IMB-S4",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB, ошибка красных дорожек и канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB, ошибка зеленых дорожек и канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB, ошибка синих дорожек и канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB, ошибка красных дорожек и канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB, ошибка зеленых дорожек и канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "CFB, ошибка синих дорожек и канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Тип DMD SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ширина штатного массива",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Высота штатного массива",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB красный, тип",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB красный, сетевой режим",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB красный, ошибка канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB зеленый, тип",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB зеленый, сетевой режим",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB зеленый, ошибка канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB синий, тип",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB синий, сетевой режим",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB синий, ошибка канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит SFB, ошибка несоответствия",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Пользовательский SFB, последовательность битов",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Пользовательский SFB, файл DMD",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Пользовательский SFB, файл изображения",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CFB синий",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CFB красный",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CFB зеленый",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CFB синий TI Block",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CFB красный TI Block",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Состояние CFB зеленый TI Block",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки канала CFB красный",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки канала CFB зеленый",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки канала CFB синий",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки гибкого канала, CFB синий",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки гибкого канала, CFB красный",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки гибкого канала, CFB зеленый",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки жесткого канала, CFB синий",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки жесткого канала, CFB красный",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ошибки жесткого канала, CFB зеленый",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит CFB синий, тип",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит CFB красный, тип",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сателлит CFB зеленый, тип",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Файл активного канала",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл гамма",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл, прекр. гамма",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл MCGD",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл, MCGD слева",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл, MCGD справа",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл TCGD",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл 3D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл источника",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл экрана",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл EDID",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл лампы",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл таблицы цветов",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл цветового пространства",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Режим синхронизации входного сигнала 3D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл CSC",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Режим прекращения гамма PQ",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Регистрируемая входная ширина пикселей видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Регистрируемые входные строки видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Регистрируемое входное значение частоты кадров видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Входной источник видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Вторичное изображение видео X",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Вторичное изображение видео Y",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Ширина вторичного изображения видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Высота вторичного изображения видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Выход видео, положение X",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Выход видео, положение Y",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Выход видео, пол. X",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Выход видео, пол. Y",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Выход видео ширина",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Выход видео, высота",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Вход видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Формат данных видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Тип сканирования видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Вход видео, частота по вертикали",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Режим 3D видео",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Вход FPGA, изображение",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "VPU FPGA, изображение",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл параметров светимости",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл параметров однородности",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Активный файл источника света",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Светимость 3D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Файл коррекции Christie Pureformity Color™",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Файл активной калибровки лазера",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "FMAIN - HUB Aurora подключено (выключить-включить питание, если неверно)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB - FMAIN Aurora подключено (выключить-включить питание, если неверно)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDR Aurora подключено (выключить-включить питание, если неверно)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB - HUB Aurora подключено (выключить-включить питание, если неверно)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HUB - FMAIN Aurora подключено (выключить-включить питание, если неверно)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Файл корректировки геометрии",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал порта A HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал порта B HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал VOM",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал порта дисплея 1",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал порта дисплея 2",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал SDI 1",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал SDI 2",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал SDI 3",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал SDI 4",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Режим 2D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Выход видео, частота",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал порта 1 HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Сигнал порта 2 HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Видеосигнал IMB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+}
+]

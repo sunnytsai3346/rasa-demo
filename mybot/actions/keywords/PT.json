@@ -1,0 +1,7306 @@
+[{
+    "name": "Sobre",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Copyright %1 Christie Digital Systems Inc.",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Modelo",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Subtipo do modelo",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Serial do projetor",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Lente instalada",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Lâmpada instalada",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do sistema principal",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Visualizar todas as versões",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Acordos de Licença",
+    "url": "/#/menu/MMM%2BABOT",
+    "userLevel": "20"
+},
+{
+    "name": "Configuração de áudio",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Automático",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações globais",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Taxa de saída de áudio",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Delay de áudio global (ms)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BAUDI",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração do Dolby Atmos",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Ativar Dolby Atmos",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "IP de controle",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "IP de entrada",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Testar conexão",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/atmos",
+    "userLevel": "40"
+},
+{
+    "name": "Mapeamento de canal",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Formato do canal",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Canal de áudio da mídia",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Mapear para",
+    "url": "#/menu/MMM%2BSERV/MMM%2BAUDI/channelmapping",
+    "userLevel": "40"
+},
+{
+    "name": "Novo dispositivo",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Dispositivo",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Endereço IP",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Senha",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Nome de usuário",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Porta",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Dispositivos de meu auditório",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Mensagem de manter vivo",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Intervalo de manter vivo (ms)",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BAUDD",
+    "userLevel": "40"
+},
+{
+    "name": "Backup e Restauração",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Novo backup",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Importar backup",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Restauração de fábrica",
+    "url": "#/menu/MMM%2BSERV/MMM%2BBKRS",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de canal",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Criar novo canal",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Ativo",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo de entrada",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo fonte",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo de tela",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo ILS",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo da fonte de luz 2D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo da fonte de luz 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo TCGD",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo MCGD 2D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo de MCGD 3D olho direito",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo de calibração 2D sensor para tela",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo de calibração 3D sensor para tela",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Formato de dados",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Modo de entrada Sync 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Seleção de Arquivo 2D/3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Modo operacional do EDR",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Luminância 3D",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Modo de divisão quadrada",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Espaço de cor",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo gama",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo clut",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "EDID do HDMI",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo EDID do DisplayPort",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivos de Correção %1",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo de luminância",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo Warp",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo de scan",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Cor",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Luz",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Imagem",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Todos",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Criar novo arquivo",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Canal selecionado ",
+    "url": "#/menu/MMM%2BCHAN",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo de Correção Christie Pureformity Color™",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Guia de padrão de teste",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Valores medidos",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Apresentação do escopo",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Luminância",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCPCC",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração do arquivo de espaço de cor",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo de espaço de cor",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "Importar arquivo de espaço de cor",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BCOSP",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações de Depuração",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Congelar Imagem",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Imagem em branco",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Desconsiderar o Modo HDR",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BDBUG",
+    "userLevel": "60"
+},
+{
+    "name": "Gatilhos de entrada do dispositivo",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Fonte",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Evento de gatilho",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Executar macro",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Gatilhos globais",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Novo gatilho global",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Fonte",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Retomar evento de reprodução",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Gatilhos da playlist",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Novo gatilho da playlist",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDIPT/PLTR",
+    "userLevel": "40"
+},
+{
+    "name": "Bibliotecas de dispositivos",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Nome do dispositivo",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Visualizar biblioteca",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Importar biblioteca de dispositivos",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BDLIB",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de arquivo EDID",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo EDID",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/EDID%20File%20Import",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração do arquivo Gama",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo gama",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "Importar arquivo Gama",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BGAMA",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração do H4D3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Frequência (Hz)",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Padrões de teste",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": " ",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Desligado",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Moire horizontal",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Moire vertical",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Interferência",
+    "url": "#/menu/MMM%2BSERV/MMM%2BH4D3",
+    "userLevel": "60"
+},
+{
+    "name": "Posição da lente",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Foco",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Zoom",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Reset da lente",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Auto calibrar",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "ECC",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de arquivo do ILS",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Vertical",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "Horizontal",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BILSF",
+    "userLevel": "40"
+},
+{
+    "name": "LampLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Autoalinhamento",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Brilho",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Posição da lâmpada",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Exibir padrão de teste branco",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Atual",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Máx",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLALC",
+    "userLevel": "40"
+},
+{
+    "name": "Gerenciador da lâmpada",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Última ativação",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Horas usadas",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Acendimentos",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Motivo da troca",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Ativar",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Lâmpada nova",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAMN",
+    "userLevel": "40"
+},
+{
+    "name": "Alimentação da lâmpada/LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "LiteLOC™",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Alimentação da lâmpada",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Mín",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Máx",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "A",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "V",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "W",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "H lâmpada",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Overdrive da lâmpada",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Potência atual da lâmpada",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Medidor de intensidade",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Alvo",
+    "url": "/#/menu/MMM%2BLAMP/MMM%2BLAPW",
+    "userLevel": "40"
+},
+{
+    "name": "Diagnóstico do laser",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Modelo",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Versão",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Saúde da alimentação",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Temperatura",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Serial",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS1",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "LOS2",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Fonte da luz",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLDGS",
+    "userLevel": "40"
+},
+{
+    "name": "Brilho configurado pelo usuário",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Brilho ajustado pelo sistema",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Exibir padrão de teste branco",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Temperatura ambiente",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Umidade",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "3D Sync",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração da alimentação do laser/LiteLOC™",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Ponto de ajuste do resfriador",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Temperatura ambiente máxima esperada",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Controle da temperatura",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BLPWR",
+    "userLevel": "40"
+},
+{
+    "name": "Brilho configurado pelo usuário",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Brilho ajustado pelo sistema",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Exibir padrão de teste branco",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Temperatura ambiente",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "3D Sync",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração da alimentação da fonte de luz",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Controle da temperatura",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSPS",
+    "userLevel": "40"
+},
+{
+    "name": "Rodar Interrogador",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Interrogar",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Buscar logs",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Interrogador/Logs do sistema",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Data",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Gravidade",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Mensagem",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Aprimorado",
+    "url": "/#/menu/MMM%2BDIAG/MMM%2BLOGS",
+    "userLevel": "20"
+},
+{
+    "name": "Editor de macros",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Criar nova macro",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Teste",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Macro selecionada",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Mover para",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Adicionar novo item de ação",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Clicar no ícone + para adicionar item de ação de macro",
+    "url": "/#/menu/MMM%2BAUTO/MMM%2BMCRE",
+    "userLevel": "40"
+},
+{
+    "name": "Controle Manual do Laser",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CUIDADO: Todos os ajustes são temporários e não serão salvos.",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Exibir padrão de teste branco",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Mín",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Máx",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Atual",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Ponto de ajuste do resfriador",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Temperatura ambiente máxima esperada",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Vermelho",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Verde",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Azul",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Fósforo",
+    "url": "/#/menu/MMM%2BLASR/MMM%2BMNLC",
+    "userLevel": "40"
+},
+{
+    "name": "Controle manual da fonte de luz",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CUIDADO: Todos os ajustes são temporários e não serão salvos.",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Exibir padrão de teste branco",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Mín",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Máx",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Atual",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Vermelho",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Verde",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Azul",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense X",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Y",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "CSense Z",
+    "url": "/#/menu/MMM%2BTPLS/MMM%2BLSMC",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de casamento",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Iniciar",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Lista de verificação de casamento",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Armar",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Este assistente o guiará através do procedimento de Casamento do IMB para habilitar Reprodução de conteúdo seguro.",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Esta operação exigirá que você se certifique de que essa unidade não foi violada e que será registrada corretamente no sistema de segurança.",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "SM seguro",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Porta de serviço segura",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Aliança do SM segura",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Casamento já está ativo",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BMRGS",
+    "userLevel": "30"
+},
+{
+    "name": "Configurações de rede",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Porta",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Automático",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Manual",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Endereço IP: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Máscara de sub-rede: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Gateway: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "DNS primário: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "DNS secundário: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Endereço MAC: ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações de Ethernet",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações de SNMP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR",
+    "userLevel": "40"
+},
+{
+    "name": "Luminância de pico 2D",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Luminância de pico 3D",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Canal ativo:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo gama ativo:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Padrão de luminância 2D 108-cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Luminância de pico 2D (cd/m²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Faixa típica de dois projetores: 108,0 a 130,0 cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Faixa típica de um projetor: 48 a 65 cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Padrão de luminância 3D 48-cd/m²",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Luminância de pico 3D (cd/m²)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Faixa típica: 48,0 a 65,0 cd/m² ",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BPEAK",
+    "userLevel": "40"
+},
+{
+    "name": "Pixel Grabber",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BPIXL",
+    "userLevel": "60"
+},
+{
+    "name": "Preferências",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Celsius",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Fahrenheit",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Programador",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Iniciar semana do programador em",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "12 horas",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "24 horas",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF",
+    "userLevel": "40"
+},
+{
+    "name": "Disparadores do alarme",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Mostrar alarmes",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Falha da ventoinha",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Temperaturas críticas",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Logs de IU adicionais",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Números de série faltando",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Alarm%20Triggers",
+    "userLevel": "40"
+},
+{
+    "name": "Automação",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "Ativar automação",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "Exige autenticação do serial",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Automation",
+    "userLevel": "40"
+},
+{
+    "name": "Geral",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Projetor",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Nome de hospedeiro do projetor",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Orientação da imagem projetada",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Frente normal",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Frente invertida",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Trás normal",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Trás invertida",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Sistema",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Formato das horas",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Unidades de temperatura",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Celsius",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Fahrenheit",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Programador",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Iniciar semana do programador em",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "Tempo de espera da sessão",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/General",
+    "userLevel": "40"
+},
+{
+    "name": "HDR",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Modo de Emulação do DCI",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Contraste",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Luminância 3D (Nits)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "Modo de emulação de vídeo",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - MAX (Nits)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "2D - MIN (Nits)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - MAX (Nits)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "3D - MIN (Nits)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/HDR",
+    "userLevel": "40"
+},
+{
+    "name": "IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo do IMB (necessário reinicializar)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "IMB energizado em espera",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/IMB",
+    "userLevel": "40"
+},
+{
+    "name": "Lente/ILS",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Informações da lente",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo de lente",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Serial",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Sistema Inteligente de Lente (ILS)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "ILS instalado",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Ressetar ILS na inicialização",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Obturador",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Permitir ativação da fonte de luz quando o obturador não estiver funcionando.",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Lens%20ILS",
+    "userLevel": "40"
+},
+{
+    "name": "Modo de Serviço",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": " ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "VERMELHO",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "VERDE",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "AZUL",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "Níveis Máx. de Unidades",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode",
+    "userLevel": "40"
+},
+{
+    "name": "Padrões de teste",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "Manter padrões de teste ligados após mudança de canal",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/Test%20Patterns",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração do arquivo RealD 3D EQ",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração 3D",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Retardo do Movimentador de 3D (ms)",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Retardo do Movimentador de 3D",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BPREF/3D%20Configuration",
+    "userLevel": "40"
+},
+{
+    "name": "Reinicializar o projetor",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "Reinicializar",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "Advertência: Isso interrompe abruptamente qualquer reprodução e pode causar problemas para outros usuários.",
+    "url": "#/menu/MMM%2BDIAG/MMM%2BRBOT",
+    "userLevel": "60"
+},
+{
+    "name": "Configuração de importação remota",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Dispositivo",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Endereço IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Senha",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Nome de usuário",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Porta",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Testar conexão",
+    "url": "#/menu/MMM%2BSERV/MMM%2BRIGT",
+    "userLevel": "40"
+},
+{
+    "name": "Modo de aluguel",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Comissionamento",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Informações do fornecedor",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Data de emissão do comissionamento",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Endereço",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Número do telefone",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "E-mail",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Importar arquivo de comissionamento",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Importar arquivo de descomissionamento",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BRNTL",
+    "userLevel": "40"
+},
+{
+    "name": "Programador",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Hoje",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "O Scheduler está ligado",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "O Scheduler está desligado",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Toque para programar um novo evento",
+    "url": "/#/menu/MMM%2BSCHE",
+    "userLevel": "20"
+},
+{
+    "name": "Calibração sensor para tela",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Recalibrar",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Verificar a calibração",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Calibração",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Ajuste da hora do SM do IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME/imbadjust",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações de SNMP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP Versão 2",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "SNMP Versão 3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "IP do Trap Receiver 1",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "IP do Trap Receiver 2",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "IP do Trap Receiver 3",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Baixar MIB",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Traps de SNMP bloqueadas",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Selecione todos/nenhum",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Ventiladores",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Intertravamentos",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Saúde geral do Photon",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Segurança",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Armazenamento",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Alerta geral do sistema",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Comunicação do sistema",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Temperatura",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Automação",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Fonte da luz",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Resfriador",
+    "url": "#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de arquivo fonte",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Resolução de mídia fonte",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Posição",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Largura (X)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Altura (Y)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Horizontal",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Vertical",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Relação de aspecto 1,85",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Relação de aspecto 2,39",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Relação de aspecto personalizada",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSRCF",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de dispositivo de armazenamento",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Dispositivo",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Endereço IP",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Compartilhar pasta",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Senha",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Nome de usuário",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Testar conexão",
+    "url": "#/menu/MMM%2BSERV/MMM%2BSTDS",
+    "userLevel": "40"
+},
+{
+    "name": "Atualização do sistema",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Atualizar arquivo",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Aceito",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Versão do sistema principal: %1",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUPGR",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de arquivo TCGD",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Clipes de teste",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Valores de cores alvo",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Exibir automaticamente clipe de teste",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Usar White Clip",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Tolerância ao branco",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Selecionar uma cor não corrigida para começar",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Vermelho",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Verde",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Azul",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Ciano",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Magenta",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Amarelo",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Branco",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "White Clip",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Ganho",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Área da tela",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BTCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de arquivo 3D",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações gerais",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações de taxa de quadros",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Horário escuro",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Delay de saída",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Delay de fase",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Delay de 3D",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Multiplicador",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Inverter polaridade de sincronização de 3D",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "fps (por olho)",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BTHRD",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de hora",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Endereço do servidor NTP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Novo servidor NTP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações de fuso horário",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Sincronizar com IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Sincronizar com servidor do NTP",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração manual",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Data e hora",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Minutos",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Horas",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "AM",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "PM",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Data do IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Hora do IMB",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Data UTC atual:",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Hora UTC atual:",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Configurações de hora do projetor",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BTIME",
+    "userLevel": "40"
+},
+{
+    "name": "Contas de usuários",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "Permissões",
+    "url": "/#/menu/MMM%2BSERV/MMM%2BUSER",
+    "userLevel": "30"
+},
+{
+    "name": "Configuração de arquivo Warp",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Arquivo Warp",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Ativar arquivo",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Ativar",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BWARP",
+    "userLevel": "40"
+},
+{
+    "name": "Chaves",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Mostrar",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "ID da chave",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Válido a partir de",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Vence",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Importar KDM",
+    "url": "/#/menu/MMM%2BCNTM/keys",
+    "userLevel": "40"
+},
+{
+    "name": "Gerenciador de conteúdo",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "Conteúdo local",
+    "url": "/#/menu/MMM%2BCNTM",
+    "userLevel": "40"
+},
+{
+    "name": "Conteúdo importável",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Mostrar",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Tamanho",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Duração",
+    "url": "/#/menu/MMM%2BCNTM/INCT",
+    "userLevel": "40"
+},
+{
+    "name": "Andamento",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Mostrar",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Status",
+    "url": "/#/menu/MMM%2BCNTM/progress",
+    "userLevel": "40"
+},
+{
+    "name": "Nome",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Mostrar",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Tipo",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Duração",
+    "url": "/#/menu/MMM%2BCNTM/LACT",
+    "userLevel": "40"
+},
+{
+    "name": "Editor da playlist",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Mover para",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Tempo total: %L1",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Automação",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Conteúdo local",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Mostrar:",
+    "url": "/#/menu/MMM%2BPLAY",
+    "userLevel": "30"
+},
+{
+    "name": "Vermelho:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Verde:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Azul:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Branco:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Preto:",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de arquivo MCGD",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Cores não corrigidas",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Valores de cor medidos",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "3D Sync",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BMCGD",
+    "userLevel": "40"
+},
+{
+    "name": "Configuração de arquivo de tela",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Fator de lente anamórfica",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Caixa de correio",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Ajuste da tela",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Máscara",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Keystone",
+    "url": "/#/menu/MMM%2BIMGS/MMM%2BSCRN",
+    "userLevel": "40"
+},
+{
+    "name": "Níveis máximos de unidade não corrigidos (dos controles deslizantes de RGB)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Vermelho",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Verde",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Azul",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Porcentagem da unidade (calculada)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Valores do sensor de cor (autogerados)",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Valores medidos",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Recalibrar",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Verificar a calibração",
+    "url": "/#/menu/MMM%2BCOLR/MMM%2BSTSC",
+    "userLevel": "40"
+},
+{
+    "name": "Automação",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Automação ativada",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do sistema",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde dos dispositivos",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde da macro",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Dispositivos de automação on-line",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Última macro completa",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Problemas de validação de macro",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Última Before Clip Macro completa",
+    "url": "/#/status/Automation",
+    "userLevel": "20"
+},
+{
+    "name": "Modo operacional do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Modo manual do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "EDR conectado",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo da placa do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Revisão da placa do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Status da placa do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Status de calibração do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Andamento da calibração do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Serial da placa do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "ID único da placa do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Partição do FW carregado no EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Hora do sistema do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Marcação de tempo de FPGA do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Formato de vídeo do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Altura de vídeo do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Largura de vídeo do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Taxa de quadros de vídeo do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Delay de sincronização de áudio e vídeo do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de vídeo do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Modo do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Intensidade máx. de legenda do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Tempo de Instalação da Atualização do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Modo Pipeline",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "2D de luminância de pico",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "3D de luminância de pico",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Modo 3D do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Mensagem da calibração do EDR",
+    "url": "/#/status/Edr",
+    "userLevel": "20"
+},
+{
+    "name": "Ventiladores",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Soprador do anodo da lâmpada",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Soprador do catodo da lâmpada",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Parte inferior do Light Engine",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Parte superior do Light Engine",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada principal 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada principal 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada principal 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada principal 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Gaiola de cartão 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Gaiola de cartão 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Gaiola de cartão 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Gaiola de cartão 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada da gaiola de cartão 101",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustão da gaiola de cartão 103",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LAD",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Radiador",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador superior esquerdo da gaiola de cartão",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador inferior esquerdo da gaiola de cartão",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador superior direito da gaiola de cartão",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador inferior direito da gaiola de cartão",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustor do LVPS",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Bomba 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Bomba 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustor do GaN",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 0",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 1",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 2",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 1 do Hub",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 2 do Hub",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 3 do Hub",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador 4 do Hub",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do azul 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do verde 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do vermelho 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 12",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 13",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 14",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 15",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 16",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 17",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 18",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 19",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 20",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "RAD 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 23",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 24",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 37",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 38",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 39",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 40",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 41",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 42",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LDCC 43",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE limpa 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE limpa 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada limpa 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada limpa 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada limpa 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada limpa 28",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada limpa 29",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada limpa 30",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE 25",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE 26",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE 27",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE 28",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE 29",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE 30",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Fixo",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Padrão",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Desempenho",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Silencioso",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Desconhecido",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE limpa 6",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE limpa 7",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE limpa 8",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada LE limpa 9",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Soprador CAVE 102",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustão 10 da gaiola de cartão",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustão 11 da gaiola de cartão",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Modo do Perfil de velocidade da ventoinha",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Perfil de velocidade da ventoinha",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Roda LaPh",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada GaN A 21",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustão GaN A 22",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada GaN B 46",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustão GaN B 47",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE superior 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "LE inferior 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Soprador azul do LOS 5",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Cano de aquecimento do LOS 10",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Cano de aquecimento do LOS 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Fundo LE 3",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Soprador superior LE 4",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Soprador do prisma 11",
+    "url": "/#/status/Fans",
+    "userLevel": "20"
+},
+{
+    "name": "Lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamentos",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo de reator",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "DESLIGADO",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Desligado",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "String de estado da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Estado da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Wattagem da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Porcentagem de alimentação da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Lâmpada LIGADA",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Lâmpada ligada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ventilador de falha da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Temp. de falha da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura de falha da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento 1 de falha da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Falha de intertravamento do laser",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento de falha da fonte de luz disparou",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento 2",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento 3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento 4",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Motivo do disparo do intertravamento de falha da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Alarme de incêndio do rack remoto",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Alarme de incêndio local",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Desligamento inesperado devido a alarme de incêndio",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento do laser de terceiros disparou",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "nenhum",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Nenhum",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Lâmpada instalada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Horas da lâmpada atual",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Acendimentos da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Falhas no acendimento",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Falhas no reacendimento",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Falhas no reacendimento",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Desligamentos inesperados da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Comprimento do cabo do reator",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor de intensidade da luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente mínima da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente máxima da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ X",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Y",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Z",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Reator on-line",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Ultrapassou meia-vida da lâmpada",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Status da lâmpada vencida",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Porcentagem mínima da lâmpada atual",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Porcentagem máxima da lâmpada atual",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Alvo LiteLOC™ alcançável",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Ativo",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Situação do LampLOC™",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ aceito",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Config. do software do LampLOC™",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "LiteLOC™ Ativado",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Alvo do LiteLOC™",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Desligamento inesperado da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte de luz desligou devido a superaquecimento do DMD",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Laser de terceiros conectado",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Perfil ativo de laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde geral de laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Balanço de cor de laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Fabricante do laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Modelo do laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série do laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Data de fabricação do laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento de terceiros disparou",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do laser de terceiros",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Calibração do sensor de cor",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Calibração do sensor de cor V3",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Off-line",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Umidade alta demais. Pontos de ajuste do TEC e/ou líquido refrigerante ajustados para evitar condensação.",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Comunicação da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Estado da alimentação da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde geral da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do intertravamento da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Balanço de cores da fonte de luz ",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do resfriador da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Estado armado da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de controle da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Pontos de calibração da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor de cores da fonte de luz presente",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Nome do modelo da fonte de luz",
+    "url": "/#/status/Lamp",
+    "userLevel": "20"
+},
+{
+    "name": "Laser",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do intertravamento do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do BusDevice do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do ambiente do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde dos ventiladores do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do resfriador do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do vermelho do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do verde do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do azul do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do sistema de arquivos do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde da alimentação do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM conectado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Número total de módulos de laser",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Alimentação geral do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM não liga",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo CFG ativo do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Leitura do sensor de cores - Vermelho",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Leitura do sensor de cores - Verde",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Leitura do sensor de cores - Azul",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Leitura do sensor de cores - Ganho",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Valor travado do sensor de cores - Vermelho",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Valor travado do sensor de cores - Verde",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Valor travado do sensor de cores - Azul",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Valor travado do sensor de cores - Ganho",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Força da unidade do LBM - Vermelho",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Força da unidade do LBM - Verde",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Força da unidade do LBM - Azul",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Envio do sensor de cor com ganho forçado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Balanço de branco travado do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saída estável da luz do laser",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Advertência de LBM degradado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Advertência de estado da alimentação do LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Advertência de tipo do LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do envoltório vermelho do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Advertência de conexão do LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Leitura do sensor de cores - REF",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Space Taker",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Tabela SNMP do LM pronta",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Advertências do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Alarmes do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Estado de saúde do LM alterado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Estado da alimentação do LM alterado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Lista de erros de estado da alimentação do LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LBM degradado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Informações do dispositivo do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Reg. do LBM atualizado.",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Registro do LBM atualizado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Flags do WBC",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Reg. de saúde do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Registro de saúde do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo do WBC ativo do LBM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Força da unidade alvo do LBM - Vermelho",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Força da unidade alvo do LBM - Verde",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Força da unidade alvo do LBM - Azul",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Conexão do LM",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do LM não aceito",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Versão de Boot do LM não Corresponde",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Versão Principal do LM não Corresponde",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "LM em Modo Boot",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Umidade relativa ambiente",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do resfriador",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Status do alarme do resfriador",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Vazão do resfriador (LPM)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Pressão do resfriador (psi)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Estado dos pontos de orvalho do sistema",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Nome do resfriador",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte de luz desligou devido a superaquecimento do componente",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte de luz desligada devido a erro de fluxo do líquido refrigerante",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte de luz desligou devido a o difusor não girar.",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Fabricante do resfriador",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do LiteLOC da fonte de luz",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de serviço ativado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Limites do acionamento do LOS1",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Limites do acionamento do LOS2",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Lente",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS on-line",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo ILS ativo",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Motor do X do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Motor do Y do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Motor do Z do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Motor do F do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Abordagem do X do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Abordagem do Y do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Abordagem do Z do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Abordagem do F do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Calibragem do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Reset do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor do X do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor do Y do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor do Z do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor do F do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "ILS automático",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo de lente",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série da lente",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Zoom Genérico",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Não-Zoom Genérico",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Genérico Fixo",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "O ILS desativou os motores de keepout",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Calibragem do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Reset do ILS",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Vertical e horizontal e foco",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Horizontal e vertical e foco",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Horizontal & Vertical & Foco & Zoom",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Vertical & Horizontal",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Falhou",
+    "url": "/#/status/Lens",
+    "userLevel": "20"
+},
+{
+    "name": "Rede",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP de entrada do Atmos",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP de controle do Atmos",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos ativado",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Atmos On-line",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP da administração",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Máscara de rede da administração",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP da administração",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC da administração",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Conflito de IP da administração",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP do NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Máscara de rede do NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP do NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC do NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Conflito de IP do NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Subrede do NAS",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP da mídia",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Máscara de rede da mídia",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP da mídia",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC da mídia",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Conflito de IP da mídia",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Subrede da mídia",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP do laser",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Máscara de rede do laser",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP do laser",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC do laser",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Conflito de IP do laser",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Subrede do laser",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Servidor do DHCP",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "MAC Lido do HKBE",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Gateway da administração",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Status do NAS da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Link do NAS da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP do NAS da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Máscara de rede do NAS da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP do NAS da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Gateway do NAS da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Endereço MAC do NAS da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Status da Mídia da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Link da Mídia da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP da Mídia da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Máscara de rede da Mídia da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP da Mídia da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Gateway da Mídia da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Endereço MAC da Mídia da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Status do Áudio Aux. da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Link do Áudio Aux. da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "IP do Áudio Aux. da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Máscara de rede do Áudio Aux. da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "DHCP do Áudio Aux. da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Gateway do Áudio Aux. da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Endereço MAC do Áudio Aux. da Rede IMB",
+    "url": "/#/status/Network",
+    "userLevel": "20"
+},
+{
+    "name": "Subsistema do laser conectado",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "CRC do código principal do laser",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Estado da alimentação do laser",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Calibração do sensor de cor do LiteLOC™",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Calibração sensor para tela do LiteLOC™",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Calibração do LOS para o sensor do LiteLOC™",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde geral do LOS",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor de cor (X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor de cor (Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Sensor de cor (Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Ganho do sensor de cor (X)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Ganho do sensor de cor (Y)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Ganho do sensor de cor (Z)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura da CPU do laser",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo da Placa do Sensor de Cor (CSB)",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do CSB",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do CSB",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do UCD",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Serial do CSB",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Calibração do DAC do CSB",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Versão principal do Photon",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do boot do Photon",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte de luz desligou devido a superaquecimento do componente",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte de luz desligou devido a o difusor não girar.",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte de luz desligada devido a erro de fluxo do líquido refrigerante",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "AEL",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Alcançar desempenho adicional ao executar calibração sensor para tela",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Não alcançável",
+    "url": "/#/status/Laser",
+    "userLevel": "20"
+},
+{
+    "name": "Reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de reprodução do secundário",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Verificação de reprodução do secundário pronta",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Nome da composição do playback",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "ID da composição do playback",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Código de tempo de playback",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Duração do playback",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do playback",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Porcentagem total do buffer de vídeo",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Porcentagem total do buffer de áudio",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de loop de reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Delay de áudio do MS",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Taxa de amostragem de áudio",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Taxa de saída de áudio",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Nome da entrada da playlist",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Deslocamento (offset) da entrada da playlist",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Intervalo ativo",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Reprodução de conteúdo 3D",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Reprodução de playlist 3D",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Reprodução de ID da entrada de playlist 3D",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Conteúdo carregado de reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Estágio carregado de reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Estado carregado de reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Reprodução de auto recuperação de queda de tensão",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Dolby Atmos On-line",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Buffer underrun de reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de conteúdo de reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Legenda ativada",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Código de tempo de legenda",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Auto Recuperação de Perda de Potência de Reprodução",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Conteúdo do erro de carregamento de reprodução faltando",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de carregamento de reprodução;  faltando conteúdo remoto",
+    "url": "/#/status/Playback",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Detecção de violação do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Detecção de volta do relógio do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Limite de potência do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Duração da iluminação do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Duração das entradas alternativas do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Status do modo de aluguel descomissionado",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "A licença de aluguel atual não permite essa operação.",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Iluminação do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Entradas alternativas do modo de aluguel",
+    "url": "/#/status/RentalMode",
+    "userLevel": "20"
+},
+{
+    "name": "Programador",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Programador ativado",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "ID do próximo show do programador",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Nome do próximo show do programador",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Horário do próximo show do programador",
+    "url": "/#/status/Scheduler",
+    "userLevel": "20"
+},
+{
+    "name": "Segurança",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Conexão segura do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Conexão de status do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Violação do invólucro do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Aliança do SM violada",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SM casado",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Porta de serviço do SM aberta",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Disco do SM baixo",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Quebra de segurança do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Selo de inviolabilidade do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Bateria do SM fraca",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Algoritmos de criptografia do SM OK",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Integridade de imagem do SM OK",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Nível da bateria do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série do Intopix do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série do Civolution do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Status do SM Atmos",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "SEGURANÇA NÃO INSTALADA",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Segurança não instalada",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "ARMADO",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Armado",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "VIOLADO",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Violado",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "FÁBRICA",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Fábrica",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "S/N DO SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série do EPM do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Violação lógica do casamento do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Log seguro do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "CryptoState do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Zeragem do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Advertência de espaço no log do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Erro do relatório de log do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de desenv. do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Violação física do casamento do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Conexão do Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Modo do Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Erro do Secure Silicon",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Emulador de casamento seguro",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Aliança do acoplamento",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Certificado do SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do hardware FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Nome do Modelo FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Erro do FIPS",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão da Bateria 1",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão da Bateria 2",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão da Bateria 1 Boa",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão da Bateria 2 Boa",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão da Bateria 1 (mV)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão da Bateria 2 (mV)",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série da placa",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Revisão da placa",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de Produção SM",
+    "url": "/#/status/Security",
+    "userLevel": "20"
+},
+{
+    "name": "Serial",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série do HKB",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Placa de controle principal",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do Vermelho",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do Verde ",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do Azul",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Módulo de opção variável",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Placa de conversão da interface do formatador",
+    "url": "/#/status/Serial",
+    "userLevel": "20"
+},
+{
+    "name": "Sistema",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número do modelo",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Data de fabricação",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número de série eletrônico",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP ativado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "NTP Ativado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "DST Ativado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Fuso horário",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Hora UTC do SM",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Hora UTC",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Hora local",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Defasagem da hora local",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Memória total",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Memória livre",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Uso médio da CPU",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Espaço de disco total do raiz",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Espaço de disco livre do raiz",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Unidade primária on-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Espaço de disco total da unidade primária",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Espaço de disco livre da unidade primária",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Espaço de disco usado da unidade primária",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Alteração de conteúdo detectada",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Configuração de armazenamento ativa",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número de unidades de conteúdo",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número de unidades de importação",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número de dispositivos NAS configurados",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número de dispositivos DAS configurados",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Resultado da última atualização",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "EVB on-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSense On-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CSB On-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Componentes de partida prontos",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Projetor saudável",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo RealD 3D",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de correção de cor Dolby",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo UC ativo",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Dolby ativado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "EQ Real3D ativado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Horas do sistema",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Horas de luz ligada",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Segundos de luz ligada",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha de luz ligada",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Estado da alimentação",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Obturador aberto",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Obturador fechado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Erro do sensor do obturador",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Interlock On-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo selecionado de IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Multi projetores secundários off-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Lista de multi projetores secundários off-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "EQ RealD 3D Ativado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "HKB On-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobrecorrente do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretensão do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretemperatura do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da ventoinha do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Alta temperatura do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Baixa CA do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da unidade do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CA muito baixa do LVPS",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobrecorrente do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretensão do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretemperatura do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da ventoinha do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Alta temperatura do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Baixa CA do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da unidade do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CA muito baixa do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha de comunicação do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do LVPS A1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobrecorrente do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretensão do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretemperatura do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da ventoinha do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Alta temperatura do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Baixa CA do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da unidade do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CA muito baixa do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha de comunicação do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do LVPS A2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobrecorrente do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretensão do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretemperatura do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da ventoinha do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Alta temperatura do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Baixa CA do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da unidade do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CA muito baixa do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha de comunicação do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do LVPS B1",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tensão do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Corrente do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobrecorrente do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretensão do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Sobretemperatura do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da ventoinha do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Alta temperatura do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Baixa CA do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha da unidade do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "CA muito baixa do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha de comunicação do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do LVPS B2",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do CAVE",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Estado do VOM",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Comunicação on-line do Videopath",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Subtipo do modelo",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Saúde do SID",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ On-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Falha na inicialização da parte eletrônica",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Status do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Reprodutor de mídia online do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Horas do laser LOS 1 ligado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Horas do laser LOS 1 em espera",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Horas do laser LOS 2 ligado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Horas do laser LOS 2 em espera",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Detecção de conteúdo incompleto ou corrompido",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "On-line",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tempo de funcionamento do sistema",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Estado da fonte de alimentação do laser",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Limpar",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo de memória IMB onboard",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Status geral do RAID do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Status do disco 1 do RAID do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Status do disco 2 do RAID do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Status do disco 3 do RAID do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Autoteste do SM do IMB agendado",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Espaço de disco livre da partição de dados do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Espaço de disco total da partição de dados do IMB",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Áudio ALT presente",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número de canais de áudio ALT",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Frequência de amostragem de Hz áudio ALT",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ID do local de FM",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "PorcentagemValidaçãoConteúdo",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "EstadoValidaçãoConteúdo",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "ContentValidationContentID",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Número do Submodelo",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": " ",
+    "url": "/#/status/System",
+    "userLevel": "20"
+},
+{
+    "name": "Temperaturas",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD vermelho do LE Prime",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD azul do LE Prime",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD verde do LE Prime",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Prisma do LE Prime",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD vermelho",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD verde",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD azul",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Prisma",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada de ar",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Integrador",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Exaustor de ar",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Gaiola de cartão",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Interno",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD vermelho do LE Pre",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD azul do LE Pre",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "DMD verde do LE Pre",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Prisma do LE Pre",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Difusor",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Fibra",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Reator",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 3",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 4",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 5",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 6",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 7",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "COM Core 8",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA de entrada",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do VPU",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "PSF 2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "ILS",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do ILS",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA1 da placa do EDR",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA2 da placa do EDR",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA3 da placa do EDR",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Discreto 1 da placa do EDR",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Discreto 2 da placa do EDR",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Discreto 3 da placa do EDR",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Placa do SM",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA1 do IMB",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA2 do IMB",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Fluxo bom do líquido de arrefecimento do DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura ambiente",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Ambiente",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador Vermelho",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador Verde",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador Azul",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Escalador do processador de imagens",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Bloco de água DMD",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Coletor de resfriamento líquido",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura do ponto de ajuste do resfriador",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura da água do resfriador",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura ambiente do resfriador",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Ponto de orvalho ambiente",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Ponto de orvalho LOS1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Ponto de orvalho LOS2",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Temperatura ambiente máxima do LiteLOC™",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "CAVE",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA da CAVE ",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do VOM ",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do FICB",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do vermelho do premod ",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do verde do premod",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Formatador do azul do premod",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Bloco de água do DMD do premod",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Dissipador de calor Vermelho",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Dissipador de calor Verde",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Dissipador de calor Azul",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "U55 do IMB",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Q8 do IMB",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "Q9 do IMB",
+    "url": "/#/status/Temperatures",
+    "userLevel": "20"
+},
+{
+    "name": "NENHUMA FALHA",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "Pronto",
+    "url": "/",
+    "userLevel": "20"
+},
+{
+    "name": "Versões",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Sistema principal",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hotfixes instalados",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "SM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IU",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "OS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Secure Silicon Boot",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Secure Silicon Main",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Engine",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LBM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB (Rev.Mod)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "IMB FPGA 1",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Main",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ILS Boot",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware do ILS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB Main",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EVB Boot",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware do EVB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do HKB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware do HKB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA de entrada",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do VPU",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do FPGA do CFB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão não corresponde",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do software",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware da PCI principal",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware da PCI do hub",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware da PCI do SCC",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware da PCI do FIMB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do Interlock",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Intertravamento",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CSense",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do CSense",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do FW do EDR",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR FW",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do EDR",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "EDR Zynq FPGA",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do FPGA Primário",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "FPGA do FPGA Secundário",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Ativar EDR Parsec",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Core Software",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware do VOM",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware do CAVE",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do sistema",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "ID de Commit",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Main",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "LampLOC™ Boot",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware do LampLOC™",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "BIOS",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Hardware do FICB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do software IMB",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB vermelho (Rev.Mod)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB verde (Rev.Mod)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "CFB azul (Rev.Mod)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Premod do CFB vermelho (Rev.Mod)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Premod do CFB verde (Rev.Mod)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Premod do CFB azul (Rev.Mod)",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do software da fonte de luz",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Atualizando...",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do software do IMB-S4 ",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Revisão da placa do IMB-S4 ",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Versão do FPGA do IMB-S4",
+    "url": "/#/status/Versions",
+    "userLevel": "20"
+},
+{
+    "name": "Vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de canal e pistas vermelhas do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de canal e pistas verdes do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de canal e pistas azuis do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de canal e pistas vermelhas do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de canal e pistas verdes do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de canal e pistas azuis do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do DMD do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Largura nativa do array",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Altura nativa do array",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do satélite vermelho do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Satélite vermelho do SFB on-line",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de link do satélite vermelho do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do satélite verde do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Satélite verde do SFB on-line",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de link do satélite verde do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do satélite azul do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Satélite azul do SFB on-line",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de link do satélite azul do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erro de correspondência com satélite do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sequência personalizada de bits do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo personalizado de DMD do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo personalizado de imagem do SFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Status do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Status do azul do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Status do vermelho do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Status do verde do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Status do bloco de TI azul do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Status do bloco de TI vermelho do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Status do bloco de TI verde do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros do link vermelho do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros do link verde do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros de link azul do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros de link soft azul do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros de link soft vermelho do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros de link soft verde do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros de link hard azul do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros de link hard vermelho do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Erros de link hard verde do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do satélite azul do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do satélite vermelho do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo do satélite verde do CFB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo do canal ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de gama ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de De-gama ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de MCGD ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de MCGD esquerdo ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de MCGD direito ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de TCGD ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de 3D ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de fonte ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de tela ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de EDID ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de lâmpada ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de CLUT ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de espaço de cor ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de entrada Sync 3D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de CSC ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Modo De-gama de PQ",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Largura de pixel do vídeo de entrada detectado",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Linhas do vídeo de entrada detectado",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Taxa de quadros do vídeo de entrada detectado",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Fonte do vídeo de entrada",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "X da subimagem de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Y da subimagem de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Largura da subimagem de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Altura da subimagem de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Posição X da saída de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Posição Y da saída de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Pos. X da saída de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Pos. Y da saída de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Largura da saída de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Altura da saída de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Entrada de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Formato de dados do vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Tipo de scan do vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Frequência vertical de entrada do vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Modo de vídeo 3D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Imagem do FPGA de entrada",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Imagem do FPGA do VPU",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de luminância ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de uniformidade ativo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de fonte de luz ativa",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Luminância 3D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de Correção Christie Pureformity Color™",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo de calibração do laser ativa",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "FMAIN conectado a HUB Aurora (ciclo de alimentação se falso)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB conectado a FMAIN Aurora (ciclo de alimentação se falso)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HDR Aurora conectado (ciclo de alimentação se falso)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "IMB conectado a HUB Aurora (Ciclo de alimentação se falso)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "HUB conectado a FMAIN Aurora (ciclo de alimentação se falso)",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Arquivo Warp",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal da Porta A do HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal da Porta B do HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal VOM",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal da Porta 1 do mostrador",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal da Porta 2 do mostrador",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal do SDI 1",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal do SDI 2",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal do SDI 3",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal do SDI 4",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Modo 2D",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Frequência da saída de vídeo",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal da Porta 1 do HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal da Porta 2 do HDMI",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+},
+{
+    "name": "Sinal de vídeo do IMB",
+    "url": "/#/status/Video",
+    "userLevel": "20"
+}
+]
