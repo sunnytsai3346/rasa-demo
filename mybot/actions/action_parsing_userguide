@@ -1,0 +1,38 @@
+# actions/action_parse_pdf.py
+
+import fitz  # PyMuPDF
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from typing import Any, Dict, List, Text
+
+class ActionParsePdf(Action):
+    def name(self) -> Text:
+        return "action_parsing_userguide"
+
+    def extract_text_from_pdf(self, file_path: str) -> str:
+        text = ""
+        with fitz.open(file_path) as doc:
+            for page in doc:
+                text += page.get_text()
+        return text
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+        # Example: assuming the PDF is already uploaded and accessible
+        pdf_path = "files/sample.pdf"  # Replace with dynamic path if needed
+        print(pdf_path)
+        try:
+            content = self.extract_text_from_pdf(pdf_path)
+            # Sample: Basic parsing — you can add NLP/keyword extraction here
+            if "installation" in content.lower():
+                dispatcher.utter_message(text="The PDF includes installation instructions.")
+            else:
+                dispatcher.utter_message(text="Couldn't find installation info in the PDF.")
+        except Exception as e:
+            dispatcher.utter_message(text=f"Error reading PDF: {str(e)}")
+
+        return []

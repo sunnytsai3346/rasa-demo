@@ -100,3 +100,14 @@ nlu:
     - Search for [Gamma File](keyword)
     - Navigate to [System Upgrade](keyword)
     - Find [Projector Serial](keyword)
+
+- intent: request_pdf_parsing
+  examples: |
+    - Please check the PDF for setup details
+    - Can you find anything about installation in the PDF?
+    - Parse the uploaded manual
+    - Please parse the PDF
+    - Can you check the manual?
+    - What does the PDF say about installation?
+    - Read the uploaded document
+    - Look into the setup guide

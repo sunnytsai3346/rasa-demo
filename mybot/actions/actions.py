@@ -1,14 +1,54 @@
-import os
 import json
-from typing import Any, Text, Dict, List
-from rasa_sdk import Action, Tracker
-from rasa_sdk.executor import CollectingDispatcher
-# from fuzzywuzzy import fuzz
-# from fuzzywuzzy import fuzz
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+print(sys.path)
+#from .action_search_keyword import ActionSearchKeyword
+#from .action_parsing_userguide import ActionParsingUserGuide
+# actions/action_parse_pdf.py
+
+from fuzzywuzzy import fuzz
 # print(fuzz.partial_ratio("3d", "3D Sync"))
 from rapidfuzz.fuzz import partial_ratio
-import sys
-print("Python executable used:", sys.executable)
+
+import fitz  # PyMuPDF
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from typing import Any, Dict, List, Text
+
+class ActionParsePdf(Action):
+    def name(self) -> Text:
+        return "action_parsing_userguide"
+
+    def extract_text_from_pdf(self, file_path: str) -> str:
+        text = ""
+        with fitz.open(file_path) as doc:
+            for page in doc:
+                text += page.get_text()
+        return text
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+        # Example: assuming the PDF is already uploaded and accessible
+        pdf_path = "files/sample.pdf"  # Replace with dynamic path if needed
+        print(pdf_path)
+        try:
+            content = self.extract_text_from_pdf(pdf_path)
+            # Sample: Basic parsing — you can add NLP/keyword extraction here
+            if "installation" in content.lower():
+                dispatcher.utter_message(text="The PDF includes installation instructions.")
+            else:
+                dispatcher.utter_message(text="Couldn't find installation info in the PDF.")
+        except Exception as e:
+            dispatcher.utter_message(text=f"Error reading PDF: {str(e)}")
+
+        return []
+    
+
 
 class ActionSearchKeyword(Action):
     def name(self) -> Text:

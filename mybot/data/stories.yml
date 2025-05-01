@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: search_keyword
   - action: action_search_keyword  
+
+- story: Parse PDF example
+  steps:
+    - intent: request_pdf_parsing
+    - action: action_parsing_userguide

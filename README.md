@@ -32,6 +32,8 @@ bash
 
 Copy
 pip install --upgrade rasa rasa-sdk
+pip install pymupdf
+pip install --upgrade rasa rasa-sdk
 
 
 

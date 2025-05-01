@@ -1,2 +1,4 @@
 rasa-sdk
 fuzzywuzzy
+pymupdf
+rapidfuzz>=2.0.0
