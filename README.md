@@ -24,7 +24,14 @@ python -c "import tensorflow as tf; print(tf.__version__)"  -- to check if it's 
 3. pip install rasa==3.6.21
 4. check version : pip list | grep -E "rasa|numpy|tensorflow|scipy"  ( in git bash) , if in windows use pip list |findstr "rasa numpy tensorflow"
 
+Check Rasa Dependencies
 
+The rapidfuzz dependency might be required by a specific version of a package Rasa uses (e.g., cleo or poetry). Ensure all Rasa dependencies are up-to-date:
+
+bash
+
+Copy
+pip install --upgrade rasa rasa-sdk
 
 
 
