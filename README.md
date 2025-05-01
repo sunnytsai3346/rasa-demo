@@ -34,6 +34,10 @@ Copy
 pip install --upgrade rasa rasa-sdk
 pip install pymupdf
 pip install --upgrade rasa rasa-sdk
+pip uninstall spacy thinc
+pip install spacy==3.5.4
+python -m spacy download en_core_web_md
+pip install langdetect
 
 
 
@@ -44,3 +48,9 @@ Rasa Version      :         3.6.21
 Minimum Compatible Version: 3.6.21
 Rasa SDK Version  :         3.6.2
 Python Version    :         3.10.11ras
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.                                                    
+rasa 3.6.21 requires numpy<1.25.0,>=1.19.2; python_version >= "3.8" and python_version < "3.11", but you have numpy 2.2.5 which is incompatible.
+rasa 3.6.21 requires pydantic<1.10.10, but you have pydantic 2.11.4 which is incompatible.
+scipy 1.10.1 requires numpy<1.27.0,>=1.19.5, but you have numpy 2.2.5 which is incompatible.
+tensorflow-intel 2.12.0 requires numpy<1.24,>=1.22, but you have numpy 2.2.5 which is incompatible.

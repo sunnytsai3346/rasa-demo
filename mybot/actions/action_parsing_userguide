@@ -3,6 +3,8 @@
 import fitz  # PyMuPDF
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.forms import FormValidationAction
+from rasa_sdk.events import SlotSet,AllSlotsReset,Restarted,UserUtteranceReverted,ConversationPaused
 from typing import Any, Dict, List, Text
 
 class ActionParsePdf(Action):

@@ -3,8 +3,41 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 print(sys.path)
-#from .action_search_keyword import ActionSearchKeyword
-#from .action_parsing_userguide import ActionParsingUserGuide
+# -*- coding: utf-8 -*-
+import logging
+import json
+from datetime import datetime
+from typing import Any, Dict, List, Text, Optional
+
+from rasa_sdk import Action, Tracker
+from rasa_sdk.types import DomainDict
+from rasa_sdk.forms import FormValidationAction
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import (
+    SlotSet,
+    UserUtteranceReverted,
+    ConversationPaused,
+    EventType,
+)
+
+#from actions import config
+import spacy
+en_spacy = spacy.load("en_core_web_md")
+
+# from actions.api import community_events
+# from actions.api.algolia import AlgoliaAPI
+# from actions.api.discourse import DiscourseAPI
+# from actions.api.gdrive_service import GDriveService
+# from actions.api.mailchimp import MailChimpAPI
+# from actions.api.rasaxapi import RasaXAPI
+
+USER_INTENT_OUT_OF_SCOPE = "out_of_scope"
+
+logger = logging.getLogger(__name__)
+
+INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
+## ActionSearchKeyword ##
+
 # actions/action_parse_pdf.py
 
 from fuzzywuzzy import fuzz
@@ -15,8 +48,10 @@ import fitz  # PyMuPDF
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
+from langdetect import detect
 
-class ActionParsePdf(Action):
+
+class ActionParsingUserGuide(Action):
     def name(self) -> Text:
         return "action_parsing_userguide"
 
@@ -34,66 +69,93 @@ class ActionParsePdf(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
         # Example: assuming the PDF is already uploaded and accessible
-        pdf_path = "files/sample.pdf"  # Replace with dynamic path if needed
-        print(pdf_path)
+        doc  = "files/sample.pdf"  # Todo : or a path from tracker slot
+        
         try:
-            content = self.extract_text_from_pdf(pdf_path)
+            full_text = self.extract_text_from_pdf(doc)
+            
+            #full_text = " ".join(page.get_text() for page in doc)
+            # Use spaCy for NLP parsing
+            parsed = en_spacy(full_text)
+            sentences = [sent.text for sent in parsed.sents if "install" in sent.text.lower()]
+            response = "\n".join(sentences[:5]) if sentences else "No relevant info found in the PDF."
+            dispatcher.utter_message(text=response)
             # Sample: Basic parsing — you can add NLP/keyword extraction here
-            if "installation" in content.lower():
-                dispatcher.utter_message(text="The PDF includes installation instructions.")
-            else:
-                dispatcher.utter_message(text="Couldn't find installation info in the PDF.")
+            # if "installation" in content.lower():
+            #     dispatcher.utter_message(text="The PDF includes installation instructions.")
+            # else:
+            #     dispatcher.utter_message(text="Couldn't find installation info in the PDF.")
         except Exception as e:
             dispatcher.utter_message(text=f"Error reading PDF: {str(e)}")
 
         return []
     
 
-
+## ActionSearchKeyword ##
 class ActionSearchKeyword(Action):
     def name(self) -> Text:
         return "action_search_keyword"
+    def load_keywords(self, lang_code: str) -> Dict:
+        lang_map = {
+            "en": "EN.json",
+            "de": "DE.json",
+            "ja": "JP.json",
+            "ko": "KO.json"
+        }
+
+        # default to English if language unsupported
+        file_name = lang_map.get(lang_code, "EN.json")        
+        #keywords subfolder
+        file_path = os.path.join(os.path.dirname(__file__), "keywords", file_name)
+
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading keyword file: {e}")
+            return {}
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        file_path = os.path.join(os.path.dirname(__file__), "EN.json")
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        user_message = tracker.latest_message.get("text", "").lower()
+        
+        user_input = tracker.latest_message.get("text", "").lower()
+        lang_code = detect(user_input)
+        keywords_data = self.load_keywords(lang_code)
         base_url = "http://192.168.230.169/"
-        threshold = 60  # Fuzzy match threshold (0-100)
+        threshold = 75  # Fuzzy match threshold (0-100)
 
         matches = []
 
-        for item in data:
+        for item in keywords_data:     
+            print(item)
             name = item["name"]
             url = item["url"]
             level = item.get("userLevel", 0)
 
             #score = fuzz.partial_ratio(user_message, name.lower())
-            score = partial_ratio(user_message, name.lower())
-            if score >= threshold:
-                if url.startswith("/#/"):
-                    url = url.replace("/#/", base_url)
-                elif url.startswith("#/"):
-                    url = url.replace("#/", base_url)
+            if name.lower() !='none':
+                if user_input.lower() in name.lower() or fuzz.partial_ratio(user_input.lower(), name.lower()) > threshold:
+                    if url.startswith("/#/"):
+                        url = url.replace("/#/", base_url)
+                    elif url.startswith("#/"):
+                        url = url.replace("#/", base_url)
 
-                matches.append({
-                    "name": name,
-                    "url": url,
-                    "level": int(level) if str(level).isdigit() else 0,  # safely cast to int
-                    "score": int(score)  # fuzz returns int, but cast anyway just in case
-                })
+                    matches.append({
+                        "name": name,
+                        "url": url,
+                        "level": int(level) if str(level).isdigit() else 0,  # safely cast to int
+                        "score": int(fuzz.partial_ratio(user_input.lower(), name.lower()) )  # fuzz returns int, but cast anyway just in case
+                    })
 
         if matches:
             # Sort by userLevel descending, then by fuzzy score
-            matches.sort(key=lambda x: (-x["level"], -x["score"]))
-            top_matches = matches[:10]  # Show top 10 results
+            #matches.sort(key=lambda x: (-x["level"], -x["score"]))
+            matches.sort(key=lambda x: (-x["score"]))
+            top_matches = matches[:5]  # Show top 5 results
 
-            response_lines = [f"- [{m['name']}]({m['url']}) (level {m['level']}, match {m['score']}%)"
+            #response_lines = [f"- [{m['name']}]({m['url']}) (level {m['level']}, match {m['score']}%)"
+            response_lines = [f"- [{m['name']}]({m['url']}) ( match {m['score']}%)"
                               for m in top_matches]
 
             dispatcher.utter_message(text="Here are the most relevant matches:\n" + "\n".join(response_lines))
