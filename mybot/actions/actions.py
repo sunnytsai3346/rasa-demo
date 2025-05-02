@@ -58,8 +58,19 @@ import fitz  # PyMuPDF
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
-from langdetect import detect
+from langdetect import detect,DetectorFactory
+DetectorFactory.seed = 0
 
+def safe_detect(text: str)->str :        
+        #fallback to English 
+        if len(text) <5 or text.isascii():
+            print('safe_detect',text,"en")
+            return "en"
+        try:
+            print('safe_detect',text,detect(text))
+            return detect(text)
+        except:
+            return "en"
 
 class ActionParsingUserGuide(Action):
     def name(self) -> Text:
@@ -146,7 +157,7 @@ class ActionSearchKeyword(Action):
         # Save user input to CSV
         self.save_to_csv(user_input)
 
-        lang_code = detect(user_input)
+        lang_code = safe_detect(user_input)
         keywords_data = self.load_keywords(lang_code)
         base_url = "http://192.168.230.169/"
         threshold = 75  # Fuzzy match threshold (0-100)
@@ -190,6 +201,9 @@ class ActionSearchKeyword(Action):
 
         return []
     
+    
+
+
     def save_to_csv(self, user_input: Text):
         file_path = os.path.join(os.path.dirname(__file__), "nlu_user_inputs.csv")
         file_exists = os.path.isfile(file_path)
