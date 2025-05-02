@@ -29,12 +29,22 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: user searches for a keyword
-  steps:
-  - intent: search_keyword
-  - action: action_search_keyword  
+# - story: user searches for a keyword
+#   steps:
+#   - intent: search_keyword
+#   - action: action_search_keyword  
 
 - story: Parse PDF example
   steps:
     - intent: request_pdf_parsing
     - action: action_parsing_userguide
+
+- story: keyword search and ask to continue with PDF
+  steps:
+  - intent: search_keyword
+  - action: action_search_keyword
+  - action: utter_ask_pdf_continue
+  - intent: confirm_pdf_search
+  - action: action_parsing_userguide
+  # - intent: deny
+  # - action: utter_acknowledge    

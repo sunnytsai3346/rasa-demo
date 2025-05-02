@@ -13,12 +13,12 @@ rules:
   - action: utter_iamabot
 
 
-- rule: respond to keyword search
-  steps:
-  - intent: search_keyword
-  - action: action_search_keyword
+# - rule: respond to keyword search
+#   steps:
+#   - intent: search_keyword
+#   - action: action_search_keyword
 
-- rule: Parse PDF example
-  steps:
-  - intent: request_pdf_parsing
-  - action: action_parsing_userguide
+# - rule: Parse PDF example
+#   steps:
+#   - intent: request_pdf_parsing
+#   - action: action_parsing_userguide

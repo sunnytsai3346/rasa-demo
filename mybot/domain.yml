@@ -10,6 +10,7 @@ intents:
   - bot_challenge  
   - search_keyword
   - request_pdf_parsing
+  - confirm_pdf_search
 
 entities:
   - keyword
@@ -47,6 +48,13 @@ responses:
 
   utter_no_result:
     - text: "Sorry, I couldn't find anything for that keyword."  
+  
+  utter_ask_pdf_continue:
+  - text: "Would you like me to continue searching in the PDF manual?"  
+
+  utter_acknowledge:
+    - text: "Got it. Let me know if you need anything else."
+
 actions:
   - action_search_keyword
   - action_parsing_userguide
