@@ -1,3 +1,4 @@
+import csv
 import json
 import sys
 import os
@@ -33,6 +34,16 @@ en_spacy = spacy.load("en_core_web_md")
 
 USER_INTENT_OUT_OF_SCOPE = "out_of_scope"
 
+# Set up logger
+log_file_path = os.path.join(os.path.dirname(__file__), "user_inputs.log")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(log_file_path),
+        logging.StreamHandler()
+    ]
+)
 logger = logging.getLogger(__name__)
 
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
@@ -127,8 +138,12 @@ class ActionSearchKeyword(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        user_input = tracker.latest_message.get("text", "").lower()
-        print(user_input)
+        user_input = tracker.latest_message.get("text", "").lower()        
+        # Log the raw user input
+        logger.info(f"User input: {user_input}")
+        # Save user input to CSV
+        self.save_to_csv(user_input)
+
         lang_code = detect(user_input)
         keywords_data = self.load_keywords(lang_code)
         base_url = "http://192.168.230.169/"
@@ -172,3 +187,17 @@ class ActionSearchKeyword(Action):
             dispatcher.utter_message(response="utter_no_result")
 
         return []
+    
+    def save_to_csv(self, user_input: Text):
+        file_path = os.path.join(os.path.dirname(__file__), "nlu_user_inputs.csv")
+        file_exists = os.path.isfile(file_path)
+
+        with open(file_path, mode='a', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+
+            # If file is new, write header
+            if not file_exists:
+                writer.writerow(["text", "intent", "entities"])
+
+            # Append user input with placeholders for later labeling
+            writer.writerow([user_input, "", ""])
