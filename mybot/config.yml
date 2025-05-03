@@ -8,9 +8,18 @@ assistant_id: 20250413-200728-rounded-talent
 
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: en  # Language-agnostic for multilingual support
+pipeline:
+- name: WhitespaceTokenizer  # For other languages
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 100
+- name: EntitySynonymMapper
+- name: ResponseSelector
 
-pipeline: null
+#pipeline: null
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
@@ -39,7 +48,7 @@ policies:
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.
-#   - name: MemoizationPolicy
+   - name: MemoizationPolicy
    - name: RulePolicy
    - name: UnexpecTEDIntentPolicy
      max_history: 5

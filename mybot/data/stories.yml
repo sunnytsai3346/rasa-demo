@@ -9,25 +9,25 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
 
 # - story: user searches for a keyword
 #   steps:
@@ -39,12 +39,25 @@ stories:
     - intent: request_pdf_parsing
     - action: action_parsing_userguide
 
-- story: keyword search and ask to continue with PDF
-  steps:
-  - intent: search_keyword
-  - action: action_search_keyword
-  - action: utter_ask_pdf_continue
-  - intent: confirm_pdf_search
-  - action: action_parsing_userguide
+# - story: keyword search and ask to continue with PDF v0
+#   steps:
+#   - intent: search_keyword
+#   - action: action_search_keyword
+#   - action: utter_ask_pdf_continue
+#   - intent: confirm_pdf_search
+#   - action: action_parsing_userguide
   # - intent: deny
   # - action: utter_acknowledge    
+
+# - story: user wants to search keyword
+#   steps:
+#   - intent: search_keyword
+#   - slot_was_set:
+#       - keyword
+#   - or:
+#     - slot_was_set:
+#         - language: null
+#     - intent: inform_language
+#   - action: utter_ask_search_language
+#   - intent: inform_language
+#   - action: action_search_keyword

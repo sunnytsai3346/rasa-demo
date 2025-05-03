@@ -114,28 +114,15 @@ class ActionParsingUserGuide(Action):
 
         return []
     
-
+# Ensure consistent language detection
+DetectorFactory.seed = 0
 ## ActionSearchKeyword ##
 class ActionSearchKeyword(Action):
     def name(self) -> Text:
         return "action_search_keyword"
-    def load_keywords(self, lang_code: str) -> Dict:
-        lang_map = {
-            "en": "EN.json",
-            "de": "DE.json",
-            "ja": "JA.json",
-            "ko": "KO.json",
-            "es": "ES.json",
-            "fr": "FR.json",
-            "it": "IT.json",
-            "pl": "PL.json",
-            "pt": "PT.json",
-            "ru": "RU.json",
-            "zh": "ZH.json"
-        }
-
-        # default to English if language unsupported
-        file_name = lang_map.get(lang_code, "EN.json")        
+    def load_keywords(self, file_name: str) -> Dict:
+        
+  
         #keywords subfolder
         file_path = os.path.join(os.path.dirname(__file__), "keywords", file_name)
         print(file_path)
@@ -150,15 +137,55 @@ class ActionSearchKeyword(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        lang_map = {
+            "en": "EN.json",
+            "de": "DE.json",
+            "ja": "JA.json",
+            "ko": "KO.json",
+            "es": "ES.json",
+            "fr": "FR.json",
+            "it": "IT.json",
+            "pl": "PL.json",
+            "pt": "PT.json",
+            "ru": "RU.json",
+            "zh": "ZH.json"
+        }
         
+        language = tracker.get_slot("language")
+        keyword = tracker.get_slot("keyword")
+        
+        # Detect language if not set
+        if not language:
+            try:
+                language = detect(user_input)
+                dispatcher.utter_message(f"Detected language: {language}")
+            except Exception as e:
+                dispatcher.utter_message("Could not detect language. Please specify (e.g., en, zh).")
+                return [SlotSet("language", None)]       
+
+       # Validate inputs
+        if not keyword:
+            dispatcher.utter_message("Please provide a keyword to search for.")
+            return [SlotSet("language", language)]
+        if not language:
+            dispatcher.utter_message("Please specify a language (e.g., en, fr, zh).")
+            return [SlotSet("language", None)]
+        dispatcher.utter_message(f"Detected language: {language}, keyword:{keyword}")
         user_input = tracker.latest_message.get("text", "").lower()        
+        
         # Log the raw user input
         logger.info(f"User input: {user_input}")
         # Save user input to CSV
         self.save_to_csv(user_input)
 
-        lang_code = safe_detect(user_input)
-        keywords_data = self.load_keywords(lang_code)
+        if language not in lang_map:
+            dispatcher.utter_message(f"Sorry, the language '{language}' is not supported. Choose from: {', '.join(lang_map.keys())}")
+            return [SlotSet("language", None)]
+            
+        # default to English if language unsupported
+        file_name = lang_map.get(language, "EN.json")      
+
+        keywords_data = self.load_keywords(file_name)
         base_url = "http://192.168.230.169/"
         threshold = 75  # Fuzzy match threshold (0-100)
 

@@ -12,7 +12,26 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: ask for language if user affirms search
+  steps:
+    - intent: affirm
+    - action: utter_ask_search_language
 
+- rule: Ask for language when language is not set
+  steps:
+  - intent: search_keyword
+  - slot_was_set:
+      - keyword
+  - slot_was_set:
+      - language: null
+  - action: utter_ask_search_language
+
+- rule: Perform search when language and keyword are set
+  steps:
+  - intent: inform_language
+  - slot_was_set:
+      - keyword
+  - action: action_search_keyword
 # - rule: respond to keyword search
 #   steps:
 #   - intent: search_keyword

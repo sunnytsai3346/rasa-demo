@@ -1,6 +1,34 @@
 version: "3.1"
 
 nlu:
+- synonym: fr
+  examples: |
+    - French
+- synonym: en
+  examples: |
+    - English
+- synonym: de
+  examples: |
+    - German
+- synonym: ja
+  examples: |
+    - Japanese
+- synonym: ko
+  examples: |
+    - Korean
+- synonym: es
+  examples: |
+    - Spanish
+- synonym: ru
+  examples: |
+    - Portuguese
+- synonym: it
+  examples: |
+    - Italian
+- synonym: zh
+  examples: |
+    - Chinese
+
 - intent: greet
   examples: |
     - hey
@@ -97,6 +125,7 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
 - intent: search_keyword
   examples: |
     - Show me [Audio Setup](keyword)
@@ -110,7 +139,7 @@ nlu:
     - Navigate to [System Upgrade](keyword)
     - Find [Projector Serial](keyword)
     - [Calibration](keyword)
-    - I want to know about installation
+    - I want to know about [installation](keyword)
     - What is [sensor alignment](keyword)?
 
 
@@ -135,3 +164,21 @@ nlu:
     - c
     - continue 
 
+- intent: inform_language
+  examples: |
+    - I want to search in [en](language)
+    - Use [French](language)
+    - Search in [de](language)
+    - [ja](language)
+    - [Korean](language)
+    - [es](language)
+    - [fr](language)
+    - [Italian](language)
+    - [pl](language)
+    - [Portuguese](language)
+    - [ru](language)
+    - [Chinese](language)
+    - Switch to [zh](language)
+- intent: session_start
+  examples: |
+    - start    

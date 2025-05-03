@@ -11,6 +11,8 @@ intents:
   - search_keyword
   - request_pdf_parsing
   - confirm_pdf_search
+  - inform_language
+  - session_start
 
 entities:
   - keyword
@@ -18,10 +20,22 @@ entities:
 slots:
   keyword:
     type: text
-    influence_conversation: false
+    influence_conversation: true
     mappings:
       - type: from_entity
         entity: keyword
+      - type: from_text
+        intent: search_keyword
+        not_intent: [inform_language, session_start, affirm, confirm_pdf_search, deny, mood_unhappy]
+  language:
+    type: text
+    influence_conversation: true 
+    mappings:
+    - type: from_entity
+      entity: language   
+    - type: from_text
+      intent: inform_language
+      not_intent: [search_keyword, session_start, affirm, confirm_pdf_search, deny, mood_unhappy]   
     
 responses:
   utter_greet:
@@ -54,6 +68,12 @@ responses:
 
   utter_acknowledge:
     - text: "Got it. Let me know if you need anything else."
+  
+  utter_ask_show_search_keyword:
+    - text: "Do you want me to show the search keyword pages ? (yes/no)"
+  
+  utter_ask_search_language:
+  - text: "Which language do you want to search in ?(en,de,ja,ko,es,fr,it,pl,pt,ru,zh)"
 
 actions:
   - action_search_keyword
