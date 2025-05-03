@@ -1,6 +1,151 @@
 version: "3.1"
-
 nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - please continue
+    - go ahead
+    - sure
+    - okay
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - not now
+    - stop
+    - that's enough
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: search_keyword
+  examples: |
+    - Show me [Audio Setup](keyword)
+    - I want to find [Test Connection](keyword)
+    - Where is [Backup and Restore](keyword)?
+    - What is [Backup and Restore](keyword)?
+    - How to use [Dolby Atmos Configuration](keyword)?
+    - I need help with [Lens Position](keyword)
+    - Tell me about [License Agreements](keyword)
+    - Search for [Gamma File](keyword)
+    - Navigate to [System Upgrade](keyword)
+    - Find [Projector Serial](keyword)
+    - [Calibration](keyword)
+    - I want to know about [installation](keyword)
+    - What is [sensor alignment](keyword)?
+    - search keystone
+    - what is calibration
+- intent: request_pdf_parsing
+  examples: |
+    - Please check the PDF for setup details
+    - Can you find anything about installation in the PDF?
+    - Parse the uploaded manual
+    - Please parse the PDF
+    - Can you check the manual?
+    - What does the PDF say about installation?
+    - Read the uploaded document
+    - Look into the setup guide
+    - yed
+- intent: confirm_pdf_search
+  examples: |
+    - yes, check the PDF
+    - please continue with the manual
+    - go ahead with the user guide
+    - y
+    - yes
+    - c
+    - continue
+- intent: inform_language
+  examples: |
+    - I want to search in [en](language)
+    - Use [French](language)
+    - Search in [de](language)
+    - [ja](language)
+    - [Korean](language)
+    - [es](language)
+    - [fr](language)
+    - [Italian](language)
+    - [pl](language)
+    - [Portuguese](language)
+    - [ru](language)
+    - [Chinese](language)
+    - Switch to [zh](language)
+    - search keystone
+- intent: session_start
+  examples: |
+    - start
+    - /start
 - synonym: fr
   examples: |
     - French
@@ -28,157 +173,3 @@ nlu:
 - synonym: zh
   examples: |
     - Chinese
-
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-    - yes
-    - please continue
-    - go ahead
-    - sure
-    - okay
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-    - not now
-    - stop
-    - that's enough
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-
-- intent: search_keyword
-  examples: |
-    - Show me [Audio Setup](keyword)
-    - I want to find [Test Connection](keyword)
-    - Where is [Backup and Restore](keyword)?
-    - What is [Backup and Restore](keyword)?
-    - How to use [Dolby Atmos Configuration](keyword)?
-    - I need help with [Lens Position](keyword)
-    - Tell me about [License Agreements](keyword)
-    - Search for [Gamma File](keyword)
-    - Navigate to [System Upgrade](keyword)
-    - Find [Projector Serial](keyword)
-    - [Calibration](keyword)
-    - I want to know about [installation](keyword)
-    - What is [sensor alignment](keyword)?
-
-
-- intent: request_pdf_parsing
-  examples: |
-    - Please check the PDF for setup details
-    - Can you find anything about installation in the PDF?
-    - Parse the uploaded manual
-    - Please parse the PDF
-    - Can you check the manual?
-    - What does the PDF say about installation?
-    - Read the uploaded document
-    - Look into the setup guide
-
-- intent: confirm_pdf_search
-  examples: |
-    - yes, check the PDF
-    - please continue with the manual
-    - go ahead with the user guide   
-    - y
-    - yes
-    - c
-    - continue 
-
-- intent: inform_language
-  examples: |
-    - I want to search in [en](language)
-    - Use [French](language)
-    - Search in [de](language)
-    - [ja](language)
-    - [Korean](language)
-    - [es](language)
-    - [fr](language)
-    - [Italian](language)
-    - [pl](language)
-    - [Portuguese](language)
-    - [ru](language)
-    - [Chinese](language)
-    - Switch to [zh](language)
-- intent: session_start
-  examples: |
-    - start    

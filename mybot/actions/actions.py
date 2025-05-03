@@ -61,17 +61,68 @@ from typing import Any, Dict, List, Text
 from langdetect import detect,DetectorFactory
 DetectorFactory.seed = 0
 
-def safe_detect(text: str)->str :        
-        #fallback to English 
-        if len(text) <5 or text.isascii():
-            print('safe_detect',text,"en")
-            return "en"
-        try:
-            print('safe_detect',text,detect(text))
-            return detect(text)
-        except:
-            return "en"
 
+def detect_script(text: str) -> str:
+    
+    if re.search(r'[\u3040-\u30ff]', text):  # Japanese Hiragana/Katakana
+        # print('detect_script',text,'ja')
+        return "ja"
+    elif re.search(r'[\uac00-\ud7af]', text):  # Korean Hangul
+        # print('detect_script',text,'ko')
+        return "ko"
+    elif re.search(r'[\u4e00-\u9fff]', text):  # Chinese
+        # print('detect_script',text,'zh')
+        return "zh"
+    # Russian Cyrillic
+    elif re.search(r'[\u0400-\u04FF]', text):
+        return 'ru'
+    # Polish (has ł, ż, etc.)
+    elif re.search(r'[ąćęłńóśźż]', text, re.IGNORECASE):
+        return 'pl'
+    # German (has ü, ä, ö, ß)
+    elif re.search(r'[äöüß]', text, re.IGNORECASE):
+        return 'de'
+    # Spanish (has ñ, á, é, í, ó, ú, ü)
+    elif re.search(r'[áéíóúüñ]', text, re.IGNORECASE):
+        return 'es'
+    # French (é, è, ê, ç, etc.)
+    elif re.search(r'[àâçéèêëîïôûùüÿ]', text, re.IGNORECASE):
+        return 'fr'
+     # Italian (à, è, é, ì, ò, ù)
+    elif re.search(r'[àèéìòù]', text, re.IGNORECASE):
+        return 'it'
+    # Portuguese (ã, õ, ç, ê, etc.)
+    elif re.search(r'[ãõâêîôûç]', text, re.IGNORECASE):
+        return 'pt'
+    print('detect_script',text,'unknown')
+    return "unknown"        
+
+def detect_language(text: str) -> str:
+    # from langdetect import detect, DetectorFactory
+    # DetectorFactory.seed = 0
+
+    SUPPORTED_LANGS = {"en", "de", "es", "it","ru","fr","ko","ja","zh"}
+    
+    try:
+        # script_lang = detect_script(text)
+        # if script_lang != "unknown":
+        #     return script_lang
+        # # Fall back to langid for European languages
+        # lang_code, score = langid.classify(text)
+        # if score < 0.85 or len(text) < 5:
+        #     return "en"
+        
+        #return lang_code if lang_code in SUPPORTED_LANGS else "en"
+        if re.search(r'[english]', text.lower, re.IGNORECASE):
+            return "en"
+        elif re.search(r'[en]', text.lower, re.IGNORECASE):
+            return "en"
+        elif re.search(r'[german]', text.lower, re.IGNORECASE):
+            return "de"
+        elif re.search(r'[de]', text.lower, re.IGNORECASE):
+            return "de"
+    except:
+        return "en"
 class ActionParsingUserGuide(Action):
     def name(self) -> Text:
         return "action_parsing_userguide"
@@ -101,7 +152,8 @@ class ActionParsingUserGuide(Action):
             #full_text = " ".join(page.get_text() for page in doc)
             # Use spaCy for NLP parsing
             parsed = en_spacy(full_text)
-            sentences = [sent.text for sent in parsed.sents if user_input  in sent.text.lower()]            
+            #sentences = [sent.text for sent in parsed.sents if user_input  in sent.text.lower()]            
+            sentences = [sent.text for sent in parsed.sents]            
             response = "\n".join(sentences[:5]) if sentences else "No relevant info found in the PDF."
             dispatcher.utter_message(text=response)
             # Sample: Basic parsing — you can add NLP/keyword extraction here
@@ -114,15 +166,28 @@ class ActionParsingUserGuide(Action):
 
         return []
     
-# Ensure consistent language detection
-DetectorFactory.seed = 0
+
 ## ActionSearchKeyword ##
 class ActionSearchKeyword(Action):
     def name(self) -> Text:
         return "action_search_keyword"
-    def load_keywords(self, file_name: str) -> Dict:
-        
-  
+    def load_keywords(self, lang_code: str) -> Dict:
+        lang_map = {
+            "en": "EN.json",
+            "de": "DE.json",
+            "ja": "JA.json",
+            "ko": "KO.json",
+            "es": "ES.json",
+            "fr": "FR.json",
+            "it": "IT.json",
+            "pl": "PL.json",
+            "pt": "PT.json",
+            "ru": "RU.json",
+            "zh": "ZH.json"
+        }
+
+        # default to English if language unsupported
+        file_name = lang_map.get(lang_code, "EN.json")        
         #keywords subfolder
         file_path = os.path.join(os.path.dirname(__file__), "keywords", file_name)
         print(file_path)
@@ -137,55 +202,15 @@ class ActionSearchKeyword(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        lang_map = {
-            "en": "EN.json",
-            "de": "DE.json",
-            "ja": "JA.json",
-            "ko": "KO.json",
-            "es": "ES.json",
-            "fr": "FR.json",
-            "it": "IT.json",
-            "pl": "PL.json",
-            "pt": "PT.json",
-            "ru": "RU.json",
-            "zh": "ZH.json"
-        }
         
-        language = tracker.get_slot("language")
-        keyword = tracker.get_slot("keyword")
-        
-        # Detect language if not set
-        if not language:
-            try:
-                language = detect(user_input)
-                dispatcher.utter_message(f"Detected language: {language}")
-            except Exception as e:
-                dispatcher.utter_message("Could not detect language. Please specify (e.g., en, zh).")
-                return [SlotSet("language", None)]       
-
-       # Validate inputs
-        if not keyword:
-            dispatcher.utter_message("Please provide a keyword to search for.")
-            return [SlotSet("language", language)]
-        if not language:
-            dispatcher.utter_message("Please specify a language (e.g., en, fr, zh).")
-            return [SlotSet("language", None)]
-        dispatcher.utter_message(f"Detected language: {language}, keyword:{keyword}")
         user_input = tracker.latest_message.get("text", "").lower()        
-        
         # Log the raw user input
         logger.info(f"User input: {user_input}")
         # Save user input to CSV
         self.save_to_csv(user_input)
 
-        if language not in lang_map:
-            dispatcher.utter_message(f"Sorry, the language '{language}' is not supported. Choose from: {', '.join(lang_map.keys())}")
-            return [SlotSet("language", None)]
-            
-        # default to English if language unsupported
-        file_name = lang_map.get(language, "EN.json")      
-
-        keywords_data = self.load_keywords(file_name)
+        lang_code = detect_language(user_input)
+        keywords_data = self.load_keywords(lang_code)
         base_url = "http://192.168.230.169/"
         threshold = 75  # Fuzzy match threshold (0-100)
 
@@ -198,7 +223,7 @@ class ActionSearchKeyword(Action):
             level = item.get("userLevel", 0)
 
             #score = fuzz.partial_ratio(user_message, name.lower())
-            if name.lower() !='none':
+            if len(name.strip())>0  : 
                 if user_input.lower() in name.lower() or fuzz.partial_ratio(user_input.lower(), name.lower()) > threshold:
                     if url.startswith("/#/"):
                         url = url.replace("/#/", base_url)
@@ -211,6 +236,7 @@ class ActionSearchKeyword(Action):
                         "level": int(level) if str(level).isdigit() else 0,  # safely cast to int
                         "score": int(fuzz.partial_ratio(user_input.lower(), name.lower()) )  # fuzz returns int, but cast anyway just in case
                     })
+                    print(name,url)
 
         if matches:
             # Sort by userLevel descending, then by fuzzy score
