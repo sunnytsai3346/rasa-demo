@@ -181,4 +181,5 @@ nlu:
     - Switch to [zh](language)
 - intent: session_start
   examples: |
-    - start    
+    - start
+    - /start

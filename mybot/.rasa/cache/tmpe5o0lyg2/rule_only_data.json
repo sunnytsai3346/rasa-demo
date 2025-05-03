@@ -1,0 +1,7 @@
+{
+  "rule_only_slots": [
+    "keyword",
+    "language"
+  ],
+  "rule_only_loops": []
+}

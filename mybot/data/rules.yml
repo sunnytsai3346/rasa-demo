@@ -32,6 +32,16 @@ rules:
   - slot_was_set:
       - keyword
   - action: action_search_keyword
+
+- rule: Handle session start and reset slots
+  steps:
+  - intent: session_start
+  - action: action_session_start #RASA’s default action
+  - slot_was_set:
+     - language: null
+     - keyword: null
+  - action: action_reset_slots
+
 # - rule: respond to keyword search
 #   steps:
 #   - intent: search_keyword

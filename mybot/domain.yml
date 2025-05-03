@@ -78,6 +78,7 @@ responses:
 actions:
   - action_search_keyword
   - action_parsing_userguide
+  - action_reset_slots
 
 session_config:
   session_expiration_time: 60

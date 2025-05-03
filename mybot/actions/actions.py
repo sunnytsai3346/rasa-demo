@@ -227,8 +227,6 @@ class ActionSearchKeyword(Action):
             dispatcher.utter_message(response="utter_no_result")
 
         return []
-    
-    
 
 
     def save_to_csv(self, user_input: Text):
@@ -244,3 +242,11 @@ class ActionSearchKeyword(Action):
 
             # Append user input with placeholders for later labeling
             writer.writerow([user_input, "", ""])
+
+class ActionResetSlots(Action):
+    def name(self):
+        return "action_reset_slots"
+
+    def run(self, dispatcher, tracker, domain):
+        print('ActionResetSlots')
+        return [SlotSet("keyword", None), SlotSet("language", None)]            
