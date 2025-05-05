@@ -3,7 +3,7 @@ import json
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-print(sys.path)
+# print(sys.path)
 # -*- coding: utf-8 -*-
 import logging
 import json
@@ -22,8 +22,10 @@ from rasa_sdk.events import (
 )
 
 #from actions import config
-import spacy
-en_spacy = spacy.load("en_core_web_md")
+
+from transformers import pipeline
+from sentence_transformers import SentenceTransformer
+from sentence_transformers import util
 
 # from actions.api import community_events
 # from actions.api.algolia import AlgoliaAPI
@@ -34,6 +36,8 @@ en_spacy = spacy.load("en_core_web_md")
 
 USER_INTENT_OUT_OF_SCOPE = "out_of_scope"
 
+import spacy
+en_spacy = spacy.load("en_core_web_md")
 # Set up logger
 log_file_path = os.path.join(os.path.dirname(__file__), "user_inputs.log")
 logging.basicConfig(
@@ -60,6 +64,24 @@ from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
 from langdetect import detect,DetectorFactory
 DetectorFactory.seed = 0
+
+def log_summary_query(query, section_title, summary):
+        CSV_LOG_PATH =   os.path.join(os.path.dirname(__file__), "nlu_summary_queries.csv" ) 
+        # Create file with header if not exists
+        if not os.path.exists(CSV_LOG_PATH):
+            with open(CSV_LOG_PATH, mode='w', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file)
+                writer.writerow(["timestamp", "user_query", "section_title", "summary_response"])
+
+        # Append new row
+        with open(CSV_LOG_PATH, mode='a', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerow([
+                datetime.now().isoformat(timespec="seconds"),
+                query,
+                section_title,
+                summary.replace("\n", " ")  # Clean newlines
+            ])      
 
 
 def detect_script(text: str) -> str:
@@ -276,3 +298,135 @@ class ActionSearchKeyword(Action):
 
             # Append user input with placeholders for later labeling
             writer.writerow([user_input, "", ""])
+
+
+
+class PDFKnowledgeBase:
+    def __init__(self, pdf_path):
+        self.sections = self.load_pdf_sections(pdf_path)
+        self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")        
+        self.embedder = SentenceTransformer("all-MiniLM-L6-v2")        
+        # self.section_embeddings = self.embedder.encode(
+        #     [section["title"] for section in self.sections],  # or use "summary" if more relevant
+        #     convert_to_tensor=True
+        # )
+        self.embeddings = self.embed_sections()
+
+    def load_pdf_sections(self, path):
+        doc = fitz.open(path)
+        chunks = []
+        for page in doc:
+            text = page.get_text()
+            if len(text) > 500:
+                chunks.append(text)
+        return chunks
+
+    def extract_sections(self, path):
+        doc = fitz.open(path)
+        section_data = []
+
+        for page in doc:
+            blocks = page.get_text("blocks")
+            blocks.sort(key=lambda b: b[1])  # top to bottom
+
+            for block in blocks:
+                text = block[4].strip()
+                if len(text.split()) < 10 and text.istitle():  # naive title check
+                    title = text
+                    continue
+                if text and title:
+                    section_data.append({"title": title, "content": text})
+                    title = None
+
+        # Summarize
+        for section in section_data:
+            section["summary"] = self.summarize(section["content"])
+        return section_data    
+
+    def summarize(self, text):
+        if len(text) < 400:
+            return text.strip()
+        summary = self.summarizer(text[:1024], max_length=200, min_length=60, do_sample=False)
+        return summary[0]["summary_text"]
+
+    def embed_sections(self):
+        return self.embedder.encode(self.sections, convert_to_tensor=True)
+
+    def embed_titles(self):
+        titles = [section["title"] for section in self.sections]
+        return self.embedder.encode(titles, convert_to_tensor=True)    
+
+    def search(self, query, top_k=1):
+        query_embedding = self.embedder.encode(query, convert_to_tensor=True)
+        hits = util.semantic_search(query_embedding, self.embeddings, top_k=top_k)[0]
+        best_match = self.sections[hits[0]["corpus_id"]]
+        print('search,',best_match)
+        return self.summarize(best_match)
+    def search_by_title(self, query, top_k=1):
+        query_embedding = self.embedder.encode(query, convert_to_tensor=True)
+        hits = util.semantic_search(query_embedding, self.section_embeddings, top_k=1)
+        if not hits or not hits[0]:
+            return "Not Found", "Sorry, I couldn’t find a matching section."
+        
+        best_hit = hits[0][0]
+        section_index = best_hit["corpus_id"]
+        match = self.sections[section_index]
+        return match["title"], match["summary"]
+
+PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF\manual.pdf")
+knowledge_base = PDFKnowledgeBase(PDF_PATH)
+
+class ActionQueryManual(Action):
+    def name(self):
+        return "action_query_manual"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: dict):
+        query = tracker.latest_message.get("text")
+        answer = knowledge_base.search(query)
+        print('action_query_manual,',answer)
+        # Log query to CSV
+        log_summary_query(query, '', answer)
+
+        dispatcher.utter_message(text=answer)
+        return []
+
+     
+
+    
+
+   
+
+      
+
+class ActionQueryManualSection(Action):
+    def name(self):
+        return "action_query_manual_section"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: dict):
+        query = tracker.latest_message.get("text")
+        section_title, summary = knowledge_base.search_by_title(query)
+        # Log query to CSV
+        log_summary_query(query, section_title, summary)
+        dispatcher.utter_message(text=f"**{section_title}**\n{summary}")
+        return [SlotSet("section_title", section_title)]  
+
+    def log_summary_query(query, section_title, summary):
+        # Create file with header if not exists
+        if not os.path.exists(CSV_LOG_PATH):
+            with open(CSV_LOG_PATH, mode='w', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file)
+                writer.writerow(["timestamp", "user_query", "section_title", "summary_response"])
+
+        # Append new row
+        with open(CSV_LOG_PATH, mode='a', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerow([
+                datetime.now().isoformat(timespec="seconds"),
+                query,
+                section_title,
+                summary.replace("\n", " ")  # Clean newlines
+            ])                  

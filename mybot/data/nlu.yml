@@ -197,3 +197,17 @@ nlu:
     네트워크 설정
     소프트웨어 버전
     사용자 메뉴얼
+
+- intent: query_manual
+  examples: |
+    - How do I calibrate the projector?
+    - Tell me about sensor alignment
+    - What's the process for screen setup?
+    - What is lens reset?    
+
+- intent: query_manual_section
+  examples: |
+    - Show me the section on calibration
+    - What does the manual say about lens reset?
+    - Find the part on installation
+    - What's the installation section?    

@@ -1,0 +1,15 @@
+{
+  "0": "affirm",
+  "1": "bot_challenge",
+  "2": "confirm_pdf_search",
+  "3": "deny",
+  "4": "goodbye",
+  "5": "greet",
+  "6": "inform_language",
+  "7": "mood_great",
+  "8": "mood_unhappy",
+  "9": "query_manual",
+  "10": "request_pdf_parsing",
+  "11": "search_keyword",
+  "12": "session_start"
+}

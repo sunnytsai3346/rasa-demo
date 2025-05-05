@@ -9,3 +9,5 @@ pymupdf
 rapidfuzz>=2.0.0
 spacy==3.5.4
 langdetect
+transformers
+sentence-transformers

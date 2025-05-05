@@ -44,3 +44,14 @@ rules:
   - intent: request_pdf_parsing
   - action: action_parsing_userguide
 
+- rule: Answer manual query
+  steps:
+    - intent: query_manual
+    - action: action_query_manual  
+
+- rule: Show manual section
+  steps:
+    - intent: query_manual_section
+    - action: action_query_manual_section
+
+

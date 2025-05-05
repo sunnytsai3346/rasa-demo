@@ -12,6 +12,9 @@ intents:
 - request_pdf_parsing
 - search_keyword
 - session_start
+- query_manual
+- query_manual_section
+
 entities:
 - keyword
 slots:
@@ -30,6 +33,11 @@ slots:
       - confirm_pdf_search
       - deny
       - mood_unhappy
+  section_title:
+    type: text
+    influence_conversation: false    
+    mappings:
+      - type: custom
   # language:
   #   type: text
   #   influence_conversation: true
@@ -75,6 +83,9 @@ actions:
 - utter_ask_pdf_continue
 - action_search_keyword
 - action_parsing_userguide
+- action_query_manual
+- action_query_manual_section
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
