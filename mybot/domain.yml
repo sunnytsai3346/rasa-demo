@@ -30,21 +30,21 @@ slots:
       - confirm_pdf_search
       - deny
       - mood_unhappy
-  language:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_entity
-      entity: language
-    - type: from_text
-      intent: inform_language
-      not_intent:
-      - search_keyword
-      - session_start
-      - affirm
-      - confirm_pdf_search
-      - deny
-      - mood_unhappy
+  # language:
+  #   type: text
+  #   influence_conversation: true
+  #   mappings:
+  #   - type: from_entity
+  #     entity: language
+  #   - type: from_text
+  #     intent: inform_language
+  #     not_intent:
+  #     - search_keyword
+  #     - session_start
+  #     - affirm
+  #     - confirm_pdf_search
+  #     - deny
+  #     - mood_unhappy
 responses:
   utter_greet:
   - text: Hey! How are you?

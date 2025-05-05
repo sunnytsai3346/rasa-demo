@@ -17,6 +17,23 @@ rules:
 #     - intent: affirm
 #     - action: utter_ask_search_language
 
+- rule: Ask to continue when no keyword is matched
+  condition:
+    - active_loop: null
+  steps:
+    - intent: search_keyword
+    - action: action_search_keyword
+    - slot_was_set:
+        - keyword: null
+    - action: utter_ask_pdf_continue  
+# - rule: respond to keyword search
+#   steps:
+#     - intent: search_keyword
+#     - action: action_search_keyword
+#     - slot_was_set:
+#         - keyword: null
+#     - action: utter_ask_pdf_continue    
+
 # - rule: respond to keyword search
 #   steps:
 #   - intent: search_keyword
@@ -26,3 +43,4 @@ rules:
   steps:
   - intent: request_pdf_parsing
   - action: action_parsing_userguide
+

@@ -39,36 +39,36 @@ stories:
     - intent: request_pdf_parsing
     - action: action_parsing_userguide
 
-- story: keyword search and ask to continue with PDF v0
-  steps:
-  - intent: search_keyword
-  - action: action_search_keyword
-  - action: utter_ask_pdf_continue
-  - intent: confirm_pdf_search
-  - action: action_parsing_userguide
-  - intent: deny
-  - action: utter_acknowledge    
+# - story: keyword search and ask to continue with PDF v0
+#   steps:
+#   - intent: search_keyword
+#   - action: action_search_keyword
+#   - action: utter_ask_pdf_continue
+#   - intent: confirm_pdf_search
+#   - action: action_parsing_userguide
+  # - intent: deny
+  # - action: utter_acknowledge    
 
-- story: interactive_story_1
-  steps:
-  - intent: inform_language
-  - slot_was_set:
-    - language: none
-  - action: action_parsing_userguide
+# - story: interactive_story_1
+#   steps:
+#   - intent: inform_language
+#   - slot_was_set:
+#     - language: none
+#   - action: action_parsing_userguide
 
-- story: interactive_story_1
-  steps:
-  - intent: inform_language
-  - slot_was_set:
-    - language: none
-  - intent: search_keyword
-  - action: action_search_keyword
-  - action: utter_ask_pdf_continue
-  - action: action_parsing_userguide
-  - intent: search_keyword
-  - slot_was_set:
-    - keyword: what is calibration
-  - action: action_search_keyword
-  - action: utter_ask_pdf_continue  
-  - intent: request_pdf_parsing
-  - action: action_parsing_userguide
+# - story: interactive_story_1
+#   steps:
+#   - intent: inform_language
+#   - slot_was_set:
+#     - language: none
+#   - intent: search_keyword
+#   - action: action_search_keyword
+#   - action: utter_ask_pdf_continue
+#   - action: action_parsing_userguide
+#   - intent: search_keyword
+#   - slot_was_set:
+#     - keyword: what is calibration
+#   - action: action_search_keyword
+#   - action: utter_ask_pdf_continue  
+#   - intent: request_pdf_parsing
+#   - action: action_parsing_userguide

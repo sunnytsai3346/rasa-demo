@@ -1,0 +1,20 @@
+version: "3.1"
+nlu:
+- intent: search_keyword
+  examples: |
+    - 교정 을 찾고 싶습니다
+    - [초점](keyword)
+    - [줌](keyword)
+    - [파일 셋업](keyword)
+    - [Automatique](keyword)
+    - [音频输出率](keyword)
+    - [音频延迟](keyword)
+    - [Shutter](keyword)
+    - [Aktivierung](keyword)
+    - [Servicemodus](keyword)
+    - [GRÜN](keyword)
+    - [音效配置](keyword)
+    - [测试连接](keyword)
+    - [通道映射](keyword)
+    - [programie](keyword)
+    

@@ -149,6 +149,7 @@ class ActionParsingUserGuide(Action):
             full_text = self.extract_text_from_pdf(doc)
             user_input = tracker.latest_message.get("text", "").lower()
             
+            
             #full_text = " ".join(page.get_text() for page in doc)
             # Use spaCy for NLP parsing
             parsed = en_spacy(full_text)
@@ -183,7 +184,7 @@ class ActionSearchKeyword(Action):
             "pl": "PL.json",
             "pt": "PT.json",
             "ru": "RU.json",
-            "zh": "ZH.json"
+            "zh-cn": "ZH.json"
         }
 
         # default to English if language unsupported
@@ -209,7 +210,10 @@ class ActionSearchKeyword(Action):
         # Save user input to CSV
         self.save_to_csv(user_input)
 
-        lang_code = detect_language(user_input)
+        #lang_code = detect_language(user_input)
+        lang_code = detect(user_input)
+        print('215',lang_code)        
+        
         keywords_data = self.load_keywords(lang_code)
         base_url = "http://192.168.230.169/"
         threshold = 75  # Fuzzy match threshold (0-100)
@@ -250,7 +254,9 @@ class ActionSearchKeyword(Action):
 
             dispatcher.utter_message(text="Here are the most relevant matches:\n" + "\n".join(response_lines))
         else:
+            return [SlotSet("keyword", None)]
             dispatcher.utter_message(response="utter_no_result")
+
 
         return []
     
