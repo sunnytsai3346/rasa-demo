@@ -107,6 +107,27 @@ nlu:
     - search keystone
     - [오디오 설정](keyword)을 보여주세요
     - [교정](keyword)을 찾고 싶습니다
+    - Show me [Audio Setup](keyword)
+    - I want to search for [Brightness](keyword)
+    - Quiero buscar [Brillo](keyword)  # Spanish
+    - Je veux chercher [Luminosité](keyword)  # French
+    - Ich möchte [Helligkeit](keyword) suchen  # German
+    - Voglio cercare [Luminosità](keyword)  # Italian
+    - Я хочу найти [Яркость](keyword)  # Russian
+    - Chcę wyszukać [Jasność](keyword)  # Polish
+    - Quero pesquisar [Brilho](keyword)  # Portuguese
+    - [밝기](keyword)를 검색하고 싶어요  # Korean
+    - [セットアップ](keyword) を検索したいです  # Japanese
+    - 我想搜索 [亮度](keyword)  # Chinese
+    - Buscar [Configuración de sonido](keyword)  # Spanish
+    - Afficher [Configuration audio](keyword)  # French
+    - Mostra [Impostazioni audio](keyword)  # Italian
+    - Zeig mir [Audio-Einstellungen](keyword)  # German
+     - I want to search for [초점](keyword)
+    - Wie aktiviere ich [Servicemodus](keyword)?
+    - 请搜索[通道映射](keyword)
+    - Quiero buscar [programie](keyword)
+    - Je veux trouver [Automatique](keyword)
 - intent: request_pdf_parsing
   examples: |
     - Please check the PDF for setup details
@@ -203,7 +224,14 @@ nlu:
     - How do I calibrate the projector?
     - Tell me about sensor alignment
     - What's the process for screen setup?
-    - What is lens reset?    
+    - What is lens reset?
+    - Tell me how to adjust the brightness?
+    - What is Keystone Correction.
+    - How to automatic calibration
+    - Show me Audio Input
+    - What is color mode?
+    - How to change the drop shadow size
+
 
 - intent: query_manual_section
   examples: |
