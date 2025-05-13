@@ -299,7 +299,16 @@ class ActionSearchKeyword(Action):
             # Append user input with placeholders for later labeling
             writer.writerow([user_input, "", ""])
 
+#try different hugging face SentenceTransformer
+#1. all-MiniLM-L12-v2
+#Better accuracy than L6-v2, but slightly slower.
+#Size: ~80MB
+#Great for general-purpose semantic similarity.
 
+#12. all-mpnet-base-v2
+#One of the most accurate general-purpose English models in SentenceTransformers.
+#Larger and slower, but significantly better embeddings.
+#Good for semantic search and clustering.
 
 class PDFKnowledgeBase:
     def __init__(self, pdf_path):
