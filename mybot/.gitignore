@@ -1,0 +1,28 @@
+# Rasa: ignore trained models and internal files
+models/
+.rasa/
+.rasa/cache.db
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# OS and editor-specific files
+.DS_Store
+.idea/
+.vscode/
+
+# Logs (optional)
+*.log
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/

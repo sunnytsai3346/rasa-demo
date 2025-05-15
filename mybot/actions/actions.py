@@ -305,7 +305,7 @@ class ActionSearchKeyword(Action):
 #Size: ~80MB
 #Great for general-purpose semantic similarity.
 
-#12. all-mpnet-base-v2
+#2. all-mpnet-base-v2
 #One of the most accurate general-purpose English models in SentenceTransformers.
 #Larger and slower, but significantly better embeddings.
 #Good for semantic search and clustering.
@@ -314,7 +314,7 @@ class PDFKnowledgeBase:
     def __init__(self, pdf_path):
         self.sections = self.load_pdf_sections(pdf_path)
         self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")        
-        self.embedder = SentenceTransformer("all-MiniLM-L6-v2")        
+        self.embedder = SentenceTransformer("all-mpnet-base-v2")
         # self.section_embeddings = self.embedder.encode(
         #     [section["title"] for section in self.sections],  # or use "summary" if more relevant
         #     convert_to_tensor=True
