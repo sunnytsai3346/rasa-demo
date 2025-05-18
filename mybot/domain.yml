@@ -18,6 +18,16 @@ intents:
 entities:
 - keyword
 slots:
+  kb_answer:
+    type: text
+    mappings:
+      - type: custom
+  
+  emotion:
+    type: text
+    mappings:
+      - type: custom
+      
   keyword:
     type: text
     influence_conversation: true
@@ -75,16 +85,24 @@ responses:
   - text: Would you like me to continue searching in the PDF manual?
   utter_acknowledge:
   - text: Got it. Let me know if you need anything else.
-  utter_ask_show_search_keyword:
-  - text: Do you want me to show the search keyword pages ? (yes/no)
-  utter_ask_search_language:
-  - text: Which language do you want to search in ?(en,de,ja,ko,es,fr,it,pl,pt,ru,zh)
+  utter_acknowledge_frustration:
+    - text: "I understand that this might be frustrating. Let's sort it out together."
+  utter_acknowledge_happiness:
+    - text: "I'm glad to hear that! 😊"
+  utter_acknowledge_neutral:
+    - text: "Got it. Let's continue."
+  # utter_ask_show_search_keyword:
+  # - text: Do you want me to show the search keyword pages ? (yes/no)
+  # utter_ask_search_language:
+  # - text: Which language do you want to search in ?(en,de,ja,ko,es,fr,it,pl,pt,ru,zh)
 actions:
 - utter_ask_pdf_continue
 - action_search_keyword
 - action_parsing_userguide
 - action_query_manual
-- action_query_manual_section
+- action_query_manual_section  
+- action_acknowledge_emotion
+- action_answer_with_intro
 
 session_config:
   session_expiration_time: 60

@@ -1,7 +1,11 @@
 import csv
 import json
+import re
 import sys
 import os
+
+from actions.emotion_model import detect_emotion
+from actions.knowledgebase import PDFKnowledgeBase
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 # print(sys.path)
 # -*- coding: utf-8 -*-
@@ -20,24 +24,20 @@ from rasa_sdk.events import (
     ConversationPaused,
     EventType,
 )
+import spacy
+from fuzzywuzzy import fuzz
+from rapidfuzz.fuzz import partial_ratio
+
+import fitz  # PyMuPDF
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from typing import Any, Dict, List, Text
+from langdetect import detect,DetectorFactory
 
 #from actions import config
-
-from transformers import pipeline
-from sentence_transformers import SentenceTransformer
-from sentence_transformers import util
-
-# from actions.api import community_events
-# from actions.api.algolia import AlgoliaAPI
-# from actions.api.discourse import DiscourseAPI
-# from actions.api.gdrive_service import GDriveService
-# from actions.api.mailchimp import MailChimpAPI
-# from actions.api.rasaxapi import RasaXAPI
-
 USER_INTENT_OUT_OF_SCOPE = "out_of_scope"
-
-import spacy
 en_spacy = spacy.load("en_core_web_md")
+
 # Set up logger
 log_file_path = os.path.join(os.path.dirname(__file__), "user_inputs.log")
 logging.basicConfig(
@@ -51,18 +51,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
-## ActionSearchKeyword ##
+PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF\manual.pdf")
 
-# actions/action_parse_pdf.py
+knowledge_base = PDFKnowledgeBase(PDF_PATH)
 
-from fuzzywuzzy import fuzz
-from rapidfuzz.fuzz import partial_ratio
 
-import fitz  # PyMuPDF
-from rasa_sdk import Action, Tracker
-from rasa_sdk.executor import CollectingDispatcher
-from typing import Any, Dict, List, Text
-from langdetect import detect,DetectorFactory
+
+
 DetectorFactory.seed = 0
 
 def log_summary_query(query, section_title, summary):
@@ -85,7 +80,6 @@ def log_summary_query(query, section_title, summary):
 
 
 def detect_script(text: str) -> str:
-    
     if re.search(r'[\u3040-\u30ff]', text):  # Japanese Hiragana/Katakana
         # print('detect_script',text,'ja')
         return "ja"
@@ -145,6 +139,13 @@ def detect_language(text: str) -> str:
             return "de"
     except:
         return "en"
+    
+#ActionParsingUserGuide (action_parsing_userguide)
+# run - parse manual.pdf
+# no use now (intent :request_pdf_parsing)
+# use ActionQueryManual 
+
+
 class ActionParsingUserGuide(Action):
     def name(self) -> Text:
         return "action_parsing_userguide"
@@ -179,18 +180,15 @@ class ActionParsingUserGuide(Action):
             sentences = [sent.text for sent in parsed.sents]            
             response = "\n".join(sentences[:5]) if sentences else "No relevant info found in the PDF."
             dispatcher.utter_message(text=response)
-            # Sample: Basic parsing — you can add NLP/keyword extraction here
-            # if "installation" in content.lower():
-            #     dispatcher.utter_message(text="The PDF includes installation instructions.")
-            # else:
-            #     dispatcher.utter_message(text="Couldn't find installation info in the PDF.")
+            
         except Exception as e:
             dispatcher.utter_message(text=f"Error reading PDF: {str(e)}")
 
         return []
     
 
-## ActionSearchKeyword ##
+## ActionSearchKeyword  action_search_keyword##
+# intent - 
 class ActionSearchKeyword(Action):
     def name(self) -> Text:
         return "action_search_keyword"
@@ -299,93 +297,12 @@ class ActionSearchKeyword(Action):
             # Append user input with placeholders for later labeling
             writer.writerow([user_input, "", ""])
 
-#try different hugging face SentenceTransformer
-#1. all-MiniLM-L12-v2
-#Better accuracy than L6-v2, but slightly slower.
-#Size: ~80MB
-#Great for general-purpose semantic similarity.
 
-#2. all-mpnet-base-v2
-#One of the most accurate general-purpose English models in SentenceTransformers.
-#Larger and slower, but significantly better embeddings.
-#Good for semantic search and clustering.
 
-class PDFKnowledgeBase:
-    def __init__(self, pdf_path):
-        self.sections = self.load_pdf_sections(pdf_path)
-        self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")        
-        self.embedder = SentenceTransformer("all-mpnet-base-v2")
-        # self.section_embeddings = self.embedder.encode(
-        #     [section["title"] for section in self.sections],  # or use "summary" if more relevant
-        #     convert_to_tensor=True
-        # )
-        self.embeddings = self.embed_sections()
-
-    def load_pdf_sections(self, path):
-        doc = fitz.open(path)
-        chunks = []
-        for page in doc:
-            text = page.get_text()
-            if len(text) > 500:
-                chunks.append(text)
-        return chunks
-
-    def extract_sections(self, path):
-        doc = fitz.open(path)
-        section_data = []
-
-        for page in doc:
-            blocks = page.get_text("blocks")
-            blocks.sort(key=lambda b: b[1])  # top to bottom
-
-            for block in blocks:
-                text = block[4].strip()
-                if len(text.split()) < 10 and text.istitle():  # naive title check
-                    title = text
-                    continue
-                if text and title:
-                    section_data.append({"title": title, "content": text})
-                    title = None
-
-        # Summarize
-        for section in section_data:
-            section["summary"] = self.summarize(section["content"])
-        return section_data    
-
-    def summarize(self, text):
-        if len(text) < 400:
-            return text.strip()
-        summary = self.summarizer(text[:1024], max_length=200, min_length=60, do_sample=False)
-        return summary[0]["summary_text"]
-
-    def embed_sections(self):
-        return self.embedder.encode(self.sections, convert_to_tensor=True)
-
-    def embed_titles(self):
-        titles = [section["title"] for section in self.sections]
-        return self.embedder.encode(titles, convert_to_tensor=True)    
-
-    def search(self, query, top_k=1):
-        query_embedding = self.embedder.encode(query, convert_to_tensor=True)
-        hits = util.semantic_search(query_embedding, self.embeddings, top_k=top_k)[0]
-        best_match = self.sections[hits[0]["corpus_id"]]
-        print('search,',best_match)
-        return self.summarize(best_match)
-    def search_by_title(self, query, top_k=1):
-        query_embedding = self.embedder.encode(query, convert_to_tensor=True)
-        hits = util.semantic_search(query_embedding, self.section_embeddings, top_k=1)
-        if not hits or not hits[0]:
-            return "Not Found", "Sorry, I couldn’t find a matching section."
-        
-        best_hit = hits[0][0]
-        section_index = best_hit["corpus_id"]
-        match = self.sections[section_index]
-        return match["title"], match["summary"]
-
-PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF\manual.pdf")
-knowledge_base = PDFKnowledgeBase(PDF_PATH)
-
+# ActionQueryManual (action_query_manual)
+# run -query knowledge_base.search
 class ActionQueryManual(Action):
+    
     def name(self):
         return "action_query_manual"
 
@@ -397,18 +314,13 @@ class ActionQueryManual(Action):
         print('action_query_manual,',answer)
         # Log query to CSV
         log_summary_query(query, '', answer)
-
-        dispatcher.utter_message(text=answer)
-        return []
+        #dispatcher.utter_message(text=answer)
+        return [SlotSet("kb_answer", answer)]
 
      
-
-    
-
-   
-
       
-
+#  ActionQueryManualSection(action_query_manual_section):
+# run -query knowledge_base.search_by_title
 class ActionQueryManualSection(Action):
     def name(self):
         return "action_query_manual_section"
@@ -423,19 +335,52 @@ class ActionQueryManualSection(Action):
         dispatcher.utter_message(text=f"**{section_title}**\n{summary}")
         return [SlotSet("section_title", section_title)]  
 
-    def log_summary_query(query, section_title, summary):
-        # Create file with header if not exists
-        if not os.path.exists(CSV_LOG_PATH):
-            with open(CSV_LOG_PATH, mode='w', newline='', encoding='utf-8') as file:
-                writer = csv.writer(file)
-                writer.writerow(["timestamp", "user_query", "section_title", "summary_response"])
 
-        # Append new row
-        with open(CSV_LOG_PATH, mode='a', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            writer.writerow([
-                datetime.now().isoformat(timespec="seconds"),
-                query,
-                section_title,
-                summary.replace("\n", " ")  # Clean newlines
-            ])                  
+#ActionAcknowledgeEmotion(Action)
+#Empathetic Response Templates
+class ActionAcknowledgeEmotion(Action):
+    def name(self):
+        return "action_acknowledge_emotion"
+
+    def run(self, dispatcher, 
+            tracker: Tracker,
+            domain: Dict[str, Any]) -> List[Dict[str, Any]]:
+            
+        emotion = tracker.latest_message.get("emotion", "neutral")
+        
+        #emotion, score = detect_emotion(tracker.latest_message)
+
+        # if emotion == "anger":
+        #     dispatcher.utter_message(response="utter_acknowledge_frustration")
+        # elif emotion == "joy":
+        #     dispatcher.utter_message(response="utter_acknowledge_happiness")
+        # else:
+        #     dispatcher.utter_message(response="utter_acknowledge_neutral")
+        
+        return [SlotSet("emotion", emotion)]
+
+
+#ActionAnswerWithIntro (action_answer_with_intro: kb_answer + human like answer)
+class ActionAnswerWithIntro(Action):
+    def name(self) -> Text:
+        return "action_answer_with_intro"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # Simulate getting the answer from your knowledge base
+        kb_answer = tracker.get_slot("kb_answer") 
+
+        # Optional: read emotion slot
+        emotion = tracker.get_slot("emotion")
+        if emotion == "sadness":
+            intro = "I hope you're doing okay. Here's the answer I found for you:\n"
+        elif emotion == "joy":
+            intro = "Great energy! Here's what I found:\n"
+        else:
+            intro = "I’ve found the answer for you. Here's how to proceed:\n"
+
+        # Send the message
+        dispatcher.utter_message(text=f"{intro}{kb_answer}")
+        return []

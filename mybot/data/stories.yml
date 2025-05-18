@@ -1,6 +1,11 @@
 version: "3.1"
 
 stories:
+  - story: Answer from manual with friendly intro
+    steps:
+      - intent: query_manual
+      - action: action_query_manual
+      - action: action_answer_with_intro
 
 # - story: happy path
 #   steps:
@@ -34,8 +39,8 @@ stories:
 #   - intent: search_keyword
 #   - action: action_search_keyword  
 
-- story: Parse PDF example
-  steps:
+  - story: Parse PDF example
+    steps:
     - intent: request_pdf_parsing
     - action: action_parsing_userguide
 

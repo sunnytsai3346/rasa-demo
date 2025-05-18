@@ -54,3 +54,12 @@ rasa 3.6.21 requires numpy<1.25.0,>=1.19.2; python_version >= "3.8" and python_v
 rasa 3.6.21 requires pydantic<1.10.10, but you have pydantic 2.11.4 which is incompatible.
 scipy 1.10.1 requires numpy<1.27.0,>=1.19.5, but you have numpy 2.2.5 which is incompatible.
 tensorflow-intel 2.12.0 requires numpy<1.24,>=1.22, but you have numpy 2.2.5 which is incompatible.
+
+
+
+add .gitignore
+verify 
+git rm --cached -r models/
+git rm --cached -r .rasa/
+git rm --cached -r __pycache__/
+commit changes
