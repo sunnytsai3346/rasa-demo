@@ -240,3 +240,12 @@ nlu:
     - Find the part on installation
     - What's the installation section?    
 
+- intent: express_emotion
+  examples: |
+    - I'm really happy with this result!
+    - I'm frustrated, nothing is working.
+    - I feel so sad about this problem.
+    - Wow, this is awesome!
+    - Ugh, this is driving me crazy.
+    - That was helpful, thanks a lot!
+    - I'm overwhelmed with all these options.

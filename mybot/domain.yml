@@ -19,7 +19,7 @@ entities:
 - keyword
 slots:
   kb_answer:
-    type: text
+    type: any
     mappings:
       - type: custom
   
@@ -27,7 +27,7 @@ slots:
     type: text
     mappings:
       - type: custom
-      
+
   keyword:
     type: text
     influence_conversation: true

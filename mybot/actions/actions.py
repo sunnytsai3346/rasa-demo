@@ -311,11 +311,23 @@ class ActionQueryManual(Action):
             domain: dict):
         query = tracker.latest_message.get("text")
         answer = knowledge_base.search(query)
-        print('action_query_manual,',answer)
+        
+        #print('action_query_manual,',answer) # for debug 
         # Log query to CSV
         log_summary_query(query, '', answer)
+
+        # Split answer by sentence
+        steps = [s.strip() for s in answer.split(". ") if s]
+        steps = [s if s.endswith(".") else s + "." for s in steps]
+
+        json_answer = {
+            "type": "step_list",
+            "title": "Here's how to proceed:",
+            "steps": steps
+        }
+        
         #dispatcher.utter_message(text=answer)
-        return [SlotSet("kb_answer", answer)]
+        return [SlotSet("kb_answer", json_answer)]
 
      
       
@@ -370,17 +382,35 @@ class ActionAnswerWithIntro(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         # Simulate getting the answer from your knowledge base
-        kb_answer = tracker.get_slot("kb_answer") 
+        json_answer = tracker.get_slot("kb_answer")
 
-        # Optional: read emotion slot
+        if not json_answer:
+            dispatcher.utter_message(text="Sorry, I couldn't find an answer.")
+            return []
+        
+
+        # Determine emotion-based prefix
         emotion = tracker.get_slot("emotion")
+        print('emotion:',emotion)
         if emotion == "sadness":
-            intro = "I hope you're doing okay. Here's the answer I found for you:\n"
+            prefix = "I hope you're doing okay. Here's the answer I found for you:\n"
         elif emotion == "joy":
-            intro = "Great energy! Here's what I found:\n"
+            prefix = "Great energy! Here's what I found:\n"
         else:
-            intro = "I’ve found the answer for you. Here's how to proceed:\n"
+            prefix = "I’ve found the answer for you. Here's how to proceed:\n"
 
-        # Send the message
-        dispatcher.utter_message(text=f"{intro}{kb_answer}")
+        
+        # Structured response
+        if isinstance(json_answer, dict) and json_answer.get("type") == "step_list":
+            steps = json_answer.get("steps", [])
+            title = json_answer.get("title", "")
+            dispatcher.utter_message(json_message={
+                "type": "step_list",
+                "title": prefix, 
+                "steps": steps
+            })
+
+        else:
+            full_text = f"{prefix}\n\n{str(json_answer)}"
+            dispatcher.utter_message(text=full_text)
         return []

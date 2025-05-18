@@ -29,6 +29,7 @@ class EmotionClassifier(GraphComponent):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForSequenceClassification.from_pretrained(model_name)
         classifier = pipeline("text-classification", model=model, tokenizer=tokenizer, return_all_scores=True)
+        print(classifier("I'm so happy today!"))
         return cls(classifier)
 
     def __init__(self, classifier):
