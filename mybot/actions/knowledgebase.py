@@ -20,11 +20,9 @@ class PDFKnowledgeBase:
         self.sections = self.load_pdf_sections(pdf_path)
         self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")        
         self.embedder = SentenceTransformer("all-mpnet-base-v2")
-        # self.section_embeddings = self.embedder.encode(
-        #     [section["title"] for section in self.sections],  # or use "summary" if more relevant
-        #     convert_to_tensor=True
-        # )
         self.embeddings = self.embed_sections()
+        self.titles = [section[:60] + "..." for section in self.sections]  # create pseudo-titles
+        self.title_embeddings = self.embedder.encode(self.titles, convert_to_tensor=True)
 
     def load_pdf_sections(self, path):
         doc = fitz.open(path)
@@ -34,6 +32,7 @@ class PDFKnowledgeBase:
             if len(text) > 500:
                 chunks.append(text)
         return chunks
+    
 
     def extract_sections(self, path):
         doc = fitz.open(path)
@@ -73,9 +72,11 @@ class PDFKnowledgeBase:
     def search(self, query, top_k=1):
         query_embedding = self.embedder.encode(query, convert_to_tensor=True)
         hits = util.semantic_search(query_embedding, self.embeddings, top_k=top_k)[0]
-        best_match = self.sections[hits[0]["corpus_id"]]
-        print('search,',best_match)
-        return self.summarize(best_match)
+        best_match_index = hits[0]["corpus_id"]
+        best_section = self.sections[best_match_index]
+        print("Search result:", best_section[:200], "...")
+        return self.summarize(best_section)
+    
     def search_by_title(self, query, top_k=1):
         query_embedding = self.embedder.encode(query, convert_to_tensor=True)
         hits = util.semantic_search(query_embedding, self.section_embeddings, top_k=1)
@@ -86,4 +87,20 @@ class PDFKnowledgeBase:
         section_index = best_hit["corpus_id"]
         match = self.sections[section_index]
         return match["title"], match["summary"]
+    
+    def get_related_topics(self, query, top_n=3):
+        query_embedding = self.embedder.encode(query, convert_to_tensor=True)
+        hits = util.semantic_search(query_embedding, self.title_embeddings, top_k=top_n + 1)[0]
+        
+        # Remove exact match if it exists
+        related_titles = []
+        for hit in hits:
+            idx = hit["corpus_id"]
+            title = self.titles[idx]
+            if title.lower() != query.lower():
+                related_titles.append(title)
+            if len(related_titles) >= top_n:
+                break
+
+        return related_titles
 

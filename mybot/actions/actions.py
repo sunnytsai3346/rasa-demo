@@ -326,10 +326,24 @@ class ActionQueryManual(Action):
             "steps": steps
         }
         
-        #dispatcher.utter_message(text=answer)
-        return [SlotSet("kb_answer", json_answer)]
+        # Use semantic similarity to get related topics
+        related_topics = knowledge_base.get_related_topics(query)
+        print ('331',related_topics)
 
-     
+        if related_topics:
+            dispatcher.utter_message(
+                text="Would you like to learn more about one of these related topics?",
+                buttons=[
+                    {"title": clean_title(topic), "payload": f'/query_manual{{"keyword": "{clean_title(topic)}"}}'}
+                    for topic in related_topics
+                ]
+            )
+        #dispatcher.utter_message(text=answer)
+        return [SlotSet("kb_answer", json_answer),SlotSet("related_topics", related_topics)]
+
+def clean_title(text):
+    # Take first line, truncate long lines
+    return text.split("\n")[0][:40] + "..." if len(text) > 40 else text.split("\n")[0]     
       
 #  ActionQueryManualSection(action_query_manual_section):
 # run -query knowledge_base.search_by_title
@@ -383,6 +397,8 @@ class ActionAnswerWithIntro(Action):
 
         # Simulate getting the answer from your knowledge base
         json_answer = tracker.get_slot("kb_answer")
+        related = tracker.get_slot("related_topics")
+        prefix = "I found something that may help you."
 
         if not json_answer:
             dispatcher.utter_message(text="Sorry, I couldn't find an answer.")
@@ -413,4 +429,23 @@ class ActionAnswerWithIntro(Action):
         else:
             full_text = f"{prefix}\n\n{str(json_answer)}"
             dispatcher.utter_message(text=full_text)
+
+        # Handle related topic buttons
+        if related and isinstance(related, list) and len(related) > 0:
+            def clean_title(text):
+                return text.split("\n")[0][:40] + "..." if len(text) > 40 else text.split("\n")[0]
+
+            buttons = [
+                {
+                    "title": clean_title(topic),
+                    "payload": f'/query_manual{{"keyword": "{clean_title(topic)}"}}'
+                }
+                for topic in related
+            ]
+
+            dispatcher.utter_message(
+                text="Would you like to explore a related topic?",
+                buttons=buttons
+            )
+    
         return []

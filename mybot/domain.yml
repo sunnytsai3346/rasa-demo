@@ -23,6 +23,11 @@ slots:
     mappings:
       - type: custom
   
+  related_topics:
+    type: list
+    mappings:
+      - type: custom    
+  
   emotion:
     type: text
     mappings:
