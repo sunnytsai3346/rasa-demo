@@ -231,6 +231,10 @@ nlu:
     - Show me Audio Input
     - What is color mode?
     - How to change the drop shadow size
+    - Show me how to [add a macro](keyword)
+    - Show me how to [select verify calibration](keyword)
+    - How do I [enable auto calibrate](keyword)?
+    - Help me with [deleting a macro](keyword)
 
 
 - intent: query_manual_section

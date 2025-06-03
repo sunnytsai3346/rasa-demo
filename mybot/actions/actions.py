@@ -62,6 +62,9 @@ DetectorFactory.seed = 0
 
 def log_summary_query(query, section_title, summary):
         CSV_LOG_PATH =   os.path.join(os.path.dirname(__file__), "nlu_summary_queries.csv" ) 
+        if isinstance(summary, tuple):
+            summary = summary[1]  # or str(summary)
+
         # Create file with header if not exists
         if not os.path.exists(CSV_LOG_PATH):
             with open(CSV_LOG_PATH, mode='w', newline='', encoding='utf-8') as file:
@@ -75,7 +78,8 @@ def log_summary_query(query, section_title, summary):
                 datetime.now().isoformat(timespec="seconds"),
                 query,
                 section_title,
-                summary.replace("\n", " ")  # Clean newlines
+                summary.replace("\n", " ")  # Clean newlines, # ❌ this fails if summary is a tuple
+                 
             ])      
 
 
@@ -301,6 +305,7 @@ class ActionSearchKeyword(Action):
 
 # ActionQueryManual (action_query_manual)
 # run -query knowledge_base.search
+# Let action_query_manual only handle setting slots
 class ActionQueryManual(Action):
     
     def name(self):
@@ -309,15 +314,18 @@ class ActionQueryManual(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: dict):
-        query = tracker.latest_message.get("text")
-        answer = knowledge_base.search(query)
+        query = tracker.latest_message.get("text")        
+        section_title, summary = knowledge_base.search(query)        
         
-        #print('action_query_manual,',answer) # for debug 
+        if not isinstance(summary, str):
+            summary = str(summary)  # or summary = summary[1] if it's a (title, summary) tuple
+        summary = summary.replace("\n", " ").strip()
+        
         # Log query to CSV
-        log_summary_query(query, '', answer)
+        log_summary_query(query, section_title, summary)
 
         # Split answer by sentence
-        steps = [s.strip() for s in answer.split(". ") if s]
+        steps = [s.strip() for s in summary.split(". ") if s]
         steps = [s if s.endswith(".") else s + "." for s in steps]
 
         json_answer = {
@@ -328,18 +336,12 @@ class ActionQueryManual(Action):
         
         # Use semantic similarity to get related topics
         related_topics = knowledge_base.get_related_topics(query)
-        print ('331',related_topics)
+        print ('331 Related',related_topics)
 
-        if related_topics:
-            dispatcher.utter_message(
-                text="Would you like to learn more about one of these related topics?",
-                buttons=[
-                    {"title": clean_title(topic), "payload": f'/query_manual{{"keyword": "{clean_title(topic)}"}}'}
-                    for topic in related_topics
-                ]
-            )
+        
         #dispatcher.utter_message(text=answer)
-        return [SlotSet("kb_answer", json_answer),SlotSet("related_topics", related_topics)]
+        return [SlotSet("kb_answer", json_answer),
+                SlotSet("related_topics", related_topics)]
 
 def clean_title(text):
     # Take first line, truncate long lines
@@ -387,6 +389,7 @@ class ActionAcknowledgeEmotion(Action):
 
 
 #ActionAnswerWithIntro (action_answer_with_intro: kb_answer + human like answer)
+#Let action_answer_with_intro handle all utterances
 class ActionAnswerWithIntro(Action):
     def name(self) -> Text:
         return "action_answer_with_intro"
@@ -433,15 +436,22 @@ class ActionAnswerWithIntro(Action):
         # Handle related topic buttons
         if related and isinstance(related, list) and len(related) > 0:
             def clean_title(text):
+                # Remove numeric prefixes like "1.", "2.", "5."
+                text = re.sub(r'^\d+\.\s*', '', text.strip())  # Remove "5." at the start
+                # Replace newlines and trim length
                 return text.split("\n")[0][:40] + "..." if len(text) > 40 else text.split("\n")[0]
 
-            buttons = [
-                {
-                    "title": clean_title(topic),
-                    "payload": f'/query_manual{{"keyword": "{clean_title(topic)}"}}'
-                }
-                for topic in related
-            ]
+            seen_titles = set()
+            buttons = []
+
+            for topic in related:
+                title = clean_title(topic)
+                if title not in seen_titles:
+                    buttons.append({
+                        "title": title,
+                        "payload": f"Show me how to {title.lower()}"
+                    })
+                    seen_titles.add(title)
 
             dispatcher.utter_message(
                 text="Would you like to explore a related topic?",

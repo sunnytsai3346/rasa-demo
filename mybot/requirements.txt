@@ -12,3 +12,4 @@ langdetect
 transformers
 sentence-transformers
 torch
+python-Levenshtein

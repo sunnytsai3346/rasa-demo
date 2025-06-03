@@ -4,8 +4,8 @@ stories:
   - story: Answer from manual with friendly intro
     steps:
       - intent: query_manual
-      - action: action_query_manual
-      - action: action_answer_with_intro
+      - action: action_query_manual # Just sets the slots
+      - action: action_answer_with_intro # Responds with answer + buttons
 
 # - story: happy path
 #   steps:
