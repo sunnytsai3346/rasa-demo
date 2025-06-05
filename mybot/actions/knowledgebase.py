@@ -62,29 +62,35 @@ class PDFKnowledgeBase:
         content_buffer = []
 
         for page in doc:
-            blocks = page.get_text("blocks")
-            blocks.sort(key=lambda b: b[1])  # top to bottom
+            blocks = page.get_text("dict")["blocks"]
+            blocks.sort(key=lambda b: b["bbox"][1])  # top to bottom
 
             for block in blocks:
-                text = block[4].strip()
-                if len(text.split()) < 10 and text.istitle():  # naive title check
-                    # Save previous section before starting new one
+                if block["type"] != 0:
+                    continue  # skip images, tables, etc.
+                text = block["lines"]
+                block_text = " ".join([" ".join([span["text"] for span in line["spans"]]) for line in text]).strip()
+                if not block_text:
+                    continue
+
+                #short title-like lines are treated as headers
+                if len(block_text.split()) < 10 and block_text.istitle():
                     if title and content_buffer:
                         full_content = " ".join(content_buffer).strip()
-                        #To avoid repeated summarization (which is slow), consider caching or summarizing only sections over a threshold length, e.g.: >20 or >50
-                        if len(full_content.split()) > 50:  # filter out noise
+                        if len(full_content.split()) > 50:
                             section_data.append({
-                            "title": title,
-                            "content": full_content,
-                            "summary": self.summarize(full_content)
-                        })
-                    title = text
+                                "title": title,
+                                "content": full_content,
+                                "summary": self.summarize(full_content)
+                            })
+                    title = block_text
                     content_buffer = []
-                elif text and title:
-                    content_buffer.append(text)
+                elif title:
+                    # Filter out tabular content (e.g. lots of numbers or pipes or short lines)
+                    if not self.looks_like_table(block_text):
+                        content_buffer.append(block_text)
 
         
-        # Add last section
         if title and content_buffer:
             full_content = " ".join(content_buffer).strip()
             if len(full_content.split()) > 50:
@@ -94,19 +100,44 @@ class PDFKnowledgeBase:
                     "summary": self.summarize(full_content)
                 })
 
-        return section_data   
+        return section_data
+    
+    def looks_like_table(self, text):
+        lines = text.split("\n")
+        if len(lines) > 5:
+            return True
+        numeric_lines = sum(1 for line in lines if sum(c.isdigit() for c in line) > len(line) * 0.4)
+        return numeric_lines / max(len(lines), 1) > 0.5
 
     def summarize(self, text):
+        max_chunk_words=400
         if len(text) < 400:
             return text.strip()
 
-        # Trust pipeline to truncate automatically
         try:
-            summary = self.summarizer(text, max_len = min(200, int(len(text.split()) * 0.8)), min_length=60, do_sample=False)
-            return summary[0]["summary_text"]
+            words = text.split()
+            chunks = [words[i:i + max_chunk_words] for i in range(0, len(words), max_chunk_words)]
+
+            summaries = []
+            for chunk_words in chunks:
+                chunk_text = " ".join(chunk_words)
+                summary = self.summarizer(
+                    chunk_text,
+                    max_length=200,
+                    min_length=60,
+                    do_sample=False
+                )
+                if summary and "summary_text" in summary[0]:
+                    summaries.append(summary[0]["summary_text"])
+                else:
+                    print("Empty summary for chunk.")
+                    summaries.append(chunk_text)
+
+            return " ".join(summaries).strip()
+
         except Exception as e:
             print("Summarization error:", e)
-            return text[:300] + "..."
+            return text.strip()
 
     #Performs semantic search over section embedding , and Returns summarized best match
     #0.4 is good for BERT-style models.
@@ -118,14 +149,14 @@ class PDFKnowledgeBase:
         if hits and hits[0]["score"] >= score_threshold:
             top_hit = hits[0]
             section = self.sections[top_hit["corpus_id"]]
-            return section["title"], section["summary"]
+            return section["title"], section["content"]
             
          # 🔁 Fuzzy fallback
         best_match, score = process.extractOne(query, self.section_titles)
         if score >= 70:  # Adjust fuzzy threshold
             index = self.section_titles.index(best_match)
             section = self.sections[index]
-            return section["title"], section["summary"]            
+            return section["title"], section["content"]            
         
             
     

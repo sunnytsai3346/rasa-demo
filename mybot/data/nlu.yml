@@ -89,65 +89,65 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-- intent: search_keyword
-  examples: |
-    - Show me [Audio Setup](keyword)
-    - I want to find [Test Connection](keyword)
-    - Where is [Backup and Restore](keyword)?
-    - What is [Backup and Restore](keyword)?
-    - How to use [Dolby Atmos Configuration](keyword)?
-    - I need help with [Lens Position](keyword)
-    - Tell me about [License Agreements](keyword)
-    - Search for [Gamma File](keyword)
-    - Navigate to [System Upgrade](keyword)
-    - Find [Projector Serial](keyword)
-    - [Calibration](keyword)
-    - I want to know about [installation](keyword)
-    - What is [sensor alignment](keyword)?
-    - search keystone
-    - [오디오 설정](keyword)을 보여주세요
-    - [교정](keyword)을 찾고 싶습니다
-    - Show me [Audio Setup](keyword)
-    - I want to search for [Brightness](keyword)
-    - Quiero buscar [Brillo](keyword)  # Spanish
-    - Je veux chercher [Luminosité](keyword)  # French
-    - Ich möchte [Helligkeit](keyword) suchen  # German
-    - Voglio cercare [Luminosità](keyword)  # Italian
-    - Я хочу найти [Яркость](keyword)  # Russian
-    - Chcę wyszukać [Jasność](keyword)  # Polish
-    - Quero pesquisar [Brilho](keyword)  # Portuguese
-    - [밝기](keyword)를 검색하고 싶어요  # Korean
-    - [セットアップ](keyword) を検索したいです  # Japanese
-    - 我想搜索 [亮度](keyword)  # Chinese
-    - Buscar [Configuración de sonido](keyword)  # Spanish
-    - Afficher [Configuration audio](keyword)  # French
-    - Mostra [Impostazioni audio](keyword)  # Italian
-    - Zeig mir [Audio-Einstellungen](keyword)  # German
-     - I want to search for [초점](keyword)
-    - Wie aktiviere ich [Servicemodus](keyword)?
-    - 请搜索[通道映射](keyword)
-    - Quiero buscar [programie](keyword)
-    - Je veux trouver [Automatique](keyword)
-- intent: request_pdf_parsing
-  examples: |
-    - Please check the PDF for setup details
-    - Can you find anything about installation in the PDF?
-    - Parse the uploaded manual
-    - Please parse the PDF
-    - Can you check the manual?
-    - What does the PDF say about installation?
-    - Read the uploaded document
-    - Look into the setup guide
-    - yed
-- intent: confirm_pdf_search
-  examples: |
-    - yes, check the PDF
-    - please continue with the manual
-    - go ahead with the user guide
-    - y
-    - yes
-    - c
-    - continue
+# - intent: search_keyword
+#   examples: |
+#     - Show me [Audio Setup](keyword)
+#     - I want to find [Test Connection](keyword)
+#     - Where is [Backup and Restore](keyword)?
+#     - What is [Backup and Restore](keyword)?
+#     - How to use [Dolby Atmos Configuration](keyword)?
+#     - I need help with [Lens Position](keyword)
+#     - Tell me about [License Agreements](keyword)
+#     - Search for [Gamma File](keyword)
+#     - Navigate to [System Upgrade](keyword)
+#     - Find [Projector Serial](keyword)
+#     - [Calibration](keyword)
+#     - I want to know about [installation](keyword)
+#     - What is [sensor alignment](keyword)?
+#     - search keystone
+#     - [오디오 설정](keyword)을 보여주세요
+#     - [교정](keyword)을 찾고 싶습니다
+#     - Show me [Audio Setup](keyword)
+#     - I want to search for [Brightness](keyword)
+#     - Quiero buscar [Brillo](keyword)  # Spanish
+#     - Je veux chercher [Luminosité](keyword)  # French
+#     - Ich möchte [Helligkeit](keyword) suchen  # German
+#     - Voglio cercare [Luminosità](keyword)  # Italian
+#     - Я хочу найти [Яркость](keyword)  # Russian
+#     - Chcę wyszukać [Jasność](keyword)  # Polish
+#     - Quero pesquisar [Brilho](keyword)  # Portuguese
+#     - [밝기](keyword)를 검색하고 싶어요  # Korean
+#     - [セットアップ](keyword) を検索したいです  # Japanese
+#     - 我想搜索 [亮度](keyword)  # Chinese
+#     - Buscar [Configuración de sonido](keyword)  # Spanish
+#     - Afficher [Configuration audio](keyword)  # French
+#     - Mostra [Impostazioni audio](keyword)  # Italian
+#     - Zeig mir [Audio-Einstellungen](keyword)  # German
+#      - I want to search for [초점](keyword)
+#     - Wie aktiviere ich [Servicemodus](keyword)?
+#     - 请搜索[通道映射](keyword)
+#     - Quiero buscar [programie](keyword)
+#     - Je veux trouver [Automatique](keyword)
+# - intent: request_pdf_parsing
+#   examples: |
+#     - Please check the PDF for setup details
+#     - Can you find anything about installation in the PDF?
+#     - Parse the uploaded manual
+#     - Please parse the PDF
+#     - Can you check the manual?
+#     - What does the PDF say about installation?
+#     - Read the uploaded document
+#     - Look into the setup guide
+#     - yed
+# - intent: confirm_pdf_search
+#   examples: |
+#     - yes, check the PDF
+#     - please continue with the manual
+#     - go ahead with the user guide
+#     - y
+#     - yes
+#     - c
+#     - continue
 - intent: inform_language
   examples: |
     - I want to search in [en](language)
