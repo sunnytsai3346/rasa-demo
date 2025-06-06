@@ -4,6 +4,7 @@ import re
 import sys
 import os
 
+from actions.logger_util import log_summary_query
 from actions.emotion_model import detect_emotion
 from actions.knowledgebase import PDFKnowledgeBase
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -53,34 +54,12 @@ logger = logging.getLogger(__name__)
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
 PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF\manual.pdf")
 
-knowledge_base = PDFKnowledgeBase(PDF_PATH)
+knowledge_base = PDFKnowledgeBase(PDF_PATH, debug=True)
 
 
 
 
 DetectorFactory.seed = 0
-
-def log_summary_query(query, section_title, summary):
-        CSV_LOG_PATH =   os.path.join(os.path.dirname(__file__), "nlu_summary_queries.csv" ) 
-        if isinstance(summary, tuple):
-            summary = summary[1]  # or str(summary)
-
-        # Create file with header if not exists
-        if not os.path.exists(CSV_LOG_PATH):
-            with open(CSV_LOG_PATH, mode='w', newline='', encoding='utf-8') as file:
-                writer = csv.writer(file)
-                writer.writerow(["timestamp", "user_query", "section_title", "summary_response"])
-
-        # Append new row
-        with open(CSV_LOG_PATH, mode='a', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            writer.writerow([
-                datetime.now().isoformat(timespec="seconds"),
-                query,
-                section_title,
-                summary.replace("\n", " ")  # Clean newlines, # ❌ this fails if summary is a tuple
-                 
-            ])      
 
 
 def detect_script(text: str) -> str:
@@ -336,7 +315,7 @@ class ActionQueryManual(Action):
         
         # Use semantic similarity to get related topics
         related_topics = knowledge_base.get_related_topics(query)
-        print ('331 Related',related_topics)
+        print ('Related',related_topics)
 
         
         #dispatcher.utter_message(text=answer)

@@ -1,5 +1,8 @@
 
 import fitz  # PyMuPDF
+from actions.logger_util import log_debug, log_summary_query
+import pdfplumber
+from collections import defaultdict
 from fuzzywuzzy import process
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
@@ -16,21 +19,28 @@ from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
 #Good for semantic search and clustering.
 
 class PDFKnowledgeBase:
-    def __init__(self, pdf_path):
+    def __init__(self, pdf_path,debug=False):
+        self.debug = debug        
         
+        # SentenceTransformer model before extract_sections, so I can debug 
+        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+
         self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
                 
         
-        self.sections = self.extract_sections(pdf_path)  # ⬅️ using structured sections
+        self.sections = self.extract_sections(pdf_path)  
+        if self.sections is None:
+            raise ValueError("extract_sections() returned None instead of a list")
+        
         # Semantic search embeddings
-        self.section_titles = [s["title"] for s in self.sections]
+        self.section_titles = [s["title"] for s in self.sections or []]
+        
         self.section_summaries = [s["summary"] for s in self.sections]
         #retrieve full original content, not just the summary.
         self.contents = [s["content"] for s in self.sections]
         
-        # SentenceTransformer model
-        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+        
         
         #Embeddings
         # Title-based search
@@ -54,53 +64,83 @@ class PDFKnowledgeBase:
                 chunks.append(text)
         return chunks
     
-
-    def extract_sections(self, path):
-        doc = fitz.open(path)
-        section_data = []
-        title = None
-        content_buffer = []
-
-        for page in doc:
-            blocks = page.get_text("dict")["blocks"]
-            blocks.sort(key=lambda b: b["bbox"][1])  # top to bottom
-
-            for block in blocks:
-                if block["type"] != 0:
-                    continue  # skip images, tables, etc.
-                text = block["lines"]
-                block_text = " ".join([" ".join([span["text"] for span in line["spans"]]) for line in text]).strip()
-                if not block_text:
-                    continue
-
-                #short title-like lines are treated as headers
-                if len(block_text.split()) < 10 and block_text.istitle():
-                    if title and content_buffer:
-                        full_content = " ".join(content_buffer).strip()
-                        if len(full_content.split()) > 50:
-                            section_data.append({
-                                "title": title,
-                                "content": full_content,
-                                "summary": self.summarize(full_content)
-                            })
-                    title = block_text
-                    content_buffer = []
-                elif title:
-                    # Filter out tabular content (e.g. lots of numbers or pipes or short lines)
-                    if not self.looks_like_table(block_text):
-                        content_buffer.append(block_text)
-
+    #enhance with font-size
+    def extract_sections(self, pdf_path: str) :
         
-        if title and content_buffer:
-            full_content = " ".join(content_buffer).strip()
-            if len(full_content.split()) > 50:
-                section_data.append({
-                    "title": title,
-                    "content": full_content,
-                    "summary": self.summarize(full_content)
-                })
 
-        return section_data
+        self.sections = []
+        self.section_embeddings = []
+        self.section_titles = []
+        self.all_titles = []
+
+        current_section = None
+        current_subsection = None
+        buffer = []
+
+        def flush_section(title_path, buffer_text):
+            if buffer_text.strip():
+                full_title = " > ".join(title_path)
+                summary = self.summarize(buffer_text)
+                embedding = self.model.encode(summary, convert_to_tensor=True)
+                self.sections.append({
+                    "title": full_title,
+                    "summary": summary,
+                    "content": buffer_text.strip()
+                })
+                self.section_titles.append(full_title)
+                self.all_titles.append(full_title)
+                self.section_embeddings.append(embedding)
+                log_debug(title_path, buffer_text, summary)
+                if self.debug:
+                    print(f"\n[EXTRACTED SECTION]")
+                    print(f"Title Path: {' > '.join(title_path)}")
+                    print(f"Content:\n{buffer_text[:500]}...")  # Only print first 500 chars
+                    print(f"Summary: {summary[:300]}...\n")
+
+        with pdfplumber.open(pdf_path) as pdf:
+            title_path = []
+            for page in pdf.pages:
+                lines = page.extract_text().split('\n') if page.extract_text() else []
+
+                for line in lines:
+                    clean_line = line.strip()
+
+                    # Detect main headers (heuristic: all uppercase and >3 words)
+                    if clean_line.isupper() and len(clean_line.split()) >= 3:
+                        if buffer:
+                            flush_section(title_path, "\n".join(buffer))
+                            buffer = []
+                        title_path = [clean_line.title()]  # Reset path to new main section
+                        continue
+
+                    # Detect subheaders (heuristic: Capitalized sentence, no ending punctuation, and short length)
+                    if clean_line and clean_line[0].isupper() and not clean_line.endswith(('.', ':')) and len(clean_line.split()) <= 8:
+                        if buffer:
+                            flush_section(title_path, "\n".join(buffer))
+                            buffer = []
+                        if len(title_path) == 0:
+                            title_path = ["Untitled"]
+                        title_path = title_path[:1] + [clean_line.strip()]  # append subheader
+                        continue
+
+                    # Detect table rows: if line has multiple aligned sections or known table headers
+                    if len(clean_line.split()) >= 3 and (
+                        "Available actions" in clean_line or "Description" in clean_line
+                    ):
+                        buffer.append("\n--- Table Start ---\n")
+                        buffer.append(clean_line)
+                        continue
+
+                    if clean_line:
+                        buffer.append(clean_line)
+
+            # Final flush at end of document
+            if buffer:
+                flush_section(title_path, "\n".join(buffer))
+        
+        print("[DEBUG] Finished extract_sections")
+        print(f"[DEBUG] Extracted {len(self.sections)} sections")
+        return self.sections        
     
     def looks_like_table(self, text):
         lines = text.split("\n")
@@ -139,54 +179,65 @@ class PDFKnowledgeBase:
             print("Summarization error:", e)
             return text.strip()
 
-    #Performs semantic search over section embedding , and Returns summarized best match
-    #0.4 is good for BERT-style models.
-    #fuzzywuzzy score: Scale is 0–100. Use 70+ for reasonable match.
-    def search(self, query, top_k: int = 1, score_threshold: float = 0.4):        
+    def search(self, query: str, top_k: int = 3, threshold: float = 0.6, overview_mode: bool = True):
+        
+        
         query_embedding = self.model.encode(query, convert_to_tensor=True)
-        hits = util.semantic_search(query_embedding, self.embeddings, top_k=top_k)[0]    
-        # Check top score
-        if hits and hits[0]["score"] >= score_threshold:
-            top_hit = hits[0]
-            section = self.sections[top_hit["corpus_id"]]
-            return section["title"], section["content"]
-            
-         # 🔁 Fuzzy fallback
-        best_match, score = process.extractOne(query, self.section_titles)
-        if score >= 70:  # Adjust fuzzy threshold
-            index = self.section_titles.index(best_match)
-            section = self.sections[index]
-            return section["title"], section["content"]            
-        
-            
-    
-    # #not use 
-    # def search_by_title(self, query, top_k=1):
-    #     # query_embedding = self.embedder.encode(query, convert_to_tensor=True)
-    #     query_embedding = self.model.encode(query, convert_to_tensor=True)
-    #     hits = util.semantic_search(query_embedding, self.section_embeddings, top_k=1)
-    #     if not hits or not hits[0]:
-    #         return "Not Found", "Sorry, I couldn’t find a matching section."
-        
-    #     best_hit = hits[0][0]
-    #     section_index = best_hit["corpus_id"]
-    #     match = self.sections[section_index]
-    #     return match["title"], match["summary"]
-    
-    def get_related_topics(self, query, top_n=3):
-        # query_embedding = self.embedder.encode(query, convert_to_tensor=True)
-        query_embedding = self.model.encode(query, convert_to_tensor=True)
-        hits = util.semantic_search(query_embedding, self.title_embeddings, top_k=top_n + 1)[0]
-        
-        # Remove exact match if it exists
-        related_titles = []
-        for hit in hits:
-            idx = hit["corpus_id"]            
-            title = self.section_titles[idx]
-            if title.lower() != query.lower():
-                related_titles.append(title)
-            if len(related_titles) >= top_n:
-                break
+        scores = util.pytorch_cos_sim(query_embedding, self.section_embeddings)[0]
 
-        return related_titles
+        results = []
+        for i, score in enumerate(scores):
+            if score >= threshold:
+                results.append((score.item(), self.sections[i]))
+
+        results.sort(reverse=True, key=lambda x: x[0])
+        
+        for score, section in results:
+            log_summary_query(query, section["title"], section["summary"], score, debug=True)
+
+        if not results:
+            # Fallback: find if query matches a known high-level section for overview
+            matched_parent = next(
+                (title for title in self.section_titles if query.lower() in title.lower() and " > " not in title),
+                None
+            )
+            if matched_parent and overview_mode:
+                children = [s for s in self.sections if s["title"].startswith(matched_parent + " > ")]
+                if children:
+                    summary = f"**{matched_parent}** contains the following topics:\n\n" + \
+                            "\n".join(f"- {c['title'].split(' > ')[-1]}" for c in children)
+                    return [{"title": matched_parent, "summary": summary, "related": [c["title"] for c in children]}]
+
+            return [{"title": "Not found", "summary": "Sorry, I couldn't find a relevant section.", "related": []}]
+
+        top_results = results[:top_k]
+        return [
+            {
+                "title": section["title"],
+                "summary": section["summary"],
+                "content": section["content"],
+                "related": self.get_related_topics(section["title"], count=5)
+            }
+            for _, section in top_results
+        ]      
+        
+            
+    
+    
+    def get_related_topics(self, title: str, count: int = 5):
+        if title not in self.section_titles:
+            return []
+
+        idx = self.section_titles.index(title)
+        target_embedding = self.section_embeddings[idx]
+
+        similarities = util.pytorch_cos_sim(target_embedding, self.section_embeddings)[0]
+        related = [
+            (i, score.item()) for i, score in enumerate(similarities)
+            if i != idx and score.item() > 0.4
+        ]
+
+        related.sort(key=lambda x: x[1], reverse=True)
+        top_related = related[:count]
+        return [self.sections[i]["title"] for i, _ in top_related]
 
