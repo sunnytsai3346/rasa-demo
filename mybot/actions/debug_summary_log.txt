@@ -1,0 +1,1865 @@
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:27]
+Title Path: U > s > e > r >   > G > u > i > d > e
+Content:
+020-103845-03...
+Summary: 020-103845-03...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:27]
+Title Path: W > a > r > r > a > n > t > y
+Content:
+Products are warranted under Christie’s standard limited warranty, the details of which are available at https://www.christiedigital.com/help-center/
+warranties/ or by contacting your Christie dealer or Christie....
+Summary: Products are warranted under Christie’s standard limited warranty, the details of which are available at https://www.christiedigital.com/help-center/
+warranties/ or by contacting your Christie dealer or Christie....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:27]
+Title Path: N > o > t > a > t > i > o > n
+Content:
+Learn the hazard and information symbols used in the product documentation....
+Summary: Learn the hazard and information symbols used in the product documentation....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: C > o > n > t > e > n > t
+Content:
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9...
+Summary: Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: C > o > n > t > e > n > t
+Content:
+Changing the temperature display. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23...
+Summary: Changing the temperature display. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: C > o > n > t > e > n > t
+Content:
+Manually adjusting the lamp position. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57...
+Summary: Manually adjusting the lamp position. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: C > o > n > t > e > n > t
+Content:
+Editing an existing MCGD file. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75...
+Summary: Editing an existing MCGD file. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: C > o > n > t > e > n > t
+Content:
+Working with the scheduler. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90...
+Summary: Working with the scheduler. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: C > o > n > t > e > n > t
+Content:
+Creating a new backup file. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103...
+Summary: Creating a new backup file. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: I > n > t > r > o > d > u > c > t > i > o > n
+Content:
+This manual is intended for operators of Christie CineLife+ projection systems....
+Summary: This manual is intended for operators of Christie CineLife+ projection systems....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: M > o > d > e > l > s
+Content:
+This guide applies to the following models....
+Summary: This guide applies to the following models....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: I > n > t > r > o > d > u > c > t > i > o > n
+Content:
+Safety precautions...
+Summary: Safety precautions...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: I > n > t > r > o > d > u > c > t > i > o > n
+Content:
+Caution! If not avoided, the following could result in minor or moderate injury....
+Summary: Caution! If not avoided, the following could result in minor or moderate injury....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: I > n > t > r > o > d > u > c > t > i > o > n
+Content:
+Light intensity hazard distance...
+Summary: Light intensity hazard distance...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: I > n > t > r > o > d > u > c > t > i > o > n
+Content:
+•
+F—Represents the side view of the projector....
+Summary: •
+F—Represents the side view of the projector....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: D > e > a > l > e > r > :
+Content:
+Dealer or Christie Sales/Service contact phone number:...
+Summary: Dealer or Christie Sales/Service contact phone number:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: M > o > d > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Standby
+• CineLife+ electronics remain on standby with the light engine off....
+Summary: Standby
+• CineLife+ electronics remain on standby with the light engine off....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > L > o > g > i > n > .
+Content:
+Logging out of the projector...
+Summary: Logging out of the projector...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: • > 
+ > S > e > l > e > c > t >   > L > o > g > o > u > t > .
+Content:
+Changing the session timeout...
+Summary: Changing the session timeout...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:28]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > G > e > n > e > r > a > l > .
+Content:
+4.
+In the System area, select Session Timeout duration:...
+Summary: 4.
+In the System area, select Session Timeout duration:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: K > 
+ > P > o > w > e > r
+Content:
+Displays default dashboard. The dashboard
+displays Upcoming Events, Status, and
+Alarms (and Scheduler toggle)....
+Summary: Displays default dashboard. The dashboard
+displays Upcoming Events, Status, and
+Alarms (and Scheduler toggle)....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: O > 
+ > A > l > l >   > C > h > a > n > n > e > l > s
+Content:
+Displays how many users are logged into
+the projector....
+Summary: Displays how many users are logged into
+the projector....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: R > 
+ > L > a > n > g > u > a > g > e
+Content:
+To display all alarms, select the colored
+icon....
+Summary: To display all alarms, select the colored
+icon....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > A > d > d > .
+Content:
+Deleting a network time protocol server...
+Summary: Deleting a network time protocol server...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+6.
+At the confirmation dialog, select Delete....
+Summary: 6.
+At the confirmation dialog, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > T > i > m > e >   > Z > o > n > e > .
+Content:
+3.
+In the Region list, select a region....
+Summary: 3.
+In the Region list, select a region....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Changing the time format...
+Summary: Changing the time format...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > G > e > n > e > r > a > l > .
+Content:
+3.
+In the System area, select a time format option:...
+Summary: 3.
+In the System area, select a time format option:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > G > e > n > e > r > a > l > .
+Content:
+3.
+From the Projected Image Orientation list, select the required orientation for the projected
+image....
+Summary: 3.
+From the Projected Image Orientation list, select the required orientation for the projected
+image....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: O > r > i > e > n > t > a > t > i > o > n > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Normal Front
+Projection from behind the audience with the projector in the normal, upright
+position....
+Summary: Normal Front
+Projection from behind the audience with the projector in the normal, upright
+position....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > G > e > n > e > r > a > l > .
+Content:
+3.
+In the Projector Hostname field, enter a name....
+Summary: 3.
+In the Projector Hostname field, enter a name....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > U > p > d > a > t > e > .
+Content:
+The projector hostname is displayed above the IP address at the top of the screen....
+Summary: The projector hostname is displayed above the IP address at the top of the screen....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > G > e > n > e > r > a > l > .
+Content:
+3.
+In the Temperature Units list, select Celsius or Fahrenheit....
+Summary: 3.
+In the Temperature Units list, select Celsius or Fahrenheit....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:30]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > A > u > t > o > m > a > t > i > o > n > .
+Content:
+4.
+To disable serial authentication requirement, toggle off Require Serial Authentication....
+Summary: 4.
+To disable serial authentication requirement, toggle off Require Serial Authentication....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: I > n > p > u > t >   > 2
+Content:
+SDI 1...
+Summary: SDI 1...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: I > n > p > u > t >   > 4
+Content:
+SDI 3...
+Summary: SDI 3...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: P > i > n >   > 1 > 9 > 
+ > + > 5 > V > 
+ > —
+Content:
+Pin 20
+GND
+—...
+Summary: Pin 20
+GND
+—...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > D > i > s > p > l > a > y >   > W > h > i > t > e >   > T > e > s > t >   > P > a > t > t > e > r > n > .
+Content:
+8.
+To create a new laser file, select Create....
+Summary: 8.
+To create a new laser file, select Create....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 1 > 1 > . >   > S > e > l > e > c > t >   > A > p > p > l > y > .
+Content:
+12. Adjust the brightness level until you achieve the required brightness at the specified white
+point....
+Summary: 12. Adjust the brightness level until you achieve the required brightness at the specified white
+point....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 1 > 2 > . >   > S > e > l > e > c > t >   > A > p > p > l > y > .
+Content:
+13. Adjust the brightness level until you achieve the required brightness at the specified white
+point....
+Summary: 13. Adjust the brightness level until you achieve the required brightness at the specified white
+point....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 9 > . > 
+ > S > e > l > e > c > t >   > A > p > p > l > y > .
+Content:
+10. Set the brightness levels as required for your projection environment and allow the projector
+to stabilize for a few minutes....
+Summary: 10. Set the brightness levels as required for your projection environment and allow the projector
+to stabilize for a few minutes....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Deleting a laser file...
+Summary: Deleting a laser file...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: • > 
+ > L > e > n > s
+Content:
+•
+Light source...
+Summary: •
+Light source...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: • > 
+ > S > c > r > e > e > n
+Content:
+•
+Port window...
+Summary: •
+Port window...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: • > 
+ > S > p > e > c > t > r > o > r > a > d > i > o > m > e > t > e > r
+Content:
+•
+Service user is the minimum level user access...
+Summary: •
+Service user is the minimum level user access...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > R > e > c > a > l > i > b > r > a > t > e > .
+Content:
+The projector checks if the light source is on and the douser is open. If either condition is
+not met, a warning dialog is displayed prompting you to make sure these conditions are met
+before starting the wizard....
+Summary: The projector checks if the light source is on and the douser is open. If either condition is
+not met, a warning dialog is displayed prompting you to make sure these conditions are met
+before starting the wizard....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > V > e > r > i > f > y >   > C > a > l > i > b > r > a > t > i > o > n > .
+Content:
+If the douser is closed and/or the light source is off, a dialog is displayed informing the user
+that the douser must be open and the light source turned on before verification can occur....
+Summary: If the douser is closed and/or the light source is off, a dialog is displayed informing the user
+that the douser must be open and the light source turned on before verification can occur....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+CineLife+ 2.0 User Guide
+55
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+55
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > S > e > t >   > T > a > r > g > e > t > .
+Content:
+4.
+Select Enable LiteLOC....
+Summary: 4.
+Select Enable LiteLOC....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > E > n > a > b > l > e >   > L > a > m > p >   > O > v > e > r > d > r > i > v > e > .
+Content:
+3.
+At the confirmation prompt, select OK....
+Summary: 3.
+At the confirmation prompt, select OK....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:31]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > A > l > i > g > n >   > A > u > t > o > .
+Content:
+Manually adjusting the lamp position...
+Summary: Manually adjusting the lamp position...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: P > e > r > m > i > s > s > i > o > n > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+installer
+Can define Ethernet settings (IP network address), restore backup files, and upgrade the
+system software....
+Summary: installer
+Can define Ethernet settings (IP network address), restore backup files, and upgrade the
+system software....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > + > .
+Content:
+3.
+Complete the Name, Permissions, Password, and Confirm Password fields....
+Summary: 3.
+Complete the Name, Permissions, Password, and Confirm Password fields....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Changing user account permissions...
+Summary: Changing user account permissions...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > E > d > i > t > .
+Content:
+4.
+In the Permissions list, select a new permissions setting....
+Summary: 4.
+In the Permissions list, select a new permissions setting....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Changing a user account password...
+Summary: Changing a user account password...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > E > d > i > t > .
+Content:
+4.
+Select Change password....
+Summary: 4.
+Select Change password....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Deleting a user account...
+Summary: Deleting a user account...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+IP Address
+IP address of the projector...
+Summary: IP Address
+IP address of the projector...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Activating SNMP...
+Summary: Activating SNMP...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Downloading MIB information...
+Summary: Downloading MIB information...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > A > c > c > e > p > t > .
+Content:
+7.
+Select OK....
+Summary: 7.
+Select OK....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > F > i > n > i > s > h > .
+Content:
+Enabling Integrated Media Block (IMB) Powered
+in Standby mode...
+Summary: Enabling Integrated Media Block (IMB) Powered
+in Standby mode...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > + >   > C > r > e > a > t > e >   > N > e > w >   > C > h > a > n > n > e > l > .
+Content:
+3.
+In the Enter a new file name field, enter the channel name....
+Summary: 3.
+In the Enter a new file name field, enter the channel name....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+5.
+Complete these fields:...
+Summary: 5.
+Complete these fields:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Input Type
+Select the input signal sources from one of the following:...
+Summary: Input Type
+Select the input signal sources from one of the following:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: A > u > t > o >   > ( > D > e > f > a > u > l > t > )
+Content:
+Scan Type
+Scanning format of the input signal (interlaced or progressive) is automatically
+determined from the metadata carried in the source or by measuring scanning
+parameters of the source....
+Summary: Scan Type
+Scanning format of the input signal (interlaced or progressive) is automatically
+determined from the metadata carried in the source or by measuring scanning
+parameters of the source....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: A > u > t > o >   > ( > D > e > f > a > u > l > t > )
+Content:
+3D Sync Input Mode
+Specifies whether a specific frame of input data has left eye or right eye data.
+Select one of the following....
+Summary: 3D Sync Input Mode
+Specifies whether a specific frame of input data has left eye or right eye data.
+Select one of the following....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+3D Light Source File
+3D light source file associated with the channel. Any changes made to the file
+settings are applied to all channels using this file....
+Summary: 3D Light Source File
+3D light source file associated with the channel. Any changes made to the file
+settings are applied to all channels using this file....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: B > y > p > a > s > s >   > ( > D > e > f > a > u > l > t > )
+Content:
+Warp File
+Warp file associated with the channel....
+Summary: Warp File
+Warp file associated with the channel....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+Adding a channel for SDI input...
+Summary: Adding a channel for SDI input...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > + >   > C > r > e > a > t > e >   > N > e > w >   > C > h > a > n > n > e > l > .
+Content:
+3.
+In the Enter a new file name field, enter the channel name....
+Summary: 3.
+In the Enter a new file name field, enter the channel name....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+5.
+Complete these fields:...
+Summary: 5.
+Complete these fields:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Input Type
+Select the input signal sources from one of the following:...
+Summary: Input Type
+Select the input signal sources from one of the following:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+• SDI - Quad-Link (SQ Div)...
+Summary: • SDI - Quad-Link (SQ Div)...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: A > u > t > o >   > ( > D > e > f > a > u > l > t > )
+Content:
+Scan Type
+Determines the input scanning format. Select one of the following:...
+Summary: Scan Type
+Determines the input scanning format. Select one of the following:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: B > y > p > a > s > s >   > ( > D > e > f > a > u > l > t > )
+Content:
+CineLife+ 2.0 User Guide
+69
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+69
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Warp File
+Warp file associated with the channel....
+Summary: Warp File
+Warp file associated with the channel....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+Adding a channel for DisplayPort input...
+Summary: Adding a channel for DisplayPort input...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > + >   > C > r > e > a > t > e >   > N > e > w >   > C > h > a > n > n > e > l > .
+Content:
+3.
+In the Enter a new file name field, enter the channel name....
+Summary: 3.
+In the Enter a new file name field, enter the channel name....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+5.
+Complete these fields:...
+Summary: 5.
+Complete these fields:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Input Type
+Select the input signal sources from one of the following:...
+Summary: Input Type
+Select the input signal sources from one of the following:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: A > u > t > o >   > ( > D > e > f > a > u > l > t > )
+Content:
+Scan Type
+Scanning format of the input signal (interlaced or progressive) is automatically
+determined from the metadata carried in the source or by measuring scanning
+parameters of the source....
+Summary: Scan Type
+Scanning format of the input signal (interlaced or progressive) is automatically
+determined from the metadata carried in the source or by measuring scanning
+parameters of the source....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: A > u > t > o >   > ( > D > e > f > a > u > l > t > )
+Content:
+3D Sync Input Mode
+Specifies whether a specific frame of input data has left-eye or right-eye data.
+Select one of the following:...
+Summary: 3D Sync Input Mode
+Specifies whether a specific frame of input data has left-eye or right-eye data.
+Select one of the following:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+2D Sensor-to-screen
+Calibration File
+2D sensor-to-screen calibration file associated with the channel....
+Summary: 2D Sensor-to-screen
+Calibration File
+2D sensor-to-screen calibration file associated with the channel....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: B > y > p > a > s > s >   > ( > D > e > f > a > u > l > t > )
+Content:
+Warp File
+Warp file associated with the channel....
+Summary: Warp File
+Warp file associated with the channel....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+Adding a channel for Integrated Media Block
+(IMB) input...
+Summary: Adding a channel for Integrated Media Block
+(IMB) input...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > + >   > C > r > e > a > t > e >   > N > e > w >   > C > h > a > n > n > e > l > .
+Content:
+3.
+In the Enter a new file name field, enter the channel name....
+Summary: 3.
+In the Enter a new file name field, enter the channel name....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+5.
+Complete these fields:...
+Summary: 5.
+Complete these fields:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:32]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Input Type
+Select IMB....
+Summary: Input Type
+Select IMB....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: F > i > e > l > d >   > N > a > m > e > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+• 3D Frame Interleaved—For input that contains left-eye data followed by
+right eye data....
+Summary: • 3D Frame Interleaved—For input that contains left-eye data followed by
+right eye data....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: B > y > p > a > s > s >   > ( > D > e > f > a > u > l > t > )
+Content:
+Warp File
+Warp file associated with the channel....
+Summary: Warp File
+Warp file associated with the channel....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+Selecting the active channel...
+Summary: Selecting the active channel...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > C > l > o > s > e > .
+Content:
+Editing an existing channel...
+Summary: Editing an existing channel...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Renaming a channel...
+Summary: Renaming a channel...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > R > e > n > a > m > e >   > C > h > a > n > n > e > l > .
+Content:
+4.
+Enter a new name....
+Summary: 4.
+Enter a new name....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > R > e > n > a > m > e > .
+Content:
+Copying existing channel settings to a new
+channel...
+Summary: Copying existing channel settings to a new
+channel...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > A > s > .
+Content:
+4.
+Enter a name for the new channel and select Save....
+Summary: 4.
+Enter a name for the new channel and select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+5.
+Enter a name for the MCGD file and select Create....
+Summary: 5.
+Enter a name for the MCGD file and select Create....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 1 > 2 > . >   > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Editing an existing MCGD file...
+Summary: Editing an existing MCGD file...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > 
+ > .
+Content:
+CineLife+ 2.0 User Guide
+75
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+75
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > A > s > .
+Content:
+4.
+Enter a name for the MCGD file and select Save....
+Summary: 4.
+Enter a name for the MCGD file and select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+4.
+Enter a name for the TCGD file and select Create....
+Summary: 4.
+Enter a name for the TCGD file and select Create....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 1 > 3 > . >   > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+CineLife+ 2.0 User Guide
+76
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+76
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Copying existing TCGD file settings to a new file...
+Summary: Copying existing TCGD file settings to a new file...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > A > s > .
+Content:
+4.
+Enter a name for the TCGD file and select Save....
+Summary: 4.
+Enter a name for the TCGD file and select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+3.
+Enter a name for the ILS file and select Create....
+Summary: 3.
+Enter a name for the ILS file and select Create....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+CineLife+ 2.0 User Guide
+78
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+78
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > A > u > t > o >   > C > a > l > i > b > r > a > t > e > .
+Content:
+3.
+In the confirmation dialog, select Continue....
+Summary: 3.
+In the confirmation dialog, select Continue....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Copying existing ILS file settings...
+Summary: Copying existing ILS file settings...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > A > s > .
+Content:
+4.
+Enter a name for the ILS file and select Save....
+Summary: 4.
+Enter a name for the ILS file and select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > R > e > s > e > t >   > L > e > n > s > .
+Content:
+3.
+In the confirmation dialog, select Continue....
+Summary: 3.
+In the confirmation dialog, select Continue....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+3.
+Enter a name for the source file and select Create....
+Summary: 3.
+Enter a name for the source file and select Create....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > 
+ > .
+Content:
+Editing source file settings...
+Summary: Editing source file settings...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Copying existing source file settings to a new source file...
+Summary: Copying existing source file settings to a new source file...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > A > s > .
+Content:
+4.
+Enter a name for the source file and select Save....
+Summary: 4.
+Enter a name for the source file and select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e >   > S > c > r > e > e > n >   > F > i > l > e > .
+Content:
+3.
+Enter a name for the screen file and select Create....
+Summary: 3.
+Enter a name for the screen file and select Create....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 8 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Editing screen file settings...
+Summary: Editing screen file settings...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > 
+ > .
+Content:
+CineLife+ 2.0 User Guide
+83
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+83
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 1 > . > 
+ > S > e > l > e > c > t >   > I > m > a > g > e >   > S > e > t > t > i > n > g > s >   > > >   > S > c > r > e > e > n >   > F > i > l > e >   > S > e > t > u > p > .
+Content:
+2.
+In the Screen File list, select the screen file you want to copy....
+Summary: 2.
+In the Screen File list, select the screen file you want to copy....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e >   > A > s >   > 
+ > .
+Content:
+4.
+Enter a name for the source file and select Save....
+Summary: 4.
+Enter a name for the source file and select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > T > e > s > t >   > P > a > t > t > e > r > n >   > O > f > f > .
+Content:
+CineLife+ 2.0 User Guide
+88
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+88
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > I > m > p > o > r > t > .
+Content:
+4.
+Browse to the location of the test pattern file....
+Summary: 4.
+Browse to the location of the test pattern file....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > O > p > e > n > .
+Content:
+7.
+In the upper right corner, select Done....
+Summary: 7.
+In the upper right corner, select Done....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+5.
+To confirm the deletion, select Delete....
+Summary: 5.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > + >   > N > e > w >   > E > v > e > n > t > .
+Content:
+7.
+In the Macros tab, select a macro....
+Summary: 7.
+In the Macros tab, select a macro....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 1 > 2 > . >   > S > e > l > e > c > t >   > C > r > e > a > t > e >   > E > v > e > n > t > .
+Content:
+Editing a scheduled event...
+Summary: Editing a scheduled event...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > E > d > i > t > .
+Content:
+4.
+Edit the scheduled event settings....
+Summary: 4.
+Edit the scheduled event settings....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > U > p > d > a > t > e >   > E > v > e > n > t > .
+Content:
+Copying and pasting an existing scheduled
+event...
+Summary: Copying and pasting an existing scheduled
+event...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > C > o > p > y > .
+Content:
+4.
+Select a square below the date and next to the time you want the event to run....
+Summary: 4.
+Select a square below the date and next to the time you want the event to run....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > P > a > s > t > e > .
+Content:
+6.
+Adjust the settings for the scheduled event....
+Summary: 6.
+Adjust the settings for the scheduled event....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > P > a > s > t > e >   > E > v > e > n > t > .
+Content:
+Copying and pasting scheduled events for an
+entire day...
+Summary: Copying and pasting scheduled events for an
+entire day...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > C > o > p > y > .
+Content:
+4.
+At the top of the calendar, select the new target day....
+Summary: 4.
+At the top of the calendar, select the new target day....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > P > a > s > t > e > .
+Content:
+Only unlocked events are copied to the new day....
+Summary: Only unlocked events are copied to the new day....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > C > u > t > .
+Content:
+4.
+Select the new date in the calendar....
+Summary: 4.
+Select the new date in the calendar....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > P > a > s > t > e > .
+Content:
+6.
+Adjust the settings for the scheduled event....
+Summary: 6.
+Adjust the settings for the scheduled event....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > P > a > s > t > e >   > E > v > e > n > t > .
+Content:
+Only unlocked events are copied....
+Summary: Only unlocked events are copied....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > C > l > e > a > r >   > D > a > y > .
+Content:
+4.
+To confirm the change, select Clear Day....
+Summary: 4.
+To confirm the change, select Clear Day....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:33]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > G > e > n > e > r > a > l > .
+Content:
+3.
+In the Scheduler area, select the day of the week to start the scheduler....
+Summary: 3.
+In the Scheduler area, select the day of the week to start the scheduler....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: A > u > t > o > m > a > t > i > o > n
+Content:
+Use automation to control playback, the projector, and external devices....
+Summary: Use automation to control playback, the projector, and external devices....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: A > u > t > o > m > a > t > i > o > n
+Content:
+Action item
+Available actions
+Description...
+Summary: Action item
+Available actions
+Description...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: C > o > m > m > a > n > d > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Buzzer
+Activates the buzzer for the specified time (in milliseconds)....
+Summary: Buzzer
+Activates the buzzer for the specified time (in milliseconds)....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: C > o > m > m > a > n > d > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Open Relay
+Opens a specific JNIOR relay...
+Summary: Open Relay
+Opens a specific JNIOR relay...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: C > o > m > m > a > n > d > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Close Relay
+Closes a specific JNIOR relay...
+Summary: Close Relay
+Closes a specific JNIOR relay...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: C > o > m > m > a > n > d > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Mute On/Mute Off
+Enables or disables muting....
+Summary: Mute On/Mute Off
+Enables or disables muting....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: A > u > t > o > m > a > t > i > o > n
+Content:
+SKA-3D actions...
+Summary: SKA-3D actions...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: C > o > m > m > a > n > d > 
+ > D > e > s > c > r > i > p > t > i > o > n
+Content:
+Set Audio Input Channel
+Sets the audio input channel....
+Summary: Set Audio Input Channel
+Sets the audio input channel....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+6.
+Add an action item to the macro:...
+Summary: 6.
+Add an action item to the macro:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+8.
+To save the macro, select Save....
+Summary: 8.
+To save the macro, select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: A > u > t > o > m > a > t > i > o > n
+Content:
+Adding an action item to an existing macro...
+Summary: Adding an action item to an existing macro...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+5.
+To save the macro, select Save....
+Summary: 5.
+To save the macro, select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > C > r > e > a > t > e > .
+Content:
+7.
+To save the macro, select Save....
+Summary: 7.
+To save the macro, select Save....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > + >   > N > e > w >   > D > e > v > i > c > e > .
+Content:
+CineLife+ 2.0 User Guide
+97
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+97
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: A > u > t > o > m > a > t > i > o > n
+Content:
+3.
+In the Name field, enter a name for the device....
+Summary: 3.
+In the Name field, enter a name for the device....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > A > d > d > .
+Content:
+7.
+Complete these fields:...
+Summary: 7.
+Complete these fields:...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+CineLife+ 2.0 User Guide
+98
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+98
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: A > u > t > o > m > a > t > i > o > n
+Content:
+Removing an automation device from your
+auditorium...
+Summary: Removing an automation device from your
+auditorium...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > D > e > l > e > t > e > .
+Content:
+4.
+To confirm the deletion, select Delete....
+Summary: 4.
+To confirm the deletion, select Delete....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > + >   > N > e > w >   > G > l > o > b > a > l >   > T > r > i > g > g > e > r > .
+Content:
+3.
+Complete the Name, Source, and Trigger Event fields....
+Summary: 3.
+Complete the Name, Source, and Trigger Event fields....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 5 > . > 
+ > S > e > l > e > c > t >   > A > d > d > .
+Content:
+Editing existing global trigger settings...
+Summary: Editing existing global trigger settings...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > a > v > e > .
+Content:
+Deleting a global trigger...
+Summary: Deleting a global trigger...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: A > u > t > o > m > a > t > i > o > n
+Content:
+Importing a device library...
+Summary: Importing a device library...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > I > m > p > o > r > t >   > D > e > v > i > c > e >   > L > i > b > r > a > r > y > .
+Content:
+3.
+Browse to the location of the device library file....
+Summary: 3.
+Browse to the location of the device library file....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > N > e > w >   > B > a > c > k > u > p > .
+Content:
+3.
+Enter a name for the backup file and select Backup....
+Summary: 3.
+Enter a name for the backup file and select Backup....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > A > c > c > e > p > t > .
+Content:
+Importing a backup file...
+Summary: Importing a backup file...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > I > m > p > o > r > t >   > B > a > c > k > u > p > .
+Content:
+4.
+Browse to the location of the file or enter a name for the backup file in the Name field....
+Summary: 4.
+Browse to the location of the file or enter a name for the backup file in the Name field....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 2 > . > 
+ > S > e > l > e > c > t >   > F > a > c > t > o > r > y >   > R > e > s > t > o > r > e > .
+Content:
+3.
+Select the settings you want to restore and select Restore....
+Summary: 3.
+Select the settings you want to restore and select Restore....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 7 > . > 
+ > S > e > l > e > c > t >   > O > p > e > n > .
+Content:
+8.
+In the right pane, navigate to the upgrade file and select Upgrade....
+Summary: 8.
+In the right pane, navigate to the upgrade file and select Upgrade....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > S > e > a > r > c > h >   > L > o > g > s > .
+Content:
+5.
+To sort log files by type, message, or date, select a column heading....
+Summary: 5.
+To sort log files by type, message, or date, select a column heading....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 3 > . > 
+ > S > e > l > e > c > t >   > R > u > n >   > I > n > t > e > r > r > o > g > a > t > o > r > .
+Content:
+4.
+In the confirmation dialog, select Interrogate....
+Summary: 4.
+In the confirmation dialog, select Interrogate....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 8 > . > 
+ > S > e > l > e > c > t >   > A > c > c > e > p > t > .
+Content:
+CineLife+ 2.0 User Guide
+105
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+105
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: • > 
+ > V > e > r > s > i > o > n
+Content:
+•
+Serial numbers...
+Summary: •
+Serial numbers...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: • > 
+ > T > e > m > p > e > r > a > t > u > r > e
+Content:
+Downloading a certificate...
+Summary: Downloading a certificate...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 4 > . > 
+ > S > e > l > e > c > t >   > D > o > w > n > l > o > a > d > .
+Content:
+If using the web user interface, the certificate automatically downloads to your computer's
+Downloads folder....
+Summary: If using the web user interface, the certificate automatically downloads to your computer's
+Downloads folder....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: 6 > . > 
+ > S > e > l > e > c > t >   > A > c > c > e > p > t > .
+Content:
+CineLife+ 2.0 User Guide
+106
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+Summary: CineLife+ 2.0 User Guide
+106
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: R > e > g > u > l > a > t > o > r > y
+Content:
+This product conforms to the latest regulations and standards related to product safety,
+environmental, and electromagnetic compatibility (EMC) requirements....
+Summary: This product conforms to the latest regulations and standards related to product safety,
+environmental, and electromagnetic compatibility (EMC) requirements....
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: S > a > f > e > t > y
+Content:
+•
+ANSI/UL 60950-1 – Information Technology Equipment – Safety – Part 1: General
+Requirements...
+Summary: •
+ANSI/UL 60950-1 – Information Technology Equipment – Safety – Part 1: General
+Requirements...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: E > m > i > s > s > i > o > n > s
+Content:
+•
+CAN ICES-003 (A)/NMB-003 (A) – Information Technology Equipment (Including Digital
+Apparatus) – Limits and Methods of Measurement...
+Summary: •
+CAN ICES-003 (A)/NMB-003 (A) – Information Technology Equipment (Including Digital
+Apparatus) – Limits and Methods of Measurement...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: I > m > m > u > n > i > t > y
+Content:
+•
+CISPR 24/EN55024 EMC Requirements – Information Technology Equipment...
+Summary: •
+CISPR 24/EN55024 EMC Requirements – Information Technology Equipment...
+
+[EXTRACTED SECTION]
+[2025-06-08T10:35:34]
+Title Path: E > n > v > i > r > o > n > m > e > n > t > a > l
+Content:
+•
+China Ministry of Information Industry (along with 7 other Government Agencies) Order No.32
+(01/2016) on the control of pollution caused by electronic information products, hazardous
+substances concentration limits (GB/T 26572 - 2011), and the applicable product marking
+requirement (SJ/T 11364 - 2014)....
+Summary: •
+China Ministry of Information Industry (along with 7 other Government Agencies) Order No.32
+(01/2016) on the control of pollution caused by electronic information products, hazardous
+substances concentration limits (GB/T 26572 - 2011), and the applicable product marking
+requirement (SJ/T 11364 - 2...

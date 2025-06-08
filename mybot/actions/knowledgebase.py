@@ -1,7 +1,12 @@
+from datetime import datetime
+import json
+import os
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer
 from sentence_transformers import util
-import fitz  # PyMuPDF
+import fitz
+
+from actions.logger_util import log_debug  # PyMuPDF
 
 
 #try different hugging face SentenceTransformer
@@ -15,15 +20,26 @@ import fitz  # PyMuPDF
 #Larger and slower, but significantly better embeddings.
 #Good for semantic search and clustering.
 
+CACHE_PATH = os.path.join(os.path.dirname(__file__), "cached_sections.json")        
 class PDFKnowledgeBase:
-    def __init__(self, pdf_path):
-        self.sections = self.load_pdf_sections(pdf_path)
-        self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")        
+    def __init__(self, pdf_path,debug=False):
+        self.debug = debug        
+        
+        # SentenceTransformer model before extract_sections, so I can debug 
+        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+
+        self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
         self.embedder = SentenceTransformer("all-mpnet-base-v2")
-        # self.section_embeddings = self.embedder.encode(
-        #     [section["title"] for section in self.sections],  # or use "summary" if more relevant
-        #     convert_to_tensor=True
-        # )
+        if os.path.exists("cached_sections.json"):
+            if self.debug:
+                print("[DEBUG] Loading sections from cache.")
+                with open("cached_sections.json", encoding="utf-8") as f:
+                    self.sections = json.load(f)
+        else:
+            self.sections = self.extract_sections(pdf_path)  
+        if self.sections is None:
+            raise ValueError("extract_sections() returned None instead of a list")
+       
         self.embeddings = self.embed_sections()
 
     def load_pdf_sections(self, path):
@@ -50,12 +66,24 @@ class PDFKnowledgeBase:
                     continue
                 if text and title:
                     section_data.append({"title": title, "content": text})
+                    log_debug(title, text, self.summarize(text))
+                    if self.debug:
+                        print(f"\n[EXTRACTED SECTION]")
+                        print(f"[{datetime.now().isoformat(timespec='seconds')}]")
+                        print(f"Title : {title}")
+                        print(f"Content:\n{text}")  #
+                        print(f"summary:\n{self.summarize(text)}")  # 
                     title = None
 
         # Summarize
         for section in section_data:
             section["summary"] = self.summarize(section["content"])
-        return section_data    
+        # After parsing:
+        if self.debug:
+            with open(CACHE_PATH, "w", encoding="utf-8") as f:
+                json.dump(section_data, f, ensure_ascii=False, indent=2)
+        
+        return section_data   
 
     def summarize(self, text):
         if len(text) < 400:
