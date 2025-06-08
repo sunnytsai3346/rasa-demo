@@ -1,4 +1,6 @@
 
+import json
+import os
 import fitz  # PyMuPDF
 from actions.logger_util import log_debug, log_summary_query
 import pdfplumber
@@ -18,6 +20,7 @@ from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
 #Larger and slower, but significantly better embeddings.
 #Good for semantic search and clustering.
 
+CACHE_PATH = os.path.join(os.path.dirname(__file__), "cached_sections.json")        
 class PDFKnowledgeBase:
     def __init__(self, pdf_path,debug=False):
         self.debug = debug        
@@ -27,9 +30,15 @@ class PDFKnowledgeBase:
 
         self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
-                
-        
-        self.sections = self.extract_sections(pdf_path)  
+        file_exists = os.path.exists(CACHE_PATH)
+        if file_exists:
+            if self.debug:
+                print("[DEBUG-1] Loading sections from cache.")                
+                with open(CACHE_PATH, encoding="utf-8") as f:
+                    self.sections = json.load(f)
+        else:
+            print("[DEBUG-2] extract sections generate new json.")
+            self.sections = self.extract_sections(pdf_path)  
         if self.sections is None:
             raise ValueError("extract_sections() returned None instead of a list")
         
@@ -140,7 +149,12 @@ class PDFKnowledgeBase:
         
         print("[DEBUG] Finished extract_sections")
         print(f"[DEBUG] Extracted {len(self.sections)} sections")
-        return self.sections        
+        # After parsing:
+        if self.debug:
+            with open(CACHE_PATH, "w", encoding="utf-8") as f:
+                json.dump(self.sections, f, ensure_ascii=False, indent=2)
+        
+        return self.sections
     
     def looks_like_table(self, text):
         lines = text.split("\n")
