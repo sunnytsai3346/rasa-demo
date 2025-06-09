@@ -294,7 +294,21 @@ class ActionQueryManual(Action):
             tracker: Tracker,
             domain: dict):
         query = tracker.latest_message.get("text")        
-        section_title, summary = knowledge_base.search(query)        
+        #
+        #{
+        #"title": ...,
+        #"summary": ...,
+        #"content": ...,
+        #"related": ...
+        #}
+        result = knowledge_base.search(query) 
+        print('result:',result)
+        if result is None or len(result) != 2:
+            section_title, summary = None, None
+        else:
+            section_title = result[0]["title"]
+            summary = result[0]["summary"]   
+            related_topics = result[0]["related"]   
         
         if not isinstance(summary, str):
             summary = str(summary)  # or summary = summary[1] if it's a (title, summary) tuple
