@@ -9,6 +9,8 @@ from fuzzywuzzy import process
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
 
+from actions.logger_util import log_debug, log_debug_all
+
 #try different hugging face SentenceTransformer
 #1. all-MiniLM-L12-v2
 #Better accuracy than L6-v2, but slightly slower.
@@ -20,7 +22,9 @@ from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
 #Larger and slower, but significantly better embeddings.
 #Good for semantic search and clustering.
 
-CACHE_PATH = os.path.join(os.path.dirname(__file__), "cached_sections.json")        
+
+CACHE_PATH = os.path.join(os.path.dirname(__file__), "debug_summary_log.json")   
+
 class PDFKnowledgeBase:
     def __init__(self, pdf_path,debug=False):
         self.debug = debug        
@@ -33,7 +37,7 @@ class PDFKnowledgeBase:
         file_exists = os.path.exists(CACHE_PATH)
         if file_exists:
             if self.debug:
-                print("[DEBUG-1] Loading sections from cache.")                
+                print("[DEBUG-1] Loading sections from cache.")
                 with open(CACHE_PATH, encoding="utf-8") as f:
                     self.sections = json.load(f)
         else:
@@ -99,12 +103,12 @@ class PDFKnowledgeBase:
                 self.section_titles.append(full_title)
                 self.all_titles.append(full_title)
                 self.section_embeddings.append(embedding)
-                log_debug(title_path, buffer_text, summary)
-                if self.debug:
-                    print(f"\n[EXTRACTED SECTION]")
-                    print(f"Title Path: {' > '.join(title_path)}")
-                    print(f"Content:\n{buffer_text[:500]}...")  # Only print first 500 chars
-                    print(f"Summary: {summary[:300]}...\n")
+                log_debug_all(title_path, buffer_text, summary)
+                #if self.debug:
+                    #print(f"\n[EXTRACTED SECTION]")
+                    #print(f"Title Path: {' > '.join(title_path)}")
+                    #print(f"Content:\n{buffer_text[:500]}...")  # Only print first 500 chars
+                    #print(f"Summary: {summary[:300]}...\n")
 
         with pdfplumber.open(pdf_path) as pdf:
             title_path = []

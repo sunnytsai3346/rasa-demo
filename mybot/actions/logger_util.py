@@ -1,5 +1,6 @@
 # actions/logger_util.py
 
+import json
 import os
 import csv
 from datetime import datetime
@@ -57,5 +58,29 @@ def log_debug(title_path, buffer_text, summary):
         # Append to file
         with open(DEBUG_LOG_PATH, mode="a", encoding="utf-8") as f:
             f.write(log_text)
+    
+
+def log_debug_all(title_path, buffer_text, summary):
+    DEBUG_LOG_PATH = os.path.join(os.path.dirname(__file__), "debug_summary_log.json")
+
+    log_entry = {
+        #"timestamp": datetime.now().isoformat(timespec='seconds'),
+        "title": title_path,
+        "summary": summary[:300],
+        "content": buffer_text[:500]
+    }
+
+    try:
+        with open(DEBUG_LOG_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = []
+
+    data.append(log_entry)
+    print(datetime.now().isoformat(timespec='seconds'))
+    print(json.dumps(log_entry, indent=2))  # Optional console print
+
+    with open(DEBUG_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)        
 
             
