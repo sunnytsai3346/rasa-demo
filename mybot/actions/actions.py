@@ -36,7 +36,7 @@ from langdetect import detect,DetectorFactory
 
 #from actions import config
 USER_INTENT_OUT_OF_SCOPE = "out_of_scope"
-en_spacy = spacy.load("en_core_web_md")
+en_spacy = spacy.load("en_core_web_sm")
 
 # Set up logger
 log_file_path = os.path.join(os.path.dirname(__file__), "user_inputs.log")

@@ -1,8 +1,12 @@
 
+import json
+import os
 import fitz  # PyMuPDF
 from fuzzywuzzy import process
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
+
+from actions.logger_util import log_debug, log_debug_all
 
 #try different hugging face SentenceTransformer
 #1. all-MiniLM-L12-v2
@@ -15,22 +19,34 @@ from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
 #Larger and slower, but significantly better embeddings.
 #Good for semantic search and clustering.
 
+CACHE_PATH = os.path.join(os.path.dirname(__file__), "cached_sections.json")        
 class PDFKnowledgeBase:
-    def __init__(self, pdf_path):
+    def __init__(self, pdf_path,debug=False):
+        self.debug = debug        
         
+        # SentenceTransformer model before extract_sections, so I can debug 
+        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+
         self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
-                
+        if os.path.exists("cached_sections.json"):
+            if self.debug:
+                print("[DEBUG] Loading sections from cache.")
+                with open("cached_sections.json", encoding="utf-8") as f:
+                    self.sections = json.load(f)
+        else:
+            self.sections = self.extract_sections(pdf_path)  
+        if self.sections is None:
+            raise ValueError("extract_sections() returned None instead of a list")
         
-        self.sections = self.extract_sections(pdf_path)  # ⬅️ using structured sections
+        
         # Semantic search embeddings
         self.section_titles = [s["title"] for s in self.sections]
         self.section_summaries = [s["summary"] for s in self.sections]
         #retrieve full original content, not just the summary.
         self.contents = [s["content"] for s in self.sections]
         
-        # SentenceTransformer model
-        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+        
         
         #Embeddings
         # Title-based search
@@ -83,6 +99,12 @@ class PDFKnowledgeBase:
                                 "content": full_content,
                                 "summary": self.summarize(full_content)
                             })
+                            log_debug_all(title, full_content, self.summarize(full_content))
+                            # if self.debug:
+                            #     print(f"\n[EXTRACTED SECTION]")
+                            #     print(f"Title : {title}")
+                            #     print(f"Content:\n{full_content}")  #
+                            #     print(f"summary:\n{self.summarize(full_content)}")  # 
                     title = block_text
                     content_buffer = []
                 elif title:
@@ -99,7 +121,17 @@ class PDFKnowledgeBase:
                     "content": full_content,
                     "summary": self.summarize(full_content)
                 })
-
+                log_debug_all(title, full_content, self.summarize(full_content))
+                # if self.debug:
+                #     print(f"\n[EXTRACTED SECTION]")
+                #     print(f"Title : {title}")
+                #     print(f"Content:\n{full_content}")  #
+                #     print(f"summary:\n{self.summarize(full_content)}")  # 
+        # After parsing:
+        if self.debug:
+            with open(CACHE_PATH, "w", encoding="utf-8") as f:
+                json.dump(section_data, f, ensure_ascii=False, indent=2)
+        
         return section_data
     
     def looks_like_table(self, text):
@@ -160,18 +192,6 @@ class PDFKnowledgeBase:
         
             
     
-    # #not use 
-    # def search_by_title(self, query, top_k=1):
-    #     # query_embedding = self.embedder.encode(query, convert_to_tensor=True)
-    #     query_embedding = self.model.encode(query, convert_to_tensor=True)
-    #     hits = util.semantic_search(query_embedding, self.section_embeddings, top_k=1)
-    #     if not hits or not hits[0]:
-    #         return "Not Found", "Sorry, I couldn’t find a matching section."
-        
-    #     best_hit = hits[0][0]
-    #     section_index = best_hit["corpus_id"]
-    #     match = self.sections[section_index]
-    #     return match["title"], match["summary"]
     
     def get_related_topics(self, query, top_n=3):
         # query_embedding = self.embedder.encode(query, convert_to_tensor=True)
