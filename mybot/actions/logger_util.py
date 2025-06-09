@@ -58,8 +58,8 @@ def log_debug_all(title_path, buffer_text, summary):
     DEBUG_LOG_PATH = os.path.join(os.path.dirname(__file__), "debug_summary_log.json")
 
     log_entry = {
-        "timestamp": datetime.now().isoformat(timespec='seconds'),
-        "title": " > ".join(title_path),
+        #"timestamp": datetime.now().isoformat(timespec='seconds'),
+        "title": title_path,
         "summary": summary[:300],
         "content": buffer_text[:500]
     }
@@ -71,6 +71,7 @@ def log_debug_all(title_path, buffer_text, summary):
         data = []
 
     data.append(log_entry)
+    print(datetime.now().isoformat(timespec='seconds'))
     print(json.dumps(log_entry, indent=2))  # Optional console print
 
     with open(DEBUG_LOG_PATH, "w", encoding="utf-8") as f:

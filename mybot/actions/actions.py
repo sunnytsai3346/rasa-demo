@@ -53,7 +53,7 @@ logger = logging.getLogger(__name__)
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
 PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF\manual.pdf")
 
-knowledge_base = PDFKnowledgeBase(PDF_PATH)
+knowledge_base = PDFKnowledgeBase(PDF_PATH,debug=True)
 
 
 

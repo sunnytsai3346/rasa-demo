@@ -37,6 +37,7 @@ pip install --upgrade rasa rasa-sdk
 pip uninstall spacy thinc
 pip install spacy==3.5.4
 python -m spacy download en_core_web_md
+python -m spacy download en_core_web_sm
 pip install langdetect
 
 

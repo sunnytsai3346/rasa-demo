@@ -19,7 +19,9 @@ from actions.logger_util import log_debug, log_debug_all
 #Larger and slower, but significantly better embeddings.
 #Good for semantic search and clustering.
 
-CACHE_PATH = os.path.join(os.path.dirname(__file__), "cached_sections.json")        
+
+CACHE_PATH = os.path.join(os.path.dirname(__file__), "debug_summary_log.json")   
+
 class PDFKnowledgeBase:
     def __init__(self, pdf_path,debug=False):
         self.debug = debug        
@@ -29,13 +31,16 @@ class PDFKnowledgeBase:
 
         self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
         self.tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
-        if os.path.exists("cached_sections.json"):
+       
+        file_exists = os.path.exists(CACHE_PATH)
+        if file_exists:
             if self.debug:
-                print("[DEBUG] Loading sections from cache.")
-                with open("cached_sections.json", encoding="utf-8") as f:
+                print("[DEBUG 1] Loading sections from cache.")
+                with open(CACHE_PATH, encoding="utf-8") as f:
                     self.sections = json.load(f)
         else:
-            self.sections = self.extract_sections(pdf_path)  
+            print("[DEBUG 2] Loading sections from cache.")
+            self.sections = self.extract_sections(CACHE_PATH)  
         if self.sections is None:
             raise ValueError("extract_sections() returned None instead of a list")
         
