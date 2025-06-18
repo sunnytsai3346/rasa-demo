@@ -20,7 +20,7 @@ from actions.logger_util import log_debug, log_debug_all
 #Good for semantic search and clustering.
 
 
-CACHE_PATH = os.path.join(os.path.dirname(__file__), "debug_summary_log.json")   
+CACHE_PATH = os.path.join(os.path.dirname(__file__), "log\debug_summary_log.json")   
 
 class PDFKnowledgeBase:
     def __init__(self, pdf_path,debug=False):

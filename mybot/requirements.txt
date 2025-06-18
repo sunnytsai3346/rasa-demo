@@ -12,8 +12,9 @@ langdetect
 transformers
 torch
 python-Levenshtein
-## RAG START
 sentence-transformers
-faiss-cpu
-langchain
-pypdf
+## RAG START
+
+#faiss-cpu
+#langchain
+#pypdf
