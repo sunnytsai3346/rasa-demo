@@ -35,12 +35,12 @@ class PDFKnowledgeBase:
         file_exists = os.path.exists(CACHE_PATH)
         if file_exists:
             if self.debug:
-                print("[DEBUG 1] Loading sections from cache.")
+                print("[DEBUG-1] Loading sections from cache.")
                 with open(CACHE_PATH, encoding="utf-8") as f:
                     self.sections = json.load(f)
         else:
-            print("[DEBUG 2] Loading sections from cache.")
-            self.sections = self.extract_sections(CACHE_PATH)  
+            print("[DEBUG-2] extract sections generate new json.")
+            self.sections = self.extract_sections(pdf_path)  
         if self.sections is None:
             raise ValueError("extract_sections() returned None instead of a list")
         

@@ -10,6 +10,10 @@ rapidfuzz>=2.0.0
 spacy==3.5.4
 langdetect
 transformers
-sentence-transformers
 torch
 python-Levenshtein
+## RAG START
+sentence-transformers
+faiss-cpu
+langchain
+pypdf
