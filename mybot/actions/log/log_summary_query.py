@@ -1,5 +1,7 @@
 import csv
 from datetime import datetime
+import os
+
 
 
 def log_summary_query(query, section_title, summary):

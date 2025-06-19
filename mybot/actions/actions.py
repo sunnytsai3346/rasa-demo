@@ -33,6 +33,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Any, Dict, List, Text
 from langdetect import detect,DetectorFactory
+from actions.knowledgebase import PDFKnowledgeBase
 
 
 
@@ -49,9 +50,8 @@ from langdetect import detect,DetectorFactory
 # logger = logging.getLogger(__name__)
 
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
-# PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF","manual.pdf")
-
-# knowledge_base = PDFKnowledgeBase(PDF_PATH,debug=True)
+PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF","manual.pdf")
+knowledge_base = PDFKnowledgeBase(PDF_PATH,debug=True)
 
 
 
