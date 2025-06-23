@@ -17,15 +17,15 @@ rules:
 #     - intent: affirm
 #     - action: utter_ask_search_language
 
-- rule: Ask to continue when no keyword is matched
-  condition:
-    - active_loop: null
-  steps:
-    - intent: search_keyword
-    - action: action_search_keyword
-    - slot_was_set:
-        - keyword: null
-    - action: utter_ask_pdf_continue  
+# - rule: Ask to continue when no keyword is matched
+#   condition:
+#     - active_loop: null
+#   steps:
+#     - intent: search_keyword
+#     - action: action_search_keyword
+#     - slot_was_set:
+#         - keyword: null
+#     - action: utter_ask_pdf_continue  
 # - rule: respond to keyword search
 #   steps:
 #     - intent: search_keyword
@@ -39,20 +39,20 @@ rules:
 #   - intent: search_keyword
 #   - action: action_search_keyword
 
-- rule: Parse PDF example
-  steps:
-  - intent: request_pdf_parsing
-  - action: action_parsing_userguide
+# - rule: Parse PDF example
+#   steps:
+#   - intent: request_pdf_parsing
+#   - action: action_parsing_userguide
 
 # - rule: Answer manual query
 #   steps:
 #     - intent: query_manual
 #     - action: action_query_manual  
 
-- rule: Show manual section
-  steps:
-    - intent: query_manual_section
-    - action: action_query_manual_section
+# - rule: Show manual section
+#   steps:
+#     - intent: query_manual_section
+#     - action: action_query_manual_section
 
 - rule: express emotion
   steps:
@@ -62,5 +62,5 @@ rules:
 - rule:  Handle manual query with intro
   steps:
       - intent: query_manual
-      - action: action_query_manual
+      - action: action_query_docs
       - action: action_answer_with_intro
