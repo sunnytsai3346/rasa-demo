@@ -64,3 +64,51 @@ git rm --cached -r models/
 git rm --cached -r .rasa/
 git rm --cached -r __pycache__/
 commit changes
+
+
+🔹 1. Install Ollama (Windows)
+Go to the official site:
+
+👉 https://ollama.com/download
+
+Download the Windows installer
+
+Run it to install Ollama
+
+After installation, open a new terminal window (important: refresh PATH)
+
+🔹 2. Verify Installation
+In a new terminal (e.g. PowerShell, Command Prompt, or Git Bash), run:
+
+
+ollama --version
+3. Once installed:
+
+ollama run llama3
+# How to check if Ollama is running
+curl http://localhost:11434
+# response should be like 
+{
+  "models": [...],
+  "status": "running"
+}
+
+
+
+2025-06-20 - 
+ 
+
+# 1. Start Ollama in a separate terminal ,Every time you start your assistant or reboot your machine
+ollama run llama3
+
+# 2. (Optional) Re-index PDFs if changed , This loads PDFs, chunks and embeds them with e5-large-v2, and saves to FAISS and metadata.
+# You must run this before launching any action using FAISS.
+py.exe .\embed_and_index.py 
+
+# 3. Train and run Rasa
+rasa train
+ollama serve
+rasa run actions
+rasa run --enable-api --cors "*" --debug
+
+

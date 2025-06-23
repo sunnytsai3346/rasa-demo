@@ -14,7 +14,8 @@ torch
 python-Levenshtein
 sentence-transformers
 ## RAG START
+qdrant-client
 
-#faiss-cpu
+faiss-cpu
 #langchain
 #pypdf

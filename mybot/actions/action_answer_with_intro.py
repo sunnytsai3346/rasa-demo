@@ -4,6 +4,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet
 from typing import Any, Dict, List, Text
 from rasa_sdk.executor import CollectingDispatcher
+import requests
 
 class ActionAnswerWithIntro(Action):
     def name(self) -> Text:
@@ -19,41 +20,51 @@ class ActionAnswerWithIntro(Action):
         prefix = "I found something that may help you."
 
         if not json_answer:
-            dispatcher.utter_message(text="Sorry, I couldn't find an answer.")
+            dispatcher.utter_message(text="Sorry, I couldn't find relevant section.")
             return []
         
 
-        # Determine emotion-based prefix
-        emotion = tracker.get_slot("emotion")
-        print('emotion:',emotion)
-        if emotion == "sadness":
-            prefix = "I hope you're doing okay. Here's the answer I found for you:\n"
-        elif emotion == "joy":
-            prefix = "Great energy! Here's what I found:\n"
-        else:
-            prefix = "I’ve found the answer for you. Here's how to proceed:\n"
-
+        # Call LLaMA3 via Ollama
+        prompt = f"""
+        You are a helpful assistant. Based on the following context, answer the question.
+        Context:
+        {json_answer['context']}
         
+        Question:
+        {json_answer['query']}
+        
+        Answer:
+        """
+        response = requests.post("http://localhost:11434/api/generate", json={
+            "model": "llama3",
+            "prompt": prompt,
+            "stream": False
+        })
+        answer = response.json()["response"].strip()
+        dispatcher.utter_message(f"{prefix}\n\n{answer}")
+        if related:
+            dispatcher.utter_message("This is also related:\n- " + "\n- ".join(related))
+            
+        prefix = "I found something that may help you."
+        # ---------- 🔁 Handle structured response from LLaMA ----------
         # Structured response
         if isinstance(json_answer, dict) and json_answer.get("type") == "step_list":
-            steps = json_answer.get("steps", [])
-            title = json_answer.get("title", "")
-            dispatcher.utter_message(json_message={
-                "type": "step_list",
-                "title": prefix, 
-                "steps": steps
-            })
+             steps = json_answer.get("steps", [])
+             title = json_answer.get("title", "")
+             if steps and isinstance(steps, list):
+                dispatcher.utter_message(json_message={
+                    "type": "step_list",
+                    "title": title,
+                    "steps": steps
+                })
+             else:
+                # Fallback if 'steps' malformed
+                dispatcher.utter_message(text=f"{title}\n\n{json_answer}")
 
-        else:
-            full_text = f"{prefix}\n\n{str(json_answer)}"
-            dispatcher.utter_message(text=full_text)
-
-        # Handle related topic buttons
+        # ---------- 🔘 Related topic buttons ----------
         if related and isinstance(related, list) and len(related) > 0:
             def clean_title(text):
-                # Remove numeric prefixes like "1.", "2.", "5."
-                text = re.sub(r'^\d+\.\s*', '', text.strip())  # Remove "5." at the start
-                # Replace newlines and trim length
+                text = re.sub(r'^\d+\.\s*', '', text.strip())  # Remove numbered prefixes like "5. "
                 return text.split("\n")[0][:40] + "..." if len(text) > 40 else text.split("\n")[0]
 
             seen_titles = set()
@@ -61,16 +72,16 @@ class ActionAnswerWithIntro(Action):
 
             for topic in related:
                 title = clean_title(topic)
-                if title not in seen_titles:
+                if title and title.lower() not in seen_titles:
                     buttons.append({
                         "title": title,
                         "payload": f"Show me how to {title.lower()}"
                     })
-                    seen_titles.add(title)
+                    seen_titles.add(title.lower())
 
             dispatcher.utter_message(
                 text="Would you like to explore a related topic?",
                 buttons=buttons
             )
-    
+
         return []

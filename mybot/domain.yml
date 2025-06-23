@@ -105,7 +105,8 @@ actions:
 - action_search_keyword
 - action_parsing_userguide
 - action_query_manual
-- action_query_manual_section  
+#- action_query_manual_section  
+- action_query_docs
 - action_acknowledge_emotion
 - action_answer_with_intro
 

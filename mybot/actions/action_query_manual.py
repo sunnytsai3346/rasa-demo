@@ -40,7 +40,7 @@ class ActionQueryManual(Action):
         
         # Use semantic similarity to get related topics
         related_topics = knowledge_base.get_related_topics(query)
-        print ('331 Related',related_topics)
+        print ('3Related',related_topics)
 
         
         #dispatcher.utter_message(text=answer)
