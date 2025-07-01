@@ -36,7 +36,7 @@ class ActionQueryDocs(Action):
         query_vec = self.model.encode(["query: " + query], convert_to_numpy=True, normalize_embeddings=True)
         scores, indices = self.index.search(query_vec, TOP_K)
         matched = [self.chunks[i] for i in indices[0]]
-        context = "\n".join(c["text"] for c in matched)
+        context = "\n".join([f"[{c['meta']['file']}]\n{c['text']}" for c in matched])
 
         # Search Faiss Index
         prompt = f"""

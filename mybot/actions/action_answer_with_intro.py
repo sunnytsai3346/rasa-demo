@@ -18,30 +18,12 @@ class ActionAnswerWithIntro(Action):
         json_answer = tracker.get_slot("kb_answer")
         related = tracker.get_slot("related_topics")
         prefix = "I found something that may help you."
-        print('31:',json_answer)
+        print('json_answer:',json_answer)
 
         if not json_answer:
             dispatcher.utter_message(text="Sorry, I couldn't find relevant section.")
             return []
         
-
-        # # Call LLaMA3 via Ollama
-        # prompt = f"""
-        # You are a helpful assistant. Based on the following context, answer the question.
-        # Context:
-        # {json_answer}
-        
-        # Question:
-        # ""
-        
-        # Answer:
-        # """
-        # response = requests.post("http://localhost:11434/api/generate", json={
-        #     "model": "llama3",
-        #     "prompt": prompt,
-        #     "stream": False
-        # })
-        # answer = response.json()["response"].strip()
         dispatcher.utter_message(f"{prefix}\n\n{json_answer}")
         if related:
              #dispatcher.utter_message("This is also related:\n- " + "\n- ".join(related))

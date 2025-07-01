@@ -19,3 +19,10 @@ qdrant-client
 faiss-cpu
 #langchain
 #pypdf
+pdfplumber
+python-docx
+python-pptx
+pandas
+lxml
+openpyxl
+beautifulsoup4
