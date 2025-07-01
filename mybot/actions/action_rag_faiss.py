@@ -14,6 +14,7 @@ EMBED_MODEL = "intfloat/e5-large-v2"
 INDEX_PATH = os.path.join(os.path.dirname(__file__), "DATA","FAISS_index")
 CHUNK_SIZE = 300
 TOP_K = 3
+METADATA_STORE = "vector_meta.pkl"
 
 class ActionQueryDocs(Action):
     def name(self):
@@ -22,7 +23,7 @@ class ActionQueryDocs(Action):
     def __init__(self):
         self.model = SentenceTransformer(EMBED_MODEL)
         self.index = faiss.read_index(os.path.join(INDEX_PATH, "index.faiss"))
-        with open(os.path.join(INDEX_PATH, "metadata.json"), encoding="utf-8") as f:
+        with open(os.path.join(INDEX_PATH, METADATA_STORE), encoding="utf-8") as f:
             self.chunks = json.load(f)
 
     def run(self, dispatcher: CollectingDispatcher,

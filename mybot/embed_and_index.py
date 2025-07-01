@@ -124,7 +124,9 @@ def load_all_documents():
             try:
                 text = loader(file)
                 for chunk in chunk_text(text):
-                    chunks.append({"text": chunk, "meta": {"source": os.path.basename(file)}})
+                    chunks.append({"text": chunk, 
+                                   "source": file,  # flattened for easy access later,
+                                   "meta": {"file": os.path.basename(file)}})
             except Exception as e:
                 print(f"Failed to parse {file}: {e}")
     return chunks
