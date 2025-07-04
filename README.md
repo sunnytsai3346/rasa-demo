@@ -97,6 +97,9 @@ curl http://localhost:11434
 
 2025-06-20 - 
  
+# ---------------------------
+# Usage Instructions
+# ---------------------------
 
 # 1. Start Ollama in a separate terminal ,Every time you start your assistant or reboot your machine
 ollama run llama3
