@@ -39,10 +39,10 @@ stories:
 #   - intent: search_keyword
 #   - action: action_search_keyword  
 
-  - story: Parse PDF example
-    steps:
-    - intent: request_pdf_parsing
-    - action: action_parsing_userguide
+  # - story: Parse PDF example
+  #   steps:
+  #   - intent: request_pdf_parsing
+  #   - action: action_parsing_userguide
 
 # - story: keyword search and ask to continue with PDF v0
 #   steps:
