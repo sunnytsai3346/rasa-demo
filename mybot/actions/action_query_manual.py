@@ -7,7 +7,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from actions.knowledgebase import PDFKnowledgeBase
 from actions.log.log_summary_query import log_summary_query
 
-PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF","manual.pdf")
+PDF_PATH = os.path.join(os.path.dirname(__file__), "PDF","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf")
 knowledge_base = PDFKnowledgeBase(PDF_PATH,debug=True)
 
 class ActionQueryManual(Action):

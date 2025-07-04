@@ -29,7 +29,7 @@ class ActionParsingUserGuide(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
         # Example: assuming the PDF is already uploaded and accessible
-        file_name  = "manual.pdf"  # Todo : or a path from tracker slot
+        file_name  = "020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf"  # Todo : or a path from tracker slot
         doc = os.path.join(os.path.dirname(__file__), "pdf", file_name)
         print(doc)
         
