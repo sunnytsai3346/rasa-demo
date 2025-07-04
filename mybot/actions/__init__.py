@@ -5,3 +5,5 @@ from .action_answer_with_intro import ActionAnswerWithIntro
 from .action_query_manual import ActionQueryManual
 #from .action_query_manual_section import ActionQueryManualSection
 from .action_rag_faiss import ActionQueryDocs
+from .action_llm_fallback import ActionLLMFallback
+from .action_llm_intent_classifier import ActionLLMIntentClassifier

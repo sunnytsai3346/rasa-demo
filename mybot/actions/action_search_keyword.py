@@ -9,7 +9,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from langdetect import detect,DetectorFactory
 from fuzzywuzzy import fuzz
 from rapidfuzz.fuzz import partial_ratio
-
+DetectorFactory.seed = 0
 # Set up logger
 log_file_path = os.path.join(os.path.dirname(__file__), "log","user_inputs.log")
 logging.basicConfig(

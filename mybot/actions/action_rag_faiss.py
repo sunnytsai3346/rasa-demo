@@ -9,6 +9,9 @@ import requests
 from sentence_transformers import SentenceTransformer
 from rasa_sdk.events import SlotSet
 
+from actions.actions import LLM_MODEL, OLLAMA_URL
+from actions.log import log_summary_query
+
 
 EMBED_MODEL = "intfloat/e5-large-v2"
 INDEX_PATH = os.path.join(os.path.dirname(__file__), "DATA","FAISS_index")
@@ -52,19 +55,32 @@ Question:
 Answer:
 """
 
-        response = requests.post("http://localhost:11434/api/generate", json={
-            "model": "llama3",
+        response = requests.post(OLLAMA_URL, json={
+            "model": LLM_MODEL,
             "prompt": prompt,
             "stream": False
         })
 
         answer = response.json().get("response", "Sorry, I couldn't generate an answer.")
 
-       
+        # refine related_topics
+        related_sources = []
+        seen = set()
+        for c in matched:
+             src = c.get("source")
+             if src and src not in seen:
+                seen.add(src)
+                related_sources.append(src)
+
+        
+         # Log query to CSV
+        log_summary_query(query, "rag_faiss", answer)
         # Return to follow-up action
         return [
             SlotSet("kb_answer", answer),
-            SlotSet("related_topics", [c["source"] for c in matched if "source" in c])
+            #SlotSet("related_topics", [c["source"] for c in matched if "source" in c])
+            #SlotSet("related_topics", list(set(c["source"] for c in matched if "source" in c)))
+            SlotSet("related_topics", related_sources)
         ]
 
         

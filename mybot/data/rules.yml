@@ -64,3 +64,8 @@ rules:
       - intent: query_manual
       - action: action_query_docs
       - action: action_answer_with_intro
+
+- rule: Trigger LLM intent classifier fallback
+  steps:
+  - intent: fallback
+  - action: action_llm_intent_classifier

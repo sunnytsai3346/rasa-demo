@@ -14,6 +14,7 @@ intents:
 - session_start
 - query_manual
 - query_manual_section
+- fallback
 
 entities:
 - keyword
@@ -32,6 +33,12 @@ slots:
     type: text
     mappings:
       - type: custom
+  
+  fallback_type:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom    
 
   keyword:
     type: text
@@ -70,7 +77,7 @@ slots:
   #     - mood_unhappy
 responses:
   utter_greet:
-  - text: Hey! How are you?
+  - text: "Hello! How can I help you today?"
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
@@ -109,6 +116,9 @@ actions:
 - action_query_docs
 - action_acknowledge_emotion
 - action_answer_with_intro
+- action_llm_intent_classifier
+- action_llm_rag_fallback
+- action_llm_fallback
 
 session_config:
   session_expiration_time: 60
