@@ -54,10 +54,10 @@ rules:
 #     - intent: query_manual_section
 #     - action: action_query_manual_section
 
-- rule: express emotion
-  steps:
-  - intent: express_emotion
-  - action: action_acknowledge_emotion
+# - rule: express emotion
+#   steps:
+#   - intent: express_emotion
+#   - action: action_acknowledge_emotion
 
 - rule:  Handle manual query with intro
   steps:

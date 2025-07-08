@@ -17,7 +17,7 @@ class ActionAnswerWithIntro(Action):
         # Simulate getting the answer from your knowledge base
         json_answer = tracker.get_slot("kb_answer")
         related = tracker.get_slot("related_topics")
-        prefix = "I found something that may help you."
+        prefix = "To my best understanding, I found something that may help you."
         print('json_answer:',json_answer)
 
         if not json_answer:
