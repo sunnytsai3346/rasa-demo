@@ -38,9 +38,10 @@ class ActionQueryDocs(Action):
 
         # Embed query
         query_vec = self.model.encode(["query: " + query], convert_to_numpy=True, normalize_embeddings=True)
-        scores, indices = self.index.search(query_vec, TOP_K)
-        matched = [self.chunks[i] for i in indices[0]]
-        context = "\n".join([f"[{c['meta']['file']}]\n{c['text']}" for c in matched])
+        scores, indices = self.index.search(query_vec, TOP_K)        
+        matched = [(score, self.chunks[i]) for score, i in zip(scores[0], indices[0])]        
+        context = "\n".join([f"[Score: {score:.3f}] [{chunk['meta']['file']}]\n{chunk['text']}" for score, chunk in matched]
+)
 
         # Search Faiss Index
         prompt = f"""
@@ -66,15 +67,16 @@ Answer:
         # refine related_topics
         related_sources = []
         seen = set()
-        for c in matched:
-             src = c.get("source")
-             if src and src not in seen:
+        for score, chunk in matched:
+            src = chunk.get("meta", {}).get("file")
+            if src and src not in seen:
                 seen.add(src)
-                related_sources.append(src)
+                related_sources.append(f"{src} (score: {score:.2f})")
 
         
          # Log query to CSV
-        log_summary_query(query, "rag_faiss", answer)
+        log_summary_query(query, "answer", answer,related_sources)
+        
         # Return to follow-up action
         return [
             SlotSet("kb_answer", answer),

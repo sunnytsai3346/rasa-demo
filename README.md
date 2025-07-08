@@ -115,3 +115,12 @@ rasa run actions
 rasa run --enable-api --cors "*" --debug
 
 
+✅ Best practice
+Instead of pushing binary FAISS files to Git:
+
+Run embed_and_index.py locally on each machine after pull
+
+Or build a Makefile / run.sh to automate the pipeline
+
+Or store FAISS index + metadata in a shared volume / object storage (e.g. S3, if needed in production)
+
