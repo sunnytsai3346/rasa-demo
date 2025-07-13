@@ -90,7 +90,7 @@ Answer:
             answer = response.json().get("response", "Sorry, I couldn't generate an answer.")
             return [
                 SlotSet("kb_answer", answer),
-                SlotSet("related_topics", [url]-[name])
+                SlotSet("related_topics", [f"{url} - {name}"])
             ]
 
         # Fallback to semantic RAG
