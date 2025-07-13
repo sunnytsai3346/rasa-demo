@@ -34,12 +34,14 @@ class ActionQueryStatusOrDocs(Action):
         with open(os.path.join(INDEX_PATH, METADATA_STORE), encoding="utf-8") as f:
             self.chunks = json.load(f)
         self.status_data = load_status_dicts()
+        print('status_data:',self.status_data)
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         query = tracker.latest_message.get("text", "").lower()
+        print('query is ', query)
 
         # ✅ Match against status_data
         matched_entry = next(
@@ -51,6 +53,7 @@ class ActionQueryStatusOrDocs(Action):
             name = matched_entry.get("name")
             value = matched_entry.get("value")
             url = matched_entry.get("url", "")
+            print('matched:',name,value,url)
 
             prompt = f"""
 You are a helpful assistant. Based on the following equipment status information, answer the user question.
