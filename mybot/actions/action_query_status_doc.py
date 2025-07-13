@@ -22,7 +22,7 @@ STATUS_JSON_PATH = os.path.join(os.path.dirname(__file__), "DATA")
 
 def load_status_dicts():
     with open(os.path.join(STATUS_JSON_PATH, "status_data.json"), encoding="utf-8") as f:
-        return json.load(f)
+        return json.load(f)  # Must be a list of dicts like {"name": ..., "value": ..., "url": ...}
 
 class ActionQueryStatusOrDocs(Action):
     def name(self):
@@ -38,12 +38,20 @@ class ActionQueryStatusOrDocs(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        query = tracker.latest_message.get("text", "").lower()
-        matched_kv_url = next(((name, value,url) for name, value,url in self.status_data if name.lower() in query or str(value).lower() in query ), None)
 
-        if matched_kv_url:
-            name, value,url = matched_kv_url
+        query = tracker.latest_message.get("text", "").lower()
+
+        # ✅ Match against status_data
+        matched_entry = next(
+            (entry for entry in self.status_data if entry.get("name", "").lower() in query or str(entry.get("value", "")).lower() in query),
+            None
+        )
+
+        if matched_entry:
+            name = matched_entry.get("name")
+            value = matched_entry.get("value")
+            url = matched_entry.get("url", "")
+
             prompt = f"""
 You are a helpful assistant. Based on the following equipment status information, answer the user question.
 
@@ -66,14 +74,14 @@ Answer:
                 SlotSet("related_topics", [name])
             ]
 
-        # Else fallback to semantic search
-        print('query:',query,',fallback to semantic search')
+        # Fallback to semantic RAG
+        print('query:', query, ',fallback to semantic search')
         query_vec = self.model.encode(["query: " + query], convert_to_numpy=True, normalize_embeddings=True)
         scores, indices = self.index.search(query_vec, TOP_K)
         matched = [(scores[0][i], self.chunks[indices[0][i]]) for i in range(TOP_K)]
 
         context = "\n".join(
-            [f"[Score: {score:.3f}] [{chunk['meta']['source']}]\n{chunk['text']}" for score, chunk in matched]
+            [f"[Score: {score:.3f}] [{chunk.get('meta', {}).get('source', 'unknown')}]\n{chunk['text']}" for score, chunk in matched]
         )
 
         prompt = f"""
@@ -94,7 +102,10 @@ Answer:
         })
         answer = response.json().get("response", "Sorry, I couldn't generate an answer.")
 
-        related_sources = list({c['meta'].get("source", "") for _, c in matched if "meta" in c})
+        related_sources = list({
+            chunk.get("meta", {}).get("source", "unknown")
+            for _, chunk in matched
+        })
 
         return [
             SlotSet("kb_answer", answer),
