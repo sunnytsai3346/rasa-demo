@@ -21,12 +21,8 @@ METADATA_STORE = "vector_meta.pkl"
 STATUS_JSON_PATH = os.path.join(os.path.dirname(__file__), "DATA")    
 
 def load_status_dicts():
-    status_data = {}
     with open(os.path.join(STATUS_JSON_PATH, "status_data.json"), encoding="utf-8") as f:
-    
-        data = json.load(f)
-        status_data.update(data)
-    return status_data
+        return json.load(f)
 
 class ActionQueryStatusOrDocs(Action):
     def name(self):
@@ -44,7 +40,7 @@ class ActionQueryStatusOrDocs(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
         query = tracker.latest_message.get("text", "").lower()
-        matched_kv_url = next(((name, value,url) for name, value,url in self.status_data.items() if name.lower() in query or str(value).lower() in query ), None)
+        matched_kv_url = next(((name, value,url) for name, value,url in self.status_data if name.lower() in query or str(value).lower() in query ), None)
 
         if matched_kv_url:
             name, value,url = matched_kv_url
