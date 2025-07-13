@@ -173,3 +173,306 @@ Select Factory Restore.","3. Select the settings you want to restore and select 
 2025-07-08T06:28:37,please tell me how to enable imb,answer,"To enable the Integrated Media Block (IMB) powered in Standby mode, follow these steps:  1. Go to Service Setup > Preferences. 2. Select IMB. 3. Enable the ""IMB Powered in Standby"" option.  This will allow you to ingest content into the IMB when the projector is in Standby mode.",020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.86)
 2025-07-08T06:29:22,can you teach me how to speak franch?,answer,"I think there may be some confusion here!  It seems like I've been provided with a set of PDFs and PowerPoint slides related to projectors and cinema equipment. However, the question asked is quite unrelated - ""Can you teach me how to speak Franch?""  As a helpful assistant, I'd love to help with that request! Unfortunately, there's no such thing as ""Franch"" (I think you might mean French?). If you're interested in learning French, I can provide some basic phrases and tips to get you started. Would that be helpful?","020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.77), 011 LightLOC v3 - Cinema v2.0.pptx (score: 0.75), 020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.75)"
 2025-07-08T06:31:41,show me how to set ecc,answer,"To set ECC (Electronic Color Correction), follow these steps:  1. Access the ILS File Setup page and press the ECC icon. 2. Move three sprites (red, green, and blue) on screen until all three sprites overlap such that you see a single white sprite image. 3. Press the ""Apply"" button to apply the ECC settings.  By following these steps, you will be able to correct the red, green, and blue convergence at the four corners of the screen using ECC.","ECC Description for User Guide.pdf (score: 0.83), 020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.82)"
+2025-07-13T12:07:04,show me free memory?,Free Memory: 2.69 GB (url: /#/status/System),The system has **2.69 GB** of free memory available!,/#/status/System - Free Memory
+2025-07-13T12:07:17,what is projector model?,Model: CP4450-RGB (url: /#/menu/MMM%2BLASR/MMM%2BLDGS),The projector model is CP4450-RGB.,/#/menu/MMM%2BLASR/MMM%2BLDGS - Model
+2025-07-13T12:07:36,how to turn on projector?,"[Score: 0.864] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+t and hold Power for two seconds.
+3. Select and hold Lamp On for two seconds.
+Turning off the lamp
+Learn how to turn off the lamp and projector.
+1. Select and hold Lamp Off for two seconds.
+2. Select and hold Power Off for two seconds.
+3. Wait for the lamp to cool down and then disconnect the projec
+[Score: 0.859] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+and selecting IMB.
+Turning on or off the projector
+Turn on the projector to display content or turn off the projector to conserve energy or service the
+projector.
+1. Determine if you are using an uninterruptable power supply (on page 22).
+2. Plug the projector into AC power.
+3. Turn on the breaker s
+[Score: 0.858] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+the light source
+Turn on the light source to display content or view test patterns. Turn off the light to extend the life of
+the light source.
+• To turn on or off the light source, in the right toolbar, select and hold Light.
+If turning on the light source when the projector power is off, power is t
+[Score: 0.856] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .15
+Turning on or off the projector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+LED status indicators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[Score: 0.856] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+Turning on or off the projector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Logging into the projector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+[Score: 0.856] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+d.
+Logging into the projector
+Log into the projector to access projector menus.
+1. Select Login.
+If using the Web UI, you do not need to select Login.
+2. In the User list, select a username.
+3. Enter your password.
+4. Select Login.
+Turning on or off the light source
+Turn on the light source to displ
+[Score: 0.853] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+erator.
+Logging into the projector
+Log into the projector to access projector menus.
+1. From the login page, in the User list, select a username.
+2. Enter your password.
+3. Select Login.
+Logging out of the projector
+Log out of the projector to restrict access to projector menus or to change access p
+[Score: 0.852] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+://www.christiedigital.com/products/
+cinema/cinema-lamps/.
+Turning on the lamp
+Learn how to turn on the lamp.
+Do not attempt operation if the AC supply is outside the specified voltage range.
+1. Turn on the circuit breaker for the projector.
+2. Select and hold Power for two seconds.
+3. Select and ho
+[Score: 0.852] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+display content or view test patterns. Turn off the light to extend the life of
+the light source.
+• To turn on or off the light source, in the right toolbar, select and hold Light.
+If turning on the light source when the projector power is off, power is turned on automatically.
+• For laser projector
+[Score: 0.851] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . .13
+Contact your dealer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Operating the projector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+Projector power modes. . . .","Based on the provided context, here's how you can turn on the projector:  1. Determine if you are using an uninterruptable power supply (on page 22). 2. Plug the projector into AC power. 3. Turn on the breaker switch.  Alternatively, if the projector is already plugged in and the lamp is not currently turned off:  1. Select and hold Power for two seconds.  If turning on the light source when the projector power is off, power is turned on automatically.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.86), 020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.86)"
+2025-07-13T12:08:28,showe me root free disk space,Root Free Disk Space: 1.74 GB (url: /#/status/System),The root-free disk space is approximately 1.74 GB.,/#/status/System - Root Free Disk Space
+2025-07-13T12:13:27,show me how to enable imb?,"[Score: 0.864] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+
+Enabling Integrated Media Block (IMB) Powered
+in Standby mode
+Enable the projector to turn on the Integrated Media Block (IMB) to allow ingesting of content to the
+IMB when the projector is in Standby Mode.
+1. To set the type of IMB, select Service Setup > Preferences.
+CineLife+ 2.0 User Guide 65
+0
+[Score: 0.844] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+e.
+Setting up an integrated
+media block
+Configure the CineLife+ projector to work with a third-party Integrated Media Block (IMB).
+Selecting Integrated Media Block (IMB)
+preferences
+Choose from the available options to set the type of Integrated Media Block (IMB).
+1. In the left navigation menu, sel
+[Score: 0.842] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+Setup > Preferences.
+CineLife+ 2.0 User Guide 65
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use.
+Setting up an integrated media block
+2. Select IMB.
+3. Enable the IMB Powered in Standby option
+[Score: 0.839] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+o set the type of Integrated Media Block (IMB).
+1. In the left navigation menu, select Service Setup > Preferences.
+2. Select IMB.
+3. In the Type list, select the manufacturer of the IMB model.
+4. When the system prompts you to reboot the projector, select Reboot.
+5. After the projector has restarte
+[Score: 0.838] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+IMB) input
+Create a channel to store customized projector settings for input devices connected to the Integrated
+Media Block (IMB).
+1. In the left navigation menu, select Channel Setup.
+2. Select + Create New Channel.
+3. In the Enter a new file name field, enter the channel name.
+4. Select Create.
+5
+[Score: 0.836] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+Enabling Integrated Media Block (IMB) Powered in Standby mode. . . . . . . . . . . . . . . . . . . . 65
+Working with channels. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+Adding a c
+[Score: 0.834] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+recycle this document after use.
+Managing content,
+playlists, and storage
+Content, playlists, storage, and audio settings are managed through the Integrated Media Block (IMB).
+For detailed information on installing and operating the IMB, refer to the documentation provided with
+your IMB device. Task
+[Score: 0.833] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+a Block (IMB).
+1. In the left navigation menu, select Service Setup > Preferences.
+2. Select IMB.
+3. In the Type list, select Christie from the available IMB models.
+4. When the system prompts you to reboot the projector, select Reboot.
+5. After the projector has restarted, log in with your user acc
+[Score: 0.833] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+t IMB.
+3. Enable the IMB Powered in Standby option.
+CineLife+ 2.0 User Guide 66
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use.
+Working with channels
+Create channels to store customized projec
+[Score: 0.833] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+n anti-tamper alarm does not appear on the
+touch panel.
+2. In the left navigation menu, select Service Setup > Marriage Setup.
+3. Select Start and complete the Marriage Setup wizard.
+At the Arming stage, enter the Marriage password.
+4. Select Finish.
+Enabling Integrated Media Block (IMB) Powered
+in ","To enable the Integrated Media Block (IMB) powered in Standby mode, follow these steps:  1. In the left navigation menu, select Service Setup > Preferences. 2. Select IMB. 3. Enable the IMB Powered in Standby option.  Note: After enabling this option, you may need to reboot the projector and log back in with your user account for the changes to take effect.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.86), 020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.84)"
+2025-07-13T12:13:46,find last upgrade result,Last Upgrade Result: Success (url: /#/status/System),The last upgrade result was successful! You can check the URL for more details: `/#/status/System`.,/#/status/System - Last Upgrade Result
+2025-07-13T12:14:06,what is serial number ?,Serial Number: Jay28 (url: /#/status/System),"According to the equipment status information, the serial number is ""Jay28"".",/#/status/System - Serial Number
+2025-07-13T12:14:23,show me how to set up playback,"[Score: 0.850] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+eduling playback
+• Setting up audio
+• Setting up playback automation
+CineLife+ 2.0 User Guide 64
+020-103845-03 Rev. 1 (02-2024)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use.
+Setting up an integrated
+media block
+Configure 
+[Score: 0.814] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ettings.
+Setting the global audio delay
+The global audio delay setting increases or decreases the audio delay.
+1. In the left navigation menu, select Service Setup > Audio Setup.
+2. On the Global Settings tab, in the Global Audio Delay area, select one of these options:
+• To increase the audio delay
+[Score: 0.809] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+grading files
+Learn how to back up, restore, and upgrade projector files.
+Creating a new backup file
+Create a new backup file to restore projector settings if a failure occurs.
+1. In the left navigation menu, select Service Setup > Backup and Restore.
+2. Select New Backup.
+3. Enter a name for the ba
+[Score: 0.808] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+IMB) input
+Create a channel to store customized projector settings for input devices connected to the Integrated
+Media Block (IMB).
+1. In the left navigation menu, select Channel Setup.
+2. Select + Create New Channel.
+3. In the Enter a new file name field, enter the channel name.
+4. Select Create.
+5
+[Score: 0.807] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+
+Enabling Integrated Media Block (IMB) Powered
+in Standby mode
+Enable the projector to turn on the Integrated Media Block (IMB) to allow ingesting of content to the
+IMB when the projector is in Standby Mode.
+1. To set the type of IMB, select Service Setup > Preferences.
+CineLife+ 2.0 User Guide 65
+0
+[Score: 0.807] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+Add.
+Editing existing playlist trigger settings
+Edit playlist trigger settings to change the playlist trigger behavior.
+1. In the left navigation menu, select Automation > Device Input Triggers.
+2. Select the Playlist Triggers tab.
+3. To the right of the playlist trigger you want to edit, select Edi
+[Score: 0.807] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+hannels
+Create channels to store customized projector settings for different inputs.
+Adding a channel for HDMI input
+Create a channel to store customized projector settings for input devices connected to the HDMI port.
+1. In the left navigation menu, select Channel Setup.
+2. Select + Create New Chan
+[Score: 0.806] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ customized projector settings for input devices connected to the SDI port.
+1. In the left navigation menu, select Channel Setup.
+2. Select + Create New Channel.
+3. In the Enter a new file name field, enter the channel name.
+4. Select Create.
+5. Complete these fields:
+Field Name Description
+Input Ty
+[Score: 0.805] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+gation menu, select Service Setup > Time Setup.
+2. Select Time Zone.
+3. In the Region list, select a region.
+4. In the Time Zone list, select the time zone.
+5. To automatically adjust the projector time to follow Daylight Saving Time, select
+Automatically adjust for Daylight Saving Time.
+The color o
+[Score: 0.804] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ select Delete.
+Restoring settings from a backup file
+Restore projector settings from a backup file.
+1. In the left navigation menu, select Service Setup > Backup and Restore.
+2. Select a backup file and select Restore.
+3. Select the settings you want to restore and select Restore.
+4. When the resto","To set up playback, please follow these steps:  1. In the left navigation menu, select ""Service Setup"" > ""Playback"". 2. On the Playback tab, you can configure various settings for your playback.  That's it! If you have any further questions or need more information on specific playback options, feel free to ask!","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.85), 020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.81)"
+2025-07-13T12:14:51,find playback secondary mode,Playback Secondary Mode: 0 (url: /#/status/Playback),The playback secondary mode is currently set to 0! You can find more details about it at this URL: /#/status/Playback,/#/status/Playback - Playback Secondary Mode
+2025-07-13T12:15:08,show me ecc,"[Score: 0.811] [ECC Description for User Guide.pdf]
+rgence is corrected using ECC
+Use ECC to correct the red, green and blue convergence at the four corners of the screen. This is done
+by moving three sprites (red, green and blue) (step 1) on screen until all three sprites overlap such that
+you see a single white sprite image (step 2). Pressing Apply
+[Score: 0.808] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
+Electronic Color Correction (ECC). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .80
+Electronically adjusting convergence. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .80
+Cre
+[Score: 0.807] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+the light engine blower.
+Electronic Color Correction (ECC)
+A lateral convergence error occurs when the red, green, and blue (RGB) primary colors are not
+converged through projected lenses and is most noticeable at the edges of the screen. To address
+this, use ECC.
+Electronic Color Correction (ECC) i
+[Score: 0.807] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+this, use ECC.
+Electronic Color Correction (ECC) is accomplished by aligning a red, green, and blue sprite, which is
+displayed at the four corners of the displayed image. For electronic convergence all three colors can be
+adjusted.
+Always align the color components of the sprite to the inner most li
+[Score: 0.796] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+r. The user
+interface displays the Test Pattern controls.
+5. Set the Screen Type to Flat or Scope.
+This sets the test pattern and the location of the sprites on the screen. Each sprite appears as
+the letter L.
+6. Set the Sprite Color to Move and Show.
+When first opening the ECC, all Show and all Mov
+[Score: 0.796] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+irror device (DMD) convergence . . . . . . . . . . . . . . . . . 54
+Electronic Color Correction (ECC). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .56
+Electronically adjusting convergence. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .57
+Cin
+[Score: 0.794] [ECC Description for User Guide.pdf]
+ECC Description for User Guide
+Monday, April 12, 2021 5:30 PM
+Editing Electronic Color Correction (ECC)
+ECC settings are tied to a particular ILS file, and are accessed by pressing the ECC icon on the ILS File
+Setup page.
+Overview of how colour convergence is corrected using ECC
+Use ECC to correct t
+[Score: 0.793] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+een, and blue (RGB) primary colors are not
+converged through projected lenses and is most noticeable at the edges of the screen. To address
+this, use ECC.
+Electronic Color Correction (ECC) is accomplished by aligning a red, green, and blue sprite, which is
+displayed at the four corners of the displa
+[Score: 0.791] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ds a prismatic effect that can appear to shift convergence when viewing at
+an angle.
+Electronically adjusting convergence
+Use the electronic color correction (ECC) feature in the menu to adjust convergence. Only perform
+electronic convergence when satisfied with the position of the image on the scre
+[Score: 0.789] [ECC Description for User Guide.pdf]
+separate sprites -one for each primary colour. Each sprite looks like the
+letter ""L"".
+Step 2: Adjust each sprite so that they overlap to create a single white sprite
+Step 3: Press Apply to apply the convergence to that corner of the screen
+Core 5 Page 1
+Explanation of ECC user interface
+• Test Patte","Based on the provided context, it appears that ECC stands for Electronic Color Correction. Here's a breakdown of how to use ECC:  **Step 1:** Use ECC to correct the red, green, and blue convergence at the four corners of the screen.  **Step 2:**  * Display three separate sprites - one for each primary color (red, green, and blue). * Each sprite should look like the letter ""L"". * Move the sprites until all three overlap, creating a single white sprite image.  **Step 3:** Press the Apply button to apply the convergence to that corner of the screen.  By following these steps, you can electronically adjust the color convergence and correct any prismatic effects that may appear when viewing at an angle.","ECC Description for User Guide.pdf (score: 0.81), 020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.81), 020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.81)"

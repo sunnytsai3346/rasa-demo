@@ -88,6 +88,9 @@ Answer:
                 "stream": False
             })
             answer = response.json().get("response", "Sorry, I couldn't generate an answer.")
+            # Log query to CSV            
+            log_summary_query(query, f"{name}: {value} (url: {url})", answer,[f"{url} - {name}"])
+            
             return [
                 SlotSet("kb_answer", answer),
                 SlotSet("related_topics", [f"{url} - {name}"])
@@ -120,11 +123,20 @@ Answer:
         })
         answer = response.json().get("response", "Sorry, I couldn't generate an answer.")
 
-        related_sources = list({
-            chunk.get("meta", {}).get("source", "unknown")
-            for _, chunk in matched
-        })
+        # refine related_topics
+        related_sources = []
+        seen = set()
+        for score, chunk in matched:
+            src = chunk.get("meta", {}).get("file")
+            if src and src not in seen:
+                seen.add(src)
+                related_sources.append(f"{src} (score: {score:.2f})")
 
+        
+        # Log query to CSV
+        log_summary_query(query, context, answer,related_sources)
+        
+        # Return to follow-up action
         return [
             SlotSet("kb_answer", answer),
             SlotSet("related_topics", related_sources)

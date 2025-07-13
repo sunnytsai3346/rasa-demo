@@ -148,22 +148,22 @@ nlu:
 #     - yes
 #     - c
 #     - continue
-- intent: inform_language
-  examples: |
-    - I want to search in [en](language)
-    - Use [French](language)
-    - Search in [de](language)
-    - [ja](language)
-    - [Korean](language)
-    - [es](language)
-    - [fr](language)
-    - [Italian](language)
-    - [pl](language)
-    - [Portuguese](language)
-    - [ru](language)
-    - [Chinese](language)
-    - Switch to [zh](language)
-    - search keystone
+# - intent: inform_language
+#   examples: |
+#     - I want to search in [en](language)
+#     - Use [French](language)
+#     - Search in [de](language)
+#     - [ja](language)
+#     - [Korean](language)
+#     - [es](language)
+#     - [fr](language)
+#     - [Italian](language)
+#     - [pl](language)
+#     - [Portuguese](language)
+#     - [ru](language)
+#     - [Chinese](language)
+#     - Switch to [zh](language)
+#     - search keystone
 - intent: session_start
   examples: |
     - start
@@ -195,29 +195,7 @@ nlu:
 - synonym: zh
   examples: |
     - Chinese
-- lookup: keyword
-  examples: |
-    렌즈 재설정
-    교정
-    오디오 설정
-    센서 정렬
-    설치
-    시스템 업그레이드
-    감마 파일
-    테스트 연결
-    백업 및 복원
-    캘리브레이션
-    라이선스 계약
-    돌비 애트모스 구성
-    프로젝터 시리얼
-    키스톤
-    화면 위치
-    밝기 설정
-    전원 관리
-    입력 선택
-    네트워크 설정
-    소프트웨어 버전
-    사용자 메뉴얼
+
 
 - intent: query_manual
   examples: |
@@ -235,21 +213,18 @@ nlu:
     - Show me how to [select verify calibration](keyword)
     - How do I [enable auto calibrate](keyword)?
     - Help me with [deleting a macro](keyword)
+    - Is [NTP Enabled](keyword)?
+    - [NTP Enabled](keyword)?
+    - Explain [NTP Enabled](keyword)
+    - Find [NTP Enabled](keyword)
 
 
-- intent: query_manual_section
-  examples: |
-    - Show me the section on calibration
-    - What does the manual say about lens reset?
-    - Find the part on installation
-    - What's the installation section?    
-
-- intent: express_emotion
-  examples: |
-    - I'm really happy with this result!
-    - I'm frustrated, nothing is working.
-    - I feel so sad about this problem.
-    - Wow, this is awesome!
-    - Ugh, this is driving me crazy.
-    - That was helpful, thanks a lot!
-    - I'm overwhelmed with all these options.
+# - intent: express_emotion
+#   examples: |
+#     - I'm really happy with this result!
+#     - I'm frustrated, nothing is working.
+#     - I feel so sad about this problem.
+#     - Wow, this is awesome!
+#     - Ugh, this is driving me crazy.
+#     - That was helpful, thanks a lot!
+#     - I'm overwhelmed with all these options.
