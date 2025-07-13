@@ -2,6 +2,7 @@ import json
 import os
 from typing import Any, Dict, List, Text
 import faiss
+import fitz
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import requests
@@ -17,18 +18,14 @@ CHUNK_SIZE = 300
 TOP_K = 3
 METADATA_STORE = "vector_meta.pkl"
 
-STATUS_JSON_PATHS = [    
-    os.path.join(os.path.dirname(__file__), "DATA","en_filled.json")
-    os.path.join(os.path.dirname(__file__), "DATA","status_data.json")    
-]
+STATUS_JSON_PATH = os.path.join(os.path.dirname(__file__), "DATA")    
 
 def load_status_dicts():
     status_data = {}
-    for path in STATUS_JSON_PATHS:
-        if path.exists():
-            with open(path, encoding="utf-8") as f:
-                data = json.load(f)
-                status_data.update(data)
+    with open(os.path.join(STATUS_JSON_PATH, "status_data.json"), encoding="utf-8") as f:
+    
+        data = json.load(f)
+        status_data.update(data)
     return status_data
 
 class ActionQueryStatusOrDocs(Action):
@@ -47,15 +44,15 @@ class ActionQueryStatusOrDocs(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
         query = tracker.latest_message.get("text", "").lower()
-        matched_kv = next(((k, v) for k, v in self.status_data.items() if k.lower() in query or str(v).lower() in query), None)
+        matched_kv_url = next(((name, value,url) for name, value,url in self.status_data.items() if name.lower() in query or str(value).lower() in query ), None)
 
-        if matched_kv:
-            k, v = matched_kv
+        if matched_kv_url:
+            name, value,url = matched_kv_url
             prompt = f"""
 You are a helpful assistant. Based on the following equipment status information, answer the user question.
 
 Status:
-- {k}: {v}
+- {name}: {value} (url: {url})
 
 User Query:
 {query}
@@ -70,7 +67,7 @@ Answer:
             answer = response.json().get("response", "Sorry, I couldn't generate an answer.")
             return [
                 SlotSet("kb_answer", answer),
-                SlotSet("related_topics", [k])
+                SlotSet("related_topics", [name])
             ]
 
         # Else fallback to semantic search
