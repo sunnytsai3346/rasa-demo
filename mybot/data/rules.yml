@@ -62,7 +62,7 @@ rules:
 - rule:  Handle manual query with intro
   steps:
       - intent: query_manual
-      - action: action_query_docs
+      - action: action_query_status_or_docs
       - action: action_answer_with_intro
 
 - rule: Trigger LLM intent classifier fallback

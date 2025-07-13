@@ -75,7 +75,7 @@ Answer:
 
         
          # Log query to CSV
-        log_summary_query(query, "answer", answer,related_sources)
+        log_summary_query(query, context, answer,related_sources)
         
         # Return to follow-up action
         return [

@@ -112,6 +112,7 @@ actions:
 - action_search_keyword
 - action_parsing_userguide
 - action_query_docs
+- action_query_status_or_docs
 - action_answer_with_intro
 - action_llm_intent_classifier
 - action_llm_rag_fallback
