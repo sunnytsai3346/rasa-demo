@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from typing import Any, Dict, List, Text
 import faiss
 import fitz
@@ -24,6 +25,9 @@ def load_status_dicts():
     with open(os.path.join(STATUS_JSON_PATH, "status_data.json"), encoding="utf-8") as f:
         return json.load(f)  # Must be a list of dicts like {"name": ..., "value": ..., "url": ...}
 
+def word_in_query(word, query):
+        return re.search(rf"\b{re.escape(word)}\b", query)
+
 class ActionQueryStatusOrDocs(Action):
     def name(self):
         return "action_query_status_or_docs"
@@ -44,10 +48,22 @@ class ActionQueryStatusOrDocs(Action):
         print('query is ', query)
 
         # ✅ Match against status_data
-        matched_entry = next(
-            (entry for entry in self.status_data if entry.get("name", "").lower() in query or str(entry.get("value", "")).lower() in query),
-            None
-        )
+        # matched_entry = next(
+            
+        #     (entry for entry in self.status_data if entry.get("name", "").lower() in query or str(entry.get("value", "")).lower() in query),
+        #     None
+        # )
+        matched_entry = None
+        for entry in self.status_data:
+            name = entry.get("name", "").lower()
+            value = str(entry.get("value", "")).lower()
+
+            print(f"Checking entry: name='{name}', value='{value}' against query='{query}'")
+
+            if word_in_query(name, query) or word_in_query(value, query):
+                matched_entry = entry
+                print(f"Matched entry: {entry}")
+                break
 
         if matched_entry:
             name = matched_entry.get("name")
@@ -78,7 +94,9 @@ Answer:
             ]
 
         # Fallback to semantic RAG
-        print('query:', query, ',fallback to semantic search')
+        if not matched_entry:
+           print("No status entry matched, falling back to FAISS search.") 
+       
         query_vec = self.model.encode(["query: " + query], convert_to_numpy=True, normalize_embeddings=True)
         scores, indices = self.index.search(query_vec, TOP_K)
         matched = [(scores[0][i], self.chunks[indices[0][i]]) for i in range(TOP_K)]
@@ -114,3 +132,5 @@ Answer:
             SlotSet("kb_answer", answer),
             SlotSet("related_topics", related_sources)
         ]
+    
+    
