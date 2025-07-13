@@ -16,7 +16,7 @@ from actions.log import log_summary_query
 EMBED_MODEL = "intfloat/e5-large-v2"
 INDEX_PATH = os.path.join(os.path.dirname(__file__), "DATA","FAISS_index")
 CHUNK_SIZE = 300
-TOP_K = 3
+TOP_K = 10
 METADATA_STORE = "vector_meta.pkl"
 
 STATUS_JSON_PATH = os.path.join(os.path.dirname(__file__), "DATA")    
@@ -60,7 +60,7 @@ class ActionQueryStatusOrDocs(Action):
 
             print(f"Checking entry: name='{name}', value='{value}' against query='{query}'")
 
-            if word_in_query(name, query) or word_in_query(value, query):
+            if word_in_query(name, query):
                 matched_entry = entry
                 print(f"Matched entry: {entry}")
                 break
@@ -90,7 +90,7 @@ Answer:
             answer = response.json().get("response", "Sorry, I couldn't generate an answer.")
             return [
                 SlotSet("kb_answer", answer),
-                SlotSet("related_topics", [name])
+                SlotSet("related_topics", [url]-[name])
             ]
 
         # Fallback to semantic RAG
@@ -99,11 +99,8 @@ Answer:
        
         query_vec = self.model.encode(["query: " + query], convert_to_numpy=True, normalize_embeddings=True)
         scores, indices = self.index.search(query_vec, TOP_K)
-        matched = [(scores[0][i], self.chunks[indices[0][i]]) for i in range(TOP_K)]
-
-        context = "\n".join(
-            [f"[Score: {score:.3f}] [{chunk.get('meta', {}).get('source', 'unknown')}]\n{chunk['text']}" for score, chunk in matched]
-        )
+        matched = [(score, self.chunks[i]) for score, i in zip(scores[0], indices[0])]        
+        context = "\n".join([f"[Score: {score:.3f}] [{chunk['meta']['file']}]\n{chunk['text']}" for score, chunk in matched])
 
         prompt = f"""
 You are a helpful assistant. Based on the following context, answer the question.
