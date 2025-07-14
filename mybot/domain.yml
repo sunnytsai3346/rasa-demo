@@ -40,7 +40,7 @@ responses:
 # --- Actions ---
 # Custom actions allow running arbitrary code to respond to a user.
 actions:
-  - action_query_knowledge_base
+  - action_query_status_or_docs
   - action_answer_with_intro
   - action_llm_fallback
 

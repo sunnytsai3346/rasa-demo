@@ -476,3 +476,140 @@ Step 3: Press Apply to apply the convergence to that corner of the screen
 Core 5 Page 1
 Explanation of ECC user interface
 • Test Patte","Based on the provided context, it appears that ECC stands for Electronic Color Correction. Here's a breakdown of how to use ECC:  **Step 1:** Use ECC to correct the red, green, and blue convergence at the four corners of the screen.  **Step 2:**  * Display three separate sprites - one for each primary color (red, green, and blue). * Each sprite should look like the letter ""L"". * Move the sprites until all three overlap, creating a single white sprite image.  **Step 3:** Press the Apply button to apply the convergence to that corner of the screen.  By following these steps, you can electronically adjust the color convergence and correct any prismatic effects that may appear when viewing at an angle.","ECC Description for User Guide.pdf (score: 0.81), 020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.81), 020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.81)"
+2025-07-14T08:50:06,show me how to cook rice,"[Score: 0.780] [011 LightLOC v3 - Cinema v2.0.pptx]
+ferent steps of “Sensor to Screen Calibration”.
+Understand how the LiteLOC Brightness Bar works. 
+Explain why LiteLOC v3 is so important and a necessity.
+Understand how temperature affects brightness 
+Understand how humidity affects brightness for projectors that use chillers.
+Have knowledge on the 
+[Score: 0.778] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ze and position
+Copying existing screen file settings to a new screen file
+To duplicate screen file settings quickly, copy the settings of an existing file to a new screen file.
+1. Select Image Settings > Screen File Setup.
+2. In the Screen File list, select the screen file you want to copy.
+3. Sele
+[Score: 0.775] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ying existing screen file settings to a new screen file. . . . . . . . . . . . . . . . . . . . . . . . 84
+Deleting a screen file. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+Activating a warp file. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[Score: 0.773] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+hannels
+Create channels to store customized projector settings for different inputs.
+Adding a channel for HDMI input
+Create a channel to store customized projector settings for input devices connected to the HDMI port.
+1. In the left navigation menu, select Channel Setup.
+2. Select + Create New Chan
+[Score: 0.772] [ECC Description for User Guide.pdf]
+single white sprite image (step 2). Pressing Apply causes the colour convergence in that
+corner to be corrected (step3). Repeat this at each corner to correct colour convergence across the
+entire screen.
+ECC in 3 easy steps:
+Step 1: Start with three separate sprites -one for each primary colour. Eac
+[Score: 0.771] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ne.
+Deleting a test pattern
+Delete a test pattern no longer required. A test pattern with RGB in the name cannot be deleted.
+1. In the right toolbar, select Test Patterns.
+2. In the upper right corner, select Edit.
+3. Select a test pattern.
+4. Select Delete.
+5. To confirm the deletion, select Delete
+[Score: 0.770] [020-103436-03-Christie-LIT-INST-SHT-LiteLoc-3-Cinema.pdf]
+ort 5103 using the command (CAL + PASS 1).
+10. Connect to port 5103.
+11. Delete all existing calibration (LOS-to-Sensor and Sensor-to-screen).
+a) Send the command (RGB + INVL 1).
+b) Send the command (RGB + INVL 1 “FACTORY”).
+c) Send the command (RGB+INVL 2).
+d) Send the command (RGB+INVL 2 ""FACTORY""
+[Score: 0.770] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+ormation, emphasize or provide a useful tip.
+Content
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Product documentation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6
+Related
+[Score: 0.769] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ngs > Screen File Setup.
+2. Select Create Screen File.
+3. Enter a name for the screen file and select Create.
+4. To crop the image in a specific location, select one of the screen icons.
+5. To adjust the amount of cropping on the X or Y axis, move the slider up or down.
+6. To display all image data 
+[Score: 0.769] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+cro Selection
+Displays automation macros.
+H Logout Q Notification history
+I System status R Language
+To display all alarms, select the colored Displays current language preference.
+icon.
+Turning on or off the light source
+Turn on the light source to display content or view test patterns. Turn off th","I apologize, but the context you provided does not seem to be related to cooking rice. The documents and scores mention topics such as projector calibration, screen file settings, channels, ECC (Electronic Color Correction), test patterns, and system status. There is no mention of cooking rice.  If you're looking for instructions on how to cook rice, I'd be happy to provide a general outline or point you in the direction of a reliable recipe resource. However, based on the context provided, it doesn't seem like that's what you're asking.","011 LightLOC v3 - Cinema v2.0.pptx (score: 0.78), 020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.78), ECC Description for User Guide.pdf (score: 0.77), 020-103436-03-Christie-LIT-INST-SHT-LiteLoc-3-Cinema.pdf (score: 0.77), 020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.77)"
+2025-07-14T08:50:26,tell me projector model,Model: CP4450-RGB (url: /#/menu/MMM%2BLASR/MMM%2BLDGS),The projector model is CP4450-RGB.,/#/menu/MMM%2BLASR/MMM%2BLDGS - Model
+2025-07-14T08:50:40,what is ecc,"[Score: 0.810] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+the light engine blower.
+Electronic Color Correction (ECC)
+A lateral convergence error occurs when the red, green, and blue (RGB) primary colors are not
+converged through projected lenses and is most noticeable at the edges of the screen. To address
+this, use ECC.
+Electronic Color Correction (ECC) i
+[Score: 0.804] [ECC Description for User Guide.pdf]
+rgence is corrected using ECC
+Use ECC to correct the red, green and blue convergence at the four corners of the screen. This is done
+by moving three sprites (red, green and blue) (step 1) on screen until all three sprites overlap such that
+you see a single white sprite image (step 2). Pressing Apply
+[Score: 0.803] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+this, use ECC.
+Electronic Color Correction (ECC) is accomplished by aligning a red, green, and blue sprite, which is
+displayed at the four corners of the displayed image. For electronic convergence all three colors can be
+adjusted.
+Always align the color components of the sprite to the inner most li
+[Score: 0.790] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
+Electronic Color Correction (ECC). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .80
+Electronically adjusting convergence. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .80
+Cre
+[Score: 0.788] [ECC Description for User Guide.pdf]
+ECC Description for User Guide
+Monday, April 12, 2021 5:30 PM
+Editing Electronic Color Correction (ECC)
+ECC settings are tied to a particular ILS file, and are accessed by pressing the ECC icon on the ILS File
+Setup page.
+Overview of how colour convergence is corrected using ECC
+Use ECC to correct t
+[Score: 0.786] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+een, and blue (RGB) primary colors are not
+converged through projected lenses and is most noticeable at the edges of the screen. To address
+this, use ECC.
+Electronic Color Correction (ECC) is accomplished by aligning a red, green, and blue sprite, which is
+displayed at the four corners of the displa
+[Score: 0.781] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+)
+Copyright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use.
+Adjusting the image size and position
+Electronic Color Correction (ECC)
+A lateral convergence error occurs when the red, green, and blue (RGB) primary colors are not
+converg
+[Score: 0.772] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+irror device (DMD) convergence . . . . . . . . . . . . . . . . . 54
+Electronic Color Correction (ECC). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .56
+Electronically adjusting convergence. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .57
+Cin
+[Score: 0.771] [ECC Description for User Guide.pdf]
+separate sprites -one for each primary colour. Each sprite looks like the
+letter ""L"".
+Step 2: Adjust each sprite so that they overlap to create a single white sprite
+Step 3: Press Apply to apply the convergence to that corner of the screen
+Core 5 Page 1
+Explanation of ECC user interface
+• Test Patte
+[Score: 0.771] [ECC Description for User Guide.pdf]
+e 1
+Explanation of ECC user interface
+• Test Pattern Guide
+○ The corner that you are working on is selected by pressing the circle at the corners of the
+dashed rectangle. The selected corner is shown as a green circle.
+○ The directional pad allows the sprites to be moved. Sprite movement is towards ","According to the provided context, Electronic Color Correction (ECC) is a feature used to correct lateral convergence errors that occur when the red, green, and blue (RGB) primary colors are not converged through projected lenses and are most noticeable at the edges of the screen. ECC aligns separate sprites for each primary color (red, green, and blue) displayed at the four corners of the image, allowing for electronically adjusting convergence to correct this issue.","020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.81), ECC Description for User Guide.pdf (score: 0.80), 020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.79)"
+2025-07-14T16:24:18,what's projector model,Model: CP4450-RGB (url: /#/menu/MMM%2BLASR/MMM%2BLDGS),"According to the given status information, the projector model is ""CP4450-RGB"".",/#/menu/MMM%2BLASR/MMM%2BLDGS - Model

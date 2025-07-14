@@ -4,7 +4,7 @@ stories:
   - story: Answer from manual with friendly intro
     steps:
       - intent: query_manual
-      - action: action_query_knowledge_base # Just sets the slots
+      - action: action_query_status_or_docs # Just sets the slots
       - action: action_answer_with_intro # Responds with answer + buttons
 
   - story: Handle LLM fallback
