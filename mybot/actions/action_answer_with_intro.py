@@ -1,70 +1,62 @@
-import os
-import re
-from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet
 from typing import Any, Dict, List, Text
+
+from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-import requests
+
 
 class ActionAnswerWithIntro(Action):
+    """
+    An action that answers a question based on information from a knowledge base.
+    It retrieves the answer and related topics from slots, formats them,
+    and sends them to the user.
+    """
+
+    # --- Constants ---
+    INTRO_MESSAGE = "To my best understanding, I found something that may help you."
+    NO_ANSWER_MESSAGE = "Sorry, I couldn't find a relevant section."
+    RELATED_TOPICS_HEADER = "Reference:"
+
     def name(self) -> Text:
+        """Returns the name of the action."""
         return "action_answer_with_intro"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        """
+        Executes the action.
 
-        # Simulate getting the answer from your knowledge base
-        json_answer = tracker.get_slot("kb_answer")
-        related = tracker.get_slot("related_topics")
-        prefix = "To my best understanding, I found something that may help you."
-        print('json_answer:',json_answer)
+        Retrieves the knowledge base answer and related topics from the tracker's
+        slots. If an answer is found, it's dispatched to the user with an
+        introductory message. If related topics are present, they are also
+        sent. If no answer is found, a corresponding message is sent.
 
-        if not json_answer:
-            dispatcher.utter_message(text="Sorry, I couldn't find relevant section.")
+        Args:
+            dispatcher: The dispatcher to send messages to the user.
+            tracker: The tracker for the current conversation state.
+            domain: The domain of the assistant.
+
+        Returns:
+            An empty list of events.
+        """
+        kb_answer = tracker.get_slot("kb_answer")
+        related_topics = tracker.get_slot("related_topics")
+
+        if not kb_answer:
+            dispatcher.utter_message(text=self.NO_ANSWER_MESSAGE)
             return []
-        
-        dispatcher.utter_message(f"{prefix}\n\n{json_answer}")
-        if related:
-             #dispatcher.utter_message("This is also related:\n- " + "\n- ".join(related))
-             dispatcher.utter_message("Reference:\n- " + "\n- ".join(related))
-            
-        # prefix = "I found something that may help you."
-        # # ---------- 🔁 Handle structured response from LLaMA ----------
-        # # Structured response
-        # if isinstance(json_answer, dict) and json_answer.get("type") == "step_list":
-        #      steps = json_answer.get("steps", [])
-        #      title = json_answer.get("title", "")
-        #      if steps and isinstance(steps, list):
-        #         dispatcher.utter_message(json_message={
-        #             "text": answer                    
-        #             "isTyping": False
-        #         })
-        #      else:
-        #         # Fallback if 'steps' malformed
-        #         dispatcher.utter_message(text=f"{title}\n\n{json_answer}")
 
-        # # ---------- 🔘 Related topic buttons ----------
-        # if related and isinstance(related, list) and len(related) > 0:
-        #     def clean_title(text):
-        #         text = re.sub(r'^\d+\.\s*', '', text.strip())  # Remove numbered prefixes like "5. "
-        #         return text.split("\n")[0][:40] + "..." if len(text) > 40 else text.split("\n")[0]
+        # Send the main answer
+        dispatcher.utter_message(text=f"{self.INTRO_MESSAGE}\n\n{kb_answer}")
 
-        #     seen_titles = set()
-        #     buttons = []
+        # Send related topics if they exist
+        if related_topics:
+            related_topics_formatted = "\n- ".join(related_topics)
+            dispatcher.utter_message(
+                text=f"{self.RELATED_TOPICS_HEADER}\n- {related_topics_formatted}"
+            )
 
-        #     for topic in related:
-        #         title = clean_title(topic)
-        #         if title and title.lower() not in seen_titles:
-        #             buttons.append({
-        #                 "title": title,
-        #                 "payload": f"Show me how to {title.lower()}"
-        #             })
-        #             seen_titles.add(title.lower())
-
-        #     dispatcher.utter_message(
-        #         text="Would you like to explore a related topic?",
-        #         buttons=buttons
-        #     )
-
-        # return []
+        return []
