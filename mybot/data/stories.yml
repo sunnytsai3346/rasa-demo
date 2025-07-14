@@ -7,6 +7,10 @@ stories:
       - action: action_query_status_or_docs # Just sets the slots
       - action: action_answer_with_intro # Responds with answer + buttons
 
+  - story: Handle LLM fallback
+    steps:
+      - intent: out_of_scope
+      - action: action_llm_fallback
 # - story: happy path
 #   steps:
 #   - intent: greet

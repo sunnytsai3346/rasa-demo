@@ -2,70 +2,35 @@ version: "3.1"
 
 rules:
 
+# This rule ensures the bot always responds to a greeting.
+- rule: Greet user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+# This rule handles simple goodbyes.
 - rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+    - intent: goodbye
+    - action: utter_goodbye
 
+# This rule allows the bot to identify itself when asked.
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+    - intent: bot_challenge
+    - action: utter_iamabot
 
-# - rule: ask for language if user affirms search
-#   steps:
-#     - intent: affirm
-#     - action: utter_ask_search_language
-
-# - rule: Ask to continue when no keyword is matched
-#   condition:
-#     - active_loop: null
-#   steps:
-#     - intent: search_keyword
-#     - action: action_search_keyword
-#     - slot_was_set:
-#         - keyword: null
-#     - action: utter_ask_pdf_continue  
-# - rule: respond to keyword search
-#   steps:
-#     - intent: search_keyword
-#     - action: action_search_keyword
-#     - slot_was_set:
-#         - keyword: null
-#     - action: utter_ask_pdf_continue    
-
-# - rule: respond to keyword search
-#   steps:
-#   - intent: search_keyword
-#   - action: action_search_keyword
-
-# - rule: Parse PDF example
-#   steps:
-#   - intent: request_pdf_parsing
-#   - action: action_parsing_userguide
-
-# - rule: Answer manual query
-#   steps:
-#     - intent: query_manual
-#     - action: action_query_manual  
-
-# - rule: Show manual section
-#   steps:
-#     - intent: query_manual_section
-#     - action: action_query_manual_section
-
-# - rule: express emotion
-#   steps:
-#   - intent: express_emotion
-#   - action: action_acknowledge_emotion
-
-- rule:  Handle manual query with intro
+# This rule defines a multi-step interaction for handling manual queries.
+# It first queries the documentation and then presents the answer with an introduction.
+- rule: Handle manual query with RAG
   steps:
-      - intent: query_manual
-      - action: action_query_status_or_docs
-      - action: action_answer_with_intro
+    - intent: query_manual
+    - action: action_query_status_or_docs
+    - action: action_answer_with_intro
 
-- rule: Trigger LLM intent classifier fallback
+# This rule triggers a fallback action using a Large Language Model (LLM)
+# when the NLU model is unable to confidently classify the user's intent.
+- rule: Use LLM fallback on NLU fallback
   steps:
-  - intent: fallback
-  - action: action_llm_intent_classifier
+    - intent: nlu_fallback
+    - action: action_llm_fallback

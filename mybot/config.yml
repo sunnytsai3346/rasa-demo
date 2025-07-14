@@ -24,7 +24,8 @@ pipeline:
 - name: ResponseSelector
   epochs: 100
 - name: FallbackClassifier
-  threshold: 0.4
+  threshold: 0.6
+  ambiguity_threshold: 0.1
 
 #pipeline: null
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.

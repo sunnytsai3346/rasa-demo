@@ -14,7 +14,7 @@ torch
 python-Levenshtein
 sentence-transformers
 ## RAG START
-qdrant-client
+#qdrant-client
 
 faiss-cpu
 #langchain
@@ -26,3 +26,6 @@ pandas
 lxml
 openpyxl
 beautifulsoup4
+
+#for .env
+python-dotenv
