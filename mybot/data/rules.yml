@@ -22,10 +22,10 @@ rules:
 
 # This rule defines a multi-step interaction for handling manual queries.
 # It first queries the documentation and then presents the answer with an introduction.
-- rule: Handle manual query with RAG
+- rule: Handle manual query
   steps:
     - intent: query_manual
-    - action: action_query_status_or_docs
+    - action: action_query_knowledge_base
     - action: action_answer_with_intro
 
 # This rule triggers a fallback action using a Large Language Model (LLM)

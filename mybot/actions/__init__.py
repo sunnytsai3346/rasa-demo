@@ -1,6 +1,3 @@
-from .action_search_keyword import ActionSearchKeyword
 from .action_answer_with_intro import ActionAnswerWithIntro
-from .action_rag_faiss import ActionQueryDocs
 from .action_llm_fallback import ActionLLMFallback
-from .action_llm_intent_classifier import ActionLLMIntentClassifier
-from .action_query_status_doc import ActionQueryStatusOrDocs
+from .action_query_knowledge_base import ActionQueryKnowledgeBase

@@ -3,21 +3,16 @@ version: "3.1"
 # --- Intents ---
 # Intents define the user's goals. They are extracted from user messages.
 intents:
-  - affirm
   - bot_challenge
-  - deny
   - goodbye
   - greet
   - nlu_fallback
   - query_manual
-  - query_manual_section
-  - search_keyword
   - session_start
 
 # --- Entities ---
 # Entities are pieces of information extracted from user messages.
-entities:
-  - keyword
+entities: []
 
 # --- Slots ---
 # Slots are the bot's memory, used to store information and influence the conversation.
@@ -32,22 +27,6 @@ slots:
     mappings:
       - type: custom
 
-  keyword:
-    type: text
-    influence_conversation: true
-    mappings:
-      - type: from_entity
-        entity: keyword
-      # This mapping fills the slot from the user's text if the 'search_keyword'
-      # intent is detected, but not for other intents.
-      - type: from_text
-        intent: search_keyword
-        not_intent:
-          - affirm
-          - deny
-          - goodbye
-          - greet
-
 # --- Responses ---
 # Responses are the predefined messages the bot can send to the user.
 responses:
@@ -57,25 +36,13 @@ responses:
     - text: "Bye"
   utter_iamabot:
     - text: "I am a bot, powered by Rasa."
-  utter_ask_keyword:
-    - text: "What are you looking for?"
-  utter_no_result:
-    - text: "Sorry, I couldn't find anything for that keyword."
-  utter_ask_pdf_continue:
-    - text: "Would you like me to continue searching in the PDF manual?"
-  utter_acknowledge:
-    - text: "Got it. Let me know if you need anything else."
 
 # --- Actions ---
 # Custom actions allow running arbitrary code to respond to a user.
 actions:
-  - action_llm_fallback
   - action_query_knowledge_base
-  - action_search_keyword
-  - utter_ask_pdf_continue
-  - action_query_docs
-  - action_query_status_or_docs
   - action_answer_with_intro
+  - action_llm_fallback
 
 # --- Session Configuration ---
 # Defines how conversations sessions are handled.
