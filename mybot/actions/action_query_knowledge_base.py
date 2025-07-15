@@ -10,7 +10,7 @@ from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 from sentence_transformers import SentenceTransformer
 
-from actions.actions import LLM_MODEL, OLLAMA_URL
+from actions.actions import BASE_URL, LLM_MODEL, OLLAMA_URL
 from actions.log import log_summary_query
 
 # --- Constants ---
@@ -58,6 +58,8 @@ class ActionQueryKnowledgeBase(Action):
             if name and _word_in_query(name, query):
                 value = entry.get("value")
                 url = entry.get("url", "")
+                if url:
+                    url = f"{BASE_URL}{url}"
                 prompt = f"You are a helpful assistant. Based on the following status, answer the user's question concisely.\n\nStatus:\n- {name}: {value}\n\nUser Query:\n{query}\n\nAnswer:"
 
                 try:
@@ -68,7 +70,7 @@ class ActionQueryKnowledgeBase(Action):
                     )
                     res.raise_for_status()
                     answer = res.json().get("response", "Sorry, I couldn't generate an answer.")
-                    topics = [f"{url} - {name}"] if url else [name]
+                    topics = [f"{url} - {name}"] 
                     log_summary_query(query, f"STATUS: {name}", answer)
                     return answer, topics
                 except requests.exceptions.RequestException as e:
@@ -84,16 +86,14 @@ class ActionQueryKnowledgeBase(Action):
         context_parts = []
         related_sources = []
         seen_sources = set()
-
-        for score, i in zip(scores[0], indices[0]):
-            chunk = self.docs[i]
-            context_parts.append(chunk['text'])
-            source = chunk.get("meta", {}).get("file", "Unknown source")
-            if source not in seen_sources:
-                related_sources.append(f"{source} (score: {score:.2f})")
-                seen_sources.add(source)
-
-        context = "\n\n".join(context_parts)
+        matched = [(score, self.chunks[i]) for score, i in zip(scores[0], indices[0])]        
+        context = "\n".join([f"[Score: {score:.3f}] [{chunk['meta']['file']}]\n{chunk['text']}" for score, chunk in matched])
+        for score, chunk in matched:
+            src = chunk.get("meta", {}).get("file")
+            if src and src not in seen_sources:
+                seen_sources.add(src)
+                related_sources.append(f"{src} (score: {score:.2f})")
+                
         prompt = f"You are a helpful assistant. Use the following context to answer the question.\n\nContext:\n{context}\n\nQuestion:\n{query}\n\nAnswer:"
 
         try:
@@ -104,13 +104,15 @@ class ActionQueryKnowledgeBase(Action):
             )
             res.raise_for_status()
             answer = res.json().get("response", "").strip() or "I found some relevant information, but I couldn't generate a specific answer."
+            
         except requests.exceptions.RequestException as e:
             print(f"Error calling LLM for RAG query: {e}")
             answer = "I'm sorry, but I'm having trouble connecting to my knowledge source."
             related_sources = []
 
         log_summary_query(query, "RAG_QUERY", answer)
-        return answer, related_sources
+        return answer,related_sources
+
 
     def run(
         self,
