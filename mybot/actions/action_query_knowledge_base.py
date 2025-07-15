@@ -20,6 +20,7 @@ INDEX_PATH = os.path.join(DATA_PATH, "FAISS_index")
 METADATA_FILE = "vector_meta.pkl"
 STATUS_FILE = "status_data.json"
 TOP_K = 3
+SCORE_THRESHOLD = 0.5  # Confidence threshold for RAG results
 
 
 def _word_in_query(word: str, query: str) -> bool:
@@ -78,15 +79,19 @@ class ActionQueryKnowledgeBase(Action):
                     return "I'm sorry, but I'm having trouble retrieving that status.", []
         return None, None
 
-    def _get_rag_answer(self, query: str) -> (str, List[str]):
+    def _get_rag_answer(self, query: str) -> (str, List[str], bool):
         """Gets an answer using the RAG pipeline."""
         query_vec = self.embedder.encode([f"query: {query}"], convert_to_numpy=True)
         scores, indices = self.index.search(query_vec, k=TOP_K)
 
+        if scores[0][0] < SCORE_THRESHOLD:
+            log_summary_query(query, "RAG_QUERY_LOW_CONFIDENCE", f"Score: {scores[0][0]}")
+            return None, [], True  # answer, topics, rag_score_is_low
+
         context_parts = []
         related_sources = []
         seen_sources = set()
-        matched = [(score, self.chunks[i]) for score, i in zip(scores[0], indices[0])]        
+        matched = [(score, self.docs[i]) for score, i in zip(scores[0], indices[0])]
         context = "\n".join([f"[Score: {score:.3f}] [{chunk['meta']['file']}]\n{chunk['text']}" for score, chunk in matched])
         for score, chunk in matched:
             src = chunk.get("meta", {}).get("file")
@@ -104,14 +109,14 @@ class ActionQueryKnowledgeBase(Action):
             )
             res.raise_for_status()
             answer = res.json().get("response", "").strip() or "I found some relevant information, but I couldn't generate a specific answer."
-            
+
         except requests.exceptions.RequestException as e:
             print(f"Error calling LLM for RAG query: {e}")
             answer = "I'm sorry, but I'm having trouble connecting to my knowledge source."
             related_sources = []
 
         log_summary_query(query, "RAG_QUERY", answer)
-        return answer,related_sources
+        return answer, related_sources, False
 
 
     def run(
@@ -125,11 +130,13 @@ class ActionQueryKnowledgeBase(Action):
         """
         query = tracker.latest_message.get("text", "")
         answer, topics = self._get_status_answer(query)
+        rag_score_is_low = False
 
         if answer is None:
-            answer, topics = self._get_rag_answer(query)
+            answer, topics, rag_score_is_low = self._get_rag_answer(query)
 
         return [
             SlotSet("kb_answer", answer),
             SlotSet("related_topics", topics),
+            SlotSet("rag_score_is_low", rag_score_is_low),
         ]

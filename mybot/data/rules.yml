@@ -34,3 +34,18 @@ rules:
   steps:
     - intent: nlu_fallback
     - action: action_llm_fallback
+
+# This rule is for handling knowledge base queries.
+# It first calls the knowledge base action and then provides the answer with an introduction.
+- rule: Handle knowledge base query
+  steps:
+    - intent: query_knowledge_base
+    - action: action_query_knowledge_base
+    - action: action_answer_with_intro
+
+- rule: Fallback to LLM when RAG score is low
+  condition:
+    - slot_was_set:
+        - rag_score_is_low: true
+  steps:
+    - action: action_llm_fallback

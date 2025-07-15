@@ -26,6 +26,10 @@ slots:
     type: list
     mappings:
       - type: custom
+  rag_score_is_low:
+    type: bool
+    mappings:
+      - type: custom
 
 # --- Responses ---
 # Responses are the predefined messages the bot can send to the user.
