@@ -162,6 +162,15 @@ nlu:
     - Explain [NTP Enabled](keyword)
     - Find [NTP Enabled](keyword)
 
+- intent: query_knowledge_base
+  examples: |
+    - What are the supported resolutions?
+    - Tell me about the warranty policy.
+    - What are the power requirements?
+    - How do I clean the lens?
+    - Where can I find the serial number?
+
+
 
 # - intent: express_emotion
 #   examples: |

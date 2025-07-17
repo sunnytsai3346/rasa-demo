@@ -8,6 +8,7 @@ intents:
   - greet
   - nlu_fallback
   - query_manual
+  - query_knowledge_base
   - session_start
 
 # --- Entities ---
@@ -47,6 +48,7 @@ actions:
   - action_query_status_or_docs
   - action_answer_with_intro
   - action_llm_fallback
+  - action_query_knowledge_base
 
 # --- Session Configuration ---
 # Defines how conversations sessions are handled.
