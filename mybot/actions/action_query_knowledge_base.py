@@ -21,6 +21,8 @@ METADATA_FILE = "vector_meta.pkl"
 STATUS_FILE = "status_data.json"
 TOP_K = 3
 SCORE_THRESHOLD = 0.5  # Confidence threshold for RAG results
+BASE_URL ='http://192.168.230.169'
+
 
 
 def _word_in_query(word: str, query: str) -> bool:
@@ -61,6 +63,7 @@ class ActionQueryKnowledgeBase(Action):
                 url = entry.get("url", "")
                 if url:
                     url = f"{BASE_URL}{url}"
+                    
                 prompt = f"You are a helpful assistant. Based on the following status, answer the user's question concisely.\n\nStatus:\n- {name}: {value}\n\nUser Query:\n{query}\n\nAnswer:"
 
                 try:
@@ -71,8 +74,10 @@ class ActionQueryKnowledgeBase(Action):
                     )
                     res.raise_for_status()
                     answer = res.json().get("response", "Sorry, I couldn't generate an answer.")
-                    topics = [f"{url} - {name}"] 
-                    log_summary_query(query, f"STATUS: {name}", answer)
+                    
+                    print("Base_url",BASE_URL)
+                    topics = [f"{BASE_URL}{url} - {name}"]                     
+                    log_summary_query(query, f"{name}: {value} (url: {url})", answer,[f"{url} - {name}"])
                     return answer, topics
                 except requests.exceptions.RequestException as e:
                     print(f"Error calling LLM for status query: {e}")
@@ -85,7 +90,7 @@ class ActionQueryKnowledgeBase(Action):
         scores, indices = self.index.search(query_vec, k=TOP_K)
 
         if scores[0][0] < SCORE_THRESHOLD:
-            log_summary_query(query, "RAG_QUERY_LOW_CONFIDENCE", f"Score: {scores[0][0]}")
+            log_summary_query(query, context, answer,related_sources)
             return None, [], True  # answer, topics, rag_score_is_low
 
         context_parts = []
@@ -115,7 +120,8 @@ class ActionQueryKnowledgeBase(Action):
             answer = "I'm sorry, but I'm having trouble connecting to my knowledge source."
             related_sources = []
 
-        log_summary_query(query, "RAG_QUERY", answer)
+        
+        log_summary_query(query, context, answer,related_sources)
         return answer, related_sources, False
 
 

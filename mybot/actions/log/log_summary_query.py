@@ -4,7 +4,9 @@ import os
 
 
 
-def log_summary_query(query, section_title, summary,related_sources):
+def log_summary_query(query, section_title, summary, related_sources=None):
+    if related_sources is None:
+        related_sources = []
     CSV_LOG_PATH =   os.path.join(os.path.dirname(__file__), "nlu_summary_queries.csv" ) 
     # Normalize summary
     if isinstance(summary, (tuple, list)):
