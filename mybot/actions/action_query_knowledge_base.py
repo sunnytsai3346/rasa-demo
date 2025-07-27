@@ -14,7 +14,7 @@ from actions.actions import BASE_URL, LLM_MODEL, OLLAMA_URL
 from actions.log import log_summary_query
 
 # --- Constants ---
-EMBED_MODEL = "intfloat/e5-large-v2"
+EMBED_MODEL = "intfloat/multilingual-e5-large"  #"intfloat/e5-large-v2"
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
 INDEX_PATH = os.path.join(DATA_PATH, "FAISS_index")
 METADATA_FILE = "vector_meta.pkl"
@@ -53,6 +53,14 @@ class ActionQueryKnowledgeBase(Action):
                 self.status_data = json.load(f)
         except Exception as e:
             raise RuntimeError(f"Failed to load knowledge base or status data: {e}")
+    def _get_response_intro(self, intent: str) -> str:
+        """Tone-aware prefix based on intent"""
+        if intent == "ask_politely":
+            return "Thanks for your question!  Here's what I found:\n\n"
+        elif intent == "ask_direct":
+            return "Sure! Here's the info you asked for:\n\n"
+        else:
+            return "Here’s what I found:\n\n"    
 
     def _get_status_answer(self, query: str) -> (str, List[str]):
         """Checks for a status query and returns the answer and topics if found."""
@@ -135,6 +143,9 @@ class ActionQueryKnowledgeBase(Action):
         Executes the action. It sets the 'kb_answer' and 'related_topics' slots.
         """
         query = tracker.latest_message.get("text", "")
+        intent = tracker.latest_message.get("intent", {}).get("name", "")
+        intro = self._get_response_intro(intent)
+
         answer, topics = self._get_status_answer(query)
         rag_score_is_low = False
 

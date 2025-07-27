@@ -1,3 +1,4 @@
+import re
 from typing import Any, Dict, List, Text
 
 from rasa_sdk import Action, Tracker
@@ -50,7 +51,14 @@ class ActionAnswerWithIntro(Action):
             return []
 
         # Send the main answer
-        dispatcher.utter_message(text=f"{self.INTRO_MESSAGE}\n\n{kb_answer}")
+        # Format all URLs as clickable links
+        answer_with_links = re.sub(
+           r'(https?://[^\s]+)',
+            r'<a href="\1" target="_blank">\1</a>',
+            kb_answer
+        )
+       
+        dispatcher.utter_message(text=f"{self.INTRO_MESSAGE}\n\n{answer_with_links}")
 
         # Send related topics if they exist
         if related_topics:

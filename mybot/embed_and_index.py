@@ -30,7 +30,7 @@ import pdfplumber
 
 PDF_DIR = os.path.join(os.path.dirname(__file__), "Actions","DATA","PDF")
 DOC_FOLDER = os.path.join(os.path.dirname(__file__), "Actions","DATA","training_materials")
-EMBED_MODEL = "intfloat/e5-large-v2"
+EMBED_MODEL = "intfloat/multilingual-e5-large"  #"intfloat/e5-large-v2"
 INDEX_PATH = os.path.join(os.path.dirname(__file__), "Actions","DATA","FAISS_index")
 CHUNK_SIZE = 300
 CHUNK_OVERLAP = 50
