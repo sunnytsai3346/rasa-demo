@@ -19,6 +19,7 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
 INDEX_PATH = os.path.join(DATA_PATH, "FAISS_index")
 METADATA_FILE = "vector_meta.pkl"
 STATUS_FILE = "status_data.json"
+CONTEXT_FILE = "scrap_context.json"
 TOP_K = 3
 SCORE_THRESHOLD = 0.5  # Confidence threshold for RAG results
 BASE_URL ='http://192.168.230.169'
@@ -51,6 +52,8 @@ class ActionQueryKnowledgeBase(Action):
                 self.docs = json.load(f)
             with open(os.path.join(DATA_PATH, STATUS_FILE), "r", encoding="utf-8") as f:
                 self.status_data = json.load(f)
+            with open(os.path.join(DATA_PATH, CONTEXT_FILE), "r", encoding="utf-8") as f:
+                self.context_data = json.load(f)    
         except Exception as e:
             raise RuntimeError(f"Failed to load knowledge base or status data: {e}")
     def _get_response_intro(self, intent: str) -> str:
@@ -64,15 +67,19 @@ class ActionQueryKnowledgeBase(Action):
 
     def _get_status_answer(self, query: str) -> (str, List[str]):
         """Checks for a status query and returns the answer and topics if found."""
+        best_score = 0.0
         for entry in self.status_data:
             name = entry.get("name", "")
             if name and _word_in_query(name, query):
                 value = entry.get("value")
                 url = entry.get("url", "")
                 if url:
-                    url = f"{BASE_URL}{url}"
+                    url = f"{BASE_URL}{url}"  # exact match
+                    best_score = 1.0
+                    topics = [f"{BASE_URL}{url} - {name} - {best_score}"]                       
+                    topics = self._get_context_answer(query,topics)
                     
-                prompt = f"You are a helpful assistant. Based on the following status, answer the user's question concisely.\n\nStatus:\n- {name}: {value}\n\nUser Query:\n{query}\n\nAnswer:"
+                prompt = f"You are a helpful assistant. Based on the following status, relevant, answer the user's question concisely.\n\nStatus:\n- {name}: {value}\n\nRelevant:\n-{topics}\n\nUser Query:\n{query}\n\nAnswer:"
 
                 try:
                     res = requests.post(
@@ -81,16 +88,35 @@ class ActionQueryKnowledgeBase(Action):
                         timeout=30,
                     )
                     res.raise_for_status()
-                    answer = res.json().get("response", "Sorry, I couldn't generate an answer.")
+                    answer = res.json().get("response", "Sorry, I couldn't generate an answer.")                    
                     
-                    print("Base_url",BASE_URL)
-                    topics = [f"{BASE_URL}{url} - {name}"]                     
                     log_summary_query(query, f"{name}: {value} (url: {url})", answer,[f"{url} - {name}"])
                     return answer, topics
                 except requests.exceptions.RequestException as e:
                     print(f"Error calling LLM for status query: {e}")
                     return "I'm sorry, but I'm having trouble retrieving that status.", []
         return None, None
+    
+    def _get_context_answer(self, query: str, topics:List[str]) -> (List[str]):
+        
+        best_match = None
+        best_score = 0.0
+        
+        for entry in self.context_data:
+            key = entry.get("key", "")
+            value = entry.get("value", "")
+            url = entry.get("url", "")
+            if key.lower() in query.lower() or value.lower() in query.lower():
+                best_match = value
+                best_score = 0.9
+                topics.append([f"{BASE_URL}{url} - {key} - {best_score}"])       
+            elif any(word in query.lower() for word in key.lower().split()):
+                best_match = value
+                best_score = 0.6
+                topics.append([f"{BASE_URL}{url} - {key} - {best_score}"])
+
+        return topics
+
 
     def _get_rag_answer(self, query: str) -> (str, List[str], bool):
         """Gets an answer using the RAG pipeline."""
@@ -146,10 +172,10 @@ class ActionQueryKnowledgeBase(Action):
         intent = tracker.latest_message.get("intent", {}).get("name", "")
         intro = self._get_response_intro(intent)
 
-        answer, topics = self._get_status_answer(query)
+        answer, topics,score = self._get_status_answer(query)
         rag_score_is_low = False
 
-        if answer is None:
+        if answer is  None:
             answer, topics, rag_score_is_low = self._get_rag_answer(query)
 
         return [

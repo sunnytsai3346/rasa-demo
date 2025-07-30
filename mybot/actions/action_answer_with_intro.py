@@ -62,7 +62,21 @@ class ActionAnswerWithIntro(Action):
 
         # Send related topics if they exist
         if related_topics:
-            related_topics_formatted = "\n- ".join(related_topics)
+            def make_clickable(text: str) -> str:
+                return re.sub(
+                    r'(https?://[^\s]+)',
+                    r'<a href="\1" target="_blank">\1</a>',
+                    text
+                )
+            # Process each topic line, and format it with hyperlink (if any)
+            formatted_items = []
+            for topic in related_topics:
+                topic_with_links = make_clickable(topic)
+                formatted_items.append(f"- {topic_with_links}")
+            
+            # Join them into one string for display
+            related_topics_formatted = "\n".join(formatted_items)
+            
             dispatcher.utter_message(
                 text=f"{self.RELATED_TOPICS_HEADER}\n- {related_topics_formatted}"
             )
