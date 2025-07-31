@@ -19,7 +19,7 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
 INDEX_PATH = os.path.join(DATA_PATH, "FAISS_index")
 METADATA_FILE = "vector_meta.pkl"
 STATUS_FILE = "status_data.json"
-CONTEXT_FILE = "scrap_context.json"
+CONTEXT_FILE = "en_ts_processed.json"
 TOP_K = 3
 SCORE_THRESHOLD = 0.5  # Confidence threshold for RAG results
 BASE_URL ='http://192.168.230.169'
@@ -97,23 +97,26 @@ class ActionQueryKnowledgeBase(Action):
                     return "I'm sorry, but I'm having trouble retrieving that status.", []
         return None, None
     
-    def _get_context_answer(self, query: str, topics:List[str]) -> (List[str]):
-        
+    def _get_context_answer(self, query: str, topics: List[str]) -> List[str]:
         best_match = None
         best_score = 0.0
+
+        query_lower = query.lower()
         
         for entry in self.context_data:
-            key = entry.get("key", "")
-            value = entry.get("value", "")
+            name = (entry.get("name") or "").lower()
+            value = (entry.get("value") or "").lower()
             url = entry.get("url", "")
-            if key.lower() in query.lower() or value.lower() in query.lower():
+            
+            if name in query_lower or value in query_lower:
                 best_match = value
                 best_score = 0.9
-                topics.append([f"{BASE_URL}{url} - {key} - {best_score}"])       
-            elif any(word in query.lower() for word in key.lower().split()):
+                topics.append(f"{BASE_URL}{url} - {name} - {best_score}")
+            
+            elif any(word in query_lower for word in name.split()):
                 best_match = value
                 best_score = 0.6
-                topics.append([f"{BASE_URL}{url} - {key} - {best_score}"])
+                topics.append(f"{BASE_URL}{url} - {name} - {best_score}")
 
         return topics
 
