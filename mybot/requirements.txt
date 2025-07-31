@@ -29,3 +29,6 @@ beautifulsoup4
 
 #for .env
 python-dotenv
+
+#for Chinese model config yml
+jieba

@@ -13,7 +13,7 @@ from rasa_sdk.events import SlotSet
 from actions.actions import LLM_MODEL, OLLAMA_URL
 from actions.log import log_summary_query
 
-EMBED_MODEL = "intfloat/e5-large-v2"
+EMBED_MODEL = "intfloat/multilingual-e5-large"  #"intfloat/e5-large-v2"
 INDEX_PATH = os.path.join(os.path.dirname(__file__), "DATA","FAISS_index")
 CHUNK_SIZE = 300
 TOP_K = 10
