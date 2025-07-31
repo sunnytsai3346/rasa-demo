@@ -18336,3 +18336,181 @@ What is LiteLOC V3
 LOS to Sensor Calibration
 Characterizes the LOS output and the CX, CY and CZ reading:
 All series 4 m","According to the provided context, LiteLOC v3 is a sensor-to-screen calibration that characterizes the Laser Output and the Color X, Y, and Z readings. It ensures accurate color chromaticity values on screen along with brightness.","011 LightLOC v3 - Cinema v2.0.pptx (score: 0.81), 020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.81), 020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.80)"
+2025-07-31T06:41:29,"hi , what is model number",Model: CP4450-RGB (url: http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLDGS),"Sorry, I couldn't generate an answer.",http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLDGS - Model
+2025-07-31T07:12:37,CFB Blue (Rev.Mod),general fallback,"I'm sorry, but I'm having trouble connecting to my knowledge source. Please try again later.",
+2025-07-31T07:15:34,what is imb ?,"[Score: 0.063] [Christie IMB Logs Cheat Sheet.docx]
+ to the following:
+
+Remote SMS reported play failured with ID code of 3
+
+Here is a legend to the ID codes:
+
+SM (InterrogatorSM.txt)
+
+[GMT/UTC time]
+
+Boot up:
+
+syslog.info syslogd started: BusyBox v1.18.5
+
+SM Version:
+
+SM: Version: 1.2.0-3400
+
+IMB Electronic Serial Number eSN:
+
+In V1.5.0 and later, t
+[Score: 0.061] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+te New Playlist dialog, enter a name for the playlist and select Create.
+4. Add content or an automation event to the playlist:
+• To add content to the playlist, select the content item shown under the Local Content
+tab.
+• To add an automation event or macro to the playlist, select a content item in
+[Score: 0.060] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+low the date and next to the time you want the event to run.
+5. Select + New Event.
+6. Select Playlist, Content, or Automation.
+7. Select a playlist, content, or automation item.
+8. Select the start time.
+9. Select the start date.
+10. To repeat the event daily, weekly, or monthly:
+a) Select the Recu
+[Score: 0.059] [Christie IMB Logs Cheat Sheet.docx]
+dssms kernel: imklog 5.4.0, log source = /proc/kmsg started.
+
+Avias (/aam_lms/log/cinema_services.log)
+
+Boot up:
+
+2013-07-23 15:54:04,710::INFO::[cinemaservices:308]::[MainThread] Mounting Core
+
+Netgear (system.log)
+
+Boot up:
+
+Sep 28 16:46:21 nas-26-C8-6A syslogd 1.4.1#18: restart.
+
+Sep 28 16:46:21 
+[Score: 0.058] [Christie IMB Logs Cheat Sheet.docx]
+t error: &amp;#10;ICP: File Not Found Error&amp;#10;ICP: Time of First Error (timeline): 0:0:0:0&amp;#10;ICP: Time of First Error (XML time): 0:0:0:0&amp;#10;ICP: UUID of First Error: &apos;&apos;&amp;#10;ICP: URI of First Error: &apos;http:--192.168.254.246-subtitles-trackfiles-5dedfdea-b1df-41ee-8
+[Score: 0.057] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ input. . . . . . . . . . . . . . . . . . . . . . . . . .13
+Downloading a certificate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+Viewing status information. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+Man
+[Score: 0.056] [Christie IMB Logs Cheat Sheet.docx]
+e scheduler was trying to load the playlist) you will likely see an error, often a PlayOK error, indicating that some content in the playlist is corrupt and therefore the playlist can’t be loaded/played.  The blank entry after “current:” in the above error message indicates that the “current” playli
+[Score: 0.054] [Christie IMB Logs Cheat Sheet.docx]
+0;ICP: Subtitles are currently enabled&amp;#10;ICP: There is {log}{time}%s.%03d{-time}{severity}%d{-severity}{message}%s{-message}{origin}%s:%d{-origin}{-log}an error&amp;#10;ICP: Collected errors: &amp;#10;ICP: File Not Found Error&amp;#10;ICP: First error: &amp;#10;ICP: File Not Found Error&amp;#1
+[Score: 0.054] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ewing details about playlist content
+The Details dialog provides detailed information about the selected content.
+1. In the left navigation menu, select Playlist Editor.
+2. In the Local Content tab, to the right of the content, select Details.
+Importing a playlist
+Upload a playlist from another proj
+[Score: 0.051] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+, select the Playlists tab.
+• To load locally stored content, select the Local Content tab.
+3. Select the required playlist or content.
+4. Select Load.
+The Loading Media dialog displays progress information.
+You can only jog the content after it has been loaded but before playback starts or if playb","Sorry, I couldn't generate an answer.","Christie IMB Logs Cheat Sheet.docx (score: 0.06), 020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.06)"
+2025-07-31T07:24:13,please find model number,general fallback,"I'm sorry, but I'm having trouble connecting to my knowledge source. Please try again later.",
+2025-07-31T07:30:29,show me imb-4 software number,"[Score: 0.062] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ewing details about playlist content
+The Details dialog provides detailed information about the selected content.
+1. In the left navigation menu, select Playlist Editor.
+2. In the Local Content tab, to the right of the content, select Details.
+Importing a playlist
+Upload a playlist from another proj
+[Score: 0.059] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+te New Playlist dialog, enter a name for the playlist and select Create.
+4. Add content or an automation event to the playlist:
+• To add content to the playlist, select the content item shown under the Local Content
+tab.
+• To add an automation event or macro to the playlist, select a content item in
+[Score: 0.058] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ed.
+If printed, please recycle this document after use.
+Managing automation
+5. Select Create.
+6. Add an action item to the macro:
+a) Select Add New Action.
+b) In the Add New Action Item dialog, select My Auditorium.
+c) Under Automation, Playback, or Projector, select the action item.
+d) Select Creat
+[Score: 0.057] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+low the date and next to the time you want the event to run.
+5. Select + New Event.
+6. Select Playlist, Content, or Automation.
+7. Select a playlist, content, or automation item.
+8. Select the start time.
+9. Select the start date.
+10. To repeat the event daily, weekly, or monthly:
+a) Select the Recu
+[Score: 0.055] [Christie IMB Logs Cheat Sheet.docx]
+ to the following:
+
+Remote SMS reported play failured with ID code of 3
+
+Here is a legend to the ID codes:
+
+SM (InterrogatorSM.txt)
+
+[GMT/UTC time]
+
+Boot up:
+
+syslog.info syslogd started: BusyBox v1.18.5
+
+SM Version:
+
+SM: Version: 1.2.0-3400
+
+IMB Electronic Serial Number eSN:
+
+In V1.5.0 and later, t
+[Score: 0.054] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+f *.ply is applied automatically to display available playlist files.
+4. Select Open.
+Exporting a playlist
+Download existing playlists to another projector or computer on the network.
+1. In the left navigation menu, select Playlist Editor.
+2. From the left-hand side, expand the playlist list,
+3. Sel
+[Score: 0.054] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ase recycle this document after use.
+Backing up, restoring, and upgrading files
+6. If the file already exists, in the confirmation dialog select Overwrite.
+Sorting backup files by name and date created
+Locate a backup file with a specific name or creation date.
+1. In the left navigation menu, select
+[Score: 0.051] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+he playlist, content, or automation event to play.
+d) To select an end date for the schedule, select Calendar.
+11. To prevent the scheduled event from being overwritten, select the Lock Event slider.
+Locked events cannot be overwritten by pasted events.
+12. Select Create Event.
+Editing a scheduled e
+[Score: 0.051] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+tal Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use.
+Working with the scheduler
+2. In the calendar view, select the scheduled event.
+3. Select Edit.
+4. Edit the scheduled event settings.
+5. Select Update Event.
+Copying and pasting an existing scheduled
+event
+[Score: 0.050] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ntire day of
+scheduled events.
+1. In the left navigation menu, select Scheduler.
+2. At the top of the calendar, select the day with the events you want to copy.
+3. Select Copy.
+4. At the top of the calendar, select the new target day.
+5. Select Paste.
+Only unlocked events are copied to the new day.
+","Sorry, I couldn't generate an answer.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.06), Christie IMB Logs Cheat Sheet.docx (score: 0.06), 020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.05)"
+2025-07-31T07:31:08,show me imb-s4 fpga version,IMB-S4 FPGA Version: 2.0.21824 (url: http://192.168.230.169/#/status/Versions),"Sorry, I couldn't generate an answer.",http://192.168.230.169/#/status/Versions - IMB-S4 FPGA Version

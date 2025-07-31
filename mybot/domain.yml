@@ -13,7 +13,9 @@ intents:
 
 # --- Entities ---
 # Entities are pieces of information extracted from user messages.
-entities: []
+entities:
+  - keyword
+
 
 # --- Slots ---
 # Slots are the bot's memory, used to store information and influence the conversation.
