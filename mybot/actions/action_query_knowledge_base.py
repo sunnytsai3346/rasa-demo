@@ -130,7 +130,7 @@ class ActionQueryKnowledgeBase(Action):
     def _get_context_answer(self, query: str, topics: List[str], top_k: int = 3) -> List[str]:
         """
         Finds the most relevant context items based on keyword matching,
-        ignoring common stop words.
+        ignoring common stop words and only returning items with a URL.
         """
         # A simple set of stop words, can be expanded
         stop_words = set([
@@ -147,11 +147,11 @@ class ActionQueryKnowledgeBase(Action):
         if not query_words:
             return topics  # Cannot match on a query with only stop words
 
-        matches = []
+        matches_with_url = []
         for entry in self.context_data:
             original_name = entry.get("name") or ""
             value = entry.get("value") or ""
-            url = entry.get("url", "")
+            url = entry.get("url")
 
             # Combine name and value for a fuller context
             context_text = f"{original_name.lower()} {value.lower()}"
@@ -165,23 +165,20 @@ class ActionQueryKnowledgeBase(Action):
             union = query_words.union(context_words)
             score = len(intersection) / len(union) if union else 0.0
 
-            if score > 0.1:  # Only consider matches with some meaningful overlap
-                matches.append({"score": score, "url": url, "name": original_name})
+            # Only consider matches with some meaningful overlap AND a URL
+            if score > 0.1 and url:
+                matches_with_url.append({"score": score, "url": url, "name": original_name})
 
         # Sort matches by score (descending) and take the top_k
-        sorted_matches = sorted(matches, key=lambda x: x["score"], reverse=True)[:top_k]
+        sorted_matches = sorted(matches_with_url, key=lambda x: x["score"], reverse=True)[:top_k]
 
         for match in sorted_matches:
-            url = match.get("url")  # Safely get the url
-            if url:  # Proceed only if url is not None and not an empty string
-                if url.startswith('http://') or url.startswith('https://'):
-                    full_url = url
-                else:
-                    full_url = f"{BASE_URL}{url}"
-                topics.append(f"{full_url} - {match['name']} - {match['score']:.2f}")
+            url = match["url"]  # We know URL exists here
+            if url.startswith('http://') or url.startswith('https://'):
+                full_url = url
             else:
-                # If no URL, format without it.
-                topics.append(f"{match['name']} - {match['score']:.2f}")
+                full_url = f"{BASE_URL}{url}"
+            topics.append(f"{full_url} - {match['name']} - {match['score']:.2f}")
 
         return topics
 

@@ -18874,3 +18874,77 @@ Running a macro. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 - http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.60
 - http://192.168.230.169/#/menu/MMM%2BCHAN - Create New File - 0.40
 - Create New File - 0.40","According to the provided context and related topics, you can follow these steps to create a new macro:  1. Go to the webpage: http://192.168.230.169/#/menu/MMM+AUTO/MMM+MCRE 2. Click on ""Create New Macro""  You should now be able to create a new macro using the provided web page. If you have any further questions or need assistance with creating the macro, feel free to ask!","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.87), http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.60, http://192.168.230.169/#/menu/MMM%2BCHAN - Create New File - 0.40, Create New File - 0.40"
+2025-08-01T08:41:41,tell me some how to set up drive level,"[From Knowledge Base - Score: 0.830] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+global trigger settings. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .99
+Deleting a global trigger. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+Importing a device library. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BSTDS - Set as Primary Drive - 0.22
+- Failed to set Calibration drive levels - 0.20
+- Up - 0.14","Based on the provided context and related topics, it appears that setting up drive level is related to calibration drives. Unfortunately, the specific information on how to set up drive levels is not explicitly mentioned in the given documents.  However, based on the related topic ""Failed to set Calibration drive levels"" with a score of 0.20, it seems that there might be some issues or challenges when trying to set up drive levels. It could be helpful to check out the provided URL ""http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BSTDS"" which has a score of 0.22 and might provide more information on how to proceed.  Additionally, it would be great if you could provide more context or details about what you mean by ""drive level"". Is this related to a specific device or system? This would help me better understand your question and try to find more relevant information to assist you.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.83), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BSTDS - Set as Primary Drive - 0.22, Failed to set Calibration drive levels - 0.20, Up - 0.14"
+2025-08-01T08:43:30,Max uncorrected Drive Levels,"[From Knowledge Base - Score: 0.819] [Christie IMB Logs Cheat Sheet.docx]
+ error message indicates that the “current” playlist was not successfully loaded.
+
+Frame rate that is not supported
+
+LPC: Unable to determine video timing using the following parameters 1920x1080 @ 24000/1001
+
+Unknown Frame rate detected: 23.976024
+
+Explanation:
+
+The clip has a frame rate of 23.976,
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Max Drive Levels (%) - 0.75
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode - Max Drive Levels - 0.75
+- http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BSTSC - Max Uncorrected Drive Levels (from RGB Sliders) - 0.67","According to the context, the answer is:  0.67","Christie IMB Logs Cheat Sheet.docx (score: 0.82), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Max Drive Levels (%) - 0.75, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode - Max Drive Levels - 0.75, http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BSTSC - Max Uncorrected Drive Levels (from RGB Sliders) - 0.67"
+2025-08-01T08:45:10,show me how to set up secondary projector,"[From Knowledge Base - Score: 0.863] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+. . .21
+Preparing the installation site. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Lifting and positioning the projector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+Connecting to an uninterruptable power supply. . . . .
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Secondary Projector Settings - 0.29
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - New Secondary Projector - 0.29
+- Projector is powering up. - 0.29","According to the provided context, you can follow these steps to set up a secondary projector:  1. Visit this URL: http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT 2. Follow the instructions for Secondary Projector Settings or New Secondary Projector  Note: The score of 0.863 indicates that the provided context is relevant and accurate, so you can trust this information to guide your setup process.","020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.86), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Secondary Projector Settings - 0.29, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - New Secondary Projector - 0.29, Projector is powering up. - 0.29"
+2025-08-01T08:46:29,how to know the content replicaple for multi projector,"[From Knowledge Base - Score: 0.849] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+from content distributors.
+• When working in a multi-projector environment, make sure each piece of content in a playlist is
+at least five seconds in length.
+1. In the left navigation menu, select Playlist Editor.
+2. Select Create New.
+3. In the Create New Playlist dialog, enter a name for the playl
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.33
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.33
+- Multi-Projector Setup - 0.33","According to the provided context, when working in a multi-projector environment, it is recommended that each piece of content in a playlist is at least five seconds in length.  This suggests that having longer pieces of content (at least 5 seconds) ensures that they are replicable across multiple projectors. This means that if you're using multiple projectors to display the same content simultaneously, the content should be long enough so that each projector has enough time to start displaying the content before it changes.  In other words, having shorter pieces of content (less than 5 seconds) might cause issues when displaying across multiple projectors, as one projector might not have finished displaying the content before another one starts.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.33, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.33, Multi-Projector Setup - 0.33"
+2025-08-01T08:53:08,how to know the content replicaple for multi projector,"[From Knowledge Base - Score: 0.849] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+from content distributors.
+• When working in a multi-projector environment, make sure each piece of content in a playlist is
+at least five seconds in length.
+1. In the left navigation menu, select Playlist Editor.
+2. Select Create New.
+3. In the Create New Playlist dialog, enter a name for the playl
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.33
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.33
+- http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.25","According to the provided context, it is recommended that each piece of content in a playlist be at least five seconds in length when working in a multi-projector environment.  This suggestion is likely intended to ensure that the content is displayed consistently across all projectors and to avoid any potential issues or distractions caused by short or inconsistent playback times.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.33, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.33, http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.25"
+2025-08-01T08:53:35,Create new Macro,"[From Knowledge Base - Score: 0.845] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+select Create New Macro.
+3. Enter a name for the macro.
+The Name field cannot contain spaces.
+4. Select the macro type.
+Christie IMB-S4 User Guide 24
+020-103873-02 Rev. 1 (01-2025)
+Copyright © 2025 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 1.00
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Create New File - 0.67
+- http://192.168.230.169/#/menu/MMM%2BPLAY - Create New - 0.67","To create a new macro, follow these steps:  1. Select ""Create New Macro"".  Note that the name field cannot contain spaces when entering a name for the macro.  This answer is based on the provided context from the Christie IMB-S4 User Guide.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 1.00, http://192.168.230.169/#/menu/MMM%2BCHAN - Create New File - 0.67, http://192.168.230.169/#/menu/MMM%2BPLAY - Create New - 0.67"
