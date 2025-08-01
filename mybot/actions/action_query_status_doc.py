@@ -38,7 +38,6 @@ class ActionQueryStatusOrDocs(Action):
         with open(os.path.join(INDEX_PATH, METADATA_STORE), encoding="utf-8") as f:
             self.chunks = json.load(f)
         self.status_data = load_status_dicts()
-        print('status_data:',self.status_data)
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,

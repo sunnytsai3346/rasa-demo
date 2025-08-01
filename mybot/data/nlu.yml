@@ -141,7 +141,7 @@ nlu:
     - Chinese
 
 
-- intent: query_manual
+- intent: query_knowledge_base
   examples: |
     - How do I calibrate the projector?
     - Tell me about sensor alignment
@@ -161,14 +161,12 @@ nlu:
     - [NTP Enabled](keyword)?
     - Explain [NTP Enabled](keyword)
     - Find [NTP Enabled](keyword)
-
-- intent: query_knowledge_base
-  examples: |
     - What are the supported resolutions?
     - Tell me about the warranty policy.
     - What are the power requirements?
     - How do I clean the lens?
     - Where can I find the serial number?
+    - [Calibration](keyword)
 
 
 

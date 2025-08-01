@@ -98,25 +98,29 @@ class ActionQueryKnowledgeBase(Action):
         return None, None
     
     def _get_context_answer(self, query: str, topics: List[str]) -> List[str]:
-        best_match = None
-        best_score = 0.0
-
+        matches = []
         query_lower = query.lower()
-        
+
         for entry in self.context_data:
-            name = (entry.get("name") or "").lower()
-            value = (entry.get("value") or "").lower()
+            original_name = entry.get("name") or ""
+            name_lower = original_name.lower()
+            value_lower = (entry.get("value") or "").lower()
             url = entry.get("url", "")
-            
-            if name in query_lower or value in query_lower:
-                best_match = value
-                best_score = 0.9
-                topics.append(f"{BASE_URL}{url} - {name} - {best_score}")
-            
-            elif any(word in query_lower for word in name.split()):
-                best_match = value
-                best_score = 0.6
-                topics.append(f"{BASE_URL}{url} - {name} - {best_score}")
+            score = 0.0
+
+            if name_lower in query_lower or value_lower in query_lower:
+                score = 0.9
+            elif any(word in query_lower for word in name_lower.split()):
+                score = 0.6
+
+            if score > 0:
+                matches.append({"score": score, "url": url, "name": original_name})
+
+        # Sort matches by score (descending) and take the top 4
+        sorted_matches = sorted(matches, key=lambda x: x["score"], reverse=True)[:4]
+
+        for match in sorted_matches:
+            topics.append(f"{BASE_URL}{match['url']} - {match['name']} - {match['score']}")
 
         return topics
 
@@ -127,7 +131,7 @@ class ActionQueryKnowledgeBase(Action):
         scores, indices = self.index.search(query_vec, k=TOP_K)
 
         if scores[0][0] < SCORE_THRESHOLD:
-            log_summary_query(query, context, answer,related_sources)
+            log_summary_query(query, "", "No good answer found", [])
             return None, [], True  # answer, topics, rag_score_is_low
 
         context_parts = []
@@ -175,7 +179,7 @@ class ActionQueryKnowledgeBase(Action):
         intent = tracker.latest_message.get("intent", {}).get("name", "")
         intro = self._get_response_intro(intent)
 
-        answer, topics,score = self._get_status_answer(query)
+        answer, topics = self._get_status_answer(query)
         rag_score_is_low = False
 
         if answer is  None:

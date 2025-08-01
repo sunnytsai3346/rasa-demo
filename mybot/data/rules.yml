@@ -25,7 +25,7 @@ rules:
 - rule: Handle manual query
   steps:
     - intent: query_manual
-    - action: action_query_status_or_docs
+    - action: action_query_knowledge_base
     - action: action_answer_with_intro
 
 # This rule triggers a fallback action using a Large Language Model (LLM)

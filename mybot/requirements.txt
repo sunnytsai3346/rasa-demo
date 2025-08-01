@@ -32,3 +32,6 @@ python-dotenv
 
 #for Chinese model config yml
 jieba
+
+#for .env
+python-dotenv
