@@ -66,35 +66,65 @@ class ActionQueryKnowledgeBase(Action):
             return "Here’s what I found:\n\n"    
 
     def _get_status_answer(self, query: str) -> (str, List[str]):
-        """Checks for a status query and returns the answer and topics if found."""
-        best_score = 0.0
+        """
+        Checks for a status query using intelligent keyword matching and
+        returns an answer if a high-confidence match is found.
+        """
+        stop_words = set(["what", "is", "are", "the", "tell", "me", "about"])
+        query_words = set(re.findall(r'\w+', query.lower())) - stop_words
+
+        if not query_words:
+            return None, None
+
+        best_match = None
+        highest_score = 0.0
+
         for entry in self.status_data:
             name = entry.get("name", "")
-            if name and _word_in_query(name, query):
-                value = entry.get("value")
-                url = entry.get("url", "")
-                if url:
-                    url = f"{BASE_URL}{url}"  # exact match
-                    best_score = 1.0
-                    topics = [f"{url} - {name} - {best_score}"]
-                    # topics = self._get_context_answer(query,topics)
-                    
-                prompt = f"You are a helpful assistant. Based on the following status, relevant, answer the user's question concisely.\n\nStatus:\n- {name}: {value}\n\nRelevant:\n-{topics}\n\nUser Query:\n{query}\n\nAnswer:"
+            if not name:
+                continue
 
-                try:
-                    res = requests.post(
-                        OLLAMA_URL,
-                        json={"model": LLM_MODEL, "prompt": prompt, "stream": False},
-                        timeout=30,
-                    )
-                    res.raise_for_status()
-                    answer = res.json().get("response", "Sorry, I couldn't generate an answer.")                    
-                    
-                    log_summary_query(query, f"{name}: {value} (url: {url})", answer,[f"{url} - {name}"])
-                    return answer, topics
-                except requests.exceptions.RequestException as e:
-                    print(f"Error calling LLM for status query: {e}")
-                    return "I'm sorry, but I'm having trouble retrieving that status.", []
+            name_words = set(re.findall(r'\w+', name.lower()))
+            intersection = query_words.intersection(name_words)
+            union = query_words.union(name_words)
+            score = len(intersection) / len(union) if union else 0.0
+
+            if score > highest_score:
+                highest_score = score
+                best_match = entry
+
+        # Only proceed if we have a reasonably strong match
+        if highest_score > 0.5 and best_match:
+            name = best_match.get("name")
+            value = best_match.get("value")
+            url = best_match.get("url", "")
+            
+            full_url = ""
+            if url:
+                if url.startswith('http://') or url.startswith('https://'):
+                    full_url = url
+                else:
+                    full_url = f"{BASE_URL}{url}"
+            
+            topics = [f"{full_url} - {name} - {highest_score:.2f}"] if full_url else [f"{name} - {highest_score:.2f}"]
+            
+            prompt = f"You are a helpful assistant. Based on the following status, answer the user's question concisely.\n\nStatus:\n- {name}: {value}\n\nUser Query:\n{query}\n\nAnswer:"
+
+            try:
+                res = requests.post(
+                    OLLAMA_URL,
+                    json={"model": LLM_MODEL, "prompt": prompt, "stream": False},
+                    timeout=30,
+                )
+                res.raise_for_status()
+                answer = res.json().get("response", "Sorry, I couldn't generate an answer.")
+                
+                log_summary_query(query, f"{name}: {value} (url: {full_url})", answer, topics)
+                return answer, topics
+            except requests.exceptions.RequestException as e:
+                print(f"Error calling LLM for status query: {e}")
+                return "I'm sorry, but I'm having trouble retrieving that status.", []
+
         return None, None
 
     def _get_context_answer(self, query: str, topics: List[str], top_k: int = 3) -> List[str]:
@@ -142,12 +172,16 @@ class ActionQueryKnowledgeBase(Action):
         sorted_matches = sorted(matches, key=lambda x: x["score"], reverse=True)[:top_k]
 
         for match in sorted_matches:
-            # Check if the URL is already a full URL
-            if match['url'].startswith('http://') or match['url'].startswith('https://'):
-                full_url = match['url']
+            url = match.get("url")  # Safely get the url
+            if url:  # Proceed only if url is not None and not an empty string
+                if url.startswith('http://') or url.startswith('https://'):
+                    full_url = url
+                else:
+                    full_url = f"{BASE_URL}{url}"
+                topics.append(f"{full_url} - {match['name']} - {match['score']:.2f}")
             else:
-                full_url = f"{BASE_URL}{match['url']}"
-            topics.append(f"{full_url} - {match['name']} - {match['score']:.2f}")
+                # If no URL, format without it.
+                topics.append(f"{match['name']} - {match['score']:.2f}")
 
         return topics
 

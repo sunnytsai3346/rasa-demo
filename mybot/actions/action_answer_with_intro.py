@@ -62,23 +62,34 @@ class ActionAnswerWithIntro(Action):
 
         # Send related topics if they exist
         if related_topics:
-            def make_clickable(text: str) -> str:
-                return re.sub(
-                    r'(https?://[^\s]+)',
-                    r'<a href="\1" target="_blank">\1</a>',
-                    text
-                )
-            # Process each topic line, and format it with hyperlink (if any)
             formatted_items = []
             for topic in related_topics:
-                topic_with_links = make_clickable(topic)
-                formatted_items.append(f"- {topic_with_links}")
-            
-            # Join them into one string for display
-            related_topics_formatted = "\n".join(formatted_items)
-            
+                # Expected format: "http://... - Topic Name - 0.67" or "Topic Name - 0.67"
+                parts = topic.split(" - ")
+                try:
+                    # Case 1: URL is present
+                    if len(parts) >= 3 and parts[0].startswith('http'):
+                        url, name = parts[0], parts[1]
+                        # Format as: <a href="url">Topic Name</a>
+                        formatted_items.append(f'<a href="{url}" target="_blank">{name}</a>')
+                    # Case 2: No URL, just a name and maybe a score
+                    elif len(parts) >= 1:
+                        name = parts[0]
+                        # Handle cases where the topic might be from RAG (e.g., "filename.pdf (score: 0.85)")
+                        if ' (score:' in name:
+                            name = name.split(' (score:')[0]
+                        formatted_items.append(name)
+                    # Case 3: Fallback for any other unexpected format
+                    else:
+                        formatted_items.append(topic)
+                except IndexError:
+                    formatted_items.append(topic) # Fallback for safety
+
+            # Join them into one string for display, using a line break
+            related_topics_formatted = "<br>".join(formatted_items)
+
             dispatcher.utter_message(
-                text=f"{self.RELATED_TOPICS_HEADER}\n- {related_topics_formatted}"
+                text=f"{self.RELATED_TOPICS_HEADER}<br>{related_topics_formatted}"
             )
 
         return []
