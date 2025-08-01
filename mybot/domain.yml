@@ -15,6 +15,7 @@ intents:
 # Entities are pieces of information extracted from user messages.
 entities:
   - keyword
+  - status_item
 
 
 # --- Slots ---

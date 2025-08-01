@@ -18,9 +18,11 @@ pipeline:
   max_ngram: 4
 - name: DIETClassifier
   epochs: 100
+  constrain_similarities: true
 # - name: actions.emotion_component.EmotionClassifier
 #   epochs: 100
 - name: EntitySynonymMapper
+- name: RegexEntityExtractor
 - name: ResponseSelector
   epochs: 100
 - name: FallbackClassifier

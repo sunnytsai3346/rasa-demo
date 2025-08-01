@@ -22,7 +22,7 @@ STATUS_FILE = "status_data.json"
 CONTEXT_FILE = "en_ts_processed.json"
 TOP_K = 3
 SCORE_THRESHOLD = 0.5  # Confidence threshold for RAG results
-BASE_URL ='http://192.168.230.169'
+#BASE_URL ='http://192.168.230.169'
 
 
 
@@ -76,8 +76,8 @@ class ActionQueryKnowledgeBase(Action):
                 if url:
                     url = f"{BASE_URL}{url}"  # exact match
                     best_score = 1.0
-                    topics = [f"{BASE_URL}{url} - {name} - {best_score}"]                       
-                    topics = self._get_context_answer(query,topics)
+                    topics = [f"{url} - {name} - {best_score}"]
+                    # topics = self._get_context_answer(query,topics)
                     
                 prompt = f"You are a helpful assistant. Based on the following status, relevant, answer the user's question concisely.\n\nStatus:\n- {name}: {value}\n\nRelevant:\n-{topics}\n\nUser Query:\n{query}\n\nAnswer:"
 
@@ -96,56 +96,101 @@ class ActionQueryKnowledgeBase(Action):
                     print(f"Error calling LLM for status query: {e}")
                     return "I'm sorry, but I'm having trouble retrieving that status.", []
         return None, None
-    
-    def _get_context_answer(self, query: str, topics: List[str]) -> List[str]:
-        matches = []
-        query_lower = query.lower()
 
+    def _get_context_answer(self, query: str, topics: List[str], top_k: int = 3) -> List[str]:
+        """
+        Finds the most relevant context items based on keyword matching,
+        ignoring common stop words.
+        """
+        # A simple set of stop words, can be expanded
+        stop_words = set([
+            "a", "an", "the", "is", "are", "was", "were", "be", "being", "been",
+            "have", "has", "had", "do", "does", "did", "what", "who", "when",
+            "where", "why", "how", "which", "that", "this", "these", "those",
+            "in", "on", "at", "for", "to", "from", "of", "with", "by", "file",
+            "document", "page"
+        ])
+
+        # Tokenize and filter query
+        query_words = set(re.findall(r'\w+', query.lower())) - stop_words
+
+        if not query_words:
+            return topics  # Cannot match on a query with only stop words
+
+        matches = []
         for entry in self.context_data:
             original_name = entry.get("name") or ""
-            name_lower = original_name.lower()
-            value_lower = (entry.get("value") or "").lower()
+            value = entry.get("value") or ""
             url = entry.get("url", "")
-            score = 0.0
 
-            if name_lower in query_lower or value_lower in query_lower:
-                score = 0.9
-            elif any(word in query_lower for word in name_lower.split()):
-                score = 0.6
+            # Combine name and value for a fuller context
+            context_text = f"{original_name.lower()} {value.lower()}"
+            context_words = set(re.findall(r'\w+', context_text)) - stop_words
 
-            if score > 0:
+            if not context_words:
+                continue
+
+            # Calculate Jaccard similarity
+            intersection = query_words.intersection(context_words)
+            union = query_words.union(context_words)
+            score = len(intersection) / len(union) if union else 0.0
+
+            if score > 0.1:  # Only consider matches with some meaningful overlap
                 matches.append({"score": score, "url": url, "name": original_name})
 
-        # Sort matches by score (descending) and take the top 4
-        sorted_matches = sorted(matches, key=lambda x: x["score"], reverse=True)[:4]
+        # Sort matches by score (descending) and take the top_k
+        sorted_matches = sorted(matches, key=lambda x: x["score"], reverse=True)[:top_k]
 
         for match in sorted_matches:
-            topics.append(f"{BASE_URL}{match['url']} - {match['name']} - {match['score']}")
+            # Check if the URL is already a full URL
+            if match['url'].startswith('http://') or match['url'].startswith('https://'):
+                full_url = match['url']
+            else:
+                full_url = f"{BASE_URL}{match['url']}"
+            topics.append(f"{full_url} - {match['name']} - {match['score']:.2f}")
 
         return topics
 
+    def _get_combined_answer(self, query: str) -> (str, List[str], bool):
+        """
+        Gets an answer by combining results from RAG (Top 1) and
+        context search (Top 3).
+        """
+        # 1. Get Top 1 from RAG
+        rag_context = ""
+        rag_sources = []
+        rag_score_is_low = True # Default to true
 
-    def _get_rag_answer(self, query: str) -> (str, List[str], bool):
-        """Gets an answer using the RAG pipeline."""
         query_vec = self.embedder.encode([f"query: {query}"], convert_to_numpy=True)
-        scores, indices = self.index.search(query_vec, k=TOP_K)
+        scores, indices = self.index.search(query_vec, k=1)
 
-        if scores[0][0] < SCORE_THRESHOLD:
-            log_summary_query(query, "", "No good answer found", [])
-            return None, [], True  # answer, topics, rag_score_is_low
-
-        context_parts = []
-        related_sources = []
-        seen_sources = set()
-        matched = [(score, self.docs[i]) for score, i in zip(scores[0], indices[0])]
-        context = "\n".join([f"[Score: {score:.3f}] [{chunk['meta']['file']}]\n{chunk['text']}" for score, chunk in matched])
-        for score, chunk in matched:
+        if scores[0][0] >= SCORE_THRESHOLD:
+            rag_score_is_low = False
+            score, doc_index = scores[0][0], indices[0][0]
+            chunk = self.docs[doc_index]
+            rag_context = f"[From Knowledge Base - Score: {score:.3f}] [{chunk['meta']['file']}]\n{chunk['text']}"
             src = chunk.get("meta", {}).get("file")
-            if src and src not in seen_sources:
-                seen_sources.add(src)
-                related_sources.append(f"{src} (score: {score:.2f})")
-                
-        prompt = f"You are a helpful assistant. Use the following context to answer the question.\n\nContext:\n{context}\n\nQuestion:\n{query}\n\nAnswer:"
+            if src:
+                rag_sources.append(f"{src} (score: {score:.2f})")
+
+        # 2. Get Top 3 from Context
+        context_topics = self._get_context_answer(query, [], top_k=3)
+        
+        # 3. Combine and check if we have anything
+        if not rag_context and not context_topics:
+            log_summary_query(query, "", "No good answer found", [])
+            return None, [], True
+
+        # 4. Build Prompt and Call LLM
+        combined_context = rag_context
+        if context_topics:
+            # Each item in context_topics is already a full string
+            context_str = "\n- ".join(context_topics)
+            combined_context += f"\n\n[From Related Topics]:\n- {context_str}"
+
+        all_sources = rag_sources + context_topics
+        
+        prompt = f"You are a helpful assistant. Use the following context to answer the question.\n\nContext:\n{combined_context}\n\nQuestion:\n{query}\n\nAnswer:"
 
         try:
             res = requests.post(
@@ -157,14 +202,12 @@ class ActionQueryKnowledgeBase(Action):
             answer = res.json().get("response", "").strip() or "I found some relevant information, but I couldn't generate a specific answer."
 
         except requests.exceptions.RequestException as e:
-            print(f"Error calling LLM for RAG query: {e}")
+            print(f"Error calling LLM for combined query: {e}")
             answer = "I'm sorry, but I'm having trouble connecting to my knowledge source."
-            related_sources = []
-
+            all_sources = []
         
-        log_summary_query(query, context, answer,related_sources)
-        return answer, related_sources, False
-
+        log_summary_query(query, combined_context, answer, all_sources)
+        return answer, all_sources, rag_score_is_low
 
     def run(
         self,
@@ -182,8 +225,8 @@ class ActionQueryKnowledgeBase(Action):
         answer, topics = self._get_status_answer(query)
         rag_score_is_low = False
 
-        if answer is  None:
-            answer, topics, rag_score_is_low = self._get_rag_answer(query)
+        if answer is None:
+            answer, topics, rag_score_is_low = self._get_combined_answer(query)
 
         return [
             SlotSet("kb_answer", answer),
