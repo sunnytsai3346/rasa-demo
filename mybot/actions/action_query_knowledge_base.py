@@ -71,7 +71,7 @@ class ActionQueryKnowledgeBase(Action):
         returns an answer if a high-confidence match is found.
         """
         stop_words = set(["what", "is", "are", "the", "tell", "me", "about"])
-        query_words = set(re.findall(r'\w+', query.lower())) - stop_words
+        query_words = set(re.findall(r'\w+', query.casefold())) - stop_words
 
         if not query_words:
             return None, None
@@ -84,7 +84,7 @@ class ActionQueryKnowledgeBase(Action):
             if not name:
                 continue
 
-            name_words = set(re.findall(r'\w+', name.lower()))
+            name_words = set(re.findall(r'\w+', name.casefold()))
             intersection = query_words.intersection(name_words)
             union = query_words.union(name_words)
             score = len(intersection) / len(union) if union else 0.0

@@ -35,3 +35,5 @@ jieba
 
 #for .env
 python-dotenv
+rasa[transformers]
+huggingface_hub[hf_xet]

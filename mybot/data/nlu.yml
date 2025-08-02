@@ -46,10 +46,10 @@ nlu:
     - Show me Audio Input
     - What is color mode?
     - How to change the drop shadow size
-    - Show me how to [add a macro](keyword)
-    - Show me how to [select verify calibration](keyword)
-    - How do I [enable auto calibrate](keyword)?
-    - Help me with [deleting a macro](keyword)
+    - Show me how to [add a macro](status_item)
+    - Show me how to [select verify calibration](status_item)
+    - How do I [enable auto calibrate](status_item)?
+    - Help me with [deleting a macro](status_item)
     - Is [NTP Enabled](status_item)?
     - [NTP Enabled](status_item)?
     - Explain [NTP Enabled](status_item)
@@ -59,7 +59,7 @@ nlu:
     - What are the power requirements?
     - How do I clean the lens?
     - Where can I find the serial number?
-    - [Calibration](keyword)
+    - [Calibration](status_item)
     - what is [warp file](status_item)
     - tell me about [Douser Open](status_item)
     - [Projector Healthy](status_item)
