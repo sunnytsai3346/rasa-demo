@@ -15,7 +15,7 @@ class ActionAnswerWithIntro(Action):
     # --- Constants ---
     INTRO_MESSAGE = "To my best understanding, I found something that may help you."
     NO_ANSWER_MESSAGE = "Sorry, I couldn't find a relevant section."
-    RELATED_TOPICS_HEADER = "Reference:"
+    RELATED_TOPICS_HEADER = "Related Topics:"
 
     def name(self) -> Text:
         """Returns the name of the action."""
