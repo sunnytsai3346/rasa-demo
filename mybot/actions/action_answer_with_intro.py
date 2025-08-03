@@ -91,8 +91,16 @@ class ActionAnswerWithIntro(Action):
             buttons = [
                 {"title": "Ask another question", "payload": "/ask_another_question"},
                 {
-                    "title": "Execute setScreenTimeout 30 sec command",
-                    "payload": "/setScreenTimeout 2",
+                    "title": "Set Weekday command",
+                    "payload": "/setStartDayOfWeek",
+                },
+                {
+                    "title": "Set ScreenTimeout command",
+                    "payload": "/setScreenTimeout",
+                },
+                {
+                    "title": "Set Temperature command",
+                    "payload": "/setTemperatureUnits",
                 },
             ]
             dispatcher.utter_message(

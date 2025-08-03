@@ -19231,3 +19231,127 @@ Always align the color components of the sprite to the inner most li
 - http://192.168.230.169/#/status/System - Dolby Color Correction File - 0.33
 - http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Dolby Color Correction Configuration - 0.29
 - http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Christie Pureformity Color™ Correction File - 0.29","Based on the provided context, it seems that you are looking for information on Electronic Color Correction (ECC). According to the text, ECC is accomplished by aligning a red, green, and blue sprite at the four corners of the displayed image. This allows for electronic convergence, where all three colors can be adjusted.  Additionally, there are related topics provided that may be helpful in understanding color correction. These include:  * Dolby Color Correction File * Dolby Color Correction Configuration * Christie Pureformity Color™ Correction File  If you would like more information or have specific questions about ECC or these files, I'd be happy to help!","020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.85), http://192.168.230.169/#/status/System - Dolby Color Correction File - 0.33, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Dolby Color Correction Configuration - 0.29, http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Christie Pureformity Color™ Correction File - 0.29"
+2025-08-03T10:00:05,what is current IMDb status,"[From Knowledge Base - Score: 0.812] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+w the status of the Christie IMB-S4 on the projector.
+1. On the dashboard, select Status.
+You can also select Status from the left navigation menu.
+2. Review the status information.
+Christie IMB-S4 User Guide 14
+020-103873-02 Rev. 1 (01-2025)
+Copyright © 2025 Christie Digital Systems USA, Inc. All r
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Status - 0.33
+- http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Current - 0.33
+- http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLPWR - Current - 0.33","According to the Christie IMB-S4 User Guide, you can find the current status of the projector by selecting ""Status"" from the dashboard or left navigation menu. Once you're on the Status page, you'll be able to review the status information.  Based on this context, I would say that the current IMDb status is not relevant, as IMDb stands for Internet Movie Database and has nothing to do with the Christie IMB-S4 projector's status.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.81), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Status - 0.33, http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Current - 0.33, http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLPWR - Current - 0.33"
+2025-08-03T10:08:09,how to edit macro,"[From Knowledge Base - Score: 0.854] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+et to a macro
+An offset identifies when a macro plays in a playlist.
+1. In the left navigation menu, select Playlist Editor.
+2. From the left-hand side, expand the playlist list.
+3. Select a playlist.
+4. Select the macro.
+5. Select Edit.
+6. In the Edit dialog, adjust the offset.
+7. Select Update.
+Re
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Edit Macro - 1.00
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Edit - 0.50
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR - Edit - 0.50","According to the context, you can edit a macro by following these steps:  1. Select Playlist Editor from the left navigation menu. 2. Expand the playlist list on the left-hand side. 3. Select a playlist. 4. Select the macro you want to edit. 5. Click Edit.  Alternatively, you can also access the Edit Macro page through related topics:  * http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Edit Macro * This link has a score of 1.00, indicating that it is directly related to the topic of editing a macro.  I hope this helps! Let me know if you have any further questions.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Edit Macro - 1.00, http://192.168.230.169/#/menu/MMM%2BCHAN - Edit - 0.50, http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BDIPT/GLTR - Edit - 0.50"
+2025-08-03T10:21:46,what is test pattern,"[From Knowledge Base - Score: 0.840] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+yright © 2024 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after use.
+Test patterns
+Importing a test pattern
+Import custom test patterns to meet the specific requirements of your viewing environment.
+1. In the right toolbar, select Test Patterns.
+2
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BH4D3 - Test Pattern - 1.00
+- http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Test Pattern Guide - 0.67
+- http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Display White Test Pattern - 0.50","According to the context, a test pattern is an image used for testing and calibrating a viewing environment, specifically mentioned in the Christie Digital Systems USA, Inc. document.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.84), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BH4D3 - Test Pattern - 1.00, http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Test Pattern Guide - 0.67, http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Display White Test Pattern - 0.50"
+2025-08-03T10:25:01,hwo to set up audio,"[From Knowledge Base - Score: 0.844] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ettings.
+Setting the global audio delay
+The global audio delay setting increases or decreases the audio delay.
+1. In the left navigation menu, select Service Setup > Audio Setup.
+2. On the Global Settings tab, in the Global Audio Delay area, select one of these options:
+• To increase the audio delay
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.20
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.20
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.20","According to the provided context, to set up audio and increase or decrease the global audio delay, follow these steps:  1. Go to the left navigation menu and select ""Service Setup"" > ""Audio Setup"". 2. On the ""Global Settings"" tab, locate the ""Global Audio Delay"" area. 3. Select one of the options: 	* To increase the audio delay  This should help you set up your audio and adjust the global audio delay to your desired setting.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.84), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.20, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.20, http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.20"
+2025-08-03T10:25:36,/ask_another_question,general fallback,"I'm happy to help! Since you asked me to ""ask another question"", I'll play along and ask: What's been the highlight of your day so far?",
+2025-08-03T10:26:00,show me create a macro,"[From Knowledge Base - Score: 0.856] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .96
+Creating a macro. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .96
+Running a macro. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.40
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Create - 0.25
+- http://192.168.230.169/#/menu/MMM%2BCNTM/keys - Show - 0.25","According to the context, you can find information on ""Creating a macro"" on this link:  http://192.168.230.169/#/menu/MMM+AUTO/MMM+MCRE - Create New Macro - 0.40  This should provide instructions or guidance on how to create a new macro.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.86), http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.40, http://192.168.230.169/#/menu/MMM%2BCHAN - Create - 0.25, http://192.168.230.169/#/menu/MMM%2BCNTM/keys - Show - 0.25"
+2025-08-03T10:28:44,"The content of the file ""keystone.txt"" is:
+
+show me how to do keystone adjustment","[From Knowledge Base - Score: 0.856] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+Correcting keystone effect. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .85
+Masking the screen edges. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BIMGS/MMM%2BSCRN - Keystone - 0.20
+- http://192.168.230.169/#/login - Local Content - 0.17
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI/atmos - Content Assignment - 0.17","Based on the provided context, it appears that the file ""keystone.txt"" contains information about correcting the keystone effect when using CineLifePlus2. Therefore, I can answer your question as follows:  To correct the keystone effect, follow these steps:  1. Correcting keystone effect: This is an important step in ensuring that your image is properly aligned on the screen. 2. Masking the screen edges: Once you have corrected the keystone effect, masking the screen edges will help to remove any distortion and ensure a smooth viewing experience.  Please note that these steps are based on information provided in the file ""keystone.txt"" and may not be applicable to all situations or devices.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.86), http://192.168.230.169/#/menu/MMM%2BIMGS/MMM%2BSCRN - Keystone - 0.20, http://192.168.230.169/#/login - Local Content - 0.17, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI/atmos - Content Assignment - 0.17"
+2025-08-03T10:29:14,show me how to turn on projector and answer in chinese,"[From Knowledge Base - Score: 0.847] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .15
+Turning on or off the projector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+LED status indicators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Projector - 0.17
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Projector - 0.17
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/General - Projector - 0.17","According to the provided context, to turn on the projector:  **English:** Turning on or off the projector.  **Chinese:** (Chēng yòu jiàn píng biǎo).  Please note that this is based on the given information and may not cover all possible scenarios. If you have any further questions or concerns, feel free to ask!","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Projector - 0.17, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Projector - 0.17, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/General - Projector - 0.17"
+2025-08-03T10:34:19,what is duel mode in multi-projector,"[From Knowledge Base - Score: 0.820] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+jector operates with the following power modes:
+Mode Description
+Projector on •CineLife+ electronics and light engine are on
+•Light source is off
+•Integrated Media Block (IMB) is on
+Light source on •CineLife+ electronics and light engine are on
+•Light source is on
+•Fans run at full speed
+•IMB is on
+
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.40
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.40
+- http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.33","According to the provided context, there is no mention of ""duel mode"" in relation to the projector or multi-projector configuration. It's possible that you may be referring to a different topic or system altogether.  If you're looking for information on dual projectors or how they can be configured together, I can try to help you with that! Just let me know what you're trying to accomplish, and I'll do my best to assist you.","020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.82), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.40, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.40, http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.33"
+2025-08-03T10:35:02,"what is duel mode in multi-projector , answer me in chinese","[From Knowledge Base - Score: 0.825] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ times per Warming up mode Projector is warming up.
+second
+Flashing green and yellow Cool-down mode Power is on, light source is off.
+The light source can be turned on
+when in this mode.
+Flashing yellow Warning Warning exists but has not been
+acknowledged by the operator.
+CineLife+ 2.0 User Guide 15
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.25
+- http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.22","Based on the provided context, I couldn't find any specific information about ""duel mode"" in the CineLife+ 2.0 User Guide or the related topics. However, I can suggest some possible meanings based on the context:  * Duel mode might be a user-defined configuration or a setting for multi-projector control. In this case, it could refer to the simultaneous operation of two projectors. * Alternatively, duel mode might relate to a warning or error message indicating that there is an issue with the dual projector setup.  If you're looking for a direct answer in Chinese, I can provide a translation:  ""关于多媒体投影机的 'duel mode'，我们没有找到相关信息。""  Translation: ""Regarding the 'duel mode' of multi-projector, we couldn't find any relevant information.""  Please note that this is an educated guess based on the context, and if you need more specific information or clarification, I recommend contacting the manufacturer's support team or consulting the official documentation.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.83), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.25, http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.22"
+2025-08-03T10:36:00,"how to do multi-projector configuration , please answer me in chinese","[From Knowledge Base - Score: 0.844] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . .13
+Contact your dealer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Operating the projector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+Projector power modes. . . .
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.43
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Projector Configuration - 0.29
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.25","According to the provided context, I found relevant information on multi-projector configuration. Here's the answer in Chinese:   Multi-projector configuration can be accessed through the following steps:  1.  http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS    Please note that this answer is based on the provided context and score of 0.43 for Multi Projector Configuration.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.84), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Multi Projector Configuration - 0.43, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Projector Configuration - 0.29, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BMULT - Multi-Projector Control - 0.25"

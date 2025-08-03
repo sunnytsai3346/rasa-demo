@@ -34,9 +34,11 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: set_screen_timeout
+- intent: set_command
   examples: |
     - /setScreenTimeout
+    - /setStartDayOfWeek
+
 
 
 - intent: query_knowledge_base

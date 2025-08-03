@@ -11,7 +11,7 @@ intents:
   - query_knowledge_base
   - session_start
   - ask_another_question
-  - set_screen_timeout
+  - set_command
 
 # --- Entities ---
 # Entities are pieces of information extracted from user messages.
@@ -60,7 +60,7 @@ actions:
   - action_answer_with_intro
   - action_llm_fallback
   - action_query_knowledge_base
-  - action_set_screen_timeout
+  - action_set_command
 
 # --- Session Configuration ---
 # Defines how conversations sessions are handled.

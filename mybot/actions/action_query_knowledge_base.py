@@ -137,7 +137,7 @@ class ActionQueryKnowledgeBase(Action):
             "have", "has", "had", "do", "does", "did", "what", "who", "when",
             "where", "why", "how", "which", "that", "this", "these", "those",
             "in", "on", "at", "for", "to", "from", "of", "with", "by", "file",
-            "document", "page"
+            "document", "page","edit","cancel","ok","move up","show","create"
         ])
         query_words = set(re.findall(r'\w+', query.lower())) - stop_words
 
@@ -173,6 +173,7 @@ class ActionQueryKnowledgeBase(Action):
                 if score > highest_score:
                     highest_score = score
                     best_entry_for_url = entry
+                    print('176:',best_entry_for_url)
             
             # Only consider if there's a meaningful match
             if highest_score > 0.0 and best_entry_for_url:
