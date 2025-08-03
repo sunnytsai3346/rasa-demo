@@ -43,6 +43,11 @@ rules:
     - action: action_query_knowledge_base
     - action: action_answer_with_intro
 
+- rule: Set screen timeout
+  steps:
+    - intent: set_screen_timeout
+    - action: action_set_screen_timeout
+
 - rule: Fallback to LLM when RAG score is low
   condition:
     - slot_was_set:

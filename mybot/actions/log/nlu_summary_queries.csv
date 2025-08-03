@@ -18971,3 +18971,263 @@ Deleting an upgrade package. . . . . . . . . . . . . . . . . . . . . .
 - http://192.168.230.169/#/status/Network - IMB Network NAS Status - 0.33
 - http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR - IMB-S4 NAS - 0.25
 - http://192.168.230.169/#/status/System - IMB Status - 0.25","According to the related topics provided, you can check the IMB Nas status at:  http://192.168.230.169/#/status/Network - IMB Network NAS Status - 0.33  Please note that this is not a direct answer from my knowledge base, but rather pointing you in the direction of where to find the information you're looking for.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.83), http://192.168.230.169/#/status/Network - IMB Network NAS Status - 0.33, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR - IMB-S4 NAS - 0.25, http://192.168.230.169/#/status/System - IMB Status - 0.25"
+2025-08-03T06:37:12,tell me the model number,Model Number: CP4450-RGB (url: http://192.168.230.169/#/status/System),The model number is CP4450-RGB.,http://192.168.230.169/#/status/System - Model Number - 1.00
+2025-08-03T06:37:51,what is drive level,"[From Knowledge Base - Score: 0.802] [011 LightLOC v3 - Cinema v2.0.pptx]
+not achieve the same color measurements at the same drive levels. Different drive levels are required to achieve the same CX, CY and CZ values. 
+
+When using LiteLOC v3, it ensures that the CX, CY and CZ always stay consistent by adjusting the laser drive levels to accommodate. This is why LiteLOC v3
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Max Drive Levels (%) - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Extended Laser Drive - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode - Max Drive Levels - 0.25","Based on the context, a ""drive level"" refers to the laser drive levels required to achieve consistent color measurements (CX, CY, and CZ values) when using LiteLOC v3. In other words, it's the adjustment made by LiteLOC v3 to ensure color consistency at different drive levels.","011 LightLOC v3 - Cinema v2.0.pptx (score: 0.80), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Max Drive Levels (%) - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Extended Laser Drive - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode - Max Drive Levels - 0.25"
+2025-08-03T06:40:08,creat new macro,"[From Knowledge Base - Score: 0.854] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+select Create New Macro.
+3. Enter a name for the macro.
+The Name field cannot contain spaces.
+4. Select the macro type.
+Christie IMB-S4 User Guide 24
+020-103873-02 Rev. 1 (01-2025)
+Copyright © 2025 Christie Digital Systems USA, Inc. All rights reserved.
+If printed, please recycle this document after
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.50
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Add New Macro to Begin - 0.40
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Enter a name for your new macro. - 0.33","To create a new macro, follow these steps:  1. Select ""Create New Macro"". 2. Enter a name for the macro (Note: The Name field cannot contain spaces).","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.50, http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Add New Macro to Begin - 0.40, http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Enter a name for your new macro. - 0.33"
+2025-08-03T06:41:12,how is test pattern and answer in chinese,"[From Knowledge Base - Score: 0.821] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86
+Test patterns. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .88
+Displaying a test pattern. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BH4D3 - Test Pattern - 0.40
+- http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Test Pattern Guide - 0.33
+- http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Display White Test Pattern - 0.29","According to the provided context, a ""Test Pattern"" refers to a set of patterns used for testing display settings, such as color accuracy or resolution.  In Chinese, the phrase """" (Cè Xuàn Bìng) can be translated to ""test pattern"". If you're looking for a specific answer in Chinese, I can help with that too!  For example:  * """" (Cè Xuàn) means ""test pattern"" * """" (Kǎo Sù Cè Xuàn) means ""test pattern guide"" * """" (Guāng Dá Cè Xuàn) means ""display white test pattern""  Let me know if you have any further questions or if there's anything else I can help you with!","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.82), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BH4D3 - Test Pattern - 0.40, http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Test Pattern Guide - 0.33, http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Display White Test Pattern - 0.29"
+2025-08-03T07:18:58,"The content of the file ""keystone.txt"" is:
+
+keystone","[From Knowledge Base - Score: 0.832] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+Correcting keystone effect. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .85
+Masking the screen edges. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BIMGS/MMM%2BSCRN - Keystone - 0.33
+- http://192.168.230.169/#/login - Local Content - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI/atmos - Content Assignment - 0.25","A simple one!  According to the context, I see that there's a file named ""Christie-LIT-MAN-USR-CineLifePlus2.pdf"" and within it, there's a section titled ""Correcting keystone effect"" with a score of 0.85.  Given this information, I'm going to take a guess that the content of the file ""keystone.txt"" is... (drumroll please)... ""keystone""! Am I correct?","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.83), http://192.168.230.169/#/menu/MMM%2BIMGS/MMM%2BSCRN - Keystone - 0.33, http://192.168.230.169/#/login - Local Content - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI/atmos - Content Assignment - 0.25"
+2025-08-03T07:19:39,how to set up local content,"[From Knowledge Base - Score: 0.843] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+aying content
+To play content it must be loaded first.
+Content stays loaded even when the content finishes unless the scheduler is turned on.
+1. From the bottom play bar, select and hold Load.
+2. Load local content or a playlist:
+• To load a playlist, select the Playlists tab.
+• To load locally stor
+
+[From Related Topics]:
+- http://192.168.230.169/#/login - Local Content - 0.50
+- http://192.168.230.169/#/menu/MMM%2BSCHE - Local Content - 0.50
+- http://192.168.230.169/#/menu/MMM%2BCNTM - Local Content - 0.50","To set up local content, follow these steps:  1. From the bottom play bar, select and hold Load. 2. You can load a playlist or local content by selecting the desired option.  To load a playlist:  * Select the Playlists tab from the menu.  To load local content:  * No further instructions provided in the given context. However, it is likely that you need to navigate to one of the related topics URLs (http://192.168.230.169/#/login, http://192.168.230.169/#/menu/MMM%2BSCHE, or http://192.168.230.169/#/menu/MMM%2BCNTM) to access and load local content.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.84), http://192.168.230.169/#/login - Local Content - 0.50, http://192.168.230.169/#/menu/MMM%2BSCHE - Local Content - 0.50, http://192.168.230.169/#/menu/MMM%2BCNTM - Local Content - 0.50"
+2025-08-03T08:06:13,what's projector healthy,Projector Healthy: False (url: http://192.168.230.169/#/status/System),"The projector's health status is currently set to ""False"".",http://192.168.230.169/#/status/System - Projector Healthy - 0.67
+2025-08-03T08:06:51,what does it mean projector healthy false,"[From Knowledge Base - Score: 0.820] [005 CineLife Plus 2K Electronics_v1.0.pptx]
+.
+While in Hibernate mode, just about all parts of the projector are off.  
+
+Slide 50:
+Post-Training Survey
+© 2019-2020 Christie Digital Systems Inc. All rights reserved.
+All brand names and product names are trademarks, registered trademarks or trade names of their respective holders.
+
+Post-Trainin
+
+[From Related Topics]:
+- http://192.168.230.169/#/status/System - Projector Healthy - 0.60
+- http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.25
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Projector - 0.20","Based on the provided context, I can help you with that!  According to Slide 50 and the related topics, ""Projector Healthy"" is a status indicator that shows whether the projector is functioning properly or not.  If the indicator says ""0.60"", it means the projector is in a healthy state, which implies that it's working correctly.  On the other hand, if it says ""False"", it likely means that the projector has some issue or is not functioning as expected. The exact meaning of ""Projector Healthy False"" would depend on the specific error or problem being reported by the projector.  In this case, since the value is 0.60, I would infer that ""Projector Healthy False"" doesn't apply here. Instead, it seems like there might be some other issue or status updates provided in the related topics (e.g., Multi Projector Secondary Offline).","005 CineLife Plus 2K Electronics_v1.0.pptx (score: 0.82), http://192.168.230.169/#/status/System - Projector Healthy - 0.60, http://192.168.230.169/#/status/System - Multi Projector Secondary Offline - 0.25, http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Projector - 0.20"
+2025-08-03T08:14:34,how to do Interrogator,"[From Knowledge Base - Score: 0.837] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+flash drive into the USB port on the projector
+faceplate.
+2. In the left navigation menu, select Diagnostics > System Logs/Interrogator.
+3. Select Run Interrogator.
+4. In the confirmation dialog, select Interrogate.
+By default, the interrogator excludes the following to limit the size of the log fil
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BDIAG/MMM%2BLOGS - Interrogator - 1.00
+- http://192.168.230.169/#/menu/MMM%2BDIAG/MMM%2BLOGS - Run Interrogator - 0.50
+- http://192.168.230.169/#/menu/MMM%2BDIAG/MMM%2BLOGS - Creating Interrogator file... - 0.50","To run the Interrogator, follow these steps:  1. Insert a flash drive into the USB port on the projector faceplate. 2. In the left navigation menu, select Diagnostics > System Logs/Interrogator. 3. Select Run Interrogator. 4. In the confirmation dialog, select Interrogate.  This will run the Interrogator and create an Interrogator file for you.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.84), http://192.168.230.169/#/menu/MMM%2BDIAG/MMM%2BLOGS - Interrogator - 1.00, http://192.168.230.169/#/menu/MMM%2BDIAG/MMM%2BLOGS - Run Interrogator - 0.50, http://192.168.230.169/#/menu/MMM%2BDIAG/MMM%2BLOGS - Creating Interrogator file... - 0.50"
+2025-08-03T08:27:05,the model number,Model Number: CP4450-RGB (url: http://192.168.230.169/#/status/System),The model number is CP4450-RGB.,http://192.168.230.169/#/status/System - Model Number - 1.00
+2025-08-03T08:27:34,projector healthy,Projector Healthy: False (url: http://192.168.230.169/#/status/System),"The projector is not healthy, it has a status of ""False"".",http://192.168.230.169/#/status/System - Projector Healthy - 1.00
+2025-08-03T08:32:00,current section time,"[From Knowledge Base - Score: 0.820] [Christie IMB Logs Cheat Sheet.docx]
+ error message indicates that the “current” playlist was not successfully loaded.
+
+Frame rate that is not supported
+
+LPC: Unable to determine video timing using the following parameters 1920x1080 @ 24000/1001
+
+Unknown Frame rate detected: 23.976024
+
+Explanation:
+
+The clip has a frame rate of 23.976,
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BTIME - Current UTC time: - 0.50
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BTIME/imbadjust - Current SM UTC TIME - 0.40
+- http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Current - 0.33","According to the context, the ""Current"" playlist was not successfully loaded, and there's an issue with the frame rate. However, we can still try to provide information on the current section time.  From the related topics, it seems that the current SM UTC TIME is 0.40. This might be relevant to your query about the current section time.  Please note that this information might not be directly related to the ""current"" playlist issue, but it's something you could consider exploring further.","Christie IMB Logs Cheat Sheet.docx (score: 0.82), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BTIME - Current UTC time: - 0.50, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BTIME/imbadjust - Current SM UTC TIME - 0.40, http://192.168.230.169/#/menu/MMM%2BLAMP/MMM%2BLALC - Current - 0.33"
+2025-08-03T08:32:40,session timeout,"[From Knowledge Base - Score: 0.846] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ Interface (UI).
+1. In the navigation menu, select Service Setup.
+2. Select Preferences.
+3. Select General.
+4. In the System area, select Session Timeout duration:
+• 30 minutes—this is the default duration for Web UI.
+• 1 hour
+• 2 hours
+• 5 hours
+• 12 hours—this is only available for Web UI.
+• Never
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Session Timeout - 1.00
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/General - Session Timeout - 1.00
+- http://192.168.230.169/#/menu/MMM%2BIMGS/MMM%2RRRR - Timeout has occurred while loading content - 0.17","According to the provided context, the options for Session Timeout duration are:  • 30 minutes • 1 hour • 2 hours • 5 hours • 12 hours (only available for Web UI) • Never  This setting can be adjusted in the Service Setup > Preferences > General section of the interface.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Session Timeout - 1.00, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/General - Session Timeout - 1.00, http://192.168.230.169/#/menu/MMM%2BIMGS/MMM%2RRRR - Timeout has occurred while loading content - 0.17"
+2025-08-03T08:46:35,how to create a macro,"[From Knowledge Base - Score: 0.862] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .96
+Creating a macro. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .96
+Running a macro. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.67
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Create - 0.50
+- http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create - 0.50","According to the provided context, you can create a macro by following the steps outlined in [From Related Topics]:  * You can click on ""Create New Macro"" at the URL http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE for more information on how to create a new macro.  Alternatively, you can also refer to the [From Knowledge Base - Score: 0.862] section which mentions ""Creating a macro..."" as the topic.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.86), http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create New Macro - 0.67, http://192.168.230.169/#/menu/MMM%2BCHAN - Create - 0.50, http://192.168.230.169/#/menu/MMM%2BAUTO/MMM%2BMCRE - Create - 0.50"
+2025-08-03T08:48:51,show me how to set up audio,"[From Knowledge Base - Score: 0.852] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+llapsing or expanding columns. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11
+Managing audio settings. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .12
+Setting the global audio delay. . . . . . . . . . . . . . . . . . . . . . 
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BCNTM/keys - Show - 0.20
+- http://192.168.230.169/#/menu/MMM%2BCNTM/INCT - Show - 0.20
+- http://192.168.230.169/#/menu/MMM%2BCNTM/progress - Show - 0.20","Based on the provided context, it seems that you're looking for guidance on setting up audio settings.  According to the document, ""Managing audio settings"" is discussed in section 12. This means that to set up your audio settings, you can refer to page 12 of the PDF.  Additionally, there are some related topics listed that might be helpful:  * http://192.168.230.169/#/menu/MMM%2BCNTM/keys - This link appears to show keys related to audio settings. * http://192.168.230.169/#/menu/MMM%2BCNTM/INCT - This link seems to provide information about setting up audio inputs. * http://192.168.230.169/#/menu/MMM%2BCNTM/progress - This link might offer insights on monitoring the progress of your audio setup.  Please note that these links are IP-based, so you'll need to access them from a device connected to the same network as the specified IP address (192.168.230.169).","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BCNTM/keys - Show - 0.20, http://192.168.230.169/#/menu/MMM%2BCNTM/INCT - Show - 0.20, http://192.168.230.169/#/menu/MMM%2BCNTM/progress - Show - 0.20"
+2025-08-03T08:58:53,how to management audio setup,"[From Knowledge Base - Score: 0.845] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+. . . . . . . . . . . . . . 97
+Modifying automation device settings. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
+Removing an automation device from your auditorium. . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+Creating, editing, and deleting playlist trigge
+
+[From Related Topics]:
+- http://192.168.230.169/http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI/setup%20audio - Audio Setup - 0.67
+- http://192.168.230.169/http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR/management - Management - 0.33
+- http://192.168.230.169/http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS/setup - Network Setup - 0.25","According to the related topics, you can find information on ""Audio Setup"" by visiting the link:  http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI/setup%20audio  This link has a score of 0.67, indicating that it's a relevant and useful resource for managing audio setup.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.84), http://192.168.230.169/http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI/setup%20audio - Audio Setup - 0.67, http://192.168.230.169/http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/ETHR/management - Management - 0.33, http://192.168.230.169/http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS/setup - Network Setup - 0.25"
+2025-08-03T09:10:34,how to set up audio,"[From Knowledge Base - Score: 0.851] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ettings.
+Setting the global audio delay
+The global audio delay setting increases or decreases the audio delay.
+1. In the left navigation menu, select Service Setup > Audio Setup.
+2. On the Global Settings tab, in the Global Audio Delay area, select one of these options:
+• To increase the audio delay
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25","Based on the provided context, it seems you want to know how to set up the global audio delay. According to the instructions, here's what you need to do:  1. In the left navigation menu, select Service Setup > Audio Setup. 2. On the Global Settings tab, in the Global Audio Delay area, select one of these options: 	* To increase the audio delay: [Insert steps to increase the audio delay]  Please note that the exact steps for increasing the audio delay may vary depending on your specific setup and device.  Additionally, you can refer to related topics:  - http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25, http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25"
+2025-08-03T09:15:54,set up temperature,"[From Knowledge Base - Score: 0.848] [020-103436-03-Christie-LIT-INST-SHT-LiteLoc-3-Cinema.pdf]
+ler systems—Set the Maximum Expected Room Temperature feature by
+choosing the maximum value you expect your room temperature to reach. For example,
+set the dial to 25°C (77°F) if you expect your maximum room temperature to not exceed
+25°C (77°). This value should be greater than or equal to the curr
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLDGS - Temperature - 0.33
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP - Temperature - 0.33
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25","According to the provided context, setting up the maximum expected room temperature involves choosing a value on a dial. For example, if you expect your maximum room temperature not to exceed 25°C (77°F), set the dial to 25°C (77°F). This value should be greater than or equal to the current room temperature.","020-103436-03-Christie-LIT-INST-SHT-LiteLoc-3-Cinema.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLDGS - Temperature - 0.33, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP - Temperature - 0.33, http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25"
+2025-08-03T09:18:15,set up temperature,"[From Knowledge Base - Score: 0.848] [020-103436-03-Christie-LIT-INST-SHT-LiteLoc-3-Cinema.pdf]
+ler systems—Set the Maximum Expected Room Temperature feature by
+choosing the maximum value you expect your room temperature to reach. For example,
+set the dial to 25°C (77°F) if you expect your maximum room temperature to not exceed
+25°C (77°). This value should be greater than or equal to the curr
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLDGS - Temperature - 0.33
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP - Temperature - 0.33
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25","According to the provided context, you can set up the maximum expected room temperature by choosing a value on the dial. For example, if you expect your maximum room temperature not to exceed 25°C (77°F), you would set the dial to 25°C (77°F).","020-103436-03-Christie-LIT-INST-SHT-LiteLoc-3-Cinema.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BLASR/MMM%2BLDGS - Temperature - 0.33, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BNTWK/SNMP - Temperature - 0.33, http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25"
+2025-08-03T09:24:29,set up audio,"[From Knowledge Base - Score: 0.843] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ettings.
+Setting the global audio delay
+The global audio delay setting increases or decreases the audio delay.
+1. In the left navigation menu, select Service Setup > Audio Setup.
+2. On the Global Settings tab, in the Global Audio Delay area, select one of these options:
+• To increase the audio delay
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25","To set up the global audio delay, follow these steps:  1. In the left navigation menu, select Service Setup > Audio Setup. 2. On the Global Settings tab, in the Global Audio Delay area, select one of the following options to increase or decrease the audio delay.  Note: You can refer to the related topics links provided for more information on audio setup and configuration.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.84), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25, http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25"
+2025-08-03T09:26:14,set up audio,"[From Knowledge Base - Score: 0.843] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ettings.
+Setting the global audio delay
+The global audio delay setting increases or decreases the audio delay.
+1. In the left navigation menu, select Service Setup > Audio Setup.
+2. On the Global Settings tab, in the Global Audio Delay area, select one of these options:
+• To increase the audio delay
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25","To set up the global audio delay, follow these steps:  1. Go to the left navigation menu and select ""Service Setup"" followed by ""Audio Setup"". 2. On the Global Settings tab, locate the ""Global Audio Delay"" area. 3. Select one of the options to increase or decrease the audio delay.  Additionally, you can refer to related topics for further information on audio setup:  * http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup (Score: 0.25) * http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration (Score: 0.25) * http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up (Score: 0.25)  Please note that these links may not be accessible outside of the specified network or system.","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.84), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25, http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25"
+2025-08-03T09:28:01,the model number,Model Number: CP4450-RGB (url: http://192.168.230.169/#/status/System),The model number is CP4450-RGB!,http://192.168.230.169/#/status/System - Model Number - 1.00
+2025-08-03T09:29:01,model number?,general fallback,What's the device or product you're looking for the model number of?,
+2025-08-03T09:29:36,show me the model ?,"[From Knowledge Base - Score: 0.825] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ please recycle this document after use.
+Video Input panel
+Format Resolution Max frame Max frame Min frame Bit depth
+rate 2D rate 3D rate
+1080 HD 2048x1080 30.0 N/A 23.0 8-bits
+MPEG-2 MXF interop 2D image formats
+Format Resolution Max frame Max frame Min frame Bit depth
+rate 2D rate 3D rate
+VGA 640x
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BCNTM/keys - Show - 0.33
+- http://192.168.230.169/#/menu/MMM%2BCNTM/INCT - Show - 0.33
+- http://192.168.230.169/#/menu/MMM%2BCNTM/progress - Show - 0.33","Based on the provided context, I found a mention of ""CineLifePlus2"" in the document title ""Christie-LIT-MAN-USR-CineLifePlus2.pdf"". This suggests that the model is likely related to Christie's CineLifePlus2 product.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.83), http://192.168.230.169/#/menu/MMM%2BCNTM/keys - Show - 0.33, http://192.168.230.169/#/menu/MMM%2BCNTM/INCT - Show - 0.33, http://192.168.230.169/#/menu/MMM%2BCNTM/progress - Show - 0.33"
+2025-08-03T09:39:52,drive level ?,"[From Knowledge Base - Score: 0.819] [020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf]
+ please recycle this document after use.
+Video Input panel
+Format Resolution Max frame Max frame Min frame Bit depth
+rate 2D rate 3D rate
+1080 HD 2048x1080 30.0 N/A 23.0 8-bits
+MPEG-2 MXF interop 2D image formats
+Format Resolution Max frame Max frame Min frame Bit depth
+rate 2D rate 3D rate
+VGA 640x
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Max Drive Levels (%) - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode - Max Drive Levels - 0.25
+- http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BSTSC - Drive Percentage (Calculated) - 0.25","According to the context, the drive level is specified as 0.25 in the following locations:  1. http://192.168.230.169/#/menu/MMM+SERV/MMM+PREF - Max Drive Levels (%) 2. http://192.168.230.169/#/menu/MMM+SERV/MMM+PREF/Service Mode - Max Drive Levels 3. http://192.168.230.169/#/menu/MMM+COLR/MMM+STSC - Drive Percentage (Calculated)  Therefore, the answer is 0.25.","020-103845-03-Christie-LIT-MAN-USR-CineLifePlus2.pdf (score: 0.82), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF - Max Drive Levels (%) - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BPREF/Service%20Mode - Max Drive Levels - 0.25, http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BSTSC - Drive Percentage (Calculated) - 0.25"
+2025-08-03T09:43:30,how to set up audio,"[From Knowledge Base - Score: 0.851] [020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf]
+ettings.
+Setting the global audio delay
+The global audio delay setting increases or decreases the audio delay.
+1. In the left navigation menu, select Service Setup > Audio Setup.
+2. On the Global Settings tab, in the Global Audio Delay area, select one of these options:
+• To increase the audio delay
+
+[From Related Topics]:
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25
+- http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25","To set up the global audio delay, follow these steps:  1. In the left navigation menu, select Service Setup > Audio Setup. 2. On the Global Settings tab, in the Global Audio Delay area, select one of the following options: 	* To increase the audio delay 	* Or decrease the audio delay  Note: You can also refer to related topics for more information:  * http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup * http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration * http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up","020-103873-02-Christie-LIT-MAN-USR-IMB-S4.pdf (score: 0.85), http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BAUDI - Audio Setup - 0.25, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Audio Configuration - 0.25, http://192.168.230.169/#/menu/MMM%2BCHAN - Move Up - 0.25"
+2025-08-03T09:45:47,I want to know color correction,"[From Knowledge Base - Score: 0.848] [020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf]
+this, use ECC.
+Electronic Color Correction (ECC) is accomplished by aligning a red, green, and blue sprite, which is
+displayed at the four corners of the displayed image. For electronic convergence all three colors can be
+adjusted.
+Always align the color components of the sprite to the inner most li
+
+[From Related Topics]:
+- http://192.168.230.169/#/status/System - Dolby Color Correction File - 0.33
+- http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Dolby Color Correction Configuration - 0.29
+- http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Christie Pureformity Color™ Correction File - 0.29","Based on the provided context, it seems that you are looking for information on Electronic Color Correction (ECC). According to the text, ECC is accomplished by aligning a red, green, and blue sprite at the four corners of the displayed image. This allows for electronic convergence, where all three colors can be adjusted.  Additionally, there are related topics provided that may be helpful in understanding color correction. These include:  * Dolby Color Correction File * Dolby Color Correction Configuration * Christie Pureformity Color™ Correction File  If you would like more information or have specific questions about ECC or these files, I'd be happy to help!","020-103907-03-Christie-LIT-GUID-SET-Cinema-2K-RBe.pdf (score: 0.85), http://192.168.230.169/#/status/System - Dolby Color Correction File - 0.33, http://192.168.230.169/#/menu/MMM%2BSERV/MMM%2BBKRS - Dolby Color Correction Configuration - 0.29, http://192.168.230.169/#/menu/MMM%2BCOLR/MMM%2BCPCC - Christie Pureformity Color™ Correction File - 0.29"

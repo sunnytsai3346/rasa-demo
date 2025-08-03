@@ -88,9 +88,16 @@ class ActionAnswerWithIntro(Action):
             # Join them into one string for display, using a line break
             related_topics_formatted = "<br>".join(formatted_items)
 
+            buttons = [
+                {"title": "Ask another question", "payload": "/ask_another_question"},
+                {
+                    "title": "Execute setScreenTimeout 30 sec command",
+                    "payload": "/setScreenTimeout 2",
+                },
+            ]
             dispatcher.utter_message(
-                text=f"{self.RELATED_TOPICS_HEADER}<br>{related_topics_formatted}"
+                text=f"{self.RELATED_TOPICS_HEADER}<br>{related_topics_formatted}\n\nWhat would you like to do next?",
+                buttons=buttons,
             )
-            dispatcher.utter_message(response="utter_suggested_steps")
 
         return []

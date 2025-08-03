@@ -34,6 +34,11 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: set_screen_timeout
+  examples: |
+    - /setScreenTimeout
+
+
 - intent: query_knowledge_base
   examples: |
     - How do I calibrate the projector?

@@ -129,10 +129,9 @@ class ActionQueryKnowledgeBase(Action):
 
     def _get_context_answer(self, query: str, topics: List[str], top_k: int = 3) -> List[str]:
         """
-        Finds the most relevant context items based on keyword matching,
-        ignoring common stop words and only returning items with a URL.
+        Finds the most relevant context items by grouping all entries by URL
+        and then finding the best name within each group that matches the query.
         """
-        # A simple set of stop words, can be expanded
         stop_words = set([
             "a", "an", "the", "is", "are", "was", "were", "be", "being", "been",
             "have", "has", "had", "do", "does", "did", "what", "who", "when",
@@ -140,44 +139,55 @@ class ActionQueryKnowledgeBase(Action):
             "in", "on", "at", "for", "to", "from", "of", "with", "by", "file",
             "document", "page"
         ])
-
-        # Tokenize and filter query
         query_words = set(re.findall(r'\w+', query.lower())) - stop_words
 
         if not query_words:
-            return topics  # Cannot match on a query with only stop words
+            return topics
 
-        matches_with_url = []
+        # Group entries by URL
+        url_to_entries = {}
         for entry in self.context_data:
-            original_name = entry.get("name") or ""
-            value = entry.get("value") or ""
             url = entry.get("url")
+            if url:
+                if url not in url_to_entries:
+                    url_to_entries[url] = []
+                url_to_entries[url].append(entry)
 
-            # Combine name and value for a fuller context
-            context_text = f"{original_name.lower()} {value.lower()}"
-            context_words = set(re.findall(r'\w+', context_text)) - stop_words
+        best_matches_for_urls = []
+        for url, entries in url_to_entries.items():
+            best_entry_for_url = None
+            highest_score = -1.0
 
-            if not context_words:
-                continue
+            for entry in entries:
+                original_name = entry.get("name") or ""
+                context_text = original_name.lower()
+                context_words = set(re.findall(r'\w+', context_text)) - stop_words
+                
+                if not context_words:
+                    continue
 
-            # Calculate Jaccard similarity
-            intersection = query_words.intersection(context_words)
-            union = query_words.union(context_words)
-            score = len(intersection) / len(union) if union else 0.0
+                intersection = query_words.intersection(context_words)
+                union = query_words.union(context_words)
+                score = len(intersection) / len(union) if union else 0.0
 
-            # Only consider matches with some meaningful overlap AND a URL
-            if score > 0.1 and url:
-                matches_with_url.append({"score": score, "url": url, "name": original_name})
+                if score > highest_score:
+                    highest_score = score
+                    best_entry_for_url = entry
+            
+            # Only consider if there's a meaningful match
+            if highest_score > 0.0 and best_entry_for_url:
+                best_matches_for_urls.append({
+                    "score": highest_score,
+                    "url": url,
+                    "name": best_entry_for_url.get("name")
+                })
 
-        # Sort matches by score (descending) and take the top_k
-        sorted_matches = sorted(matches_with_url, key=lambda x: x["score"], reverse=True)[:top_k]
+        # Sort all best matches by score and take the top_k
+        sorted_matches = sorted(best_matches_for_urls, key=lambda x: x["score"], reverse=True)[:top_k]
 
         for match in sorted_matches:
-            url = match["url"]  # We know URL exists here
-            if url.startswith('http://') or url.startswith('https://'):
-                full_url = url
-            else:
-                full_url = f"{BASE_URL}{url}"
+            url = match["url"]
+            full_url = f"{BASE_URL}{url}" if not (url.startswith('http://') or url.startswith('https://')) else url
             topics.append(f"{full_url} - {match['name']} - {match['score']:.2f}")
 
         return topics
