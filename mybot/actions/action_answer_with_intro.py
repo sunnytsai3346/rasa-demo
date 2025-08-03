@@ -91,5 +91,6 @@ class ActionAnswerWithIntro(Action):
             dispatcher.utter_message(
                 text=f"{self.RELATED_TOPICS_HEADER}<br>{related_topics_formatted}"
             )
+            dispatcher.utter_message(response="utter_suggested_steps")
 
         return []

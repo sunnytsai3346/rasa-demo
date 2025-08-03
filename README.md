@@ -124,3 +124,4 @@ Or build a Makefile / run.sh to automate the pipeline
 
 Or store FAISS index + metadata in a shared volume / object storage (e.g. S3, if needed in production)
 
+ollama pull mistral (Downloads and installs the `mistral` model for Ollama.

@@ -1,353 +1,352 @@
-
-    - Model
-    - Model Sub Type
-    - Projector Serial
-    - IMB SM ESN
-    - Installed Lens
-    - Main System Version
-    - IMB Software Version
-    - Main System
-    - IMB-S4 Software Version
-    - Core Software
-    - IMB-S4 FPGA Version
-    - HKB FPGA
-    - HKB Hardware
-    - Version Mismatch
-    - VOM Hardware
-    - CAVE Hardware
-    - BIOS
-    - IMB-S4 Board Revision
-    - Photon Main Version
-    - Photon Boot Version
-    - CSB Version
-    - UCD Version
-    - Card Cage Intake 101
-    - CAVE Blower 102
-    - Card Cage Exhaust 103
-    - Blue Formatter 3
-    - Green Formatter 4
-    - Red Formatter 5
-    - LDCC B 46
-    - LDCC B 47
-    - LDCC B 48
-    - LDCC B 49
-    - LE Intake 25
-    - LE Intake 26
-    - LE Intake 27
-    - LE Intake 28
-    - LE Intake 29
-    - LE Intake 30
-    - LDCC A 21
-    - LDCC A 22
-    - LDCC A 23
-    - LDCC A 24
-    - Diffuser
-    - Red DMD
-    - Blue DMD
-    - Green DMD
-    - Ambient
-    - Red Formatter
-    - Green Formatter
-    - Blue Formatter
-    - CAVE
-    - CAVE FPGA
-    - Image Processor Scaler
-    - VOM FPGA
-    - DMD Waterblock
-    - Liquid Cooling Manifold
-    - LiteLOC™ Max Ambient Temperature
-    - IMB-S4 FPGA
-    - IMB-S4 U55
-    - IMB-S4 Q8
-    - IMB-S4 Q9
-    - CSB Temperature
-    - Laser CPU Temperature
-    - Chiller Setpoint Temperature
-    - Chiller Water Temperature
-    - Chiller Ambient Temperature
-    - Ambient Dewpoint
-    - LOS1 Dewpoint
-    - LOS2 Dewpoint
-    - Serial Number
-    - Model Number
-    - Build Date
-    - Electronic Serial Number
-    - NTP Enabled
-    - DST Enabled
-    - Time Zone
-    - UTC Time
-    - Local Time
-    - SM UTC Time
-    - Local Time Offset
-    - Total Memory
-    - Free Memory
-    - Average CPU Usage
-    - Root Total Disk Space
-    - Root Free Disk Space
-    - Number of Content Drives
-    - Number of Ingest Drives
-    - Last Upgrade Result
-    - IMB Data Partition Free Disk Space
-    - IMB Data Partition Total Disk Space
-    - Content Validation Percent
-    - Content Validation State
-    - Content Validation Content ID
-    - SID Health
-    - Laser Power Supply State
-    - HKB Online
-    - CSB Online
-    - IMB Online
-    - Selected IMB Type
-    - IMB Status
-    - Douser Open
-    - Douser Sensor Error
-    - Startup Components Ready
-    - Projector Healthy
-    - LVPS A1 Current
-    - LVPS A1 Voltage
-    - LVPS A1 Over Temperature
-    - LVPS A1 Over Current
-    - LVPS A1 Over Voltage
-    - LVPS A1 Fan Failure
-    - LVPS A1 Unit Failure
-    - LVPS A1 High Temp
-    - LVPS A1 Low AC
-    - LVPS A1 Very Low AC
-    - LVPS A2 Current
-    - LVPS A2 Voltage
-    - LVPS A2 Over Temperature
-    - LVPS A2 Over Current
-    - LVPS A2 Over Voltage
-    - LVPS A2 Fan Failure
-    - LVPS A2 Unit Failure
-    - LVPS A2 High Temp
-    - LVPS A2 Low AC
-    - LVPS A2 Very Low AC
-    - LVPS B1 Current
-    - LVPS B1 Voltage
-    - LVPS B1 Over Temperature
-    - LVPS B1 Over Current
-    - LVPS B1 Over Voltage
-    - LVPS B1 Fan Failure
-    - LVPS B1 Unit Failure
-    - LVPS B1 High Temp
-    - LVPS B1 Low AC
-    - LVPS B1 Very Low AC
-    - LVPS B2 Current
-    - LVPS B2 Voltage
-    - LVPS B2 Over Temperature
-    - LVPS B2 Over Current
-    - LVPS B2 Over Voltage
-    - LVPS B2 Fan Failure
-    - LVPS B2 Unit Failure
-    - LVPS B2 High Temp
-    - LVPS B2 Low AC
-    - LVPS B2 Very Low AC
-    - LVPS A1 Communication Failure
-    - LVPS A2 Communication Failure
-    - LVPS B1 Communication Failure
-    - LVPS B2 Communication Failure
-    - LVPS A1 Temperature
-    - LVPS A2 Temperature
-    - LVPS B1 Temperature
-    - LVPS B2 Temperature
-    - RealD 3D EQ Enabled
-    - System Hours
-    - Light On Hours
-    - LOS 1 Laser On Hours
-    - LOS 1 Standby Hours
-    - LOS 2 Laser On Hours
-    - LOS 2 Standby Hours
-    - Multi Projector Secondary Offline
-    - Incomplete or Corrupted Content Detected
-    - CAVE State
-    - VOM State
-    - Videopath Communication Online
-    - Scheduled IMB SM Self Test
-    - FM Location ID
-    - Electronics Initialization Fault
-    - System Up Time
-    - IMB Onboard Storage Type
-    - IMB RAID Overall Status
-    - IMB RAID Disk 1 Status
-    - IMB RAID Disk 2 Status
-    - IMB RAID Disk 3 Status
-    - ALT Audio Present
-    - Number of ALT Audio Channels
-    - ALT Audio Sample Rate Hz
-    - IMB Battery 1
-    - IMB Battery 2
-    - IMB Media Player Online
-    - IMB Audio Test Signal Enabled
-    - Primary Storage Device
-    - Primary Drive Online
-    - Onboard Storage Online
-    - Onboard Storage Total Disk Space
-    - Onboard Storage Free Disk Space
-    - Onboard Storage Used Disk Space
-    - NAS Online
-    - NAS Total Disk Space
-    - NAS Free Disk Space
-    - NAS Used Disk Space
-    - IMB SSD 1 Model
-    - IMB SSD 2 Model
-    - IMB SSD 3 Model
-    - Content Validation Storage ID
-    - Light Source Shut Off Due to Component Over Temp
-    - DMD Coolant Flow Good
-    - Light Source Turned Off Due to Coolant Flow Error
-    - Light Source Shut Off Due to Diffuser Not Spinning
-    - Unexpected Light Source Off
-    - LiteLOC™ Target Reachable
-    - Light On Failure
-    - Ambient Relative Humidity
-    - Laser Subsystem Connected
-    - Laser Main Code CRC
-    - Laser Power State
-    - Overall LOS Health
-    - CSB DAC Calibration
-    - Color Sensor(X)
-    - Color Sensor(Y)
-    - Color Sensor(Z)
-    - Color Sensor Gain(X)
-    - Color Sensor Gain(Y)
-    - Color Sensor Gain(Z)
-    - CSB Serial
-    - Chiller State
-    - Chiller Alarm Status
-    - Chiller Flow Rate (LPM)
-    - System Dewpoints State
-    - Chiller Manufacturer
-    - LiteLOC™ Sensor to Screen Calibration
-    - LiteLOC™ LOS to Sensor Calibration
-    - Color Sensor Board (CSB) Type
-    - ELD
-    - Chiller Pressure (PSI)
-    - Service Mode Enabled
-    - LOS1 Drive Limits
-    - LOS2 Drive Limits
-    - Light Source Development Mode
-    - ILS Active File
-    - ILS X Sensor
-    - ILS Y Sensor
-    - ILS Z Sensor
-    - ILS F Sensor
-    - ILS Disabled Keepout Motors
-    - ILS Calibration
-    - ILS Reset
-    - Lens Type
-    - Lens Serial Number
-    - Atmos Input IP
-    - Atmos Control IP
-    - Atmos Enabled
-    - Atmos Online
-    - Management IP
-    - Management Netmask
-    - Management DHCP
-    - Management MAC
-    - Management IP Conflict
-    - Management Gateway
-    - IMB Network NAS Status
-    - IMB Network NAS Link
-    - IMB Network NAS IP
-    - IMB Network NAS Netmask
-    - IMB Network NAS DHCP
-    - IMB Network NAS Gateway
-    - IMB Network NAS MAC Address
-    - IMB Network Media Status
-    - IMB Network Media Link
-    - IMB Network Media IP
-    - IMB Network Media Netmask
-    - IMB Network Media DHCP
-    - IMB Network Media Gateway
-    - IMB Network Media MAC Address
-    - IMB Network Aux Audio Status
-    - IMB Network Aux Audio Link
-    - IMB Network Aux Audio IP
-    - IMB Network Aux Audio Netmask
-    - IMB Network Aux Audio DHCP
-    - IMB Network Aux Audio Gateway
-    - IMB Network Aux Audio MAC Address
-    - Local Fire Alarm
-    - Unexpected power off due to Fire Alarm
-    - HKB Serial Number
-    - Main Control Board
-    - Formatter Red
-    - Formatter Green
-    - Formatter Blue
-    - Variable Option Module
-    - Native Array Width
-    - Native Array Height
-    - Channel Active File
-    - Gamma Active File
-    - MCGD Left Active File
-    - MCGD Right Active File
-    - TCGD Active File
-    - 3D Active File
-    - Source Active File
-    - Screen Active File
-    - EDID Active File
-    - Christie Pureformity Color™ Correction File
-    - Light Source Active File
-    - CLUT Active File
-    - RealD 3D File
-    - 3D Sync Input Mode
-    - Color Space Active File
-    - Detected Input Video Pixel Width
-    - Detected Input Video Lines
-    - Detected Input Video Frame Rate
-    - Video Sub Image X
-    - Video Sub Image Y
-    - Video Sub Image Width
-    - Video Sub Image Height
-    - Video Output X Pos
-    - Video Output Y Pos
-    - Video Output Width
-    - Video Output Height
-    - Video Input
-    - Video Data Format
-    - Video Scan Type
-    - Video 3D Mode
-    - Laser Calibration Active File
-    - Video Output Frequency
-    - HDMI Port 1 Signal
-    - HDMI Port 2 Signal
-    - IMB Video Signal
-    - Display Port 1 Signal
-    - Display Port 2 Signal
-    - SDI 1 Signal
-    - SDI 2 Signal
-    - SDI 3 Signal
-    - SDI 4 Signal
-    - Warp File
-    - Playback Secondary Mode
-    - Playback Composition Name
-    - Video Buffer Full Percent
-    - Audio Buffer Full Percent
-    - Playback Loop Mode
-    - Audio Delay MS
-    - Audio Sample Rate
-    - Audio Output Rate
-    - Playlist Entry Name
-    - Intermission Active
-    - Playback 3D Content
-    - Playback 3D Playlist
-    - Playback Power Loss Auto Recovery
-    - Dolby Atmos Online
-    - Playback load error; Remote content missing
-    - Playback load error content missing
-    - Playback Buffer Underrun
-    - Playback Content Error
-    - Subtitles Enabled
-    - Subtitles Time Code
-    - Playback general play error
-    - Scheduler Enabled
-    - Scheduler Next Show ID
-    - Scheduler Next Show Name
-    - Scheduler Next Show Time
-    - Automation Enabled
-    - Macro Health
-    - Automation Devices Online
-    - Last Macro Complete
-    - Last Before Clip Macro Complete
-    - Christie NAS Attached
+Model
+Model Sub Type
+Projector Serial
+IMB SM ESN
+Installed Lens
+Main System Version
+IMB Software Version
+Main System
+IMB-S4 Software Version
+Core Software
+IMB-S4 FPGA Version
+HKB FPGA
+HKB Hardware
+Version Mismatch
+VOM Hardware
+CAVE Hardware
+BIOS
+IMB-S4 Board Revision
+Photon Main Version
+Photon Boot Version
+CSB Version
+UCD Version
+Card Cage Intake 101
+CAVE Blower 102
+Card Cage Exhaust 103
+Blue Formatter 3
+Green Formatter 4
+Red Formatter 5
+LDCC B 46
+LDCC B 47
+LDCC B 48
+LDCC B 49
+LE Intake 25
+LE Intake 26
+LE Intake 27
+LE Intake 28
+LE Intake 29
+LE Intake 30
+LDCC A 21
+LDCC A 22
+LDCC A 23
+LDCC A 24
+Diffuser
+Red DMD
+Blue DMD
+Green DMD
+Ambient
+Red Formatter
+Green Formatter
+Blue Formatter
+CAVE
+CAVE FPGA
+Image Processor Scaler
+VOM FPGA
+DMD Waterblock
+Liquid Cooling Manifold
+LiteLOC™ Max Ambient Temperature
+IMB-S4 FPGA
+IMB-S4 U55
+IMB-S4 Q8
+IMB-S4 Q9
+CSB Temperature
+Laser CPU Temperature
+Chiller Setpoint Temperature
+Chiller Water Temperature
+Chiller Ambient Temperature
+Ambient Dewpoint
+LOS1 Dewpoint
+LOS2 Dewpoint
+Serial Number
+Model Number
+Build Date
+Electronic Serial Number
+NTP Enabled
+DST Enabled
+Time Zone
+UTC Time
+Local Time
+SM UTC Time
+Local Time Offset
+Total Memory
+Free Memory
+Average CPU Usage
+Root Total Disk Space
+Root Free Disk Space
+Number of Content Drives
+Number of Ingest Drives
+Last Upgrade Result
+IMB Data Partition Free Disk Space
+IMB Data Partition Total Disk Space
+Content Validation Percent
+Content Validation State
+Content Validation Content ID
+SID Health
+Laser Power Supply State
+HKB Online
+CSB Online
+IMB Online
+Selected IMB Type
+IMB Status
+Douser Open
+Douser Sensor Error
+Startup Components Ready
+Projector Healthy
+LVPS A1 Current
+LVPS A1 Voltage
+LVPS A1 Over Temperature
+LVPS A1 Over Current
+LVPS A1 Over Voltage
+LVPS A1 Fan Failure
+LVPS A1 Unit Failure
+LVPS A1 High Temp
+LVPS A1 Low AC
+LVPS A1 Very Low AC
+LVPS A2 Current
+LVPS A2 Voltage
+LVPS A2 Over Temperature
+LVPS A2 Over Current
+LVPS A2 Over Voltage
+LVPS A2 Fan Failure
+LVPS A2 Unit Failure
+LVPS A2 High Temp
+LVPS A2 Low AC
+LVPS A2 Very Low AC
+LVPS B1 Current
+LVPS B1 Voltage
+LVPS B1 Over Temperature
+LVPS B1 Over Current
+LVPS B1 Over Voltage
+LVPS B1 Fan Failure
+LVPS B1 Unit Failure
+LVPS B1 High Temp
+LVPS B1 Low AC
+LVPS B1 Very Low AC
+LVPS B2 Current
+LVPS B2 Voltage
+LVPS B2 Over Temperature
+LVPS B2 Over Current
+LVPS B2 Over Voltage
+LVPS B2 Fan Failure
+LVPS B2 Unit Failure
+LVPS B2 High Temp
+LVPS B2 Low AC
+LVPS B2 Very Low AC
+LVPS A1 Communication Failure
+LVPS A2 Communication Failure
+LVPS B1 Communication Failure
+LVPS B2 Communication Failure
+LVPS A1 Temperature
+LVPS A2 Temperature
+LVPS B1 Temperature
+LVPS B2 Temperature
+RealD 3D EQ Enabled
+System Hours
+Light On Hours
+LOS 1 Laser On Hours
+LOS 1 Standby Hours
+LOS 2 Laser On Hours
+LOS 2 Standby Hours
+Multi Projector Secondary Offline
+Incomplete or Corrupted Content Detected
+CAVE State
+VOM State
+Videopath Communication Online
+Scheduled IMB SM Self Test
+FM Location ID
+Electronics Initialization Fault
+System Up Time
+IMB Onboard Storage Type
+IMB RAID Overall Status
+IMB RAID Disk 1 Status
+IMB RAID Disk 2 Status
+IMB RAID Disk 3 Status
+ALT Audio Present
+Number of ALT Audio Channels
+ALT Audio Sample Rate Hz
+IMB Battery 1
+IMB Battery 2
+IMB Media Player Online
+IMB Audio Test Signal Enabled
+Primary Storage Device
+Primary Drive Online
+Onboard Storage Online
+Onboard Storage Total Disk Space
+Onboard Storage Free Disk Space
+Onboard Storage Used Disk Space
+NAS Online
+NAS Total Disk Space
+NAS Free Disk Space
+NAS Used Disk Space
+IMB SSD 1 Model
+IMB SSD 2 Model
+IMB SSD 3 Model
+Content Validation Storage ID
+Light Source Shut Off Due to Component Over Temp
+DMD Coolant Flow Good
+Light Source Turned Off Due to Coolant Flow Error
+Light Source Shut Off Due to Diffuser Not Spinning
+Unexpected Light Source Off
+LiteLOC™ Target Reachable
+Light On Failure
+Ambient Relative Humidity
+Laser Subsystem Connected
+Laser Main Code CRC
+Laser Power State
+Overall LOS Health
+CSB DAC Calibration
+Color Sensor(X)
+Color Sensor(Y)
+Color Sensor(Z)
+Color Sensor Gain(X)
+Color Sensor Gain(Y)
+Color Sensor Gain(Z)
+CSB Serial
+Chiller State
+Chiller Alarm Status
+Chiller Flow Rate (LPM)
+System Dewpoints State
+Chiller Manufacturer
+LiteLOC™ Sensor to Screen Calibration
+LiteLOC™ LOS to Sensor Calibration
+Color Sensor Board (CSB) Type
+ELD
+Chiller Pressure (PSI)
+Service Mode Enabled
+LOS1 Drive Limits
+LOS2 Drive Limits
+Light Source Development Mode
+ILS Active File
+ILS X Sensor
+ILS Y Sensor
+ILS Z Sensor
+ILS F Sensor
+ILS Disabled Keepout Motors
+ILS Calibration
+ILS Reset
+Lens Type
+Lens Serial Number
+Atmos Input IP
+Atmos Control IP
+Atmos Enabled
+Atmos Online
+Management IP
+Management Netmask
+Management DHCP
+Management MAC
+Management IP Conflict
+Management Gateway
+IMB Network NAS Status
+IMB Network NAS Link
+IMB Network NAS IP
+IMB Network NAS Netmask
+IMB Network NAS DHCP
+IMB Network NAS Gateway
+IMB Network NAS MAC Address
+IMB Network Media Status
+IMB Network Media Link
+IMB Network Media IP
+IMB Network Media Netmask
+IMB Network Media DHCP
+IMB Network Media Gateway
+IMB Network Media MAC Address
+IMB Network Aux Audio Status
+IMB Network Aux Audio Link
+IMB Network Aux Audio IP
+IMB Network Aux Audio Netmask
+IMB Network Aux Audio DHCP
+IMB Network Aux Audio Gateway
+IMB Network Aux Audio MAC Address
+Local Fire Alarm
+Unexpected power off due to Fire Alarm
+HKB Serial Number
+Main Control Board
+Formatter Red
+Formatter Green
+Formatter Blue
+Variable Option Module
+Native Array Width
+Native Array Height
+Channel Active File
+Gamma Active File
+MCGD Left Active File
+MCGD Right Active File
+TCGD Active File
+3D Active File
+Source Active File
+Screen Active File
+EDID Active File
+Christie Pureformity Color™ Correction File
+Light Source Active File
+CLUT Active File
+RealD 3D File
+3D Sync Input Mode
+Color Space Active File
+Detected Input Video Pixel Width
+Detected Input Video Lines
+Detected Input Video Frame Rate
+Video Sub Image X
+Video Sub Image Y
+Video Sub Image Width
+Video Sub Image Height
+Video Output X Pos
+Video Output Y Pos
+Video Output Width
+Video Output Height
+Video Input
+Video Data Format
+Video Scan Type
+Video 3D Mode
+Laser Calibration Active File
+Video Output Frequency
+HDMI Port 1 Signal
+HDMI Port 2 Signal
+IMB Video Signal
+Display Port 1 Signal
+Display Port 2 Signal
+SDI 1 Signal
+SDI 2 Signal
+SDI 3 Signal
+SDI 4 Signal
+Warp File
+Playback Secondary Mode
+Playback Composition Name
+Video Buffer Full Percent
+Audio Buffer Full Percent
+Playback Loop Mode
+Audio Delay MS
+Audio Sample Rate
+Audio Output Rate
+Playlist Entry Name
+Intermission Active
+Playback 3D Content
+Playback 3D Playlist
+Playback Power Loss Auto Recovery
+Dolby Atmos Online
+Playback load error; Remote content missing
+Playback load error content missing
+Playback Buffer Underrun
+Playback Content Error
+Subtitles Enabled
+Subtitles Time Code
+Playback general play error
+Scheduler Enabled
+Scheduler Next Show ID
+Scheduler Next Show Name
+Scheduler Next Show Time
+Automation Enabled
+Macro Health
+Automation Devices Online
+Last Macro Complete
+Last Before Clip Macro Complete
+Christie NAS Attached
