@@ -10,9 +10,9 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 
-class ActionSetCommand(Action):
+class ActionGetCommand(Action):
     def name(self) -> Text:
-        return "action_set_command"
+        return "action_get_command"
 
     def run(
         self,
@@ -21,19 +21,18 @@ class ActionSetCommand(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         """
-        Presents buttons to the user to select a command to set.
+        Presents buttons to the user to select a 'get' command.
         """
         buttons = [
-            {"title": "Set Monday of week", "payload": "/setStartDayOfWeek(1)"},
-            {"title": "Set 30 sec session timeout", "payload": "/setScreenTimeout(1800000)"},
-            {"title": "Set Temperature to Celsius", "payload": "/setTemperatureUnits(44)"},
+            {"title": "Get first day of week", "payload": "/getFirstDayOfWeek"},
+            {"title": "Get session timeout setting", "payload": "/getScreenTimeout"},
+            {"title": "Get dashboard", "payload": "/getDashboard"},
         ]
 
         dispatcher.utter_message(
-            text="What setting would you like to change?",
+            text="What information would you like to retrieve?",
             buttons=buttons
         )
 
         return []
-
 

@@ -7,11 +7,14 @@ intents:
   - goodbye
   - greet
   - nlu_fallback
-  - query_manual
   - query_knowledge_base
   - session_start
   - ask_another_question
   - set_command
+  - get_command
+  - execute_command
+  - execute_get_command
+  
 
 # --- Entities ---
 # Entities are pieces of information extracted from user messages.
@@ -46,6 +49,8 @@ responses:
     - text: "Bye"
   utter_iamabot:
     - text: "I am a bot, powered by Rasa."
+  utter_ask_for_question:
+    - text: "What is your next question?"
   utter_suggested_steps:
     - text: "What would you like to do next?"
       buttons:
@@ -61,6 +66,9 @@ actions:
   - action_llm_fallback
   - action_query_knowledge_base
   - action_set_command
+  - action_get_command
+  - action_execute_command
+  - action_execute_get_command
 
 # --- Session Configuration ---
 # Defines how conversations sessions are handled.

@@ -3,7 +3,7 @@ version: "3.1"
 stories:
   - story: Answer from manual with friendly intro
     steps:
-      - intent: query_manual
+      - intent: query_knowledge_base
       - action: action_query_knowledge_base # Just sets the slots
       - action: action_answer_with_intro # Responds with answer + buttons
 

@@ -88,21 +88,28 @@ class ActionAnswerWithIntro(Action):
             # Join them into one string for display, using a line break
             related_topics_formatted = "<br>".join(formatted_items)
 
-            buttons = [
+            buttons = []
+            # Button 1: More on this question
+            if related_topics:
+                first_topic_raw = related_topics[0]
+                parts = first_topic_raw.split(" - ")
+                # Extract the name, which is usually the first or second part
+                if len(parts) >= 2 and parts[0].startswith('http'):
+                    topic_name = parts[1]
+                else:
+                    topic_name = parts[0]
+                # Clean up score if present
+                if ' (score:' in topic_name:
+                    topic_name = topic_name.split(' (score:')[0]
+                
+                buttons.append({"title": "More on this question", "payload": topic_name})
+
+            # Add the other standard buttons
+            buttons.extend([
                 {"title": "Ask another question", "payload": "/ask_another_question"},
-                {
-                    "title": "Set Weekday command",
-                    "payload": "/setStartDayOfWeek",
-                },
-                {
-                    "title": "Set ScreenTimeout command",
-                    "payload": "/setScreenTimeout",
-                },
-                {
-                    "title": "Set Temperature command",
-                    "payload": "/setTemperatureUnits",
-                },
-            ]
+                {"title": "Set command", "payload": "/set_command"},
+                {"title": "Get command", "payload": "/get_command"},
+            ])
             dispatcher.utter_message(
                 text=f"{self.RELATED_TOPICS_HEADER}<br>{related_topics_formatted}\n\nWhat would you like to do next?",
                 buttons=buttons,

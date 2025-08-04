@@ -20,13 +20,7 @@ rules:
     - intent: bot_challenge
     - action: utter_iamabot
 
-# This rule defines a multi-step interaction for handling manual queries.
-# It first queries the documentation and then presents the answer with an introduction.
-- rule: Handle manual query
-  steps:
-    - intent: query_manual
-    - action: action_query_knowledge_base
-    - action: action_answer_with_intro
+
 
 # This rule triggers a fallback action using a Large Language Model (LLM)
 # when the NLU model is unable to confidently classify the user's intent.
@@ -43,10 +37,26 @@ rules:
     - action: action_query_knowledge_base
     - action: action_answer_with_intro
 
-- rule: Set command
+- rule: Handle asking another question
   steps:
-    - intent: set_command
-    - action: action_set_command
+    - intent: ask_another_question
+    - action: utter_ask_for_question
+
+
+- rule: Respond to get_command
+  steps:
+  - intent: get_command
+  - action: action_get_command
+
+- rule: Execute a command from a payload
+  steps:
+  - intent: execute_command
+  - action: action_execute_command
+
+- rule: Execute a get command from a payload
+  steps:
+  - intent: execute_get_command
+  - action: action_execute_get_command
 
 - rule: Fallback to LLM when RAG score is low
   condition:

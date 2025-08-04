@@ -34,11 +34,31 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: ask_another_question
+  examples: |
+    - Ask another question
+    - I have another question
+    - Ask something else
+
 - intent: set_command
   examples: |
-    - /setScreenTimeout
-    - /setStartDayOfWeek
+    - /set_command
 
+- intent: get_command
+  examples: |
+    - /get_command
+
+- intent: execute_command
+  examples: |
+    - /setStartDayOfWeek(1)
+    - /setScreenTimeout(1800000)
+    - /setTemperatureUnits(44)
+
+- intent: execute_get_command
+  examples: |
+    - /getFirstDayOfWeek
+    - /getScreenTimeout
+    - /getDashboard
 
 
 - intent: query_knowledge_base
