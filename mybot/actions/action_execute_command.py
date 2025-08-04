@@ -19,13 +19,6 @@ class ActionExecuteCommand(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         command_text = tracker.latest_message.get("text")
-        # The payload is expected in the format /command(value)
-        match = re.match(r"/(.*)\((.*)\)", command_text)
-        if match:
-            command = match.group(1)
-            value = match.group(2)
-            # For now, just confirming the command that would be executed.
-            dispatcher.utter_message(text=f"Executing: {command}({value})")
-        else:
-            dispatcher.utter_message(text=f"Sorry, I could not execute this command: {command_text}")
+        dispatcher.utter_message(text=f"Executing: {command_text}")
+        
         return []

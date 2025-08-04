@@ -21,12 +21,12 @@ class ActionSetCommand(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         """
-        Presents buttons to the user to select a command to set.
+        Presents buttons to the user to select a 'set' command.
         """
         buttons = [
-            {"title": "Set Monday of week", "payload": "/setStartDayOfWeek(1)"},
-            {"title": "Set 30 sec session timeout", "payload": "/setScreenTimeout(1800000)"},
-            {"title": "Set Temperature to Celsius", "payload": "/setTemperatureUnits(44)"},
+            {"title": "Set Wednesday of week", "payload": "setStartDayOfWeek(3)"},
+            {"title": "Set 60 sec session timeout", "payload": "setScreenTimeout(3600000)"},
+            {"title": "Set Temperature to Celsius", "payload": "setTemperatureUnits(0)"},
         ]
 
         dispatcher.utter_message(

@@ -24,9 +24,9 @@ class ActionGetCommand(Action):
         Presents buttons to the user to select a 'get' command.
         """
         buttons = [
-            {"title": "Get first day of week", "payload": "/getFirstDayOfWeek"},
-            {"title": "Get session timeout setting", "payload": "/getScreenTimeout"},
-            {"title": "Get dashboard", "payload": "/getDashboard"},
+            {"title": "Get first day of week", "payload": "getStartDayOfWeek"},
+            {"title": "Get session timeout setting", "payload": "getScreenTimeout"},
+            {"title": "drawGraph", "payload": "drawGraph"},
         ]
 
         dispatcher.utter_message(

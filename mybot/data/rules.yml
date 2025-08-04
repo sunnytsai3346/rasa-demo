@@ -42,6 +42,11 @@ rules:
     - intent: ask_another_question
     - action: utter_ask_for_question
 
+- rule: Respond to set_command
+  steps:
+  - intent: set_command
+  - action: action_set_command
+
 
 - rule: Respond to get_command
   steps:
