@@ -1,3 +1,28 @@
+#### rasa-demo (Rasa-powered RAG chatbot with LLM integration) ####
+----------------------------------------------------
+
+Description:
+A demo chatbot combining Rasa NLU, LangChain, Qdrant, and LLaMA3 (local via Ollama) to provide conversational AI using private documents.
+
+README Sections:
+
+🔍 Overview — chatbot with retrieval-augmented generation; integrated with PDF/document semantic search.
+
+🛠 Technology Stack — Rasa, Python, LangChain, Ollama, FAISS/Qdrant.
+
+🚧 Features — multilingual NLU, semantic retrieval, custom actions.
+
+➡️ Architecture Diagram — show pipeline: user input → Rasa → vector search → LLM response.
+
+🪄 Setup Instructions — cloning, Docker build, model training, run: rasa train & docker-compose up.
+
+🎬 Demo Usage — example queries and responses.
+
+🧪 Tests & Metrics — todo.
+
+📈 Future Directions — fine-tuning LLaMA, multi-agent workflows, agentic memory.
+
+----------------------------------------------------
 - 1️⃣ Install Rasa (pip install rasa)
 - 2️⃣ Initialize project (rasa init)
 - 3️⃣ Add training data (data/nlu.yml)
