@@ -43,6 +43,8 @@ nlu:
 - intent: set_command
   examples: |
     - /set_command
+    - set command
+    
 
 - intent: get_command
   examples: |
@@ -53,6 +55,14 @@ nlu:
     - /setStartDayOfWeek(1)
     - /setScreenTimeout(1800000)
     - /setTemperatureUnits(44)
+    - Update projector start date to Wednesday
+
+- intent: setStartDayOfWeek
+  examples: |    
+    - Update projector start date to Wednesday
+    - Change projector start date to Sunday
+    - Modify start date to Monday
+
 
 - intent: execute_get_command
   examples: |

@@ -24,7 +24,7 @@ class ActionSetCommand(Action):
         Presents buttons to the user to select a 'set' command.
         """
         buttons = [
-            {"title": "Set Wednesday of week", "payload": "setStartDayOfWeek(3)"},
+            {"title": "Update projector start date to Wednesday", "payload": "setStartDayOfWeek(3)"},
             {"title": "Set 60 sec session timeout", "payload": "setScreenTimeout(3600000)"},
             {"title": "Set Temperature to Celsius", "payload": "setTemperatureUnits(0)"},
         ]

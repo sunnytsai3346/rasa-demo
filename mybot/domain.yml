@@ -14,6 +14,7 @@ intents:
   - get_command
   - execute_command
   - execute_get_command
+  - setStartDayOfWeek
   
 
 # --- Entities ---
@@ -39,6 +40,10 @@ slots:
     type: bool
     mappings:
       - type: custom
+  startday:
+    type: any
+    mappings:
+      - type: custom    
 
 # --- Responses ---
 # Responses are the predefined messages the bot can send to the user.
@@ -69,6 +74,7 @@ actions:
   - action_get_command
   - action_execute_command
   - action_execute_get_command
+  - action_setStartDayOfWeek
 
 # --- Session Configuration ---
 # Defines how conversations sessions are handled.
